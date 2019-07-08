@@ -1,0 +1,8 @@
+.GL-Map {
+    width: 100%;
+    height: 100%;
+}
+
+.mapboxgl-canvas {
+    cursor: pointer;
+}

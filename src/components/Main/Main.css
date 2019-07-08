@@ -1,0 +1,21 @@
+.vendorButton {
+    background-color: #3d90b6 !important;
+    text-transform: none !important;
+    color: #fff !important;
+    font-weight: bold !important;
+    font-size: 16px !important;
+    border-radius: 0 !important;
+    font-family: 'Open Sans', sans-serif  !important;
+}
+
+@media (min-width: 600px) {
+    .vendorButton {
+        height: 65px;
+    }
+}
+
+@media (max-width: 599px) {
+    .vendorButton {
+        height: 56px;
+    }
+}
