@@ -38,25 +38,3 @@ export {
   SET_MAP,
   drawerWidth
 }
-
-// TODO put this in a better place
-export const breweries = [
-  "Aalborg Akvavit",
-  "Bad Jimmy's Brewing Co.",
-  "Captive Spirits – Big Gin",
-  "Fremont Brewing",
-  "Hale's Ales",
-  "Heritage Distilling Company",
-  "Lagunitas Brewing Company",
-  "Linie Aquavit",
-  "Lucky Envelope Brewing",
-  "Obec Brewing",
-  "Peddler Brewing Company",
-  "Populuxe Brewing",
-  "Portland Cider Company",
-  "Rambling Route Cider",
-  "Reuben's Brews",
-  "Seattle Cider Co.",
-  "Stoup Brewing",
-  "Wilridge Winery"
-]

@@ -5,6 +5,7 @@ import withWidth from "@material-ui/core/withWidth/index";
 import mapboxgl from "mapbox-gl";
 import "mapbox-gl/dist/mapbox-gl.css";
 import "./Map.css";
+import {config} from '../../config';
 import {
   findMyLocation,
   setBottomDrawerData,
@@ -19,8 +20,7 @@ import {
   FIND_MY_LOCATION_SUCCESS
 } from "../../redux/constants";
 
-mapboxgl.accessToken =
-  "pk.eyJ1Ijoic3BhdGlhbGRldiIsImEiOiJjanh0bHczc2Qwdnd0M25udGQzZm9tcTBzIn0.MnBju8Y2wP6N6nFm4nNu7A";
+mapboxgl.accessToken = config.map.accessToken;
 
 const styles = theme => ({
   map: {
@@ -45,14 +45,6 @@ const styles = theme => ({
   }
 });
 
-const CHBP_CENTROID = [-122.31817942477232, 47.61410334875629];
-const CHBP_BOUNDS = [
-  //southwest
-  [-122.32140396058543, 47.612702531671545],
-  //northeast
-  [-122.3144109050901, 47.61535256842217]
-];
-
 class Map extends Component {
   geoLocate = new mapboxgl.GeolocateControl({
     positionOptions: {
@@ -65,7 +57,7 @@ class Map extends Component {
     const map = new mapboxgl.Map({
       container: this.mapContainer,
       style: "mapbox://styles/mapbox/streets-v11",
-      center: CHBP_CENTROID,
+      center: config.map.centroid,
       zoom: 17
     });
 

@@ -39,6 +39,16 @@ const config = {
         }
       }
     }
+  },
+  map: {
+    accessToken: "pk.eyJ1Ijoic3BhdGlhbGRldiIsImEiOiJjanh0bHczc2Qwdnd0M25udGQzZm9tcTBzIn0.MnBju8Y2wP6N6nFm4nNu7A",
+    centroid: [-122.31817942477232, 47.61410334875629],
+    bounds: [
+      // Southwest
+      [-122.32140396058543, 47.612702531671545],
+      // Northeast
+      [-122.3144109050901, 47.61535256842217]
+    ]
   }
 }
 
