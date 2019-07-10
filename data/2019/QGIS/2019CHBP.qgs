@@ -7,13 +7,13 @@
   <trust active="0"/>
   <projectCrs>
     <spatialrefsys>
-      <proj4></proj4>
-      <srsid>0</srsid>
-      <srid>0</srid>
-      <authid></authid>
-      <description></description>
-      <projectionacronym></projectionacronym>
-      <ellipsoidacronym></ellipsoidacronym>
+      <proj4>+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs</proj4>
+      <srsid>3857</srsid>
+      <srid>3857</srid>
+      <authid>EPSG:3857</authid>
+      <description>WGS 84 / Pseudo-Mercator</description>
+      <projectionacronym>merc</projectionacronym>
+      <ellipsoidacronym>WGS84</ellipsoidacronym>
       <geographicflag>false</geographicflag>
     </spatialrefsys>
   </projectCrs>
@@ -31,6 +31,9 @@
       <customproperties/>
     </layer-tree-layer>
     <layer-tree-layer id="Centroids20190704120353991" name="Centroids" providerKey="ogr" expanded="1" checked="Qt::Unchecked" source="./2019CHBP_Centroid.shp">
+      <customproperties/>
+    </layer-tree-layer>
+    <layer-tree-layer id="polygons_2019_433875e8_0130_45bc_8602_de246f2fb0a4" name="polygons_2019" providerKey="ogr" expanded="1" checked="Qt::Checked" source="polygons_2019.geojson|layername=polygons_2019">
       <customproperties/>
     </layer-tree-layer>
     <layer-tree-layer id="polygons_2019_ca91735a_d351_4a7f_9204_d27bee37b326" name="polygons_2019" providerKey="ogr" expanded="1" checked="Qt::Checked" source="../polygons_2019.geojson|layername=polygons_2019">
@@ -53,26 +56,40 @@
       <item>Centroids20190704120353991</item>
       <item>centroids_2019_dc27b3a0_cfcf_404e_9d54_0c5b26bac1b7</item>
       <item>polygons_2019_ca91735a_d351_4a7f_9204_d27bee37b326</item>
+      <item>polygons_2019_433875e8_0130_45bc_8602_de246f2fb0a4</item>
     </custom-order>
   </layer-tree-group>
   <snapping-settings unit="2" mode="3" enabled="1" tolerance="0" intersection-snapping="0" type="1">
     <individual-layer-settings>
       <layer-setting id="2019CHBP_b501b1aa_96cf_4515_aa1a_b18e978974e5" enabled="0" tolerance="12" units="1" type="1"/>
       <layer-setting id="centroids_2019_dc27b3a0_cfcf_404e_9d54_0c5b26bac1b7" enabled="0" tolerance="12" units="1" type="1"/>
+      <layer-setting id="polygons_2019_433875e8_0130_45bc_8602_de246f2fb0a4" enabled="0" tolerance="12" units="1" type="1"/>
       <layer-setting id="polygons_2019_ca91735a_d351_4a7f_9204_d27bee37b326" enabled="0" tolerance="12" units="1" type="1"/>
       <layer-setting id="Centroids20190704120353991" enabled="0" tolerance="12" units="1" type="1"/>
     </individual-layer-settings>
   </snapping-settings>
   <relations/>
   <mapcanvas name="theMapCanvas" annotationsVisible="1">
-    <units>unknown</units>
+    <units>meters</units>
     <extent>
-      <xmin>-13616586.62333792634308338</xmin>
-      <ymin>6042961.411415109410882</ymin>
-      <xmax>-13616461.48601138032972813</xmax>
-      <ymax>6043064.27659366652369499</ymax>
+      <xmin>-13616620.17766141332685947</xmin>
+      <ymin>6042784.81354604475200176</ymin>
+      <xmax>-13616258.88862155564129353</xmax>
+      <ymax>6043117.12005851976573467</ymax>
     </extent>
     <rotation>0</rotation>
+    <destinationsrs>
+      <spatialrefsys>
+        <proj4>+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs</proj4>
+        <srsid>3857</srsid>
+        <srid>3857</srid>
+        <authid>EPSG:3857</authid>
+        <description>WGS 84 / Pseudo-Mercator</description>
+        <projectionacronym>merc</projectionacronym>
+        <ellipsoidacronym>WGS84</ellipsoidacronym>
+        <geographicflag>false</geographicflag>
+      </spatialrefsys>
+    </destinationsrs>
     <rendermaptile>0</rendermaptile>
     <expressionContextScope/>
   </mapcanvas>
@@ -96,6 +113,11 @@
     <legendlayer drawingOrder="-1" open="true" name="Centroids" showFeatureCount="0" checked="Qt::Unchecked">
       <filegroup open="true" hidden="false">
         <legendlayerfile isInOverview="0" visible="0" layerid="Centroids20190704120353991"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer drawingOrder="-1" open="true" name="polygons_2019" showFeatureCount="0" checked="Qt::Checked">
+      <filegroup open="true" hidden="false">
+        <legendlayerfile isInOverview="0" visible="1" layerid="polygons_2019_433875e8_0130_45bc_8602_de246f2fb0a4"/>
       </filegroup>
     </legendlayer>
     <legendlayer drawingOrder="-1" open="true" name="polygons_2019" showFeatureCount="0" checked="Qt::Checked">
@@ -471,7 +493,7 @@ def my_form_open(dialog, layer, feature):
       <flags>
         <Identifiable>1</Identifiable>
         <Removable>1</Removable>
-        <Searchable>1</Searchable>
+        <Searchable>0</Searchable>
       </flags>
       <customproperties>
         <property key="WMSBackgroundLayer" value="false"/>
@@ -971,7 +993,7 @@ def my_form_open(dialog, layer, feature):
       <flags>
         <Identifiable>1</Identifiable>
         <Removable>1</Removable>
-        <Searchable>1</Searchable>
+        <Searchable>0</Searchable>
       </flags>
       <customproperties>
         <property key="identify/format" value="Undefined"/>
@@ -1053,7 +1075,7 @@ def my_form_open(dialog, layer, feature):
       <flags>
         <Identifiable>1</Identifiable>
         <Removable>1</Removable>
-        <Searchable>1</Searchable>
+        <Searchable>0</Searchable>
       </flags>
       <customproperties>
         <property key="identify/format" value="Undefined"/>
@@ -1529,6 +1551,329 @@ def my_form_open(dialog, layer, feature):
     </maplayer>
     <maplayer maxScale="0" minScale="1e+08" simplifyAlgorithm="0" refreshOnNotifyMessage="" simplifyDrawingTol="1" simplifyMaxScale="1" labelsEnabled="0" simplifyLocal="1" styleCategories="AllStyleCategories" autoRefreshEnabled="0" readOnly="0" simplifyDrawingHints="1" type="vector" refreshOnNotifyEnabled="0" autoRefreshTime="0" geometry="Polygon" hasScaleBasedVisibilityFlag="0">
       <extent>
+        <xmin>-122.32047955721698429</xmin>
+        <ymin>47.6135519991483136</ymin>
+        <xmax>-122.31734825378744347</xmax>
+        <ymax>47.61511642423612045</ymax>
+      </extent>
+      <id>polygons_2019_433875e8_0130_45bc_8602_de246f2fb0a4</id>
+      <datasource>polygons_2019.geojson|layername=polygons_2019</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>polygons_2019</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+          <srsid>3452</srsid>
+          <srid>4326</srid>
+          <authid>EPSG:4326</authid>
+          <description>WGS 84</description>
+          <projectionacronym>longlat</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>true</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type>dataset</type>
+        <title></title>
+        <abstract></abstract>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+      </resourceMetadata>
+      <provider encoding="UTF-8">ogr</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <dataDependencies/>
+      <legend type="default-vector"/>
+      <expressionfields/>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <auxiliaryLayer/>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>1</Searchable>
+      </flags>
+      <renderer-v2 enableorderby="0" symbollevels="0" forceraster="0" type="singleSymbol">
+        <symbols>
+          <symbol alpha="1" name="0" force_rhr="0" type="fill" clip_to_extent="1">
+            <layer class="SimpleFill" enabled="1" locked="0" pass="0">
+              <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
+              <prop v="225,89,137,255" k="color"/>
+              <prop v="bevel" k="joinstyle"/>
+              <prop v="0,0" k="offset"/>
+              <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+              <prop v="MM" k="offset_unit"/>
+              <prop v="35,35,35,255" k="outline_color"/>
+              <prop v="solid" k="outline_style"/>
+              <prop v="0.26" k="outline_width"/>
+              <prop v="MM" k="outline_width_unit"/>
+              <prop v="solid" k="style"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option name="name" value="" type="QString"/>
+                  <Option name="properties"/>
+                  <Option name="type" value="collection" type="QString"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale/>
+      </renderer-v2>
+      <customproperties/>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerOpacity>1</layerOpacity>
+      <geometryOptions geometryPrecision="0" removeDuplicateNodes="0">
+        <activeChecks/>
+        <checkConfiguration/>
+      </geometryOptions>
+      <fieldConfiguration>
+        <field name="id">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="CHBP - Interactive Map Master - Sheet1_On Website?">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="name">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="type">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="details">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="CHBP - Interactive Map Master - Sheet1_Link">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="show_label">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="show_icon">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="active">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="toggleSymb">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="icon">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="size">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="toggleSym1">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="typeDiscrib">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="expired">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="rotate">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="left_panel">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <aliases>
+        <alias name="" field="id" index="0"/>
+        <alias name="" field="CHBP - Interactive Map Master - Sheet1_On Website?" index="1"/>
+        <alias name="" field="name" index="2"/>
+        <alias name="" field="type" index="3"/>
+        <alias name="" field="details" index="4"/>
+        <alias name="" field="CHBP - Interactive Map Master - Sheet1_Link" index="5"/>
+        <alias name="" field="show_label" index="6"/>
+        <alias name="" field="show_icon" index="7"/>
+        <alias name="" field="active" index="8"/>
+        <alias name="" field="toggleSymb" index="9"/>
+        <alias name="" field="icon" index="10"/>
+        <alias name="" field="size" index="11"/>
+        <alias name="" field="toggleSym1" index="12"/>
+        <alias name="" field="typeDiscrib" index="13"/>
+        <alias name="" field="expired" index="14"/>
+        <alias name="" field="rotate" index="15"/>
+        <alias name="" field="left_panel" index="16"/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <defaults>
+        <default field="id" expression="" applyOnUpdate="0"/>
+        <default field="CHBP - Interactive Map Master - Sheet1_On Website?" expression="" applyOnUpdate="0"/>
+        <default field="name" expression="" applyOnUpdate="0"/>
+        <default field="type" expression="" applyOnUpdate="0"/>
+        <default field="details" expression="" applyOnUpdate="0"/>
+        <default field="CHBP - Interactive Map Master - Sheet1_Link" expression="" applyOnUpdate="0"/>
+        <default field="show_label" expression="" applyOnUpdate="0"/>
+        <default field="show_icon" expression="" applyOnUpdate="0"/>
+        <default field="active" expression="" applyOnUpdate="0"/>
+        <default field="toggleSymb" expression="" applyOnUpdate="0"/>
+        <default field="icon" expression="" applyOnUpdate="0"/>
+        <default field="size" expression="" applyOnUpdate="0"/>
+        <default field="toggleSym1" expression="" applyOnUpdate="0"/>
+        <default field="typeDiscrib" expression="" applyOnUpdate="0"/>
+        <default field="expired" expression="" applyOnUpdate="0"/>
+        <default field="rotate" expression="" applyOnUpdate="0"/>
+        <default field="left_panel" expression="" applyOnUpdate="0"/>
+      </defaults>
+      <constraints>
+        <constraint constraints="0" exp_strength="0" field="id" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="CHBP - Interactive Map Master - Sheet1_On Website?" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="name" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="type" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="details" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="CHBP - Interactive Map Master - Sheet1_Link" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="show_label" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="show_icon" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="active" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="toggleSymb" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="icon" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="size" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="toggleSym1" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="typeDiscrib" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="expired" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="rotate" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="left_panel" notnull_strength="0" unique_strength="0"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint field="id" desc="" exp=""/>
+        <constraint field="CHBP - Interactive Map Master - Sheet1_On Website?" desc="" exp=""/>
+        <constraint field="name" desc="" exp=""/>
+        <constraint field="type" desc="" exp=""/>
+        <constraint field="details" desc="" exp=""/>
+        <constraint field="CHBP - Interactive Map Master - Sheet1_Link" desc="" exp=""/>
+        <constraint field="show_label" desc="" exp=""/>
+        <constraint field="show_icon" desc="" exp=""/>
+        <constraint field="active" desc="" exp=""/>
+        <constraint field="toggleSymb" desc="" exp=""/>
+        <constraint field="icon" desc="" exp=""/>
+        <constraint field="size" desc="" exp=""/>
+        <constraint field="toggleSym1" desc="" exp=""/>
+        <constraint field="typeDiscrib" desc="" exp=""/>
+        <constraint field="expired" desc="" exp=""/>
+        <constraint field="rotate" desc="" exp=""/>
+        <constraint field="left_panel" desc="" exp=""/>
+      </constraintExpressions>
+      <expressionfields/>
+      <attributeactions>
+        <defaultAction key="Canvas" value="{00000000-0000-0000-0000-000000000000}"/>
+      </attributeactions>
+      <attributetableconfig sortOrder="0" sortExpression="" actionWidgetStyle="dropDown">
+        <columns/>
+      </attributetableconfig>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <editform tolerant="1"></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <editable/>
+      <labelOnTop/>
+      <widgets/>
+      <previewExpression></previewExpression>
+      <mapTip></mapTip>
+    </maplayer>
+    <maplayer maxScale="0" minScale="1e+08" simplifyAlgorithm="0" refreshOnNotifyMessage="" simplifyDrawingTol="1" simplifyMaxScale="1" labelsEnabled="0" simplifyLocal="1" styleCategories="AllStyleCategories" autoRefreshEnabled="0" readOnly="0" simplifyDrawingHints="1" type="vector" refreshOnNotifyEnabled="0" autoRefreshTime="0" geometry="Polygon" hasScaleBasedVisibilityFlag="0">
+      <extent>
         <xmin>-13616653.49789842590689659</xmin>
         <ymin>6042802.77623741421848536</ymin>
         <xmax>-13616304.9227951280772686</xmax>
@@ -1942,8 +2287,106 @@ def my_form_open(dialog, layer, feature):
     <layer id="Centroids20190704120353991"/>
     <layer id="centroids_2019_dc27b3a0_cfcf_404e_9d54_0c5b26bac1b7"/>
     <layer id="polygons_2019_ca91735a_d351_4a7f_9204_d27bee37b326"/>
+    <layer id="polygons_2019_433875e8_0130_45bc_8602_de246f2fb0a4"/>
   </layerorder>
   <properties>
+    <WMSContactMail type="QString"></WMSContactMail>
+    <WCSUrl type="QString"></WCSUrl>
+    <WMSServiceCapabilities type="bool">false</WMSServiceCapabilities>
+    <WMSImageQuality type="int">90</WMSImageQuality>
+    <WMSOnlineResource type="QString"></WMSOnlineResource>
+    <WMSUrl type="QString"></WMSUrl>
+    <WMSMaxAtlasFeatures type="int">1</WMSMaxAtlasFeatures>
+    <WMSPrecision type="QString">8</WMSPrecision>
+    <WMSContactPerson type="QString"></WMSContactPerson>
+    <SpatialRefSys>
+      <ProjectCrs type="QString"></ProjectCrs>
+      <ProjectCRSID type="int">100002</ProjectCRSID>
+      <ProjectCRSProj4String type="QString"></ProjectCRSProj4String>
+      <ProjectionsEnabled type="int">1</ProjectionsEnabled>
+    </SpatialRefSys>
+    <Measure>
+      <Ellipsoid type="QString">WGS84</Ellipsoid>
+    </Measure>
+    <WMTSMinScale type="int">5000</WMTSMinScale>
+    <DefaultStyles>
+      <RandomColors type="bool">true</RandomColors>
+      <Opacity type="double">1</Opacity>
+      <Marker type="QString"></Marker>
+      <Line type="QString"></Line>
+      <ColorRamp type="QString"></ColorRamp>
+      <Fill type="QString"></Fill>
+    </DefaultStyles>
+    <WMSDefaultMapUnitsPerMm type="double">0.001</WMSDefaultMapUnitsPerMm>
+    <WMSAccessConstraints type="QString">None</WMSAccessConstraints>
+    <WFSUrl type="QString"></WFSUrl>
+    <WMSFees type="QString">conditions unknown</WMSFees>
+    <WMSSegmentizeFeatureInfoGeometry type="bool">false</WMSSegmentizeFeatureInfoGeometry>
+    <WCSLayers type="QStringList"/>
+    <WMSUseLayerIDs type="bool">false</WMSUseLayerIDs>
+    <Measurement>
+      <DistanceUnits type="QString">meters</DistanceUnits>
+      <AreaUnits type="QString">m2</AreaUnits>
+    </Measurement>
+    <WMTSGrids>
+      <CRS type="QStringList"/>
+      <Config type="QStringList"/>
+    </WMTSGrids>
+    <PositionPrecision>
+      <Automatic type="bool">true</Automatic>
+      <DegreeFormat type="QString">MU</DegreeFormat>
+      <DecimalPlaces type="int">2</DecimalPlaces>
+    </PositionPrecision>
+    <WFSTLayers>
+      <Insert type="QStringList"/>
+      <Delete type="QStringList"/>
+      <Update type="QStringList"/>
+    </WFSTLayers>
+    <WMSKeywordList type="QStringList">
+      <value></value>
+    </WMSKeywordList>
+    <WMSContactOrganization type="QString"></WMSContactOrganization>
+    <WFSLayers type="QStringList"/>
+    <WMTSLayers>
+      <Layer type="QStringList"/>
+      <Group type="QStringList"/>
+      <Project type="bool">false</Project>
+    </WMTSLayers>
+    <Legend>
+      <filterByMap type="bool">false</filterByMap>
+    </Legend>
+    <WMTSPngLayers>
+      <Layer type="QStringList"/>
+      <Group type="QStringList"/>
+      <Project type="bool">false</Project>
+    </WMTSPngLayers>
+    <WMSContactPhone type="QString"></WMSContactPhone>
+    <Macros>
+      <pythonCode type="QString"></pythonCode>
+    </Macros>
+    <Gui>
+      <SelectionColorGreenPart type="int">255</SelectionColorGreenPart>
+      <SelectionColorAlphaPart type="int">255</SelectionColorAlphaPart>
+      <CanvasColorRedPart type="int">255</CanvasColorRedPart>
+      <SelectionColorBluePart type="int">0</SelectionColorBluePart>
+      <SelectionColorRedPart type="int">255</SelectionColorRedPart>
+      <CanvasColorGreenPart type="int">255</CanvasColorGreenPart>
+      <CanvasColorBluePart type="int">255</CanvasColorBluePart>
+    </Gui>
+    <WMSContactPosition type="QString"></WMSContactPosition>
+    <WMSServiceAbstract type="QString"></WMSServiceAbstract>
+    <WMSRootName type="QString"></WMSRootName>
+    <WMSAddWktGeometry type="bool">false</WMSAddWktGeometry>
+    <WMTSUrl type="QString"></WMTSUrl>
+    <Paths>
+      <Absolute type="bool">false</Absolute>
+    </Paths>
+    <WMTSJpegLayers>
+      <Layer type="QStringList"/>
+      <Group type="QStringList"/>
+      <Project type="bool">false</Project>
+    </WMTSJpegLayers>
+    <WMSServiceTitle type="QString"></WMSServiceTitle>
     <PAL>
       <DrawRectOnly type="bool">false</DrawRectOnly>
       <TextFormat type="int">0</TextFormat>
@@ -1955,26 +2398,6 @@ def my_form_open(dialog, layer, feature):
       <CandidatesLine type="int">50</CandidatesLine>
       <ShowingAllLabels type="bool">false</ShowingAllLabels>
     </PAL>
-    <SpatialRefSys>
-      <ProjectCrs type="QString"></ProjectCrs>
-      <ProjectCRSID type="int">100002</ProjectCRSID>
-      <ProjectCRSProj4String type="QString"></ProjectCRSProj4String>
-      <ProjectionsEnabled type="int">1</ProjectionsEnabled>
-    </SpatialRefSys>
-    <Legend>
-      <filterByMap type="bool">false</filterByMap>
-    </Legend>
-    <Paths>
-      <Absolute type="bool">false</Absolute>
-    </Paths>
-    <Measurement>
-      <DistanceUnits type="QString">meters</DistanceUnits>
-      <AreaUnits type="QString">m2</AreaUnits>
-    </Measurement>
-    <PositionPrecision>
-      <Automatic type="bool">true</Automatic>
-      <DecimalPlaces type="int">2</DecimalPlaces>
-    </PositionPrecision>
   </properties>
   <visibility-presets/>
   <transformContext/>
@@ -1985,9 +2408,18 @@ def my_form_open(dialog, layer, feature):
     <type></type>
     <title></title>
     <abstract></abstract>
+    <contact>
+      <name></name>
+      <organization></organization>
+      <position></position>
+      <voice></voice>
+      <fax></fax>
+      <email></email>
+      <role></role>
+    </contact>
     <links/>
     <author></author>
-    <creation></creation>
+    <creation>2000-01-01T00:00:00</creation>
   </projectMetadata>
   <Annotations/>
   <Layouts/>
