@@ -7,14 +7,14 @@
   <trust active="0"/>
   <projectCrs>
     <spatialrefsys>
-      <proj4>+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs</proj4>
-      <srsid>3857</srsid>
-      <srid>3857</srid>
-      <authid>EPSG:3857</authid>
-      <description>WGS 84 / Pseudo-Mercator</description>
-      <projectionacronym>merc</projectionacronym>
+      <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+      <srsid>3452</srsid>
+      <srid>4326</srid>
+      <authid>EPSG:4326</authid>
+      <description>WGS 84</description>
+      <projectionacronym>longlat</projectionacronym>
       <ellipsoidacronym>WGS84</ellipsoidacronym>
-      <geographicflag>false</geographicflag>
+      <geographicflag>true</geographicflag>
     </spatialrefsys>
   </projectCrs>
   <layer-tree-group>
@@ -70,24 +70,24 @@
   </snapping-settings>
   <relations/>
   <mapcanvas name="theMapCanvas" annotationsVisible="1">
-    <units>meters</units>
+    <units>degrees</units>
     <extent>
-      <xmin>-13616620.17766141332685947</xmin>
-      <ymin>6042784.81354604475200176</ymin>
-      <xmax>-13616258.88862155564129353</xmax>
-      <ymax>6043117.12005851976573467</ymax>
+      <xmin>-13616733.45802085101604462</xmin>
+      <ymin>6042760.47870669700205326</ymin>
+      <xmax>-13616234.8698151484131813</xmax>
+      <ymax>6043108.88063721545040607</ymax>
     </extent>
     <rotation>0</rotation>
     <destinationsrs>
       <spatialrefsys>
-        <proj4>+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs</proj4>
-        <srsid>3857</srsid>
-        <srid>3857</srid>
-        <authid>EPSG:3857</authid>
-        <description>WGS 84 / Pseudo-Mercator</description>
-        <projectionacronym>merc</projectionacronym>
+        <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+        <srsid>3452</srsid>
+        <srid>4326</srid>
+        <authid>EPSG:4326</authid>
+        <description>WGS 84</description>
+        <projectionacronym>longlat</projectionacronym>
         <ellipsoidacronym>WGS84</ellipsoidacronym>
-        <geographicflag>false</geographicflag>
+        <geographicflag>true</geographicflag>
       </spatialrefsys>
     </destinationsrs>
     <rendermaptile>0</rendermaptile>
@@ -1114,14 +1114,14 @@ def my_form_open(dialog, layer, feature):
       <layername>centroids_2019</layername>
       <srs>
         <spatialrefsys>
-          <proj4>+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs</proj4>
-          <srsid>3857</srsid>
-          <srid>3857</srid>
-          <authid>EPSG:3857</authid>
-          <description>WGS 84 / Pseudo-Mercator</description>
-          <projectionacronym>merc</projectionacronym>
+          <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+          <srsid>3452</srsid>
+          <srid>4326</srid>
+          <authid>EPSG:4326</authid>
+          <description>WGS 84</description>
+          <projectionacronym>longlat</projectionacronym>
           <ellipsoidacronym>WGS84</ellipsoidacronym>
-          <geographicflag>false</geographicflag>
+          <geographicflag>true</geographicflag>
         </spatialrefsys>
       </srs>
       <resourceMetadata>
@@ -1887,14 +1887,14 @@ def my_form_open(dialog, layer, feature):
       <layername>polygons_2019</layername>
       <srs>
         <spatialrefsys>
-          <proj4>+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs</proj4>
-          <srsid>3857</srsid>
-          <srid>3857</srid>
-          <authid>EPSG:3857</authid>
-          <description>WGS 84 / Pseudo-Mercator</description>
-          <projectionacronym>merc</projectionacronym>
+          <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+          <srsid>3452</srsid>
+          <srid>4326</srid>
+          <authid>EPSG:4326</authid>
+          <description>WGS 84</description>
+          <projectionacronym>longlat</projectionacronym>
           <ellipsoidacronym>WGS84</ellipsoidacronym>
-          <geographicflag>false</geographicflag>
+          <geographicflag>true</geographicflag>
         </spatialrefsys>
       </srs>
       <resourceMetadata>
@@ -2033,14 +2033,14 @@ def my_form_open(dialog, layer, feature):
           </editWidget>
         </field>
         <field name="type">
-          <editWidget type="">
+          <editWidget type="TextEdit">
             <config>
               <Option/>
             </config>
           </editWidget>
         </field>
         <field name="details">
-          <editWidget type="">
+          <editWidget type="TextEdit">
             <config>
               <Option/>
             </config>
@@ -2054,77 +2054,77 @@ def my_form_open(dialog, layer, feature):
           </editWidget>
         </field>
         <field name="show_label">
-          <editWidget type="">
+          <editWidget type="TextEdit">
             <config>
               <Option/>
             </config>
           </editWidget>
         </field>
         <field name="show_icon">
-          <editWidget type="">
+          <editWidget type="TextEdit">
             <config>
               <Option/>
             </config>
           </editWidget>
         </field>
         <field name="active">
-          <editWidget type="">
+          <editWidget type="TextEdit">
             <config>
               <Option/>
             </config>
           </editWidget>
         </field>
         <field name="toggleSymb">
-          <editWidget type="">
+          <editWidget type="TextEdit">
             <config>
               <Option/>
             </config>
           </editWidget>
         </field>
         <field name="icon">
-          <editWidget type="">
+          <editWidget type="TextEdit">
             <config>
               <Option/>
             </config>
           </editWidget>
         </field>
         <field name="size">
-          <editWidget type="">
+          <editWidget type="TextEdit">
             <config>
               <Option/>
             </config>
           </editWidget>
         </field>
         <field name="toggleSym1">
-          <editWidget type="">
+          <editWidget type="TextEdit">
             <config>
               <Option/>
             </config>
           </editWidget>
         </field>
         <field name="typeDiscrib">
-          <editWidget type="">
+          <editWidget type="TextEdit">
             <config>
               <Option/>
             </config>
           </editWidget>
         </field>
         <field name="expired">
-          <editWidget type="">
+          <editWidget type="TextEdit">
             <config>
               <Option/>
             </config>
           </editWidget>
         </field>
         <field name="rotate">
-          <editWidget type="">
+          <editWidget type="TextEdit">
             <config>
               <Option/>
             </config>
           </editWidget>
         </field>
         <field name="left_panel">
-          <editWidget type="">
+          <editWidget type="TextEdit">
             <config>
               <Option/>
             </config>
@@ -2265,14 +2265,40 @@ def my_form_open(dialog, layer, feature):
       <editable>
         <field name="CHBP - Interactive Map Master - Sheet1_Link" editable="1"/>
         <field name="CHBP - Interactive Map Master - Sheet1_On Website?" editable="1"/>
+        <field name="active" editable="1"/>
+        <field name="details" editable="1"/>
+        <field name="expired" editable="1"/>
+        <field name="icon" editable="1"/>
         <field name="id" editable="1"/>
+        <field name="left_panel" editable="1"/>
         <field name="name" editable="1"/>
+        <field name="rotate" editable="1"/>
+        <field name="show_icon" editable="1"/>
+        <field name="show_label" editable="1"/>
+        <field name="size" editable="1"/>
+        <field name="toggleSym1" editable="1"/>
+        <field name="toggleSymb" editable="1"/>
+        <field name="type" editable="1"/>
+        <field name="typeDiscrib" editable="1"/>
       </editable>
       <labelOnTop>
         <field name="CHBP - Interactive Map Master - Sheet1_Link" labelOnTop="0"/>
         <field name="CHBP - Interactive Map Master - Sheet1_On Website?" labelOnTop="0"/>
+        <field name="active" labelOnTop="0"/>
+        <field name="details" labelOnTop="0"/>
+        <field name="expired" labelOnTop="0"/>
+        <field name="icon" labelOnTop="0"/>
         <field name="id" labelOnTop="0"/>
+        <field name="left_panel" labelOnTop="0"/>
         <field name="name" labelOnTop="0"/>
+        <field name="rotate" labelOnTop="0"/>
+        <field name="show_icon" labelOnTop="0"/>
+        <field name="show_label" labelOnTop="0"/>
+        <field name="size" labelOnTop="0"/>
+        <field name="toggleSym1" labelOnTop="0"/>
+        <field name="toggleSymb" labelOnTop="0"/>
+        <field name="type" labelOnTop="0"/>
+        <field name="typeDiscrib" labelOnTop="0"/>
       </labelOnTop>
       <widgets/>
       <previewExpression>id</previewExpression>
