@@ -62,10 +62,10 @@
   <mapcanvas name="theMapCanvas" annotationsVisible="1">
     <units>degrees</units>
     <extent>
-      <xmin>-122.31979650293513373</xmin>
-      <ymin>47.61385015263923748</ymin>
-      <xmax>-122.3190031445082866</xmax>
-      <ymax>47.61424652106999389</ymax>
+      <xmin>-122.31975870927585959</xmin>
+      <ymin>47.61351913135163727</ymin>
+      <xmax>-122.31841253127383595</xmax>
+      <ymax>47.61419169301368015</ymax>
     </extent>
     <rotation>0</rotation>
     <destinationsrs>
@@ -852,7 +852,7 @@ def my_form_open(dialog, layer, feature):
       </pipe>
       <blendMode>0</blendMode>
     </maplayer>
-    <maplayer maxScale="0" minScale="1e+08" simplifyAlgorithm="0" refreshOnNotifyMessage="" simplifyDrawingTol="1" simplifyMaxScale="1" labelsEnabled="0" simplifyLocal="1" styleCategories="AllStyleCategories" autoRefreshEnabled="0" readOnly="0" simplifyDrawingHints="1" type="vector" refreshOnNotifyEnabled="0" autoRefreshTime="0" geometry="Point" hasScaleBasedVisibilityFlag="0">
+    <maplayer maxScale="0" minScale="1e+08" simplifyAlgorithm="0" refreshOnNotifyMessage="" simplifyDrawingTol="1" simplifyMaxScale="1" labelsEnabled="0" simplifyLocal="1" styleCategories="AllStyleCategories" autoRefreshEnabled="0" readOnly="0" simplifyDrawingHints="0" type="vector" refreshOnNotifyEnabled="0" autoRefreshTime="0" geometry="Point" hasScaleBasedVisibilityFlag="0">
       <extent>
         <xmin>-122.32047316188607056</xmin>
         <ymin>47.61352056350128947</ymin>
@@ -884,6 +884,15 @@ def my_form_open(dialog, layer, feature):
         <type>dataset</type>
         <title></title>
         <abstract></abstract>
+        <contact>
+          <name></name>
+          <organization></organization>
+          <position></position>
+          <voice></voice>
+          <fax></fax>
+          <email></email>
+          <role></role>
+        </contact>
         <links/>
         <fees></fees>
         <encoding></encoding>
@@ -899,7 +908,15 @@ def my_form_open(dialog, layer, feature):
             <geographicflag>false</geographicflag>
           </spatialrefsys>
         </crs>
-        <extent/>
+        <extent>
+          <spatial crs="" dimensions="2" maxy="0" miny="0" maxz="0" maxx="0" minx="0" minz="0"/>
+          <temporal>
+            <period>
+              <start></start>
+              <end></end>
+            </period>
+          </temporal>
+        </extent>
       </resourceMetadata>
       <provider encoding="UTF-8">ogr</provider>
       <vectorjoins/>
@@ -951,114 +968,100 @@ def my_form_open(dialog, layer, feature):
         <rotation/>
         <sizescale/>
       </renderer-v2>
-      <customproperties/>
+      <customproperties>
+        <property key="dualview/previewExpressions">
+          <value>"id"</value>
+        </property>
+        <property key="embeddedWidgets/count" value="0"/>
+        <property key="variableNames"/>
+        <property key="variableValues"/>
+      </customproperties>
       <blendMode>0</blendMode>
       <featureBlendMode>0</featureBlendMode>
       <layerOpacity>1</layerOpacity>
+      <SingleCategoryDiagramRenderer attributeLegend="1" diagramType="Histogram">
+        <DiagramCategory scaleDependency="Area" sizeType="MM" penWidth="0" lineSizeType="MM" backgroundAlpha="255" labelPlacementMethod="XHeight" penColor="#000000" minScaleDenominator="0" enabled="0" width="15" penAlpha="255" maxScaleDenominator="1e+08" diagramOrientation="Up" lineSizeScale="3x:0,0,0,0,0,0" height="15" opacity="1" backgroundColor="#ffffff" rotationOffset="270" minimumSize="0" barWidth="5" scaleBasedVisibility="0" sizeScale="3x:0,0,0,0,0,0">
+          <fontProperties style="" description=".SF NS Text,13,-1,5,50,0,0,0,0,0"/>
+        </DiagramCategory>
+      </SingleCategoryDiagramRenderer>
+      <DiagramLayerSettings linePlacementFlags="18" obstacle="0" placement="0" priority="0" zIndex="0" dist="0" showAll="1">
+        <properties>
+          <Option type="Map">
+            <Option name="name" value="" type="QString"/>
+            <Option name="properties"/>
+            <Option name="type" value="collection" type="QString"/>
+          </Option>
+        </properties>
+      </DiagramLayerSettings>
       <geometryOptions geometryPrecision="0" removeDuplicateNodes="0">
         <activeChecks/>
         <checkConfiguration/>
       </geometryOptions>
       <fieldConfiguration>
         <field name="id">
-          <editWidget type="">
+          <editWidget type="Range">
             <config>
               <Option/>
             </config>
           </editWidget>
         </field>
         <field name="CHBP - Int">
-          <editWidget type="">
+          <editWidget type="TextEdit">
             <config>
               <Option/>
             </config>
           </editWidget>
         </field>
         <field name="name">
-          <editWidget type="">
+          <editWidget type="TextEdit">
             <config>
               <Option/>
             </config>
           </editWidget>
         </field>
         <field name="type">
-          <editWidget type="">
+          <editWidget type="TextEdit">
             <config>
               <Option/>
             </config>
           </editWidget>
         </field>
         <field name="details">
-          <editWidget type="">
+          <editWidget type="TextEdit">
             <config>
               <Option/>
             </config>
           </editWidget>
         </field>
         <field name="CHBP - I_4">
-          <editWidget type="">
+          <editWidget type="TextEdit">
             <config>
               <Option/>
             </config>
           </editWidget>
         </field>
         <field name="show_label">
-          <editWidget type="">
+          <editWidget type="TextEdit">
             <config>
               <Option/>
             </config>
           </editWidget>
         </field>
         <field name="show_icon">
-          <editWidget type="">
-            <config>
-              <Option/>
-            </config>
-          </editWidget>
-        </field>
-        <field name="active">
-          <editWidget type="">
-            <config>
-              <Option/>
-            </config>
-          </editWidget>
-        </field>
-        <field name="toggleSymb">
-          <editWidget type="">
+          <editWidget type="TextEdit">
             <config>
               <Option/>
             </config>
           </editWidget>
         </field>
         <field name="icon">
-          <editWidget type="">
+          <editWidget type="TextEdit">
             <config>
               <Option/>
             </config>
           </editWidget>
         </field>
-        <field name="size">
-          <editWidget type="">
-            <config>
-              <Option/>
-            </config>
-          </editWidget>
-        </field>
-        <field name="toggleSym1">
-          <editWidget type="">
-            <config>
-              <Option/>
-            </config>
-          </editWidget>
-        </field>
-        <field name="typeDiscrib">
-          <editWidget type="">
-            <config>
-              <Option/>
-            </config>
-          </editWidget>
-        </field>
-        <field name="expired">
+        <field name="description">
           <editWidget type="">
             <config>
               <Option/>
@@ -1066,14 +1069,14 @@ def my_form_open(dialog, layer, feature):
           </editWidget>
         </field>
         <field name="rotate">
-          <editWidget type="">
+          <editWidget type="TextEdit">
             <config>
               <Option/>
             </config>
           </editWidget>
         </field>
         <field name="left_panel">
-          <editWidget type="">
+          <editWidget type="TextEdit">
             <config>
               <Option/>
             </config>
@@ -1089,15 +1092,10 @@ def my_form_open(dialog, layer, feature):
         <alias name="" field="CHBP - I_4" index="5"/>
         <alias name="" field="show_label" index="6"/>
         <alias name="" field="show_icon" index="7"/>
-        <alias name="" field="active" index="8"/>
-        <alias name="" field="toggleSymb" index="9"/>
-        <alias name="" field="icon" index="10"/>
-        <alias name="" field="size" index="11"/>
-        <alias name="" field="toggleSym1" index="12"/>
-        <alias name="" field="typeDiscrib" index="13"/>
-        <alias name="" field="expired" index="14"/>
-        <alias name="" field="rotate" index="15"/>
-        <alias name="" field="left_panel" index="16"/>
+        <alias name="" field="icon" index="8"/>
+        <alias name="" field="description" index="9"/>
+        <alias name="" field="rotate" index="10"/>
+        <alias name="" field="left_panel" index="11"/>
       </aliases>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
@@ -1110,13 +1108,8 @@ def my_form_open(dialog, layer, feature):
         <default field="CHBP - I_4" expression="" applyOnUpdate="0"/>
         <default field="show_label" expression="" applyOnUpdate="0"/>
         <default field="show_icon" expression="" applyOnUpdate="0"/>
-        <default field="active" expression="" applyOnUpdate="0"/>
-        <default field="toggleSymb" expression="" applyOnUpdate="0"/>
         <default field="icon" expression="" applyOnUpdate="0"/>
-        <default field="size" expression="" applyOnUpdate="0"/>
-        <default field="toggleSym1" expression="" applyOnUpdate="0"/>
-        <default field="typeDiscrib" expression="" applyOnUpdate="0"/>
-        <default field="expired" expression="" applyOnUpdate="0"/>
+        <default field="description" expression="" applyOnUpdate="0"/>
         <default field="rotate" expression="" applyOnUpdate="0"/>
         <default field="left_panel" expression="" applyOnUpdate="0"/>
       </defaults>
@@ -1129,13 +1122,8 @@ def my_form_open(dialog, layer, feature):
         <constraint constraints="0" exp_strength="0" field="CHBP - I_4" notnull_strength="0" unique_strength="0"/>
         <constraint constraints="0" exp_strength="0" field="show_label" notnull_strength="0" unique_strength="0"/>
         <constraint constraints="0" exp_strength="0" field="show_icon" notnull_strength="0" unique_strength="0"/>
-        <constraint constraints="0" exp_strength="0" field="active" notnull_strength="0" unique_strength="0"/>
-        <constraint constraints="0" exp_strength="0" field="toggleSymb" notnull_strength="0" unique_strength="0"/>
         <constraint constraints="0" exp_strength="0" field="icon" notnull_strength="0" unique_strength="0"/>
-        <constraint constraints="0" exp_strength="0" field="size" notnull_strength="0" unique_strength="0"/>
-        <constraint constraints="0" exp_strength="0" field="toggleSym1" notnull_strength="0" unique_strength="0"/>
-        <constraint constraints="0" exp_strength="0" field="typeDiscrib" notnull_strength="0" unique_strength="0"/>
-        <constraint constraints="0" exp_strength="0" field="expired" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="description" notnull_strength="0" unique_strength="0"/>
         <constraint constraints="0" exp_strength="0" field="rotate" notnull_strength="0" unique_strength="0"/>
         <constraint constraints="0" exp_strength="0" field="left_panel" notnull_strength="0" unique_strength="0"/>
       </constraints>
@@ -1148,13 +1136,8 @@ def my_form_open(dialog, layer, feature):
         <constraint field="CHBP - I_4" desc="" exp=""/>
         <constraint field="show_label" desc="" exp=""/>
         <constraint field="show_icon" desc="" exp=""/>
-        <constraint field="active" desc="" exp=""/>
-        <constraint field="toggleSymb" desc="" exp=""/>
         <constraint field="icon" desc="" exp=""/>
-        <constraint field="size" desc="" exp=""/>
-        <constraint field="toggleSym1" desc="" exp=""/>
-        <constraint field="typeDiscrib" desc="" exp=""/>
-        <constraint field="expired" desc="" exp=""/>
+        <constraint field="description" desc="" exp=""/>
         <constraint field="rotate" desc="" exp=""/>
         <constraint field="left_panel" desc="" exp=""/>
       </constraintExpressions>
@@ -1163,7 +1146,21 @@ def my_form_open(dialog, layer, feature):
         <defaultAction key="Canvas" value="{00000000-0000-0000-0000-000000000000}"/>
       </attributeactions>
       <attributetableconfig sortOrder="0" sortExpression="" actionWidgetStyle="dropDown">
-        <columns/>
+        <columns>
+          <column hidden="0" name="id" width="-1" type="field"/>
+          <column hidden="0" name="CHBP - Int" width="-1" type="field"/>
+          <column hidden="0" name="name" width="-1" type="field"/>
+          <column hidden="0" name="type" width="-1" type="field"/>
+          <column hidden="0" name="details" width="-1" type="field"/>
+          <column hidden="0" name="CHBP - I_4" width="-1" type="field"/>
+          <column hidden="0" name="show_label" width="-1" type="field"/>
+          <column hidden="0" name="show_icon" width="-1" type="field"/>
+          <column hidden="0" name="icon" width="-1" type="field"/>
+          <column hidden="0" name="rotate" width="-1" type="field"/>
+          <column hidden="0" name="left_panel" width="-1" type="field"/>
+          <column hidden="1" width="-1" type="actions"/>
+          <column hidden="0" name="description" width="-1" type="field"/>
+        </columns>
       </attributetableconfig>
       <conditionalstyles>
         <rowstyles/>
@@ -1173,13 +1170,53 @@ def my_form_open(dialog, layer, feature):
       <editforminit/>
       <editforminitcodesource>0</editforminitcodesource>
       <editforminitfilepath></editforminitfilepath>
-      <editforminitcode><![CDATA[]]></editforminitcode>
+      <editforminitcode><![CDATA[# -*- coding: utf-8 -*-
+"""
+QGIS forms can have a Python function that is called when the form is
+opened.
+
+Use this function to add extra logic to your forms.
+
+Enter the name of the function in the "Python Init function"
+field.
+An example follows:
+"""
+from qgis.PyQt.QtWidgets import QWidget
+
+def my_form_open(dialog, layer, feature):
+	geom = feature.geometry()
+	control = dialog.findChild(QWidget, "MyLineEdit")
+]]></editforminitcode>
       <featformsuppress>0</featformsuppress>
       <editorlayout>generatedlayout</editorlayout>
-      <editable/>
-      <labelOnTop/>
+      <editable>
+        <field name="CHBP - I_4" editable="1"/>
+        <field name="CHBP - Int" editable="1"/>
+        <field name="details" editable="1"/>
+        <field name="icon" editable="1"/>
+        <field name="id" editable="1"/>
+        <field name="left_panel" editable="1"/>
+        <field name="name" editable="1"/>
+        <field name="rotate" editable="1"/>
+        <field name="show_icon" editable="1"/>
+        <field name="show_label" editable="1"/>
+        <field name="type" editable="1"/>
+      </editable>
+      <labelOnTop>
+        <field name="CHBP - I_4" labelOnTop="0"/>
+        <field name="CHBP - Int" labelOnTop="0"/>
+        <field name="details" labelOnTop="0"/>
+        <field name="icon" labelOnTop="0"/>
+        <field name="id" labelOnTop="0"/>
+        <field name="left_panel" labelOnTop="0"/>
+        <field name="name" labelOnTop="0"/>
+        <field name="rotate" labelOnTop="0"/>
+        <field name="show_icon" labelOnTop="0"/>
+        <field name="show_label" labelOnTop="0"/>
+        <field name="type" labelOnTop="0"/>
+      </labelOnTop>
       <widgets/>
-      <previewExpression></previewExpression>
+      <previewExpression>id</previewExpression>
       <mapTip></mapTip>
     </maplayer>
     <maplayer maxScale="0" minScale="1e+08" simplifyAlgorithm="0" refreshOnNotifyMessage="" simplifyDrawingTol="1" simplifyMaxScale="1" labelsEnabled="0" simplifyLocal="1" styleCategories="AllStyleCategories" autoRefreshEnabled="0" readOnly="0" simplifyDrawingHints="1" type="vector" refreshOnNotifyEnabled="0" autoRefreshTime="0" geometry="Polygon" hasScaleBasedVisibilityFlag="0">
@@ -1214,6 +1251,15 @@ def my_form_open(dialog, layer, feature):
         <type>dataset</type>
         <title></title>
         <abstract></abstract>
+        <contact>
+          <name></name>
+          <organization></organization>
+          <position></position>
+          <voice></voice>
+          <fax></fax>
+          <email></email>
+          <role></role>
+        </contact>
         <links/>
         <fees></fees>
         <encoding></encoding>
@@ -1229,7 +1275,15 @@ def my_form_open(dialog, layer, feature):
             <geographicflag>false</geographicflag>
           </spatialrefsys>
         </crs>
-        <extent/>
+        <extent>
+          <spatial crs="" dimensions="2" maxy="0" miny="0" maxz="0" maxx="0" minx="0" minz="0"/>
+          <temporal>
+            <period>
+              <start></start>
+              <end></end>
+            </period>
+          </temporal>
+        </extent>
       </resourceMetadata>
       <provider encoding="UTF-8">ogr</provider>
       <vectorjoins/>
@@ -1274,44 +1328,65 @@ def my_form_open(dialog, layer, feature):
         <rotation/>
         <sizescale/>
       </renderer-v2>
-      <customproperties/>
+      <customproperties>
+        <property key="dualview/previewExpressions">
+          <value>"id"</value>
+        </property>
+        <property key="embeddedWidgets/count" value="0"/>
+        <property key="variableNames"/>
+        <property key="variableValues"/>
+      </customproperties>
       <blendMode>0</blendMode>
       <featureBlendMode>0</featureBlendMode>
       <layerOpacity>1</layerOpacity>
+      <SingleCategoryDiagramRenderer attributeLegend="1" diagramType="Histogram">
+        <DiagramCategory scaleDependency="Area" sizeType="MM" penWidth="0" lineSizeType="MM" backgroundAlpha="255" labelPlacementMethod="XHeight" penColor="#000000" minScaleDenominator="0" enabled="0" width="15" penAlpha="255" maxScaleDenominator="1e+08" diagramOrientation="Up" lineSizeScale="3x:0,0,0,0,0,0" height="15" opacity="1" backgroundColor="#ffffff" rotationOffset="270" minimumSize="0" barWidth="5" scaleBasedVisibility="0" sizeScale="3x:0,0,0,0,0,0">
+          <fontProperties style="" description=".SF NS Text,13,-1,5,50,0,0,0,0,0"/>
+        </DiagramCategory>
+      </SingleCategoryDiagramRenderer>
+      <DiagramLayerSettings linePlacementFlags="18" obstacle="0" placement="1" priority="0" zIndex="0" dist="0" showAll="1">
+        <properties>
+          <Option type="Map">
+            <Option name="name" value="" type="QString"/>
+            <Option name="properties"/>
+            <Option name="type" value="collection" type="QString"/>
+          </Option>
+        </properties>
+      </DiagramLayerSettings>
       <geometryOptions geometryPrecision="0" removeDuplicateNodes="0">
         <activeChecks/>
         <checkConfiguration/>
       </geometryOptions>
       <fieldConfiguration>
         <field name="id">
-          <editWidget type="">
+          <editWidget type="Range">
             <config>
               <Option/>
             </config>
           </editWidget>
         </field>
         <field name="CHBP - Interactive Map Master - Sheet1_On Website?">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="name">
           <editWidget type="">
             <config>
               <Option/>
             </config>
           </editWidget>
         </field>
-        <field name="CHBP - Interactive Map Master - Sheet1_Name">
+        <field name="type">
           <editWidget type="">
             <config>
               <Option/>
             </config>
           </editWidget>
         </field>
-        <field name="CHBP - Interactive Map Master - Sheet1_Type">
-          <editWidget type="">
-            <config>
-              <Option/>
-            </config>
-          </editWidget>
-        </field>
-        <field name="CHBP - Interactive Map Master - Sheet1_Description">
+        <field name="details">
           <editWidget type="">
             <config>
               <Option/>
@@ -1319,6 +1394,48 @@ def my_form_open(dialog, layer, feature):
           </editWidget>
         </field>
         <field name="CHBP - Interactive Map Master - Sheet1_Link">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="show_label">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="show_icon">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="icon">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="description">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="rotate">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="left_panel">
           <editWidget type="">
             <config>
               <Option/>
@@ -1329,43 +1446,75 @@ def my_form_open(dialog, layer, feature):
       <aliases>
         <alias name="" field="id" index="0"/>
         <alias name="" field="CHBP - Interactive Map Master - Sheet1_On Website?" index="1"/>
-        <alias name="" field="CHBP - Interactive Map Master - Sheet1_Name" index="2"/>
-        <alias name="" field="CHBP - Interactive Map Master - Sheet1_Type" index="3"/>
-        <alias name="" field="CHBP - Interactive Map Master - Sheet1_Description" index="4"/>
+        <alias name="" field="name" index="2"/>
+        <alias name="" field="type" index="3"/>
+        <alias name="" field="details" index="4"/>
         <alias name="" field="CHBP - Interactive Map Master - Sheet1_Link" index="5"/>
+        <alias name="" field="show_label" index="6"/>
+        <alias name="" field="show_icon" index="7"/>
+        <alias name="" field="icon" index="8"/>
+        <alias name="" field="description" index="9"/>
+        <alias name="" field="rotate" index="10"/>
+        <alias name="" field="left_panel" index="11"/>
       </aliases>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <defaults>
         <default field="id" expression="" applyOnUpdate="0"/>
         <default field="CHBP - Interactive Map Master - Sheet1_On Website?" expression="" applyOnUpdate="0"/>
-        <default field="CHBP - Interactive Map Master - Sheet1_Name" expression="" applyOnUpdate="0"/>
-        <default field="CHBP - Interactive Map Master - Sheet1_Type" expression="" applyOnUpdate="0"/>
-        <default field="CHBP - Interactive Map Master - Sheet1_Description" expression="" applyOnUpdate="0"/>
+        <default field="name" expression="" applyOnUpdate="0"/>
+        <default field="type" expression="" applyOnUpdate="0"/>
+        <default field="details" expression="" applyOnUpdate="0"/>
         <default field="CHBP - Interactive Map Master - Sheet1_Link" expression="" applyOnUpdate="0"/>
+        <default field="show_label" expression="" applyOnUpdate="0"/>
+        <default field="show_icon" expression="" applyOnUpdate="0"/>
+        <default field="icon" expression="" applyOnUpdate="0"/>
+        <default field="description" expression="" applyOnUpdate="0"/>
+        <default field="rotate" expression="" applyOnUpdate="0"/>
+        <default field="left_panel" expression="" applyOnUpdate="0"/>
       </defaults>
       <constraints>
         <constraint constraints="0" exp_strength="0" field="id" notnull_strength="0" unique_strength="0"/>
         <constraint constraints="0" exp_strength="0" field="CHBP - Interactive Map Master - Sheet1_On Website?" notnull_strength="0" unique_strength="0"/>
-        <constraint constraints="0" exp_strength="0" field="CHBP - Interactive Map Master - Sheet1_Name" notnull_strength="0" unique_strength="0"/>
-        <constraint constraints="0" exp_strength="0" field="CHBP - Interactive Map Master - Sheet1_Type" notnull_strength="0" unique_strength="0"/>
-        <constraint constraints="0" exp_strength="0" field="CHBP - Interactive Map Master - Sheet1_Description" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="name" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="type" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="details" notnull_strength="0" unique_strength="0"/>
         <constraint constraints="0" exp_strength="0" field="CHBP - Interactive Map Master - Sheet1_Link" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="show_label" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="show_icon" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="icon" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="description" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="rotate" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="left_panel" notnull_strength="0" unique_strength="0"/>
       </constraints>
       <constraintExpressions>
         <constraint field="id" desc="" exp=""/>
         <constraint field="CHBP - Interactive Map Master - Sheet1_On Website?" desc="" exp=""/>
-        <constraint field="CHBP - Interactive Map Master - Sheet1_Name" desc="" exp=""/>
-        <constraint field="CHBP - Interactive Map Master - Sheet1_Type" desc="" exp=""/>
-        <constraint field="CHBP - Interactive Map Master - Sheet1_Description" desc="" exp=""/>
+        <constraint field="name" desc="" exp=""/>
+        <constraint field="type" desc="" exp=""/>
+        <constraint field="details" desc="" exp=""/>
         <constraint field="CHBP - Interactive Map Master - Sheet1_Link" desc="" exp=""/>
+        <constraint field="show_label" desc="" exp=""/>
+        <constraint field="show_icon" desc="" exp=""/>
+        <constraint field="icon" desc="" exp=""/>
+        <constraint field="description" desc="" exp=""/>
+        <constraint field="rotate" desc="" exp=""/>
+        <constraint field="left_panel" desc="" exp=""/>
       </constraintExpressions>
       <expressionfields/>
       <attributeactions>
         <defaultAction key="Canvas" value="{00000000-0000-0000-0000-000000000000}"/>
       </attributeactions>
       <attributetableconfig sortOrder="0" sortExpression="" actionWidgetStyle="dropDown">
-        <columns/>
+        <columns>
+          <column hidden="0" name="id" width="-1" type="field"/>
+          <column hidden="0" name="CHBP - Interactive Map Master - Sheet1_On Website?" width="-1" type="field"/>
+          <column hidden="0" name="CHBP - Interactive Map Master - Sheet1_Link" width="-1" type="field"/>
+          <column hidden="1" width="-1" type="actions"/>
+          <column hidden="0" name="name" width="-1" type="field"/>
+          <column hidden="0" name="type" width="-1" type="field"/>
+          <column hidden="0" name="details" width="-1" type="field"/>
+        </columns>
       </attributetableconfig>
       <conditionalstyles>
         <rowstyles/>
@@ -1375,13 +1524,37 @@ def my_form_open(dialog, layer, feature):
       <editforminit/>
       <editforminitcodesource>0</editforminitcodesource>
       <editforminitfilepath></editforminitfilepath>
-      <editforminitcode><![CDATA[]]></editforminitcode>
+      <editforminitcode><![CDATA[# -*- coding: utf-8 -*-
+"""
+QGIS forms can have a Python function that is called when the form is
+opened.
+
+Use this function to add extra logic to your forms.
+
+Enter the name of the function in the "Python Init function"
+field.
+An example follows:
+"""
+from qgis.PyQt.QtWidgets import QWidget
+
+def my_form_open(dialog, layer, feature):
+	geom = feature.geometry()
+	control = dialog.findChild(QWidget, "MyLineEdit")
+]]></editforminitcode>
       <featformsuppress>0</featformsuppress>
       <editorlayout>generatedlayout</editorlayout>
-      <editable/>
-      <labelOnTop/>
+      <editable>
+        <field name="CHBP - Interactive Map Master - Sheet1_Link" editable="1"/>
+        <field name="CHBP - Interactive Map Master - Sheet1_On Website?" editable="1"/>
+        <field name="id" editable="1"/>
+      </editable>
+      <labelOnTop>
+        <field name="CHBP - Interactive Map Master - Sheet1_Link" labelOnTop="0"/>
+        <field name="CHBP - Interactive Map Master - Sheet1_On Website?" labelOnTop="0"/>
+        <field name="id" labelOnTop="0"/>
+      </labelOnTop>
       <widgets/>
-      <previewExpression></previewExpression>
+      <previewExpression>id</previewExpression>
       <mapTip></mapTip>
     </maplayer>
   </projectlayers>
