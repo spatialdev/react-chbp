@@ -62,10 +62,10 @@
   <mapcanvas name="theMapCanvas" annotationsVisible="1">
     <units>degrees</units>
     <extent>
-      <xmin>-122.32006852518765072</xmin>
-      <ymin>47.61564218813930438</ymin>
-      <xmax>-122.31946122961022638</xmax>
-      <ymax>47.61594559803184268</ymax>
+      <xmin>-122.31975870927585959</xmin>
+      <ymin>47.61351913135163727</ymin>
+      <xmax>-122.31841253127383595</xmax>
+      <ymax>47.61419169301368015</ymax>
     </extent>
     <rotation>0</rotation>
     <destinationsrs>
@@ -857,7 +857,7 @@ def my_form_open(dialog, layer, feature):
         <xmin>-122.32047316188607056</xmin>
         <ymin>47.61352056350128947</ymin>
         <xmax>-122.31710728388112841</xmax>
-        <ymax>47.61590576501090766</ymax>
+        <ymax>47.61510608733748029</ymax>
       </extent>
       <id>centroids_2019_7656b491_e11e_4df4_8c64_9b2fe51bb138</id>
       <datasource>../centroids_2019.geojson|layername=centroids_2019</datasource>
@@ -970,9 +970,7 @@ def my_form_open(dialog, layer, feature):
       </renderer-v2>
       <customproperties>
         <property key="dualview/previewExpressions">
-          <value>COALESCE( "id", '&lt;NULL>' )</value>
           <value>"id"</value>
-          <value>COALESCE( "id", '&lt;NULL>' )</value>
         </property>
         <property key="embeddedWidgets/count" value="0"/>
         <property key="variableNames"/>
@@ -1147,7 +1145,7 @@ def my_form_open(dialog, layer, feature):
       <attributeactions>
         <defaultAction key="Canvas" value="{00000000-0000-0000-0000-000000000000}"/>
       </attributeactions>
-      <attributetableconfig sortOrder="0" sortExpression="id" actionWidgetStyle="dropDown">
+      <attributetableconfig sortOrder="0" sortExpression="" actionWidgetStyle="dropDown">
         <columns>
           <column hidden="0" name="id" width="-1" type="field"/>
           <column hidden="0" name="CHBP - Int" width="-1" type="field"/>
@@ -1218,7 +1216,7 @@ def my_form_open(dialog, layer, feature):
         <field name="type" labelOnTop="0"/>
       </labelOnTop>
       <widgets/>
-      <previewExpression>COALESCE( "id", '&lt;NULL>' )</previewExpression>
+      <previewExpression>id</previewExpression>
       <mapTip></mapTip>
     </maplayer>
     <maplayer maxScale="0" minScale="1e+08" simplifyAlgorithm="0" refreshOnNotifyMessage="" simplifyDrawingTol="1" simplifyMaxScale="1" labelsEnabled="0" simplifyLocal="1" styleCategories="AllStyleCategories" autoRefreshEnabled="0" readOnly="0" simplifyDrawingHints="1" type="vector" refreshOnNotifyEnabled="0" autoRefreshTime="0" geometry="Polygon" hasScaleBasedVisibilityFlag="0">
