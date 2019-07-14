@@ -1,0 +1,8 @@
+/* Overwrite Drawer z-index to render on top of button and Map */
+.RightMenuDrawer {
+    z-index: 10000 !important;
+}
+
+.ListWrapper {
+    width: 300px;
+}
