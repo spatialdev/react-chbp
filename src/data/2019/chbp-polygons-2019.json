@@ -1,6 +1,0 @@
-{
-    "type": "FeatureCollection",
-    "features": [
-            { "type": "Feature", "properties": { "show_label": "", "active": "", "toggleSymb": "", "icon": null, "show_icon": "", "details": "", "toggleSym1": "", "typeDiscrib": "Sponsor", "id": "1", "name": "Ofo Bikes", "size": "10'x10", "type": "Sponsor", "expired": null, "rotate": null, "left_panel": null, "typeDescri": null, "vendorSize": null, "seafoodfest2019vendorlistUPDATED_Vendor Name": "West Coast Sea Glass_Mary Beth Beuke", "seafoodfest2019vendorlistUPDATED_Size": "10'x10'", "seafoodfest2019vendorlistUPDATED_Type": "A\/C", "seafoodfest2019vendorlistUPDATED_Specialty": "Handmade jewelry from sea glass", "seafoodfest2019vendorlistUPDATED_field_6": "", "seafoodfest2019vendorlistUPDATED_field_7": "", "seafoodfest2019vendorlistUPDATED_field_8": "", "seafoodfest2019vendorlistUPDATED_field_9": "" }, "geometry": { "type": "Point", "coordinates": [ -122.38726250000002, 47.66872134 ] } }
-        ]
-}
