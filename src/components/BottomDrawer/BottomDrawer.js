@@ -1,12 +1,12 @@
 import React, {Component} from 'react';
 import PropTypes from 'prop-types';
 import {withStyles} from '@material-ui/core/styles';
-import Icon from '@material-ui/core/Icon';
+import { Close } from '@material-ui/icons';
 
 import SwipeableDrawer from '@material-ui/core/SwipeableDrawer';
 import {connect} from "react-redux";
 import {toggleBottomDrawer} from '../../redux/actions';
-import './BottomDrawer.css';
+import './BottomDrawer.scss';
 
 
 const styles = theme => ({
@@ -55,10 +55,10 @@ class BottomSheet extends Component {
                          onClose={() => {
                            toggleBottomDrawer(false);
                            // Clear highlight filter
-                           map.setFilter('vendor pins highlight',
-                             ["all",
-                               ["==", "id", 0],
-                             ]);
+                           // map.setFilter('vendor pins highlight',
+                           //   ["all",
+                           //     ["==", "id", 0],
+                           //   ]);
                          }}
                          onOpen={() => {
                            toggleBottomDrawer(true)
@@ -69,17 +69,20 @@ class BottomSheet extends Component {
           <div className="wrapperText">
             {header}
 
-            <Icon onClick={() => {
-              toggleBottomDrawer(false)
-            }} className={classes.icon}>
+            <Close onClick={() => toggleBottomDrawer(false)} className={classes.icon}>
               close
-            </Icon>
+            </Close>
 
             <div className="content-wrapper">
               <div className="title">{data.name}</div>
               <div className="category">{data.type}</div>
               <div className="custom-content-wrapper">
-                {style}
+
+                {/*Need to show the following*/}
+                {/*description,id,name,type,website*/}
+
+                {data.description}
+
               </div>
             </div>
           </div>
