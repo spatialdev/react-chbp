@@ -4,7 +4,6 @@ node_js:
 install:
 - npm install
 script:
-- npm test
 - npm run build
 before_deploy:
   - 'curl "https://s3.amazonaws.com/aws-cli/awscli-bundle.zip" -o "awscli-bundle.zip"'
