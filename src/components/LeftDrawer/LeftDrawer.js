@@ -14,7 +14,7 @@ import {
 } from '../../redux/actions';
 import {drawerWidth} from '../../redux/constants';
 import turfCenter from '@turf/center'
-import './LeftDrawer.css';
+import './LeftDrawer.scss';
 import imgFlier from '../../images/chbp-logo.jpg';
 
 
@@ -111,25 +111,25 @@ class LeftDrawer extends Component {
         <div className="Legend">
           <div className="legend-title">Map legend:</div>
           <div className="legend-item-wrapper">
+            <span className="legend-item-text">Stage</span>
+          </div>
+          <div className="legend-item-wrapper">
+            <span className="legend-item-text">Free Events / Food Court</span>
+          </div>
+          <div className="legend-item-wrapper">
+            <span className="legend-item-text">Sponsor / Non-profit</span>
+          </div>
+          <div className="legend-item-wrapper">
             <span className="legend-item-text">Art/Music</span>
-          </div>
-          <div className="legend-item-wrapper">
-            <span className="legend-item-text">Free Events</span>
-          </div>
-          <div className="legend-item-wrapper">
-            <span className="legend-item-text">Non profit</span>
           </div>
           <div className="legend-item-wrapper">
             <span className="legend-item-text">Restaurant & Bars</span>
           </div>
           <div className="legend-item-wrapper">
+            <span className="legend-item-text">Retail</span>
+          </div>
+          <div className="legend-item-wrapper">
             <span className="legend-item-text">Service</span>
-          </div>
-          <div className="legend-item-wrapper">
-            <span className="legend-item-text">Sponsor</span>
-          </div>
-          <div className="legend-item-wrapper">
-            <span className="legend-item-text">Stage</span>
           </div>
         </div>
 
