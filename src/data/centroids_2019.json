@@ -1,201 +1,2728 @@
 {
-"type": "FeatureCollection",
-"name": "centroids_2019_final",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "id": 6, "name": "CHBP 2019 Photo Showcase", "type": "Free Event", "description": "CHBP has teamed up again with Caffe Vita to showcase some of our local photographers‚Äô greatest shots from CHBP! Come snag a cold brew and check out large-scale photos hung throughout Vita's walls, along with some rad CHBP wall branding. ", "website": null }, "geometry": null },
-{ "type": "Feature", "properties": { "id": 7, "name": "CHBP After Dark Programming", "type": "Free Event", "description": "The fun doesn't stop when the headliners finish! After the music ends at CHBP, go check out 20+ local DJs at six venues on Capitol Hill until bars close at 2am. All events are free to CHBP ticket holders - just show your wristband at the door (21+ only)! ", "website": null }, "geometry": null },
-{ "type": "Feature", "properties": { "id": 9, "name": "Battle on the Block", "type": "Free Event", "description": "Saturday, July 20 at 11am to 6pm\n\nJoin us for the second annual Battle On The Block skate competition at the Cal Anderson Courts, brought to you by 35th North, Bixton, Converse Cons, and Red Bull. More details coming soon.\n\nSunday, July 21 at 11am to 6pm\n\nAlso join us for a community skate session brought to you by Skate Like A Girl‚Ä¶ custom-build halfpipe, live drone footage, music, prizes, and more! More details coming soon.", "website": null }, "geometry": { "type": "Point", "coordinates": [ -122.319878347197104, 47.615906097027747 ] } },
-{ "type": "Feature", "properties": { "id": 10, "name": "Yoga in the Park (Cal Anderson)", "type": "Free Event", "description": "Join Sweatbox & CHBP for a FREE outdoor yoga class at Cal Anderson Park! Kick off your final day of #CHBP2019 with a smooth intentional flow! Join yoga teacher Reva for an exciting class set to invigorating & groovy beats from dj michael be. This is the perfect way to start your day and get into your body before heading in for the full experience of Capitol Hill Block Party!!\n\nFirst 20 people to RSVP and show up will receive a 5-punch card to Sweatbox! Just bring your mat and a bottle of water.\n\nLed by RYT Reva and dj michael be.", "website": null }, "geometry": { "type": "Point", "coordinates": [ -122.319125526368651, 47.61742854300217 ] } },
-{ "type": "Feature", "properties": { "id": 11, "name": "Crybaby Studios", "type": "Art \/ Music", "description": "Crybaby Studios was established in 1999 and provides Seattle with an important creative space for musicians to develop their craft‚Äîa vital institution keeping the city culturally diverse and making lives better.", "website": "crybabystudios.com" }, "geometry": null },
-{ "type": "Feature", "properties": { "id": 12, "name": "Annex Theatre", "type": "Art \/ Music", "description": "Annex is one of Seattle's most beloved (and oldest) small theaters and describes itself as \"a democratic collective of theater artists dedicated to creating bold new work in an environment of improbability, resourcefulness, and risk.\" It began in 1986 on Bainbridge Island, then moved to Seattle in 1988. It has produced over 300 productions in its long history, including hundreds of world premieres, and plays by locally and nationally recognized writers such as Chris Jeffries, Paul Mullin, Elizabeth Heffron, Kelleen Conway Blanchard, Bret Fetzer, Keri Healey, Scot Augustson, Heidi Heimarck, Erik Ehn, Naomi Iizuka, Glen Berger, and many, many more.", "website": "annextheatre.org" }, "geometry": null },
-{ "type": "Feature", "properties": { "id": 13, "name": "Century Ballroom", "type": "Art \/ Music", "description": "Founded in 1997 to promote social dancing of all kinds, Century Ballroom encourages a diverse community that includes your gender identity and expression, sexual orientation, disability, physical appearance, race, age, and religion.\n\nOur community of instructors, staff, and patrons welcome and encourage any and everyone to come out dancing.\n\nOur philosophy: It is more important to be kind than to be right.", "website": "centuryballroom.com" }, "geometry": null },
-{ "type": "Feature", "properties": { "id": 14, "name": "NW Film Forum", "type": "Art \/ Music", "description": "Northwest Film Forum incites public dialogue and creative action through collective cinematic experiences. A nonprofit film and arts center located in Seattle, Northwest Film Forum presents hundreds of films, festivals, community events, multidisciplinary performances, and public discussions each year. A comprehensive visual media organization, the Forum offers educational workshops and artist services for film and media makers at all stages of their development. Artist services include access to space, gear, fiscal sponsorship, and an edit lab. Northwest Film Forum is a member-based organization.", "website": "nwfilmforum.org" }, "geometry": null },
-{ "type": "Feature", "properties": { "id": 15, "name": "Artists for Progress", "type": "Nonprofit ", "description": null, "website": null }, "geometry": null },
-{ "type": "Feature", "properties": { "id": 16, "name": "Jubilee Women's Center", "type": "Nonprofit ", "description": null, "website": null }, "geometry": null },
-{ "type": "Feature", "properties": { "id": 18, "name": "MyMusicRX ", "type": "Nonprofit ", "description": null, "website": null }, "geometry": null },
-{ "type": "Feature", "properties": { "id": 19, "name": "Sensory Access ", "type": "Nonprofit ", "description": null, "website": null }, "geometry": null },
-{ "type": "Feature", "properties": { "id": 20, "name": "Skate Like A Girl ", "type": "Nonprofit ", "description": null, "website": null }, "geometry": null },
-{ "type": "Feature", "properties": { "id": 24, "name": "Amandine Bakeshop", "type": "Restaurant \/ Bar", "description": "Amandine Bakeshop is a micro-bakery and caf√© specializing in regional French and classic English pastries incorporating locally-sourced, seasonal ingredients through classic pastry technique.", "website": "amadineseattle.com" }, "geometry": null },
-{ "type": "Feature", "properties": { "id": 27, "name": "Barca", "type": "Restaurant \/ Bar", "description": "Bar√ßa features 29 craft beers on tap and signature handcrafted cocktails, Barca's comfortable and relaxed atmosphere is perfect for a romantic evening or a night out with friends.", "website": "barcaseattlelounge.com" }, "geometry": null },
-{ "type": "Feature", "properties": { "id": 28, "name": "Big Marios", "type": "Restaurant \/ Bar", "description": "In the winter of 1964, Mario Vellotti emigrated from Naples, Italy to live and work on Mulberry Street in New York City. Mario made his early living tossing pizza and cooking in some of New York's most notorious kitchens; Angelo's, Casa Bella on Mulberry Street and Nanni Al Valletto on 59th Street. Later Mario joined his brother and uncle in the family business, opening their world-famous pizzerias in all five Burroughs, including Sal's on Broome Street, Bensonhurst's J & V and the original Patricia's in the Bronx. Big Marios Pizza is in Seattle now... enjoy!", "website": "bigmariosnewyorkpizza.com" }, "geometry": null },
-{ "type": "Feature", "properties": { "id": 29, "name": "Bimbos Cantina", "type": "Restaurant \/ Bar", "description": "Bimbos Cantina rolled its first burrito in 1995. It can be said that Bimbo's Cantina has had a huge part in turning this portion of the Pike\/Pine Corridor into ground zero for Seattle nightlife. Bimbos Cantina, with its mammoth blinking red arrow over the sidewalk, sits at street level on East Pike. The Mexican wrestler and black velvet painting motif is predominant throughout.", "website": "bimboscantina.com" }, "geometry": { "type": "Point", "coordinates": [ -122.31874004, 47.61398273 ] } },
-{ "type": "Feature", "properties": { "id": 30, "name": "Bok a Bok", "type": "Restaurant \/ Bar", "description": "Bok a Bok fried chicken is air-dried, hand-dipped and double-fried to order. This process isn‚Äôt fast but it makes for super juicy chicken with an unforgettable crunch. It‚Äôs fresh, never frozen, antibiotic- and hormone-free chicken. It‚Äôs hand-made biscuits and sides made from scratch, using fresh, responsibly sourced ingredients that we prepare with care and integrity.", "website": "bokabokchicken.com" }, "geometry": null },
-{ "type": "Feature", "properties": { "id": 32, "name": "Caffe Vita", "type": "Restaurant \/ Bar", "description": "Caffe Vita has been roasting coffee in Seattle since 1995 as an independent & locally-owned company. From their beginnings at the base of Seattle‚Äôs Queen Anne neighborhood, they now operate 13 cafes throughout Seattle, Portland, New York, and Los Angeles. Caffe Vita coffee is always fresh, imported directly from the farm, and roasted on-site in Seattle, Brooklyn, and Portland.", "website": "caffevita.com" }, "geometry": null },
-{ "type": "Feature", "properties": { "id": 33, "name": "Capitol Coffee Works", "type": "Restaurant \/ Bar", "description": "Capitol Hill Coffee Works is a place to experience and experiment with coffee in its richly diverse forms and varieties. Wine connoisseurs have tasting rooms; beer aficionados have brewery tap rooms; fine dining enthusiasts have five-star restaurants. Their goal is to create a dedicated tasting space for specialty coffee. All of their locations commit unrelentingly to making coffee better and providing resources to help their customers make and explore better coffee.", "website": "seattlecoffeeworks.com" }, "geometry": null },
-{ "type": "Feature", "properties": { "id": 34, "name": "Capitol Lounge", "type": "Restaurant \/ Bar", "description": "Capitol Lounge is a newly opened bar that offers chill vibes and tasty drinks.", "website": "capitolloungeseattle.com" }, "geometry": null },
-{ "type": "Feature", "properties": { "id": 35, "name": "Cupcake Royale", "type": "Restaurant \/ Bar", "description": "Cupcake Royale is Seattle's first cupcake bakery and offers delicious made-from-scratch cupcakes with natural, fresh, and local ingredients. Check out their new line of homemade ice cream inspired by their bakery! They craft Stumptown espresso drinks to complement their cupcakes and ice cream.", "website": "cupcakeroyale.com" }, "geometry": null },
-{ "type": "Feature", "properties": { "id": 36, "name": "Gokan", "type": "Restaurant \/ Bar", "description": "Chef Jun Park, who also owns Wallingford‚Äôs beloved Musashi, has opened another sushi restaurant, this time with a menu featuring lesser-known fish and artistic platings. Gokan has a dark, sleek design, and two tatami rooms surrounded by indoor water fountains.", "website": "thegokan.com" }, "geometry": null },
-{ "type": "Feature", "properties": { "id": 37, "name": "Grims", "type": "Restaurant \/ Bar", "description": "Grim‚Äôs is Capitol Hill‚Äôs premier location for both a quiet dinner and a lively night out. Featuring a full menu in the main bar and an intimate lounge, as well as a spacious dance club with top notch DJs above, Grim‚Äôs has it all. Their bar features a rotating tap and seasonal craft cocktails to accompany the Northwest-inspired atmosphere", "website": "grimseattle.com" }, "geometry": null },
-{ "type": "Feature", "properties": { "id": 38, "name": "Havana", "type": "Restaurant \/ Bar", "description": "Havana Social Club is a beautiful booth-lined cocktails spot with seriously sweet DJs to get you on the dance floor and the kind of slightly mysterious location that keeps the wrong kind of dudes away. This place is selling elegance and you are buying. The ceiling is painted gold, so you know this club means business.", "website": "havanasocial.com" }, "geometry": null },
-{ "type": "Feature", "properties": { "id": 39, "name": "Ikina Sushi", "type": "Restaurant \/ Bar", "description": "Ikina Sushi is a popular Japanese spot nestled in Capitol Hill offering sushi, sashimi, noodles, and a full cocktail bar.", "website": "https:\/\/www.facebook.com\/Ikina-Sushi" }, "geometry": null },
-{ "type": "Feature", "properties": { "id": 40, "name": "La Spiga", "type": "Restaurant \/ Bar", "description": "La Spiga's menu pays homage to Italy's Emilia-Romagna region. Chef Sabrina creates tasty, seasonal dishes that reflect the authenticity of the food while using the finest Italian ingredients and what is freshest from local sources.", "website": "laspiga.com" }, "geometry": null },
-{ "type": "Feature", "properties": { "id": 41, "name": "Little Oddfellows", "type": "Restaurant \/ Bar", "description": "Little Oddfellows, a sister cafe to Odd Fellows, opened in August of 2015 and is located inside of Elliott Bay Book Company.  We open every day at 10am. We serve coffee from Caffe Vita, baked goods and desserts, grain salads and sandwiches, and beer and wine.", "website": "http:\/\/www.oddfellowscafe.com\/" }, "geometry": null },
-{ "type": "Feature", "properties": { "id": 42, "name": "Lost Lake", "type": "Restaurant \/ Bar", "description": "Lost Lake Caf√© & Lounge is Seattle's favorite 24-hour diner and bar with a mid-century modern feel. Lost Lake's large menu of traditional American comfort food includes options for any time of the day-breakfast, brunch, lunch, dinner, or even late night drinks-with vegetarian & vegan dishes, as well.", "website": "lostlakecafe.com" }, "geometry": null },
-{ "type": "Feature", "properties": { "id": 43, "name": "Marmite", "type": "Restaurant \/ Bar", "description": "Marmite and its interior bar Spirit in the Bottle are inspired by the best of what‚Äôs fresh, the woodsy nature of our urban space, and a very good sense of humor. They do things the way they like to do them: by hand. As many components of their cuisine and cocktails as possible are seasonal, made in-house, and utilize Bruce‚Äôs stocks and broths which simmer for hours in their namesake 40 gallon marmite (a classic French cooking pot).", "website": "marmiteseattle.com" }, "geometry": null },
-{ "type": "Feature", "properties": { "id": 44, "name": "Molly Moons", "type": "Restaurant \/ Bar", "description": "At Molly Moon‚Äôs, they couple milk and cream from hormone-free dairy cows at family-owned Edaleen Dairy Farm with local, seasonal, and, as much as possible, organic fruits and spices to make combinations that are both familiar and surprising. Everything they can get from local farmers, they do, including sugar from Idaho, lavender from Sequim, honey from the foothills of the Olympics, and more than 90% of all their ingredients.", "website": "mollymoon.com" }, "geometry": null },
-{ "type": "Feature", "properties": { "id": 45, "name": "Oddfellows Caf√© and Bar", "type": "Restaurant \/ Bar", "description": "Oddfellows is an all-day, all-night cafe and bar that serves simple fresh food influenced by peasant French and Italian dishes and served without pretense. Oddfellows is a large welcoming space that has kindly been referred to as \"the Pike\/Pine corridor's living room.\"", "website": "oddfellowscafe.com" }, "geometry": null },
-{ "type": "Feature", "properties": { "id": 46, "name": "Poquito's", "type": "Restaurant \/ Bar", "description": "At Poquitos they strive to present delicious Mexican cuisine prepared with ingredients that are the best of both worlds - outstanding local sourcing for their meats and produce; unique and direct sourcing for items essential to honoring the culinary traditions of Mexico.", "website": "vivapoquitos.com" }, "geometry": null },
-{ "type": "Feature", "properties": { "id": 47, "name": "Queer Bar", "type": "Restaurant \/ Bar", "description": "Queer\/Bar is a queer crew providing a space for the queer community that is safe, fun, and inclusive!", "website": "thequeerbar.com" }, "geometry": null },
-{ "type": "Feature", "properties": { "id": 48, "name": "Quinn's", "type": "Restaurant \/ Bar", "description": "At Quinn‚Äôs Pub they take traditions of the classic public house and raise them to new levels. They are community driven, quality focused, and a continual experiment in what it means to be a pub. Their food is always evolving, their bar carefully curated, and their space open to all.", "website": "quinnspubseattle.com" }, "geometry": null },
-{ "type": "Feature", "properties": { "id": 49, "name": "Rancho Bravo Tacos", "type": "Restaurant \/ Bar", "description": "Most of Rancho Bravo‚Äôs menu is made from scratch, from their salsas to their tamales, from their horchata to their pozole. They appreciate good value as much as you do and that‚Äôs why they make it our goal to offer a quality Mexican food experience at an affordable price!", "website": "ranchobravotacos.com" }, "geometry": null },
-{ "type": "Feature", "properties": { "id": 50, "name": "Rhino Room", "type": "Restaurant \/ Bar", "description": "The Rhino Room is a big and beautiful party bar located inside a restored historic building in the heart of Captiol Hill. We are a high volume nightclub on Friday and Saturdays featuring some of Seattle's finest DJs. We play hip hop, electronic, mash ups, and more. The bar is always flowing with spirits and the dance floor is always packed!", "website": "therhinoroom.com" }, "geometry": null },
-{ "type": "Feature", "properties": { "id": 51, "name": "Sams Tavern", "type": "Restaurant \/ Bar", "description": "Sam‚Äôs Tavern started in the 1940‚Äôs, the original birthplace of Red Robin standing at the corner of Furhman and Eastlake in Seattle. Before they served gourmet burgers, offered bottomless fries, and adding the name ‚ÄúRed Robin‚Äù, it was just ‚ÄúSam‚Äôs Tavern‚Äù and then ‚ÄúSam‚Äôs Red Robin‚Äù. After dropping the name Sam, the rest is history‚Ä¶.or is it?", "website": "samstavernseattle.com" }, "geometry": null },
-{ "type": "Feature", "properties": { "id": 52, "name": "SOI", "type": "Restaurant \/ Bar", "description": "SOI is a return to Thailand--a departure from your normal expectations of Thai food in Seattle. Our idea is to return back to what it really like to eat in Thailand, with a focus on the food of the raised plateau of the North Eastern region of Thailand called Issan. We believe that Seattle deserves better Thai food and that folks are tired with the typical Thai food in Seattle.", "website": "soicapitolhill.com" }, "geometry": null },
-{ "type": "Feature", "properties": { "id": 53, "name": "Sole Repair", "type": "Restaurant \/ Bar", "description": "Sole Repair is a private event space in the heart of Capitol Hill. Perfect for weddings, birthdays, dance parties and so much more.", "website": "solerepairshop.com" }, "geometry": null },
-{ "type": "Feature", "properties": { "id": 54, "name": "STOUT", "type": "Restaurant \/ Bar", "description": "STOUT is a casual pub designed for beer enthusiasts who appreciate ‚Äúcraft everything,‚Äù from beer to cocktails to well-prepared food. STOUT‚Äôs alluring atmosphere blends classic and modern elements, bringing old world ambiance to one of the new world‚Äôs most exciting neighborhoods.", "website": "stoutpubs.com" }, "geometry": null },
-{ "type": "Feature", "properties": { "id": 55, "name": "Sweet Iron", "type": "Restaurant \/ Bar", "description": "Sweet Iron opened its first shop in 2009 in downtown Seattle and continues to grow in exciting partnerships and expansions. This past summer, Sweet Iron set up shop at Safeco Field for the Mariners‚Äô games and also combined forces with Ezell‚Äôs chicken during Sounders and Seahawks games to make the classic chicken and waffles. Their Capitol Hill location offers freshly squeezed juices, beer and wine, and later hours.", "website": "sweetironwaffles.com" }, "geometry": null },
-{ "type": "Feature", "properties": { "id": 56, "name": "The Cloud Room", "type": "Restaurant \/ Bar", "description": "The Cloud Room is women-owned and operated, with a diverse co-working community committed to growing and participating in a range of industries, expertise and functions. In addition to fostering member businesses and entrepreneurs, we are proud to offer a curated event series with local thought leaders, an exceptional bar program and community wellness partnerships.", "website": "cloudroomseattle.com" }, "geometry": null },
-{ "type": "Feature", "properties": { "id": 57, "name": "The Comet Tavern", "type": "Restaurant \/ Bar", "description": "The Comet Tavern is a rough-and-ready bar serving Capitol Hill since 1948 with local rock bands, beer & pinball, plus a long daily happy hour.", "website": "thecomettavern.com" }, "geometry": null },
-{ "type": "Feature", "properties": { "id": 58, "name": "The Runaway", "type": "Restaurant \/ Bar", "description": "The Runaway is a friendly neighborhood bar attached to the live-music showrooms Neumos and Barboza, serving the full Bok a Bok fried chicken menu.", "website": "therunawayseattle.com" }, "geometry": { "type": "Point", "coordinates": [ -122.31959481, 47.61373390 ] } },
-{ "type": "Feature", "properties": { "id": 59, "name": "Unicorn", "type": "Restaurant \/ Bar", "description": "Unicorn & Narwhal are two carnival themed bars. Each packs its own vibe into one location offering whimsical food & drink options. Also featuring an arcade, claw machine, & photo booth. Weekly events include Mimosas Cabaret, Gayme Night, live shows, karaoke, trivia and more.", "website": "unicornseattle.com" }, "geometry": { "type": "Point", "coordinates": [ -122.317232367953707, 47.614220623177907 ] } },
-{ "type": "Feature", "properties": { "id": 60, "name": "Vermillion", "type": "Restaurant \/ Bar", "description": "Showcasing dedicated, professional artists, Vermillion offers art, wine, beer, cocktails, and a daily seasonal menu in a unique, comforting setting. Located in the bustling Pike\/Pine corridor and part of a new concept of hybrid gallery spaces, they offer the culture and appeal of an art opening every night without the crushing crowds. The space is split nearly equally to separate the two areas into distinct parts to emphasize the best of both worlds.", "website": "vermillionseattle.com" }, "geometry": null },
-{ "type": "Feature", "properties": { "id": 61, "name": "Via Tribunalli", "type": "Restaurant \/ Bar", "description": "Via Tribunali embodies the essence of what authentic Italian pizza should be: soft, well-cooked, fragrant and enclosed in a high, soft edge of crust. As a member of the Verace Pizza Napoletana Association, Via Tribunali respects the culinary discipline associated with making authentic Neapolitan pizza.", "website": "viatribunali.com" }, "geometry": null },
-{ "type": "Feature", "properties": { "id": 62, "name": "Wildrose", "type": "Restaurant \/ Bar", "description": "Wildrose is one of the oldest lesbian bars on the West Coast, offering DJs, karaoke & seasonal outdoor seating.", "website": "wildrosebar.com" }, "geometry": null },
-{ "type": "Feature", "properties": { "id": 63, "name": "35th North", "type": "Retail", "description": "35th North is a Seattle‚Äôs favorite skateboard shop located on 11th & Pike. ", "website": "35thnorth.com" }, "geometry": null },
-{ "type": "Feature", "properties": { "id": 64, "name": "BAIT", "type": "Retail", "description": "BAIT is a streetwear and sneaker retail store located in Capitol Hill. The retailer has collaborated with the likes of Reebok, ASICS, Saucony and Onitsuka Tiger, and sells its own in-house apparel line alongside a wide selection of sneakers and streetwear.", "website": "baitme.com" }, "geometry": null },
-{ "type": "Feature", "properties": { "id": 65, "name": "Castle", "type": "Retail", "description": "Castle Megastore is the nations leading retailer of essentials for lovers and opened its doors in 1987. Their focus is to create a fun, friendly, shopping experience that is safe and well lit.", "website": "castlemegastore.com" }, "geometry": null },
-{ "type": "Feature", "properties": { "id": 66, "name": "Elliott Bay Book Company", "type": "Retail", "description": "Elliott Bay Book Company is a full service bookstore, home to over 150,000 titles, set on cedar shelves in a multi-level, inviting unique atmosphere. Elliott Bay offers one of the region's best selection of new books, as well as a large collection of bargain editions. They present an unparalleled schedule of author readings and events throughout the year.", "website": "elliotbaybook.com" }, "geometry": null },
-{ "type": "Feature", "properties": { "id": 67, "name": "ESTATE", "type": "Retail", "description": "Established in 2015 in Seattle, WA, ESTATE was created to address the ever changing need for the Pacific Northwest.  With the market moving at an unbelievable pace in both Technology and Fashion, we are motivated to keep you up to date in the latest trends while steering you into what's next through innovative merchandising, vendor collaborations, unique in-store events and above all, excellent customer service.", "website": "@shopestate " }, "geometry": null },
-{ "type": "Feature", "properties": { "id": 68, "name": "Everyday Music", "type": "Retail", "description": "Everyday Music is an independently-owned and operated company with three locations in Oregon and two in Washington. Started in 1995, the owners have a combined 35 years of music store experience - that's a lot of records! Despite the mega-chains and the e-tailers, EM has, due to a lot of hard work and a lot of very good people, continued to thrive. EM has inventory in all genres of music: rock and pop, rap and hip-hop, jazz and blues, folk and country, reggae and world music.", "website": "everydaymusic.com" }, "geometry": null },
-{ "type": "Feature", "properties": { "id": 70, "name": "Ghost Gallery", "type": "Retail", "description": "Ghost Gallery was established in 2006 by independent curator Laurie Kearney, who relocated from Virginia to Seattle in 2005. Focusing on local and regional artists & designers, the gallery‚Äôs hybrid model provides an ever-evolving, welcoming space where artists and collectors, new and established, can connect. Entering its 9th year as a brick and mortar venue, Ghost Gallery showcases a curated selection of visual art, handmade jewelry, tarot, apothecary and bottled wines.", "website": "ghostgalleryshop.com" }, "geometry": null },
-{ "type": "Feature", "properties": { "id": 71, "name": "Goethe Pop-Up", "type": "Retail", "description": "Located in Capitol Hill‚Äôs iconic Chophouse Row building, the Goethe Pop Up Seattle is here to celebrate the Year of German-American Friendship with you. From October 2018 through November 2019 they will host and support a variety of cultural events such as art exhibits, film screenings, lectures, and panel discussions to promote cultural exchange.", "website": "goethe.de" }, "geometry": null },
-{ "type": "Feature", "properties": { "id": 72, "name": "HONED By Claire Kinder", "type": "Retail", "description": "HONED by Claire Kinder is a cultivation & curation project by fine jewelry designer, Claire Kinder Barrett. She wanted to create a space where she could bring together the work of friends and inspiring designers from across the continent, as well as opening a dialog with local Seattle designers.", "website": "clairekinder.com" }, "geometry": null },
-{ "type": "Feature", "properties": { "id": 73, "name": "Horizon Books", "type": "Retail", "description": "Horizon Books, started in 1971, remains one of Seattle‚Äôs last used bookstores, and is kept alive by an active community of bibliophiles, dedicated to sifting through the thousands of boxes hidden away, and to opening it as a much needed community space for art walks, drawing groups, and the odd podcaster or two.", "website": "seattlehorizonbooks.com" }, "geometry": null },
-{ "type": "Feature", "properties": { "id": 74, "name": "Knack Modern Gift Giving", "type": "Retail", "description": "Have you ever given someone a gift so perfect that you could barely wait for them to open it? That gift had a story behind it. Knack Modern Gift Giving‚Äôs gifts tell stories, too. And while they love to surprise & delight customers with their unique example gifts, that‚Äôs just the beginning. They help you tell your story through the creation of gifts that reflect your unique recipient, occasion, price, message & values.", "website": "knackshops.com" }, "geometry": null },
-{ "type": "Feature", "properties": { "id": 75, "name": "Le Labo", "type": "Retail", "description": "Le Labo offers fine fragrances in personalized perfumes, candles, shampoo, lotion and more.", "website": "lelabofragrances.com" }, "geometry": null },
-{ "type": "Feature", "properties": { "id": 76, "name": "Moo-Young", "type": "Retail", "description": "Moo-Young is a Seattle-based maker currently obsessing with all things leather and shibori.", "website": "shopmoo-young.com" }, "geometry": null },
-{ "type": "Feature", "properties": { "id": 77, "name": "No Parking on Pike", "type": "Retail", "description": "No Parking on Pike is a purveyor of fine oddities and fabulous vintage treasures, featuring vintage jewelry, taxidermy, cowboy boots, vintage Playboy & Penthouse magazines, tiki, fedoras, art and more!", "website": "facebook.com\/NoParkingOnPike" }, "geometry": null },
-{ "type": "Feature", "properties": { "id": 78, "name": "Ollie Quinn", "type": "Retail", "description": "Ollie Quinn is an independent eyewear brand offering the highest quality frames at one affordable price. Visit their boutique just off Broadway on East Pike to check out their glasses and sunglasses!", "website": "oqspecs.com" }, "geometry": null },
-{ "type": "Feature", "properties": { "id": 79, "name": "Out of the Closet", "type": "Retail", "description": "When you shop at Out of the Closet, you‚Äôre directly helping people living with HIV. 96¬¢ of every dollar collected by their stores directly fund AIDS Healthcare Foundation‚Äôs HIV\/AIDS programs and services in the U.S. and abroad, providing cutting-edge HIV medical care, regardless of a person‚Äôs ability to pay. Decidedly the world‚Äôs most fabulous thrift store, and known to regulars as ‚Äúthe best kept secret in town.\" Stop by their store to shop or donate!", "website": "outofthecloset.org" }, "geometry": null },
-{ "type": "Feature", "properties": { "id": 80, "name": "Retail Therapy", "type": "Retail", "description": "Smell good, look good and feel good at Retail Therapy. Featuring unique clothing, jewelry, pins, cards, and more, all while supporting a variety of local artists, Retail Therapy is the perfect place to pick up a gift or something to make yourself feel special. ", "website": "indeedretailtherapy.com" }, "geometry": null },
-{ "type": "Feature", "properties": { "id": 81, "name": "Retrofit Home", "type": "Retail", "description": "Retrofit Home is a Capitol Hill staple, noted by the big orange chair outside, providing a fun place to buy gifts, cards, candles, and stylish home furnishings. Retrofit Home is the anchor that reminds us all of the kinds of businesses that originally drew us to this neighborhood.", "website": "retrofithome.com" }, "geometry": { "type": "Point", "coordinates": [ -122.31797514, 47.61398067 ] } },
-{ "type": "Feature", "properties": { "id": 82, "name": "Ritual", "type": "Retail", "description": "Ritual offers apparel and giftware with an edge - and a purpose. They focus on vendors both local and international, fashion that is both avant-garde and mindful, and an aesthetic that feels otherworldly, yet still emblematic of the Pacific Northwest. Their 'Seattle of the future' is a nexus of fashion, community, conscience, and art.", "website": "buyritual.com" }, "geometry": null },
-{ "type": "Feature", "properties": { "id": 83, "name": "Rove", "type": "Retail", "description": "ROVE offers a curated selection of unique vintage for the fashion friend with a rock 'n roll soul. Specializing in 1950-1990s vintage, their 'rock n' rare' vintage finds can be explored in their shop or on their online store.", "website": "roveseattle.com" }, "geometry": null },
-{ "type": "Feature", "properties": { "id": 84, "name": "Sway and Cake", "type": "Retail", "description": "Sway and Cake is located in the heart of Capitol Hill in the historic Chophouse Row building. The shop is a personal and modern approach to the traditional retail experience. With style and quality in mind, they feature fun, fresh edits and a mix of new emerging designers and classic quality brands. Sway and Cake has a curated and lively approach to selecting all of their fashion, gift, and lifestyle products.", "website": "swayandcake.com" }, "geometry": null },
-{ "type": "Feature", "properties": { "id": 85, "name": "Totokaelo", "type": "Retail", "description": "Totokaelo is aurveyor of beautifully designed and thoughtfully curated fashion and objects.", "website": "totokaelo.com" }, "geometry": null },
-{ "type": "Feature", "properties": { "id": 86, "name": "Zion's Gate", "type": "Retail", "description": "We specialize in good music from every genre. Our shop is located in Seattle, WA at 1100 E. Pike St. In our store you will find Vinyl, CD's, Cassettes, DVDs, Blu-Ray, Pins, Patches and Seattle's BEST selection of band t-shirts and hoodies which you can find online as well in our ebay store. Stop on by and become a gate creeper today! ", "website": "zionsgate.com" }, "geometry": null },
-{ "type": "Feature", "properties": { "id": 87, "name": "AHF Pharmacy", "type": "Service", "description": "AHF Pharmacy is a not-for-profit healthcare provider and 96 cents per dollar of their earnings go back into providing services to their patients and the communities they serve.", "website": "ahfpharmacy.org" }, "geometry": null },
-{ "type": "Feature", "properties": { "id": 88, "name": "Cake Skincare", "type": "Service", "description": "Cake Skincare believes beauty should be sweet, not tasking or challenging, and never a chore. At Cake, their goal is to provide a skincare experience elevated to an entirely new level of service. Visit their location in Chophouse Row for a custom tailored opportunity to relax and indulge, while benefiting from clinical results.", "website": "cakeskincare.com" }, "geometry": null },
-{ "type": "Feature", "properties": { "id": 89, "name": "Emerson Salon", "type": "Service", "description": "Emerson Salon is a community of independent hair designers located in Capitol Hill. Every single hair professional at Emerson runs their own business from chair to chair. From their pricing and specialties, to how they run their schedule and take payment, these highly trained individuals take hair entrepreneurship to the next level! Emerson's stylists have many, many years of experience and truly care about providing clients with quality service. Emerson stylists are intent on making you happy with your hair through style that works!", "website": "emersonsalon.com" }, "geometry": null },
-{ "type": "Feature", "properties": { "id": 90, "name": "F45 Training", "type": "Service", "description": "F45 Training offers dynamic and effective training styles. Not only do they offer unique workouts, they find a way to vary those workouts every day and make them accessible to the masses. F45 has highly-capable, charismatic instructors that lead workouts to motivate people to reach their potential, and offer a structured, systemized and powerful training system.", "website": "f45training.com" }, "geometry": null },
-{ "type": "Feature", "properties": { "id": 91, "name": "Good Weather", "type": "Service", "description": "Good Weather is a cafe and shop located in Seattle‚Äôs Capitol Hill neighborhood. It‚Äôs owned and run by a few urban cyclists with hundreds of thousands of miles in the saddle and countless hours in restaurants and cafes. For bicycles, they cover the gamut of retail and service options from flats to fully custom builds and retrofits. For food, they make delicious sandwiches, salads, and snacks as well as weekend brunch and nightly beer and wine.", "website": "goodweatherinseattle.com" }, "geometry": null },
-{ "type": "Feature", "properties": { "id": 92, "name": "Hothouse Spa", "type": "Service", "description": "Hothouse is warm and inviting and relaxing and underground and small and only for you. Only for you if you are a woman, that is, with a few dollars and a few minutes. There's a big hot tub, and dry and steam saunas, and a place to take a naplet. There's a cold plunge in the form of a shower that dumps frigidness onto your head when you pull a lever. There is no talking, only whispering, and if you break this rule, you will be scolded, which is kind of fun and funny, and then you can return to being quiet, because after all, you came here to get quieter, to get away.", "website": "hothousespa.com" }, "geometry": null },
-{ "type": "Feature", "properties": { "id": 93, "name": "Lifelong", "type": "Service", "description": "Lifelong is a community health organization based on Capitol Hill, improving the health and well-being of people with life-threatening illnesses. Founded in 1983, the agency was forged in the HIV\/AIDS crisis, providing comprehensive services to people affected by the epidemic. Lifelong has expanded to also provide support to those living with other serious illnesses like cancer, diabetes and kidney and heart disease. Their food and nutrition program, Chicken Soup Brigade, is unique in the Northwest region as the only clinically focused, diagnosis specific, meal and grocery operation. By keeping people healthy, providing prevention education and managing care, Lifelong plays a critical role for thousands of vulnerable individuals in our community.", "website": "lifelongthrift.com" }, "geometry": null },
-{ "type": "Feature", "properties": { "id": 94, "name": "Mode Fitness", "type": "Service", "description": "Welcome to a locally owned gym that is a lot more health and a lot less 'club'. We're a place to blow off steam after work, a place to meet your friends for a dance class, a place to challenge yourself, or heal your soul‚Ä¶We're here to help you find your Mode of Fitness and reach your goals in a way that works for you.\n\nMode Gym has earned a reputation for combining state-of-the-art equipment, approachable trainers, and a clean and welcoming space. It‚Äôs the type of gym we always wanted to work out at ourselves. Our trainers will help you create the perfect workout utilizing our equipment from Technogym¬Æ. Check out Mode Gym and find a healthier version of yourself.", "website": "modeoffitness.com" }, "geometry": null },
-{ "type": "Feature", "properties": { "id": 95, "name": "Rain City Fit", "type": "Service", "description": "Rain City Fit is a strength & conditioning facility serving the Capitol Hill neighborhood of Seattle.", "website": "raincityfit.com" }, "geometry": null },
-{ "type": "Feature", "properties": { "id": 96, "name": "SalonDEWI", "type": "Service", "description": "About Travis: I am the Waxing Diva, otherwise known as Travis Powell, and my specialty is the Brazilian wax. What is a Brazilian wax, you ask? It is a bikini wax where all the hair (yes, darling, that hair in the ‚Äúhidden‚Äù pubic areas ‚Äì lip and bum) is removed. \n\nAbout Eri: She is the lead esthetician at SalonDEWI since 2004, is a familiar and friendly face at the spa. She is known as quick and efficient when it comes to waxing, but always aspires to help her clients look and feel beautiful. ", "website": "salondewi.com" }, "geometry": null },
-{ "type": "Feature", "properties": { "id": 97, "name": "Seattle Puppyworks", "type": "Service", "description": "Seattle Puppyworks specializes in puppy development, socialization and skill building. Driven by their commitment to the human\/canine relationship, each of their certified trainers and instructors utilizes only the most cutting-edge training and behavior modification techniques approved by the American Humane Association. They have a fierce appreciation for their canine and  human students, and their methods are relevant, effective, & sound.", "website": "seattlepuppyworks.com" }, "geometry": null },
-{ "type": "Feature", "properties": { "id": 98, "name": "Supergenius Tattoo", "type": "Service", "description": "Supergenius Tattoo hosts custom tattoo artists spanning the globe to bring you a constant variety of tattooing. Ageless ideas, limitless research, and priceless tattoos!", "website": "seattle-tattoos.com" }, "geometry": null },
-{ "type": "Feature", "properties": { "id": 99, "name": "The Gary Manuel Aveda Institute", "type": "Service", "description": "The Gary Manuel Aveda Institute provides a unique education experience combining the art and science of excellence. After grooming numerous stylists for nearly 40 years, industry leaders Gary Howse and Manuel Benevich, co-founders of Gary Manuel Salon, combined their exceptional abilities and leadership skills with Aveda's global curriculum and outstanding products in order to deliver incomparable training for aspiring professionals.", "website": "gmaveda.com" }, "geometry": null },
-{ "type": "Feature", "properties": { "id": 100, "name": "The Scotch Pine", "type": "Service", "description": "The Scotch Pine barbershop is romantic. It swoons for close shaves with hot lather and blushes for both old school and modern cuts. Much more than a place to get your hair cut, The Scotch Pine manifests a classic vibe. It‚Äôs like that feeling when the first song comes on or when the cold can is cracked open or when the cloth is pulled from your chest to reveal a newly expressed you. The stylists at The Scotch Pine bring an artistic touch within the rustic warm walls of the wooden, industrial Northwest room. Offering you a place to feel at home, relaxed and lovingly refreshed.", "website": "thescotchpine.com" }, "geometry": null },
-{ "type": "Feature", "properties": { "id": 101, "name": "Brew Dr Kombucha ", "type": "Sponsor", "description": null, "website": null }, "geometry": null },
-{ "type": "Feature", "properties": { "id": 102, "name": "Brixton ", "type": "Sponsor", "description": null, "website": null }, "geometry": null },
-{ "type": "Feature", "properties": { "id": 103, "name": "Broadstone Saxton ", "type": "Sponsor", "description": null, "website": null }, "geometry": null },
-{ "type": "Feature", "properties": { "id": 104, "name": "Caffe Vita ", "type": "Sponsor", "description": null, "website": null }, "geometry": null },
-{ "type": "Feature", "properties": { "id": 105, "name": "Converse CONS", "type": "Sponsor", "description": null, "website": null }, "geometry": null },
-{ "type": "Feature", "properties": { "id": 106, "name": "Craving Amazing", "type": "Sponsor", "description": null, "website": null }, "geometry": null },
-{ "type": "Feature", "properties": { "id": 107, "name": "Glasswing", "type": "Sponsor", "description": null, "website": null }, "geometry": null },
-{ "type": "Feature", "properties": { "id": 108, "name": "Health 1st Chiropractic ", "type": "Sponsor", "description": null, "website": null }, "geometry": null },
-{ "type": "Feature", "properties": { "id": 109, "name": "LOGE ", "type": "Sponsor", "description": null, "website": null }, "geometry": { "type": "Point", "coordinates": [ -122.318335680037023, 47.614181162607011 ] } },
-{ "type": "Feature", "properties": { "id": 111, "name": "MusicBC", "type": "Sponsor", "description": null, "website": null }, "geometry": null },
-{ "type": "Feature", "properties": { "id": 112, "name": "Ollie Quinn", "type": "Sponsor", "description": null, "website": null }, "geometry": null },
-{ "type": "Feature", "properties": { "id": 113, "name": "Otterbox ", "type": "Sponsor", "description": null, "website": null }, "geometry": { "type": "Point", "coordinates": [ -122.31954358, 47.61430608 ] } },
-{ "type": "Feature", "properties": { "id": 114, "name": "Otterbox ", "type": "Sponsor", "description": null, "website": null }, "geometry": null },
-{ "type": "Feature", "properties": { "id": 115, "name": "PAX", "type": "Sponsor", "description": "Our exclusive vaporizer sponsor of CHBP 2019! Check out their lounge in the Vera Beer Garden on 11th & Pike (21+ only).  \n\nPAX Labs was founded in 2007 with the goal of creating responsible, enjoyable, and personalized vaporizer experiences. As an award-winning consumer technology brand in 2018, PAX products continue to represent the gold standard in product quality as we aim to move the space beyond stereotypes. Most of all, they want to be good stewards for a product and movement that enhances many people‚Äôs lives. Their loose leaf and extract vaporizer products are made with high quality materials and offer empowering experiences for those looking for a premium and discreet product. Their focus on design and innovation means we have best-in-class software and hardware, and provide tools so that you can personalize each and every experience.  ", "website": "https:\/\/www.pax.com\/" }, "geometry": null },
-{ "type": "Feature", "properties": { "id": 119, "name": "The Lounge by AT&T ", "type": "Sponsor", "description": null, "website": null }, "geometry": null },
-{ "type": "Feature", "properties": { "id": 120, "name": "The Sweatbox Yoga ", "type": "Sponsor", "description": "The SweatBox Yoga's mission: improve your physical, mental and spiritual health. The SweatBox offers a supportive environment for Yogis of all practice levels. Above all else, they value health, wellness, and community. As such, their class offerings support physical, emotional and spiritual growth for all students. Their committed instructors teach with open-minds and open-hearts.", "website": "sweatboxyoga.com" }, "geometry": null },
-{ "type": "Feature", "properties": { "id": 122, "name": "Topo Chico ", "type": "Sponsor", "description": null, "website": null }, "geometry": null },
-{ "type": "Feature", "properties": { "id": 123, "name": "ZOOM+care", "type": "Sponsor", "description": null, "website": null }, "geometry": null },
-{ "type": "Feature", "properties": { "id": 124, "name": "Capitol Hill Block Party Merch", "type": null, "description": null, "website": null }, "geometry": { "type": "Point", "coordinates": [ -122.318328217514932, 47.614083779260355 ] } },
-{ "type": "Feature", "properties": { "id": 8, "name": "Chophouse Row", "type": "Free Event", "description": "Brand new just last year, the highly popular Chophouse Row Courtyard DJs are back for CHBP 2019! We‚Äôve partnered with Chophouse Row again to bring you live DJ sets in their intimate indoor \/ outdoor courtyard. Free to the public via access from Chophouse‚Äôs entrance on 12th Avenue, and also available to CHBP ticket holders within the festival gates. Taking place each day of the festival, we‚Äôll have live sets from a variety of local DJs. ", "website": null }, "geometry": { "type": "Point", "coordinates": [ -122.31748934, 47.61375294 ] } },
-{ "type": "Feature", "properties": { "id": 110, "name": "Lyft ", "type": "Sponsor", "description": null, "website": null }, "geometry": { "type": "Point", "coordinates": [ -122.318519723816692, 47.614054806975339 ] } },
-{ "type": "Feature", "properties": { "id": 117, "name": "REBBL ", "type": "Sponsor", "description": null, "website": null }, "geometry": { "type": "Point", "coordinates": [ -122.318519800583019, 47.61409653162044 ] } },
-{ "type": "Feature", "properties": { "id": 22, "name": "The Washington Bus ", "type": "Nonprofit ", "description": null, "website": null }, "geometry": { "type": "Point", "coordinates": [ -122.318412178867277, 47.61409717661563 ] } },
-{ "type": "Feature", "properties": { "id": 16, "name": "Jubilee Women's Center", "type": "Nonprofit ", "description": null, "website": null }, "geometry": { "type": "Point", "coordinates": [ -122.318412014524839, 47.614069609095637 ] } },
-{ "type": "Feature", "properties": { "id": 17, "name": "KEXP", "type": "Nonprofit ", "description": null, "website": null }, "geometry": { "type": "Point", "coordinates": [ -122.318370337847057, 47.61409722829314 ] } },
-{ "type": "Feature", "properties": { "id": 124, "name": "Merch", "type": null, "description": null, "website": null }, "geometry": { "type": "Point", "coordinates": [ -122.318328217514932, 47.614083779260355 ] } },
-{ "type": "Feature", "properties": { "id": 125, "name": "TBD", "type": null, "description": null, "website": null }, "geometry": { "type": "Point", "coordinates": [ -122.318411268673842, 47.614042130139133 ] } },
-{ "type": "Feature", "properties": { "id": 126, "name": "American Spirit", "type": null, "description": null, "website": null }, "geometry": { "type": "Point", "coordinates": [ -122.318603908014524, 47.614068339116223 ] } },
-{ "type": "Feature", "properties": { "id": 101, "name": "Brew Dr Kombucha ", "type": "Sponsor", "description": null, "website": null }, "geometry": { "type": "Point", "coordinates": [ -122.318378442670948, 47.614181106179551 ] } },
-{ "type": "Feature", "properties": { "id": 127, "name": "TBD", "type": null, "description": null, "website": null }, "geometry": { "type": "Point", "coordinates": [ -122.318420537088244, 47.614181278546511 ] } },
-{ "type": "Feature", "properties": { "id": 44, "name": "Molly Moons", "type": "Restaurant \/ Bar", "description": "At Molly Moon‚Äôs, they couple milk and cream from hormone-free dairy cows at family-owned Edaleen Dairy Farm with local, seasonal, and, as much as possible, organic fruits and spices to make combinations that are both familiar and surprising. Everything they can get from local farmers, they do, including sugar from Idaho, lavender from Sequim, honey from the foothills of the Olympics, and more than 90% of all their ingredients.", "website": "mollymoon.com" }, "geometry": { "type": "Point", "coordinates": [ -122.318451983363872, 47.614174546859473 ] } },
-{ "type": "Feature", "properties": { "id": 128, "name": "TBD", "type": null, "description": null, "website": null }, "geometry": { "type": "Point", "coordinates": [ -122.318473469720445, 47.614174531351473 ] } },
-{ "type": "Feature", "properties": { "id": 19, "name": "Sensory Access ", "type": "Nonprofit ", "description": null, "website": null }, "geometry": { "type": "Point", "coordinates": [ -122.318370136878954, 47.614069638007052 ] } },
-{ "type": "Feature", "properties": { "id": 129, "name": "Sushi Dog", "type": null, "description": null, "website": null }, "geometry": { "type": "Point", "coordinates": [ -122.318850696072261, 47.614180528084475 ] } },
-{ "type": "Feature", "properties": { "id": 143, "name": "Clif Bar", "type": null, "description": null, "website": null }, "geometry": { "type": "Point", "coordinates": [ -122.319452723695932, 47.615104754112274 ] } },
-{ "type": "Feature", "properties": { "id": 104, "name": "Caffe Vita ", "type": "Sponsor", "description": null, "website": null }, "geometry": { "type": "Point", "coordinates": [ -122.31877812942939, 47.614172928507791 ] } },
-{ "type": "Feature", "properties": { "id": 130, "name": "TBD", "type": null, "description": null, "website": null }, "geometry": { "type": "Point", "coordinates": [ -122.31883566651149, 47.614234063345428 ] } },
-{ "type": "Feature", "properties": { "id": 131, "name": "Thai U Up", "type": null, "description": null, "website": null }, "geometry": { "type": "Point", "coordinates": [ -122.318834966081539, 47.614316017876845 ] } },
-{ "type": "Feature", "properties": { "id": 132, "name": "Mix Poke", "type": null, "description": null, "website": null }, "geometry": { "type": "Point", "coordinates": [ -122.318838477924501, 47.614390447415197 ] } },
-{ "type": "Feature", "properties": { "id": 133, "name": "Bar Mel", "type": null, "description": null, "website": null }, "geometry": { "type": "Point", "coordinates": [ -122.318839622148928, 47.6144395561032 ] } },
-{ "type": "Feature", "properties": { "id": 135, "name": "Dumpling Tzar", "type": null, "description": null, "website": null }, "geometry": { "type": "Point", "coordinates": [ -122.318983132024414, 47.614471083499573 ] } },
-{ "type": "Feature", "properties": { "id": 138, "name": "Poquitos", "type": "Sponsor", "description": null, "website": null }, "geometry": { "type": "Point", "coordinates": [ -122.319013298243604, 47.614360676865061 ] } },
-{ "type": "Feature", "properties": { "id": 123, "name": "ZOOM+care", "type": "Sponsor", "description": null, "website": null }, "geometry": { "type": "Point", "coordinates": [ -122.319544143418341, 47.614334117560546 ] } },
-{ "type": "Feature", "properties": { "id": 158, "name": "Community Skate Session", "description": "Join us for a community skate session brought to you by Skate Like A Girl‚ including a custom-build halfpipe, live drone footage, music, prizes, and more!", "type": null, "website": null }, "geometry": null },
-{ "type": "Feature", "properties": { "id": 140, "name": "Hubbert's Lemonade", "type": null, "description": null, "website": null }, "geometry": { "type": "Point", "coordinates": [ -122.319543799977339, 47.61422315194929 ] } },
-{ "type": "Feature", "properties": { "id": 115, "name": "PAX", "type": "Sponsor", "description": "Our exclusive vaporizer sponsor of CHBP 2019! Check out their lounge in the Vera Beer Garden on 11th & Pike (21+ only).  \n\nPAX Labs was founded in 2007 with the goal of creating responsible, enjoyable, and personalized vaporizer experiences. As an award-winning consumer technology brand in 2018, PAX products continue to represent the gold standard in product quality as we aim to move the space beyond stereotypes. Most of all, they want to be good stewards for a product and movement that enhances many people‚Äôs lives. Their loose leaf and extract vaporizer products are made with high quality materials and offer empowering experiences for those looking for a premium and discreet product. Their focus on design and innovation means we have best-in-class software and hardware, and provide tools so that you can personalize each and every experience.  ", "website": "https:\/\/www.pax.com\/" }, "geometry": { "type": "Point", "coordinates": [ -122.317797191655387, 47.614127715263081 ] } },
-{ "type": "Feature", "properties": { "id": 157, "name": null, "type": null, "description": null, "website": null }, "geometry": { "type": "Point", "coordinates": [ -122.319309580197995, 47.614599251293349 ] } },
-{ "type": "Feature", "properties": { "id": 158, "name": "Community Skate Session", "description": "Join us for a community skate session brought to you by Skate Like A Girl‚ including a custom-build halfpipe, live drone footage, music, prizes, and more!", "type": null, "website": null }, "geometry": { "type": "Point", "coordinates": [ -122.319871690193168, 47.615905765010908 ] } },
-{ "type": "Feature", "properties": { "id": 108, "name": "Health 1st Chiropractic ", "type": "Sponsor", "description": null, "website": null }, "geometry": { "type": "Point", "coordinates": [ -122.317880483979479, 47.614010667562653 ] } },
-{ "type": "Feature", "properties": { "id": 142, "name": "NEKO", "type": null, "description": null, "website": null }, "geometry": { "type": "Point", "coordinates": [ -122.317838884691056, 47.614010667562653 ] } },
-{ "type": "Feature", "properties": { "id": 103, "name": "Broadstone Saxton ", "type": "Sponsor", "description": null, "website": null }, "geometry": { "type": "Point", "coordinates": [ -122.317797238450808, 47.614010737524872 ] } },
-{ "type": "Feature", "properties": { "id": 21, "name": "The Vera Project", "type": "Nonprofit ", "description": null, "website": null }, "geometry": { "type": "Point", "coordinates": [ -122.318239102405144, 47.614231366833693 ] } },
-{ "type": "Feature", "properties": { "id": 144, "name": "TBD", "type": null, "description": null, "website": null }, "geometry": { "type": "Point", "coordinates": [ -122.319420031943778, 47.615065054899794 ] } },
-{ "type": "Feature", "properties": { "id": 145, "name": "TBD", "type": null, "description": null, "website": null }, "geometry": { "type": "Point", "coordinates": [ -122.31941972234452, 47.615009955963963 ] } },
-{ "type": "Feature", "properties": { "id": 146, "name": "TBD", "type": null, "description": null, "website": null }, "geometry": { "type": "Point", "coordinates": [ -122.319419276614411, 47.614967220037073 ] } },
-{ "type": "Feature", "properties": { "id": 32, "name": "Caffe Vita", "type": "Restaurant \/ Bar", "description": "Caffe Vita has been roasting coffee in Seattle since 1995 as an independent & locally-owned company. From their beginnings at the base of Seattle‚Äôs Queen Anne neighborhood, they now operate 13 cafes throughout Seattle, Portland, New York, and Los Angeles. Caffe Vita coffee is always fresh, imported directly from the farm, and roasted on-site in Seattle, Brooklyn, and Portland.", "website": "caffevita.com" }, "geometry": { "type": "Point", "coordinates": [ -122.31905089473338, 47.613969891720231 ] } },
-{ "type": "Feature", "properties": { "id": 48, "name": "Quinn's", "type": "Restaurant \/ Bar", "description": "At Quinn‚Äôs Pub they take traditions of the classic public house and raise them to new levels. They are community driven, quality focused, and a continual experiment in what it means to be a pub. Their food is always evolving, their bar carefully curated, and their space open to all.", "website": "quinnspubseattle.com" }, "geometry": { "type": "Point", "coordinates": [ -122.319229792618373, 47.613975170464478 ] } },
-{ "type": "Feature", "properties": { "id": 68, "name": "Everyday Music", "type": "Retail", "description": "Everyday Music is an independently-owned and operated company with three locations in Oregon and two in Washington. Started in 1995, the owners have a combined 35 years of music store experience - that's a lot of records! Despite the mega-chains and the e-tailers, EM has, due to a lot of hard work and a lot of very good people, continued to thrive. EM has inventory in all genres of music: rock and pop, rap and hip-hop, jazz and blues, folk and country, reggae and world music.", "website": "everydaymusic.com" }, "geometry": { "type": "Point", "coordinates": [ -122.319310042572582, 47.61475023705831 ] } },
-{ "type": "Feature", "properties": { "id": 147, "name": "Restrooms", "type": null, "description": null, "website": null }, "geometry": { "type": "Point", "coordinates": [ -122.318088411075209, 47.61430009161262 ] } },
-{ "type": "Feature", "properties": { "id": 150, "name": "Restrooms", "type": null, "description": null, "website": null }, "geometry": { "type": "Point", "coordinates": [ -122.319410498411145, 47.613605939116503 ] } },
-{ "type": "Feature", "properties": { "id": 151, "name": "Restrooms", "type": null, "description": null, "website": null }, "geometry": { "type": "Point", "coordinates": [ -122.319427326012857, 47.614606248197376 ] } },
-{ "type": "Feature", "properties": { "id": 43, "name": "Marmite", "type": "Restaurant \/ Bar", "description": "Marmite and its interior bar Spirit in the Bottle are inspired by the best of what‚Äôs fresh, the woodsy nature of our urban space, and a very good sense of humor. They do things the way they like to do them: by hand. As many components of their cuisine and cocktails as possible are seasonal, made in-house, and utilize Bruce‚Äôs stocks and broths which simmer for hours in their namesake 40 gallon marmite (a classic French cooking pot).", "website": "marmiteseattle.com" }, "geometry": { "type": "Point", "coordinates": [ -122.317942854822263, 47.613730832332941 ] } },
-{ "type": "Feature", "properties": { "id": 64, "name": "BAIT", "type": "Retail", "description": "BAIT is a streetwear and sneaker retail store located in Capitol Hill. The retailer has collaborated with the likes of Reebok, ASICS, Saucony and Onitsuka Tiger, and sells its own in-house apparel line alongside a wide selection of sneakers and streetwear.", "website": "baitme.com" }, "geometry": { "type": "Point", "coordinates": [ -122.319928913994346, 47.613969994139929 ] } },
-{ "type": "Feature", "properties": { "id": 61, "name": "Via Tribunalli", "type": "Restaurant \/ Bar", "description": "Via Tribunali embodies the essence of what authentic Italian pizza should be: soft, well-cooked, fragrant and enclosed in a high, soft edge of crust. As a member of the Verace Pizza Napoletana Association, Via Tribunali respects the culinary discipline associated with making authentic Neapolitan pizza.", "website": "viatribunali.com" }, "geometry": { "type": "Point", "coordinates": [ -122.320057927535871, 47.613969666459411 ] } },
-{ "type": "Feature", "properties": { "id": 28, "name": "Big Marios", "type": "Restaurant \/ Bar", "description": "In the winter of 1964, Mario Vellotti emigrated from Naples, Italy to live and work on Mulberry Street in New York City. Mario made his early living tossing pizza and cooking in some of New York's most notorious kitchens; Angelo's, Casa Bella on Mulberry Street and Nanni Al Valletto on 59th Street. Later Mario joined his brother and uncle in the family business, opening their world-famous pizzerias in all five Burroughs, including Sal's on Broome Street, Bensonhurst's J & V and the original Patricia's in the Bronx. Big Marios Pizza is in Seattle now... enjoy!", "website": "bigmariosnewyorkpizza.com" }, "geometry": { "type": "Point", "coordinates": [ -122.318873047884267, 47.613980774604613 ] } },
-{ "type": "Feature", "properties": { "id": 62, "name": "Wildrose", "type": "Restaurant \/ Bar", "description": "Wildrose is one of the oldest lesbian bars on the West Coast, offering DJs, karaoke & seasonal outdoor seating.", "website": "wildrosebar.com" }, "geometry": { "type": "Point", "coordinates": [ -122.318393907775118, 47.613983787026143 ] } },
-{ "type": "Feature", "properties": { "id": 65, "name": "Castle", "type": "Retail", "description": "Castle Megastore is the nations leading retailer of essentials for lovers and opened its doors in 1987. Their focus is to create a fun, friendly, shopping experience that is safe and well lit.", "website": "castlemegastore.com" }, "geometry": { "type": "Point", "coordinates": [ -122.318596766216231, 47.613981743630752 ] } },
-{ "type": "Feature", "properties": { "id": 85, "name": "Totokaelo", "type": "Retail", "description": "Totokaelo is aurveyor of beautifully designed and thoughtfully curated fashion and objects.", "website": "totokaelo.com" }, "geometry": { "type": "Point", "coordinates": [ -122.319611991349547, 47.614778324975241 ] } },
-{ "type": "Feature", "properties": { "id": 66, "name": "Elliott Bay Book Company", "type": "Retail", "description": "Elliott Bay Book Company is a full service bookstore, home to over 150,000 titles, set on cedar shelves in a multi-level, inviting unique atmosphere. Elliott Bay offers one of the region's best selection of new books, as well as a large collection of bargain editions. They present an unparalleled schedule of author readings and events throughout the year.", "website": "elliotbaybook.com" }, "geometry": { "type": "Point", "coordinates": [ -122.319609716741283, 47.61460507523833 ] } },
-{ "type": "Feature", "properties": { "id": 42, "name": "Lost Lake", "type": "Restaurant \/ Bar", "description": "Lost Lake Caf√© & Lounge is Seattle's favorite 24-hour diner and bar with a mid-century modern feel. Lost Lake's large menu of traditional American comfort food includes options for any time of the day-breakfast, brunch, lunch, dinner, or even late night drinks-with vegetarian & vegan dishes, as well.", "website": "lostlakecafe.com" }, "geometry": { "type": "Point", "coordinates": [ -122.319597595831411, 47.61442084245423 ] } },
-{ "type": "Feature", "properties": { "id": 34, "name": "Capitol Lounge", "type": "Restaurant \/ Bar", "description": "Capitol Lounge is a newly opened bar that offers chill vibes and tasty drinks.", "website": "capitolloungeseattle.com" }, "geometry": { "type": "Point", "coordinates": [ -122.319928677016279, 47.614207717995946 ] } },
-{ "type": "Feature", "properties": { "id": 39, "name": "Ikina Sushi", "type": "Restaurant \/ Bar", "description": "Ikina Sushi is a popular Japanese spot nestled in Capitol Hill offering sushi, sashimi, noodles, and a full cocktail bar.", "website": "https:\/\/www.facebook.com\/Ikina-Sushi" }, "geometry": { "type": "Point", "coordinates": [ -122.319817200815706, 47.614210152008866 ] } },
-{ "type": "Feature", "properties": { "id": 57, "name": "The Comet Tavern", "type": "Restaurant \/ Bar", "description": "The Comet Tavern is a rough-and-ready bar serving Capitol Hill since 1948 with local rock bands, beer & pinball, plus a long daily happy hour.", "website": "thecomettavern.com" }, "geometry": { "type": "Point", "coordinates": [ -122.319669459431267, 47.614210435280519 ] } },
-{ "type": "Feature", "properties": { "id": 30, "name": "Bok a Bok", "type": "Restaurant \/ Bar", "description": "Bok a Bok fried chicken is air-dried, hand-dipped and double-fried to order. This process isn‚Äôt fast but it makes for super juicy chicken with an unforgettable crunch. It‚Äôs fresh, never frozen, antibiotic- and hormone-free chicken. It‚Äôs hand-made biscuits and sides made from scratch, using fresh, responsibly sourced ingredients that we prepare with care and integrity.", "website": "bokabokchicken.com" }, "geometry": { "type": "Point", "coordinates": [ -122.319604056160543, 47.613855072016655 ] } },
-{ "type": "Feature", "properties": { "id": 153, "name": "Stage outside Neumos", "type": null, "description": null, "website": null }, "geometry": { "type": "Point", "coordinates": [ -122.319569720589854, 47.613893576140363 ] } },
-{ "type": "Feature", "properties": { "id": 154, "name": "Tickets and Customer Service", "type": null, "description": null, "website": null }, "geometry": { "type": "Point", "coordinates": [ -122.317379112814578, 47.614152449335343 ] } },
-{ "type": "Feature", "properties": { "id": 156, "name": "First Aid", "type": null, "description": null, "website": null }, "geometry": { "type": "Point", "coordinates": [ -122.319434792331279, 47.614656420233466 ] } },
-{ "type": "Feature", "properties": { "id": 78, "name": "Ollie Quinn", "type": "Retail", "description": "Ollie Quinn is an independent eyewear brand offering the highest quality frames at one affordable price. Visit their boutique just off Broadway on East Pike to check out their glasses and sunglasses!", "website": "oqspecs.com" }, "geometry": { "type": "Point", "coordinates": [ -122.320150348760009, 47.61419667256741 ] } },
-{ "type": "Feature", "properties": { "id": 82, "name": "Ritual", "type": "Retail", "description": "Ritual offers apparel and giftware with an edge - and a purpose. They focus on vendors both local and international, fashion that is both avant-garde and mindful, and an aesthetic that feels otherworldly, yet still emblematic of the Pacific Northwest. Their 'Seattle of the future' is a nexus of fashion, community, conscience, and art.", "website": "buyritual.com" }, "geometry": { "type": "Point", "coordinates": [ -122.320035939748678, 47.614192854730263 ] } },
-{ "type": "Feature", "properties": { "id": 157, "name": null, "type": null, "description": null, "website": null }, "geometry": { "type": "Point", "coordinates": [ -122.319309580197995, 47.614599251293349 ] } },
-{ "type": "Feature", "properties": { "id": 46, "name": "Poquito's", "type": "Restaurant \/ Bar", "description": "At Poquitos they strive to present delicious Mexican cuisine prepared with ingredients that are the best of both worlds - outstanding local sourcing for their meats and produce; unique and direct sourcing for items essential to honoring the culinary traditions of Mexico.", "website": "vivapoquitos.com" }, "geometry": { "type": "Point", "coordinates": [ -122.319304264196234, 47.614285567781913 ] } },
-{ "type": "Feature", "properties": { "id": 38, "name": "Havana", "type": "Restaurant \/ Bar", "description": "Havana Social Club is a beautiful booth-lined cocktails spot with seriously sweet DJs to get you on the dance floor and the kind of slightly mysterious location that keeps the wrong kind of dudes away. This place is selling elegance and you are buying. The ceiling is painted gold, so you know this club means business.", "website": "havanasocial.com" }, "geometry": { "type": "Point", "coordinates": [ -122.319299907168983, 47.614442754897865 ] } },
-{ "type": "Feature", "properties": { "id": 79, "name": "Out of the Closet", "type": "Retail", "description": "When you shop at Out of the Closet, you‚Äôre directly helping people living with HIV. 96¬¢ of every dollar collected by their stores directly fund AIDS Healthcare Foundation‚Äôs HIV\/AIDS programs and services in the U.S. and abroad, providing cutting-edge HIV medical care, regardless of a person‚Äôs ability to pay. Decidedly the world‚Äôs most fabulous thrift store, and known to regulars as ‚Äúthe best kept secret in town.\" Stop by their store to shop or donate!", "website": "outofthecloset.org" }, "geometry": { "type": "Point", "coordinates": [ -122.318645323058746, 47.61420831691261 ] } },
-{ "type": "Feature", "properties": { "id": 87, "name": "AHF Pharmacy", "type": "Service", "description": "AHF Pharmacy is a not-for-profit healthcare provider and 96 cents per dollar of their earnings go back into providing services to their patients and the communities they serve.", "website": "ahfpharmacy.org" }, "geometry": { "type": "Point", "coordinates": [ -122.318741140622706, 47.614208227333286 ] } },
-{ "type": "Feature", "properties": { "id": 93, "name": "Lifelong", "type": "Service", "description": "Lifelong is a community health organization based on Capitol Hill, improving the health and well-being of people with life-threatening illnesses. Founded in 1983, the agency was forged in the HIV\/AIDS crisis, providing comprehensive services to people affected by the epidemic. Lifelong has expanded to also provide support to those living with other serious illnesses like cancer, diabetes and kidney and heart disease. Their food and nutrition program, Chicken Soup Brigade, is unique in the Northwest region as the only clinically focused, diagnosis specific, meal and grocery operation. By keeping people healthy, providing prevention education and managing care, Lifelong plays a critical role for thousands of vulnerable individuals in our community.", "website": "lifelongthrift.com" }, "geometry": { "type": "Point", "coordinates": [ -122.318544655363922, 47.614208174443263 ] } },
-{ "type": "Feature", "properties": { "id": 51, "name": "Sams Tavern", "type": "Restaurant \/ Bar", "description": "Sam‚Äôs Tavern started in the 1940‚Äôs, the original birthplace of Red Robin standing at the corner of Furhman and Eastlake in Seattle. Before they served gourmet burgers, offered bottomless fries, and adding the name ‚ÄúRed Robin‚Äù, it was just ‚ÄúSam‚Äôs Tavern‚Äù and then ‚ÄúSam‚Äôs Red Robin‚Äù. After dropping the name Sam, the rest is history‚Ä¶.or is it?", "website": "samstavernseattle.com" }, "geometry": { "type": "Point", "coordinates": [ -122.318280723957415, 47.614206110722243 ] } },
-{ "type": "Feature", "properties": { "id": 6, "name": "CHBP 2019 Photo Showcase", "type": "Free Event", "description": "CHBP has teamed up again with Caffe Vita to showcase some of our local photographers‚Äô greatest shots from CHBP! Come snag a cold brew and check out large-scale photos hung throughout Vita's walls, along with some rad CHBP wall branding. ", "website": null }, "geometry": { "type": "Point", "coordinates": [ -122.319053548372707, 47.613868589567808 ] } },
-{ "type": "Feature", "properties": { "id": 25, "name": "Bai Tong Thai Street Cafe", "type": "Restaurant \/ Bar", "description": "Bai Tong Thai Street Cafe expands from one of the most popular Thai restaurants in Washington which was founded by a former Thai Airways flight attendant near the Sea-Tac airport in 1989. With the best Thai experience they have been offering for years, Bai Tong Thai restaurant is the standard for authentic Thai food in the Seattle area.", "website": "baitongthaistreetcafe.com" }, "geometry": { "type": "Point", "coordinates": [ -122.317107283881128, 47.613974221827164 ] } },
-{ "type": "Feature", "properties": { "id": 35, "name": "Cupcake Royale", "type": "Restaurant \/ Bar", "description": "Cupcake Royale is Seattle's first cupcake bakery and offers delicious made-from-scratch cupcakes with natural, fresh, and local ingredients. Check out their new line of homemade ice cream inspired by their bakery! They craft Stumptown espresso drinks to complement their cupcakes and ice cream.", "website": "cupcakeroyale.com" }, "geometry": { "type": "Point", "coordinates": [ -122.317513324561517, 47.613979309578987 ] } },
-{ "type": "Feature", "properties": { "id": 90, "name": "F45 Training", "type": "Service", "description": "F45 Training offers dynamic and effective training styles. Not only do they offer unique workouts, they find a way to vary those workouts every day and make them accessible to the masses. F45 has highly-capable, charismatic instructors that lead workouts to motivate people to reach their potential, and offer a structured, systemized and powerful training system.", "website": "f45training.com" }, "geometry": { "type": "Point", "coordinates": [ -122.318278042924575, 47.613520563501289 ] } },
-{ "type": "Feature", "properties": { "id": 23, "name": "A Pizza Mart", "type": "Restaurant \/ Bar", "description": "When you want quality food, look no further than A Pizza Mart - Capitol Hill. This Seattle favorite is known for their Greek pizza and jalapeno poppers.", "website": "apizzamartcapitolhill.com" }, "geometry": { "type": "Point", "coordinates": [ -122.318279946209159, 47.613749255776369 ] } },
-{ "type": "Feature", "properties": { "id": 92, "name": "Hothouse Spa", "type": "Service", "description": "Hothouse is warm and inviting and relaxing and underground and small and only for you. Only for you if you are a woman, that is, with a few dollars and a few minutes. There's a big hot tub, and dry and steam saunas, and a place to take a naplet. There's a cold plunge in the form of a shower that dumps frigidness onto your head when you pull a lever. There is no talking, only whispering, and if you break this rule, you will be scolded, which is kind of fun and funny, and then you can return to being quiet, because after all, you came here to get quieter, to get away.", "website": "hothousespa.com" }, "geometry": { "type": "Point", "coordinates": [ -122.318308028478938, 47.613852066547189 ] } },
-{ "type": "Feature", "properties": { "id": 86, "name": "Zion's Gate", "type": "Retail", "description": "We specialize in good music from every genre. Our shop is located in Seattle, WA at 1100 E. Pike St. In our store you will find Vinyl, CD's, Cassettes, DVDs, Blu-Ray, Pins, Patches and Seattle's BEST selection of band t-shirts and hoodies which you can find online as well in our ebay store. Stop on by and become a gate creeper today! ", "website": "zionsgate.com" }, "geometry": { "type": "Point", "coordinates": [ -122.317887400362565, 47.61420772729597 ] } },
-{ "type": "Feature", "properties": { "id": 63, "name": "35th North", "type": "Retail", "description": "35th North is a Seattle‚Äôs favorite skateboard shop located on 11th & Pike. ", "website": "35thnorth.com" }, "geometry": { "type": "Point", "coordinates": [ -122.317913470565983, 47.614208343942494 ] } },
-{ "type": "Feature", "properties": { "id": 12, "name": "Annex Theatre", "type": "Art \/ Music", "description": "Annex is one of Seattle's most beloved (and oldest) small theaters and describes itself as \"a democratic collective of theater artists dedicated to creating bold new work in an environment of improbability, resourcefulness, and risk.\" It began in 1986 on Bainbridge Island, then moved to Seattle in 1988. It has produced over 300 productions in its long history, including hundreds of world premieres, and plays by locally and nationally recognized writers such as Chris Jeffries, Paul Mullin, Elizabeth Heffron, Kelleen Conway Blanchard, Bret Fetzer, Keri Healey, Scot Augustson, Heidi Heimarck, Erik Ehn, Naomi Iizuka, Glen Berger, and many, many more.", "website": "annextheatre.org" }, "geometry": { "type": "Point", "coordinates": [ -122.317972928924632, 47.614339997808507 ] } },
-{ "type": "Feature", "properties": { "id": 60, "name": "Vermillion", "type": "Restaurant \/ Bar", "description": "Showcasing dedicated, professional artists, Vermillion offers art, wine, beer, cocktails, and a daily seasonal menu in a unique, comforting setting. Located in the bustling Pike\/Pine corridor and part of a new concept of hybrid gallery spaces, they offer the culture and appeal of an art opening every night without the crushing crowds. The space is split nearly equally to separate the two areas into distinct parts to emphasize the best of both worlds.", "website": "vermillionseattle.com" }, "geometry": { "type": "Point", "coordinates": [ -122.317976924975127, 47.614436791367886 ] } },
-{ "type": "Feature", "properties": { "id": 27, "name": "Barca", "type": "Restaurant \/ Bar", "description": "Bar√ßa features 29 craft beers on tap and signature handcrafted cocktails, Barca's comfortable and relaxed atmosphere is perfect for a romantic evening or a night out with friends.", "website": "barcaseattlelounge.com" }, "geometry": { "type": "Point", "coordinates": [ -122.317977447842466, 47.614470628803403 ] } },
-{ "type": "Feature", "properties": { "id": 49, "name": "Rancho Bravo Tacos", "type": "Restaurant \/ Bar", "description": "Most of Rancho Bravo‚Äôs menu is made from scratch, from their salsas to their tamales, from their horchata to their pozole. They appreciate good value as much as you do and that‚Äôs why they make it our goal to offer a quality Mexican food experience at an affordable price!", "website": "ranchobravotacos.com" }, "geometry": { "type": "Point", "coordinates": [ -122.318991357854415, 47.61510608733748 ] } },
-{ "type": "Feature", "properties": { "id": 45, "name": "Oddfellows Cafe and Bar", "type": "Restaurant \/ Bar", "description": "Oddfellows is an all-day, all-night cafe and bar that serves simple fresh food influenced by peasant French and Italian dishes and served without pretense. Oddfellows is a large welcoming space that has kindly been referred to as \"the Pike\/Pine corridor's living room.\"", "website": "oddfellowscafe.com" }, "geometry": { "type": "Point", "coordinates": [ -122.319610542336292, 47.614997436819714 ] } },
-{ "type": "Feature", "properties": { "id": 33, "name": "Capitol Coffee Works", "type": "Restaurant \/ Bar", "description": "Capitol Hill Coffee Works is a place to experience and experiment with coffee in its richly diverse forms and varieties. Wine connoisseurs have tasting rooms; beer aficionados have brewery tap rooms; fine dining enthusiasts have five-star restaurants. Their goal is to create a dedicated tasting space for specialty coffee. All of their locations commit unrelentingly to making coffee better and providing resources to help their customers make and explore better coffee.", "website": "seattlecoffeeworks.com" }, "geometry": { "type": "Point", "coordinates": [ -122.32017965890762, 47.613970982059712 ] } },
-{ "type": "Feature", "properties": { "id": 89, "name": "Emerson Salon", "type": "Service", "description": "Emerson Salon is a community of independent hair designers located in Capitol Hill. Every single hair professional at Emerson runs their own business from chair to chair. From their pricing and specialties, to how they run their schedule and take payment, these highly trained individuals take hair entrepreneurship to the next level! Emerson's stylists have many, many years of experience and truly care about providing clients with quality service. Emerson stylists are intent on making you happy with your hair through style that works!", "website": "emersonsalon.com" }, "geometry": { "type": "Point", "coordinates": [ -122.320229046636086, 47.613969771391716 ] } },
-{ "type": "Feature", "properties": { "id": 80, "name": "Retail Therapy", "type": "Retail", "description": "Smell good, look good and feel good at Retail Therapy. Featuring unique clothing, jewelry, pins, cards, and more, all while supporting a variety of local artists, Retail Therapy is the perfect place to pick up a gift or something to make yourself feel special. ", "website": "indeedretailtherapy.com" }, "geometry": { "type": "Point", "coordinates": [ -122.320331413927832, 47.613968560723706 ] } },
-{ "type": "Feature", "properties": { "id": 69, "name": "Frame Central", "type": "Retail", "description": "At Northwest Framing‚Äôs Frame Central, you‚Äôll find their mission is to bring your art to life, and your life to art. Their experienced designers stay in touch with current design and color trends, while adhering to the highest level of standards in the industry. Frame Central takes the mystery out of customer framing by listening to your unique needs, then creating the best possible design customized to your tastes and budget.", "website": "pnwframing.com" }, "geometry": { "type": "Point", "coordinates": [ -122.320473161886071, 47.613970120078719 ] } },
-{ "type": "Feature", "properties": { "id": 159, "name": " AT&T ", "type": "Sponsor", "description": null, "website": null }, "geometry": { "type": "Point", "coordinates": [ -122.31954379, 47.61427833 ] } },
-{ "type": "Feature", "properties": { "id": 160, "name": " State Farm ", "type": "Sponsor", "description": null, "website": null }, "geometry": { "type": "Point", "coordinates": [ -122.31954216, 47.61424943 ] } },
-{ "type": "Feature", "properties": { "id": 161, "name": " Athena's Greek ", "type": "Sponsor", "description": null, "website": null }, "geometry": { "type": "Point", "coordinates": [ -122.31887014, 47.61446968 ] } },
-{ "type": "Feature", "properties": { "id": 162, "name": " 20 oz. Tea ", "type": "Sponsor", "description": null, "website": null }, "geometry": { "type": "Point", "coordinates": [ -122.31904363, 47.61444179 ] } },
-{ "type": "Feature", "properties": { "id": 163, "name": " Mike's Shave Ice ", "type": "Sponsor", "description": null, "website": null }, "geometry": { "type": "Point", "coordinates": [ -122.31904302, 47.61441006 ] } }
-]
+  "type": "FeatureCollection",
+  "name": "centroids_2019_final",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 6,
+        "name": "CHBP 2019 Photo Showcase",
+        "type": "Free Event",
+        "description": "CHBP has teamed up again with Caffe Vita to showcase some of our local photographers‚Äô greatest shots from CHBP! Come snag a cold brew and check out large-scale photos hung throughout Vita's walls, along with some rad CHBP wall branding. ",
+        "website": null
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 7,
+        "name": "CHBP After Dark Programming",
+        "type": "Free Event",
+        "description": "The fun doesn't stop when the headliners finish! After the music ends at CHBP, go check out 20+ local DJs at six venues on Capitol Hill until bars close at 2am. All events are free to CHBP ticket holders - just show your wristband at the door (21+ only)! ",
+        "website": null
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 9,
+        "name": "Battle on the Block",
+        "type": "Free Event",
+        "description": "Saturday, July 20 at 11am to 6pm\n\nJoin us for the second annual Battle On The Block skate competition at the Cal Anderson Courts, brought to you by 35th North, Bixton, Converse Cons, and Red Bull. More details coming soon.\n\nSunday, July 21 at 11am to 6pm\n\nAlso join us for a community skate session brought to you by Skate Like A Girl‚Ä¶ custom-build halfpipe, live drone footage, music, prizes, and more! More details coming soon.",
+        "website": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.319878347197104,
+          47.615906097027747
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 10,
+        "name": "Yoga in the Park (Cal Anderson)",
+        "type": "Free Event",
+        "description": "Join Sweatbox & CHBP for a FREE outdoor yoga class at Cal Anderson Park! Kick off your final day of #CHBP2019 with a smooth intentional flow! Join yoga teacher Reva for an exciting class set to invigorating & groovy beats from dj michael be. This is the perfect way to start your day and get into your body before heading in for the full experience of Capitol Hill Block Party!!\n\nFirst 20 people to RSVP and show up will receive a 5-punch card to Sweatbox! Just bring your mat and a bottle of water.\n\nLed by RYT Reva and dj michael be.",
+        "website": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.319125526368651,
+          47.61742854300217
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 11,
+        "name": "Crybaby Studios",
+        "type": "Art \/ Music",
+        "description": "Crybaby Studios was established in 1999 and provides Seattle with an important creative space for musicians to develop their craft‚Äîa vital institution keeping the city culturally diverse and making lives better.",
+        "website": "crybabystudios.com"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 12,
+        "name": "Annex Theatre",
+        "type": "Art \/ Music",
+        "description": "Annex is one of Seattle's most beloved (and oldest) small theaters and describes itself as \"a democratic collective of theater artists dedicated to creating bold new work in an environment of improbability, resourcefulness, and risk.\" It began in 1986 on Bainbridge Island, then moved to Seattle in 1988. It has produced over 300 productions in its long history, including hundreds of world premieres, and plays by locally and nationally recognized writers such as Chris Jeffries, Paul Mullin, Elizabeth Heffron, Kelleen Conway Blanchard, Bret Fetzer, Keri Healey, Scot Augustson, Heidi Heimarck, Erik Ehn, Naomi Iizuka, Glen Berger, and many, many more.",
+        "website": "annextheatre.org"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 13,
+        "name": "Century Ballroom",
+        "type": "Art \/ Music",
+        "description": "Founded in 1997 to promote social dancing of all kinds, Century Ballroom encourages a diverse community that includes your gender identity and expression, sexual orientation, disability, physical appearance, race, age, and religion.\n\nOur community of instructors, staff, and patrons welcome and encourage any and everyone to come out dancing.\n\nOur philosophy: It is more important to be kind than to be right.",
+        "website": "centuryballroom.com"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 14,
+        "name": "NW Film Forum",
+        "type": "Art \/ Music",
+        "description": "Northwest Film Forum incites public dialogue and creative action through collective cinematic experiences. A nonprofit film and arts center located in Seattle, Northwest Film Forum presents hundreds of films, festivals, community events, multidisciplinary performances, and public discussions each year. A comprehensive visual media organization, the Forum offers educational workshops and artist services for film and media makers at all stages of their development. Artist services include access to space, gear, fiscal sponsorship, and an edit lab. Northwest Film Forum is a member-based organization.",
+        "website": "nwfilmforum.org"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 15,
+        "name": "Artists for Progress",
+        "type": "Nonprofit ",
+        "description": null,
+        "website": null
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 16,
+        "name": "Jubilee Women's Center",
+        "type": "Nonprofit ",
+        "description": null,
+        "website": null
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 18,
+        "name": "MyMusicRX ",
+        "type": "Nonprofit ",
+        "description": null,
+        "website": null
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 19,
+        "name": "Sensory Access ",
+        "type": "Nonprofit ",
+        "description": null,
+        "website": null
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 20,
+        "name": "Skate Like A Girl ",
+        "type": "Nonprofit ",
+        "description": null,
+        "website": null
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 24,
+        "name": "Amandine Bakeshop",
+        "type": "Restaurant \/ Bar",
+        "description": "Amandine Bakeshop is a micro-bakery and caf√© specializing in regional French and classic English pastries incorporating locally-sourced, seasonal ingredients through classic pastry technique.",
+        "website": "amadineseattle.com"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 27,
+        "name": "Barca",
+        "type": "Restaurant \/ Bar",
+        "description": "Bar√ßa features 29 craft beers on tap and signature handcrafted cocktails, Barca's comfortable and relaxed atmosphere is perfect for a romantic evening or a night out with friends.",
+        "website": "barcaseattlelounge.com"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 28,
+        "name": "Big Marios",
+        "type": "Restaurant \/ Bar",
+        "description": "In the winter of 1964, Mario Vellotti emigrated from Naples, Italy to live and work on Mulberry Street in New York City. Mario made his early living tossing pizza and cooking in some of New York's most notorious kitchens; Angelo's, Casa Bella on Mulberry Street and Nanni Al Valletto on 59th Street. Later Mario joined his brother and uncle in the family business, opening their world-famous pizzerias in all five Burroughs, including Sal's on Broome Street, Bensonhurst's J & V and the original Patricia's in the Bronx. Big Marios Pizza is in Seattle now... enjoy!",
+        "website": "bigmariosnewyorkpizza.com"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 29,
+        "name": "Bimbos Cantina",
+        "type": "Restaurant \/ Bar",
+        "description": "Bimbos Cantina rolled its first burrito in 1995. It can be said that Bimbo's Cantina has had a huge part in turning this portion of the Pike\/Pine Corridor into ground zero for Seattle nightlife. Bimbos Cantina, with its mammoth blinking red arrow over the sidewalk, sits at street level on East Pike. The Mexican wrestler and black velvet painting motif is predominant throughout.",
+        "website": "bimboscantina.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.31874004,
+          47.61398273
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 30,
+        "name": "Bok a Bok",
+        "type": "Restaurant \/ Bar",
+        "description": "Bok a Bok fried chicken is air-dried, hand-dipped and double-fried to order. This process isn‚Äôt fast but it makes for super juicy chicken with an unforgettable crunch. It‚Äôs fresh, never frozen, antibiotic- and hormone-free chicken. It‚Äôs hand-made biscuits and sides made from scratch, using fresh, responsibly sourced ingredients that we prepare with care and integrity.",
+        "website": "bokabokchicken.com"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 32,
+        "name": "Caffe Vita",
+        "type": "Restaurant \/ Bar",
+        "description": "Caffe Vita has been roasting coffee in Seattle since 1995 as an independent & locally-owned company. From their beginnings at the base of Seattle‚Äôs Queen Anne neighborhood, they now operate 13 cafes throughout Seattle, Portland, New York, and Los Angeles. Caffe Vita coffee is always fresh, imported directly from the farm, and roasted on-site in Seattle, Brooklyn, and Portland.",
+        "website": "caffevita.com"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 33,
+        "name": "Capitol Coffee Works",
+        "type": "Restaurant \/ Bar",
+        "description": "Capitol Hill Coffee Works is a place to experience and experiment with coffee in its richly diverse forms and varieties. Wine connoisseurs have tasting rooms; beer aficionados have brewery tap rooms; fine dining enthusiasts have five-star restaurants. Their goal is to create a dedicated tasting space for specialty coffee. All of their locations commit unrelentingly to making coffee better and providing resources to help their customers make and explore better coffee.",
+        "website": "seattlecoffeeworks.com"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 34,
+        "name": "Capitol Lounge",
+        "type": "Restaurant \/ Bar",
+        "description": "Capitol Lounge is a newly opened bar that offers chill vibes and tasty drinks.",
+        "website": "capitolloungeseattle.com"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 35,
+        "name": "Cupcake Royale",
+        "type": "Restaurant \/ Bar",
+        "description": "Cupcake Royale is Seattle's first cupcake bakery and offers delicious made-from-scratch cupcakes with natural, fresh, and local ingredients. Check out their new line of homemade ice cream inspired by their bakery! They craft Stumptown espresso drinks to complement their cupcakes and ice cream.",
+        "website": "cupcakeroyale.com"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 36,
+        "name": "Gokan",
+        "type": "Restaurant \/ Bar",
+        "description": "Chef Jun Park, who also owns Wallingford‚Äôs beloved Musashi, has opened another sushi restaurant, this time with a menu featuring lesser-known fish and artistic platings. Gokan has a dark, sleek design, and two tatami rooms surrounded by indoor water fountains.",
+        "website": "thegokan.com"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 37,
+        "name": "Grims",
+        "type": "Restaurant \/ Bar",
+        "description": "Grim‚Äôs is Capitol Hill‚Äôs premier location for both a quiet dinner and a lively night out. Featuring a full menu in the main bar and an intimate lounge, as well as a spacious dance club with top notch DJs above, Grim‚Äôs has it all. Their bar features a rotating tap and seasonal craft cocktails to accompany the Northwest-inspired atmosphere",
+        "website": "grimseattle.com"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 38,
+        "name": "Havana",
+        "type": "Restaurant \/ Bar",
+        "description": "Havana Social Club is a beautiful booth-lined cocktails spot with seriously sweet DJs to get you on the dance floor and the kind of slightly mysterious location that keeps the wrong kind of dudes away. This place is selling elegance and you are buying. The ceiling is painted gold, so you know this club means business.",
+        "website": "havanasocial.com"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 39,
+        "name": "Ikina Sushi",
+        "type": "Restaurant \/ Bar",
+        "description": "Ikina Sushi is a popular Japanese spot nestled in Capitol Hill offering sushi, sashimi, noodles, and a full cocktail bar.",
+        "website": "https:\/\/www.facebook.com\/Ikina-Sushi"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 40,
+        "name": "La Spiga",
+        "type": "Restaurant \/ Bar",
+        "description": "La Spiga's menu pays homage to Italy's Emilia-Romagna region. Chef Sabrina creates tasty, seasonal dishes that reflect the authenticity of the food while using the finest Italian ingredients and what is freshest from local sources.",
+        "website": "laspiga.com"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 41,
+        "name": "Little Oddfellows",
+        "type": "Restaurant \/ Bar",
+        "description": "Little Oddfellows, a sister cafe to Odd Fellows, opened in August of 2015 and is located inside of Elliott Bay Book Company.  We open every day at 10am. We serve coffee from Caffe Vita, baked goods and desserts, grain salads and sandwiches, and beer and wine.",
+        "website": "http:\/\/www.oddfellowscafe.com\/"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 42,
+        "name": "Lost Lake",
+        "type": "Restaurant \/ Bar",
+        "description": "Lost Lake Caf√© & Lounge is Seattle's favorite 24-hour diner and bar with a mid-century modern feel. Lost Lake's large menu of traditional American comfort food includes options for any time of the day-breakfast, brunch, lunch, dinner, or even late night drinks-with vegetarian & vegan dishes, as well.",
+        "website": "lostlakecafe.com"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 43,
+        "name": "Marmite",
+        "type": "Restaurant \/ Bar",
+        "description": "Marmite and its interior bar Spirit in the Bottle are inspired by the best of what‚Äôs fresh, the woodsy nature of our urban space, and a very good sense of humor. They do things the way they like to do them: by hand. As many components of their cuisine and cocktails as possible are seasonal, made in-house, and utilize Bruce‚Äôs stocks and broths which simmer for hours in their namesake 40 gallon marmite (a classic French cooking pot).",
+        "website": "marmiteseattle.com"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 44,
+        "name": "Molly Moons",
+        "type": "Restaurant \/ Bar",
+        "description": "At Molly Moon‚Äôs, they couple milk and cream from hormone-free dairy cows at family-owned Edaleen Dairy Farm with local, seasonal, and, as much as possible, organic fruits and spices to make combinations that are both familiar and surprising. Everything they can get from local farmers, they do, including sugar from Idaho, lavender from Sequim, honey from the foothills of the Olympics, and more than 90% of all their ingredients.",
+        "website": "mollymoon.com"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 45,
+        "name": "Oddfellows Caf√© and Bar",
+        "type": "Restaurant \/ Bar",
+        "description": "Oddfellows is an all-day, all-night cafe and bar that serves simple fresh food influenced by peasant French and Italian dishes and served without pretense. Oddfellows is a large welcoming space that has kindly been referred to as \"the Pike\/Pine corridor's living room.\"",
+        "website": "oddfellowscafe.com"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 46,
+        "name": "Poquito's",
+        "type": "Restaurant \/ Bar",
+        "description": "At Poquitos they strive to present delicious Mexican cuisine prepared with ingredients that are the best of both worlds - outstanding local sourcing for their meats and produce; unique and direct sourcing for items essential to honoring the culinary traditions of Mexico.",
+        "website": "vivapoquitos.com"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 47,
+        "name": "Queer Bar",
+        "type": "Restaurant \/ Bar",
+        "description": "Queer\/Bar is a queer crew providing a space for the queer community that is safe, fun, and inclusive!",
+        "website": "thequeerbar.com"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 48,
+        "name": "Quinn's",
+        "type": "Restaurant \/ Bar",
+        "description": "At Quinn‚Äôs Pub they take traditions of the classic public house and raise them to new levels. They are community driven, quality focused, and a continual experiment in what it means to be a pub. Their food is always evolving, their bar carefully curated, and their space open to all.",
+        "website": "quinnspubseattle.com"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 49,
+        "name": "Rancho Bravo Tacos",
+        "type": "Restaurant \/ Bar",
+        "description": "Most of Rancho Bravo‚Äôs menu is made from scratch, from their salsas to their tamales, from their horchata to their pozole. They appreciate good value as much as you do and that‚Äôs why they make it our goal to offer a quality Mexican food experience at an affordable price!",
+        "website": "ranchobravotacos.com"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 50,
+        "name": "Rhino Room",
+        "type": "Restaurant \/ Bar",
+        "description": "The Rhino Room is a big and beautiful party bar located inside a restored historic building in the heart of Captiol Hill. We are a high volume nightclub on Friday and Saturdays featuring some of Seattle's finest DJs. We play hip hop, electronic, mash ups, and more. The bar is always flowing with spirits and the dance floor is always packed!",
+        "website": "therhinoroom.com"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 51,
+        "name": "Sams Tavern",
+        "type": "Restaurant \/ Bar",
+        "description": "Sam‚Äôs Tavern started in the 1940‚Äôs, the original birthplace of Red Robin standing at the corner of Furhman and Eastlake in Seattle. Before they served gourmet burgers, offered bottomless fries, and adding the name ‚ÄúRed Robin‚Äù, it was just ‚ÄúSam‚Äôs Tavern‚Äù and then ‚ÄúSam‚Äôs Red Robin‚Äù. After dropping the name Sam, the rest is history‚Ä¶.or is it?",
+        "website": "samstavernseattle.com"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 52,
+        "name": "SOI",
+        "type": "Restaurant \/ Bar",
+        "description": "SOI is a return to Thailand--a departure from your normal expectations of Thai food in Seattle. Our idea is to return back to what it really like to eat in Thailand, with a focus on the food of the raised plateau of the North Eastern region of Thailand called Issan. We believe that Seattle deserves better Thai food and that folks are tired with the typical Thai food in Seattle.",
+        "website": "soicapitolhill.com"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 53,
+        "name": "Sole Repair",
+        "type": "Restaurant \/ Bar",
+        "description": "Sole Repair is a private event space in the heart of Capitol Hill. Perfect for weddings, birthdays, dance parties and so much more.",
+        "website": "solerepairshop.com"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 54,
+        "name": "STOUT",
+        "type": "Restaurant \/ Bar",
+        "description": "STOUT is a casual pub designed for beer enthusiasts who appreciate ‚Äúcraft everything,‚Äù from beer to cocktails to well-prepared food. STOUT‚Äôs alluring atmosphere blends classic and modern elements, bringing old world ambiance to one of the new world‚Äôs most exciting neighborhoods.",
+        "website": "stoutpubs.com"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 55,
+        "name": "Sweet Iron",
+        "type": "Restaurant \/ Bar",
+        "description": "Sweet Iron opened its first shop in 2009 in downtown Seattle and continues to grow in exciting partnerships and expansions. This past summer, Sweet Iron set up shop at Safeco Field for the Mariners‚Äô games and also combined forces with Ezell‚Äôs chicken during Sounders and Seahawks games to make the classic chicken and waffles. Their Capitol Hill location offers freshly squeezed juices, beer and wine, and later hours.",
+        "website": "sweetironwaffles.com"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 56,
+        "name": "The Cloud Room",
+        "type": "Restaurant \/ Bar",
+        "description": "The Cloud Room is women-owned and operated, with a diverse co-working community committed to growing and participating in a range of industries, expertise and functions. In addition to fostering member businesses and entrepreneurs, we are proud to offer a curated event series with local thought leaders, an exceptional bar program and community wellness partnerships.",
+        "website": "cloudroomseattle.com"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 57,
+        "name": "The Comet Tavern",
+        "type": "Restaurant \/ Bar",
+        "description": "The Comet Tavern is a rough-and-ready bar serving Capitol Hill since 1948 with local rock bands, beer & pinball, plus a long daily happy hour.",
+        "website": "thecomettavern.com"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 58,
+        "name": "The Runaway",
+        "type": "Restaurant \/ Bar",
+        "description": "The Runaway is a friendly neighborhood bar attached to the live-music showrooms Neumos and Barboza, serving the full Bok a Bok fried chicken menu.",
+        "website": "therunawayseattle.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.31959481,
+          47.61373390
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 59,
+        "name": "Unicorn",
+        "type": "Restaurant \/ Bar",
+        "description": "Unicorn & Narwhal are two carnival themed bars. Each packs its own vibe into one location offering whimsical food & drink options. Also featuring an arcade, claw machine, & photo booth. Weekly events include Mimosas Cabaret, Gayme Night, live shows, karaoke, trivia and more.",
+        "website": "unicornseattle.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.317232367953707,
+          47.614220623177907
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 60,
+        "name": "Vermillion",
+        "type": "Restaurant \/ Bar",
+        "description": "Showcasing dedicated, professional artists, Vermillion offers art, wine, beer, cocktails, and a daily seasonal menu in a unique, comforting setting. Located in the bustling Pike\/Pine corridor and part of a new concept of hybrid gallery spaces, they offer the culture and appeal of an art opening every night without the crushing crowds. The space is split nearly equally to separate the two areas into distinct parts to emphasize the best of both worlds.",
+        "website": "vermillionseattle.com"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 61,
+        "name": "Via Tribunalli",
+        "type": "Restaurant \/ Bar",
+        "description": "Via Tribunali embodies the essence of what authentic Italian pizza should be: soft, well-cooked, fragrant and enclosed in a high, soft edge of crust. As a member of the Verace Pizza Napoletana Association, Via Tribunali respects the culinary discipline associated with making authentic Neapolitan pizza.",
+        "website": "viatribunali.com"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 62,
+        "name": "Wildrose",
+        "type": "Restaurant \/ Bar",
+        "description": "Wildrose is one of the oldest lesbian bars on the West Coast, offering DJs, karaoke & seasonal outdoor seating.",
+        "website": "wildrosebar.com"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 63,
+        "name": "35th North",
+        "type": "Retail",
+        "description": "35th North is a Seattle‚Äôs favorite skateboard shop located on 11th & Pike. ",
+        "website": "35thnorth.com"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 64,
+        "name": "BAIT",
+        "type": "Retail",
+        "description": "BAIT is a streetwear and sneaker retail store located in Capitol Hill. The retailer has collaborated with the likes of Reebok, ASICS, Saucony and Onitsuka Tiger, and sells its own in-house apparel line alongside a wide selection of sneakers and streetwear.",
+        "website": "baitme.com"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 65,
+        "name": "Castle",
+        "type": "Retail",
+        "description": "Castle Megastore is the nations leading retailer of essentials for lovers and opened its doors in 1987. Their focus is to create a fun, friendly, shopping experience that is safe and well lit.",
+        "website": "castlemegastore.com"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 66,
+        "name": "Elliott Bay Book Company",
+        "type": "Retail",
+        "description": "Elliott Bay Book Company is a full service bookstore, home to over 150,000 titles, set on cedar shelves in a multi-level, inviting unique atmosphere. Elliott Bay offers one of the region's best selection of new books, as well as a large collection of bargain editions. They present an unparalleled schedule of author readings and events throughout the year.",
+        "website": "elliotbaybook.com"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 67,
+        "name": "ESTATE",
+        "type": "Retail",
+        "description": "Established in 2015 in Seattle, WA, ESTATE was created to address the ever changing need for the Pacific Northwest.  With the market moving at an unbelievable pace in both Technology and Fashion, we are motivated to keep you up to date in the latest trends while steering you into what's next through innovative merchandising, vendor collaborations, unique in-store events and above all, excellent customer service.",
+        "website": "@shopestate "
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 68,
+        "name": "Everyday Music",
+        "type": "Retail",
+        "description": "Everyday Music is an independently-owned and operated company with three locations in Oregon and two in Washington. Started in 1995, the owners have a combined 35 years of music store experience - that's a lot of records! Despite the mega-chains and the e-tailers, EM has, due to a lot of hard work and a lot of very good people, continued to thrive. EM has inventory in all genres of music: rock and pop, rap and hip-hop, jazz and blues, folk and country, reggae and world music.",
+        "website": "everydaymusic.com"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 70,
+        "name": "Ghost Gallery",
+        "type": "Retail",
+        "description": "Ghost Gallery was established in 2006 by independent curator Laurie Kearney, who relocated from Virginia to Seattle in 2005. Focusing on local and regional artists & designers, the gallery‚Äôs hybrid model provides an ever-evolving, welcoming space where artists and collectors, new and established, can connect. Entering its 9th year as a brick and mortar venue, Ghost Gallery showcases a curated selection of visual art, handmade jewelry, tarot, apothecary and bottled wines.",
+        "website": "ghostgalleryshop.com"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 71,
+        "name": "Goethe Pop-Up",
+        "type": "Retail",
+        "description": "Located in Capitol Hill‚Äôs iconic Chophouse Row building, the Goethe Pop Up Seattle is here to celebrate the Year of German-American Friendship with you. From October 2018 through November 2019 they will host and support a variety of cultural events such as art exhibits, film screenings, lectures, and panel discussions to promote cultural exchange.",
+        "website": "goethe.de"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 72,
+        "name": "HONED By Claire Kinder",
+        "type": "Retail",
+        "description": "HONED by Claire Kinder is a cultivation & curation project by fine jewelry designer, Claire Kinder Barrett. She wanted to create a space where she could bring together the work of friends and inspiring designers from across the continent, as well as opening a dialog with local Seattle designers.",
+        "website": "clairekinder.com"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 73,
+        "name": "Horizon Books",
+        "type": "Retail",
+        "description": "Horizon Books, started in 1971, remains one of Seattle‚Äôs last used bookstores, and is kept alive by an active community of bibliophiles, dedicated to sifting through the thousands of boxes hidden away, and to opening it as a much needed community space for art walks, drawing groups, and the odd podcaster or two.",
+        "website": "seattlehorizonbooks.com"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 74,
+        "name": "Knack Modern Gift Giving",
+        "type": "Retail",
+        "description": "Have you ever given someone a gift so perfect that you could barely wait for them to open it? That gift had a story behind it. Knack Modern Gift Giving‚Äôs gifts tell stories, too. And while they love to surprise & delight customers with their unique example gifts, that‚Äôs just the beginning. They help you tell your story through the creation of gifts that reflect your unique recipient, occasion, price, message & values.",
+        "website": "knackshops.com"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 75,
+        "name": "Le Labo",
+        "type": "Retail",
+        "description": "Le Labo offers fine fragrances in personalized perfumes, candles, shampoo, lotion and more.",
+        "website": "lelabofragrances.com"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 76,
+        "name": "Moo-Young",
+        "type": "Retail",
+        "description": "Moo-Young is a Seattle-based maker currently obsessing with all things leather and shibori.",
+        "website": "shopmoo-young.com"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 77,
+        "name": "No Parking on Pike",
+        "type": "Retail",
+        "description": "No Parking on Pike is a purveyor of fine oddities and fabulous vintage treasures, featuring vintage jewelry, taxidermy, cowboy boots, vintage Playboy & Penthouse magazines, tiki, fedoras, art and more!",
+        "website": "facebook.com\/NoParkingOnPike"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 78,
+        "name": "Ollie Quinn",
+        "type": "Retail",
+        "description": "Ollie Quinn is an independent eyewear brand offering the highest quality frames at one affordable price. Visit their boutique just off Broadway on East Pike to check out their glasses and sunglasses!",
+        "website": "oqspecs.com"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 79,
+        "name": "Out of the Closet",
+        "type": "Retail",
+        "description": "When you shop at Out of the Closet, you‚Äôre directly helping people living with HIV. 96¬¢ of every dollar collected by their stores directly fund AIDS Healthcare Foundation‚Äôs HIV\/AIDS programs and services in the U.S. and abroad, providing cutting-edge HIV medical care, regardless of a person‚Äôs ability to pay. Decidedly the world‚Äôs most fabulous thrift store, and known to regulars as ‚Äúthe best kept secret in town.\" Stop by their store to shop or donate!",
+        "website": "outofthecloset.org"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 80,
+        "name": "Retail Therapy",
+        "type": "Retail",
+        "description": "Smell good, look good and feel good at Retail Therapy. Featuring unique clothing, jewelry, pins, cards, and more, all while supporting a variety of local artists, Retail Therapy is the perfect place to pick up a gift or something to make yourself feel special. ",
+        "website": "indeedretailtherapy.com"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 81,
+        "name": "Retrofit Home",
+        "type": "Retail",
+        "description": "Retrofit Home is a Capitol Hill staple, noted by the big orange chair outside, providing a fun place to buy gifts, cards, candles, and stylish home furnishings. Retrofit Home is the anchor that reminds us all of the kinds of businesses that originally drew us to this neighborhood.",
+        "website": "retrofithome.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.31797514,
+          47.61398067
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 82,
+        "name": "Ritual",
+        "type": "Retail",
+        "description": "Ritual offers apparel and giftware with an edge - and a purpose. They focus on vendors both local and international, fashion that is both avant-garde and mindful, and an aesthetic that feels otherworldly, yet still emblematic of the Pacific Northwest. Their 'Seattle of the future' is a nexus of fashion, community, conscience, and art.",
+        "website": "buyritual.com"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 83,
+        "name": "Rove",
+        "type": "Retail",
+        "description": "ROVE offers a curated selection of unique vintage for the fashion friend with a rock 'n roll soul. Specializing in 1950-1990s vintage, their 'rock n' rare' vintage finds can be explored in their shop or on their online store.",
+        "website": "roveseattle.com"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 84,
+        "name": "Sway and Cake",
+        "type": "Retail",
+        "description": "Sway and Cake is located in the heart of Capitol Hill in the historic Chophouse Row building. The shop is a personal and modern approach to the traditional retail experience. With style and quality in mind, they feature fun, fresh edits and a mix of new emerging designers and classic quality brands. Sway and Cake has a curated and lively approach to selecting all of their fashion, gift, and lifestyle products.",
+        "website": "swayandcake.com"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 85,
+        "name": "Totokaelo",
+        "type": "Retail",
+        "description": "Totokaelo is aurveyor of beautifully designed and thoughtfully curated fashion and objects.",
+        "website": "totokaelo.com"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 86,
+        "name": "Zion's Gate",
+        "type": "Retail",
+        "description": "We specialize in good music from every genre. Our shop is located in Seattle, WA at 1100 E. Pike St. In our store you will find Vinyl, CD's, Cassettes, DVDs, Blu-Ray, Pins, Patches and Seattle's BEST selection of band t-shirts and hoodies which you can find online as well in our ebay store. Stop on by and become a gate creeper today! ",
+        "website": "zionsgate.com"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 87,
+        "name": "AHF Pharmacy",
+        "type": "Service",
+        "description": "AHF Pharmacy is a not-for-profit healthcare provider and 96 cents per dollar of their earnings go back into providing services to their patients and the communities they serve.",
+        "website": "ahfpharmacy.org"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 88,
+        "name": "Cake Skincare",
+        "type": "Service",
+        "description": "Cake Skincare believes beauty should be sweet, not tasking or challenging, and never a chore. At Cake, their goal is to provide a skincare experience elevated to an entirely new level of service. Visit their location in Chophouse Row for a custom tailored opportunity to relax and indulge, while benefiting from clinical results.",
+        "website": "cakeskincare.com"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 89,
+        "name": "Emerson Salon",
+        "type": "Service",
+        "description": "Emerson Salon is a community of independent hair designers located in Capitol Hill. Every single hair professional at Emerson runs their own business from chair to chair. From their pricing and specialties, to how they run their schedule and take payment, these highly trained individuals take hair entrepreneurship to the next level! Emerson's stylists have many, many years of experience and truly care about providing clients with quality service. Emerson stylists are intent on making you happy with your hair through style that works!",
+        "website": "emersonsalon.com"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 90,
+        "name": "F45 Training",
+        "type": "Service",
+        "description": "F45 Training offers dynamic and effective training styles. Not only do they offer unique workouts, they find a way to vary those workouts every day and make them accessible to the masses. F45 has highly-capable, charismatic instructors that lead workouts to motivate people to reach their potential, and offer a structured, systemized and powerful training system.",
+        "website": "f45training.com"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 91,
+        "name": "Good Weather",
+        "type": "Service",
+        "description": "Good Weather is a cafe and shop located in Seattle‚Äôs Capitol Hill neighborhood. It‚Äôs owned and run by a few urban cyclists with hundreds of thousands of miles in the saddle and countless hours in restaurants and cafes. For bicycles, they cover the gamut of retail and service options from flats to fully custom builds and retrofits. For food, they make delicious sandwiches, salads, and snacks as well as weekend brunch and nightly beer and wine.",
+        "website": "goodweatherinseattle.com"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 92,
+        "name": "Hothouse Spa",
+        "type": "Service",
+        "description": "Hothouse is warm and inviting and relaxing and underground and small and only for you. Only for you if you are a woman, that is, with a few dollars and a few minutes. There's a big hot tub, and dry and steam saunas, and a place to take a naplet. There's a cold plunge in the form of a shower that dumps frigidness onto your head when you pull a lever. There is no talking, only whispering, and if you break this rule, you will be scolded, which is kind of fun and funny, and then you can return to being quiet, because after all, you came here to get quieter, to get away.",
+        "website": "hothousespa.com"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 93,
+        "name": "Lifelong",
+        "type": "Service",
+        "description": "Lifelong is a community health organization based on Capitol Hill, improving the health and well-being of people with life-threatening illnesses. Founded in 1983, the agency was forged in the HIV\/AIDS crisis, providing comprehensive services to people affected by the epidemic. Lifelong has expanded to also provide support to those living with other serious illnesses like cancer, diabetes and kidney and heart disease. Their food and nutrition program, Chicken Soup Brigade, is unique in the Northwest region as the only clinically focused, diagnosis specific, meal and grocery operation. By keeping people healthy, providing prevention education and managing care, Lifelong plays a critical role for thousands of vulnerable individuals in our community.",
+        "website": "lifelongthrift.com"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 94,
+        "name": "Mode Fitness",
+        "type": "Service",
+        "description": "Welcome to a locally owned gym that is a lot more health and a lot less 'club'. We're a place to blow off steam after work, a place to meet your friends for a dance class, a place to challenge yourself, or heal your soul‚Ä¶We're here to help you find your Mode of Fitness and reach your goals in a way that works for you.\n\nMode Gym has earned a reputation for combining state-of-the-art equipment, approachable trainers, and a clean and welcoming space. It‚Äôs the type of gym we always wanted to work out at ourselves. Our trainers will help you create the perfect workout utilizing our equipment from Technogym¬Æ. Check out Mode Gym and find a healthier version of yourself.",
+        "website": "modeoffitness.com"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 95,
+        "name": "Rain City Fit",
+        "type": "Service",
+        "description": "Rain City Fit is a strength & conditioning facility serving the Capitol Hill neighborhood of Seattle.",
+        "website": "raincityfit.com"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 96,
+        "name": "SalonDEWI",
+        "type": "Service",
+        "description": "About Travis: I am the Waxing Diva, otherwise known as Travis Powell, and my specialty is the Brazilian wax. What is a Brazilian wax, you ask? It is a bikini wax where all the hair (yes, darling, that hair in the ‚Äúhidden‚Äù pubic areas ‚Äì lip and bum) is removed. \n\nAbout Eri: She is the lead esthetician at SalonDEWI since 2004, is a familiar and friendly face at the spa. She is known as quick and efficient when it comes to waxing, but always aspires to help her clients look and feel beautiful. ",
+        "website": "salondewi.com"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 97,
+        "name": "Seattle Puppyworks",
+        "type": "Service",
+        "description": "Seattle Puppyworks specializes in puppy development, socialization and skill building. Driven by their commitment to the human\/canine relationship, each of their certified trainers and instructors utilizes only the most cutting-edge training and behavior modification techniques approved by the American Humane Association. They have a fierce appreciation for their canine and  human students, and their methods are relevant, effective, & sound.",
+        "website": "seattlepuppyworks.com"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 98,
+        "name": "Supergenius Tattoo",
+        "type": "Service",
+        "description": "Supergenius Tattoo hosts custom tattoo artists spanning the globe to bring you a constant variety of tattooing. Ageless ideas, limitless research, and priceless tattoos!",
+        "website": "seattle-tattoos.com"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 99,
+        "name": "The Gary Manuel Aveda Institute",
+        "type": "Service",
+        "description": "The Gary Manuel Aveda Institute provides a unique education experience combining the art and science of excellence. After grooming numerous stylists for nearly 40 years, industry leaders Gary Howse and Manuel Benevich, co-founders of Gary Manuel Salon, combined their exceptional abilities and leadership skills with Aveda's global curriculum and outstanding products in order to deliver incomparable training for aspiring professionals.",
+        "website": "gmaveda.com"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 100,
+        "name": "The Scotch Pine",
+        "type": "Service",
+        "description": "The Scotch Pine barbershop is romantic. It swoons for close shaves with hot lather and blushes for both old school and modern cuts. Much more than a place to get your hair cut, The Scotch Pine manifests a classic vibe. It‚Äôs like that feeling when the first song comes on or when the cold can is cracked open or when the cloth is pulled from your chest to reveal a newly expressed you. The stylists at The Scotch Pine bring an artistic touch within the rustic warm walls of the wooden, industrial Northwest room. Offering you a place to feel at home, relaxed and lovingly refreshed.",
+        "website": "thescotchpine.com"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 101,
+        "name": "Brew Dr Kombucha ",
+        "type": "Sponsor",
+        "description": null,
+        "website": null
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 102,
+        "name": "Brixton ",
+        "type": "Sponsor",
+        "description": null,
+        "website": null
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 103,
+        "name": "Broadstone Saxton ",
+        "type": "Sponsor",
+        "description": null,
+        "website": null
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 104,
+        "name": "Caffe Vita ",
+        "type": "Sponsor",
+        "description": null,
+        "website": null
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 105,
+        "name": "Converse CONS",
+        "type": "Sponsor",
+        "description": null,
+        "website": null
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 106,
+        "name": "Craving Amazing",
+        "type": "Sponsor",
+        "description": null,
+        "website": null
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 107,
+        "name": "Glasswing",
+        "type": "Sponsor",
+        "description": null,
+        "website": null
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 108,
+        "name": "Health 1st Chiropractic ",
+        "type": "Sponsor",
+        "description": null,
+        "website": null
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 109,
+        "name": "LOGE ",
+        "type": "Sponsor",
+        "description": null,
+        "website": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.318335680037023,
+          47.614181162607011
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 111,
+        "name": "MusicBC",
+        "type": "Sponsor",
+        "description": null,
+        "website": null
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 112,
+        "name": "Ollie Quinn",
+        "type": "Sponsor",
+        "description": null,
+        "website": null
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 113,
+        "name": "Otterbox ",
+        "type": "Sponsor",
+        "description": null,
+        "website": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.31954358,
+          47.61430608
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 114,
+        "name": "Otterbox ",
+        "type": "Sponsor",
+        "description": null,
+        "website": null
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 115,
+        "name": "PAX",
+        "type": "Sponsor",
+        "description": "Our exclusive vaporizer sponsor of CHBP 2019! Check out their lounge in the Vera Beer Garden on 11th & Pike (21+ only).  \n\nPAX Labs was founded in 2007 with the goal of creating responsible, enjoyable, and personalized vaporizer experiences. As an award-winning consumer technology brand in 2018, PAX products continue to represent the gold standard in product quality as we aim to move the space beyond stereotypes. Most of all, they want to be good stewards for a product and movement that enhances many people‚Äôs lives. Their loose leaf and extract vaporizer products are made with high quality materials and offer empowering experiences for those looking for a premium and discreet product. Their focus on design and innovation means we have best-in-class software and hardware, and provide tools so that you can personalize each and every experience.  ",
+        "website": "https:\/\/www.pax.com\/"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 119,
+        "name": "The Lounge by AT&T ",
+        "type": "Sponsor",
+        "description": null,
+        "website": null
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 120,
+        "name": "The Sweatbox Yoga ",
+        "type": "Sponsor",
+        "description": "The SweatBox Yoga's mission: improve your physical, mental and spiritual health. The SweatBox offers a supportive environment for Yogis of all practice levels. Above all else, they value health, wellness, and community. As such, their class offerings support physical, emotional and spiritual growth for all students. Their committed instructors teach with open-minds and open-hearts.",
+        "website": "sweatboxyoga.com"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 122,
+        "name": "Topo Chico ",
+        "type": "Sponsor",
+        "description": null,
+        "website": null
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 123,
+        "name": "ZOOM+care",
+        "type": "Sponsor",
+        "description": null,
+        "website": null
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 124,
+        "name": "Capitol Hill Block Party Merch",
+        "type": null,
+        "description": null,
+        "website": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.318328217514932,
+          47.614083779260355
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 8,
+        "name": "Chophouse Row",
+        "type": "Free Event",
+        "description": "Brand new just last year, the highly popular Chophouse Row Courtyard DJs are back for CHBP 2019! We‚Äôve partnered with Chophouse Row again to bring you live DJ sets in their intimate indoor \/ outdoor courtyard. Free to the public via access from Chophouse‚Äôs entrance on 12th Avenue, and also available to CHBP ticket holders within the festival gates. Taking place each day of the festival, we‚Äôll have live sets from a variety of local DJs. ",
+        "website": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.31748934,
+          47.61375294
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 110,
+        "name": "Lyft ",
+        "type": "Sponsor",
+        "description": null,
+        "website": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.318519723816692,
+          47.614054806975339
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 117,
+        "name": "REBBL ",
+        "type": "Sponsor",
+        "description": null,
+        "website": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.318519800583019,
+          47.61409653162044
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 22,
+        "name": "The Washington Bus ",
+        "type": "Nonprofit ",
+        "description": null,
+        "website": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.318412178867277,
+          47.61409717661563
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 16,
+        "name": "Jubilee Women's Center",
+        "type": "Nonprofit ",
+        "description": null,
+        "website": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.318412014524839,
+          47.614069609095637
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 17,
+        "name": "KEXP",
+        "type": "Nonprofit ",
+        "description": null,
+        "website": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.318370337847057,
+          47.61409722829314
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 124,
+        "name": "Merch",
+        "type": null,
+        "description": null,
+        "website": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.318328217514932,
+          47.614083779260355
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 125,
+        "name": "TBD",
+        "type": null,
+        "description": null,
+        "website": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.318411268673842,
+          47.614042130139133
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 126,
+        "name": "American Spirit",
+        "type": null,
+        "description": null,
+        "website": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.318603908014524,
+          47.614068339116223
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 101,
+        "name": "Brew Dr Kombucha ",
+        "type": "Sponsor",
+        "description": null,
+        "website": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.318378442670948,
+          47.614181106179551
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 127,
+        "name": "TBD",
+        "type": null,
+        "description": null,
+        "website": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.318420537088244,
+          47.614181278546511
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 44,
+        "name": "Molly Moons",
+        "type": "Restaurant \/ Bar",
+        "description": "At Molly Moon‚Äôs, they couple milk and cream from hormone-free dairy cows at family-owned Edaleen Dairy Farm with local, seasonal, and, as much as possible, organic fruits and spices to make combinations that are both familiar and surprising. Everything they can get from local farmers, they do, including sugar from Idaho, lavender from Sequim, honey from the foothills of the Olympics, and more than 90% of all their ingredients.",
+        "website": "mollymoon.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.318451983363872,
+          47.614174546859473
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 128,
+        "name": "TBD",
+        "type": null,
+        "description": null,
+        "website": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.318473469720445,
+          47.614174531351473
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 19,
+        "name": "Sensory Access ",
+        "type": "Nonprofit ",
+        "description": null,
+        "website": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.318370136878954,
+          47.614069638007052
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 129,
+        "name": "Sushi Dog",
+        "type": null,
+        "description": null,
+        "website": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.318850696072261,
+          47.614180528084475
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 143,
+        "name": "Clif Bar",
+        "type": null,
+        "description": null,
+        "website": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.319452723695932,
+          47.615104754112274
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 104,
+        "name": "Caffe Vita ",
+        "type": "Sponsor",
+        "description": null,
+        "website": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.31877812942939,
+          47.614172928507791
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 130,
+        "name": "TBD",
+        "type": null,
+        "description": null,
+        "website": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.31883566651149,
+          47.614234063345428
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 131,
+        "name": "Thai U Up",
+        "type": null,
+        "description": null,
+        "website": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.318834966081539,
+          47.614316017876845
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 132,
+        "name": "Mix Poke",
+        "type": null,
+        "description": null,
+        "website": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.318838477924501,
+          47.614390447415197
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 133,
+        "name": "Bar Mel",
+        "type": null,
+        "description": null,
+        "website": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.318839622148928,
+          47.6144395561032
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 135,
+        "name": "Dumpling Tzar",
+        "type": null,
+        "description": null,
+        "website": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.318983132024414,
+          47.614471083499573
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 138,
+        "name": "Poquitos",
+        "type": "Sponsor",
+        "description": null,
+        "website": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.319013298243604,
+          47.614360676865061
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 123,
+        "name": "ZOOM+care",
+        "type": "Sponsor",
+        "description": null,
+        "website": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.319544143418341,
+          47.614334117560546
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 158,
+        "name": "Community Skate Session",
+        "description": "Join us for a community skate session brought to you by Skate Like A Girl‚ including a custom-build halfpipe, live drone footage, music, prizes, and more!",
+        "type": null,
+        "website": null
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 140,
+        "name": "Hubbert's Lemonade",
+        "type": null,
+        "description": null,
+        "website": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.319543799977339,
+          47.61422315194929
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 115,
+        "name": "PAX",
+        "type": "Sponsor",
+        "description": "Our exclusive vaporizer sponsor of CHBP 2019! Check out their lounge in the Vera Beer Garden on 11th & Pike (21+ only).  \n\nPAX Labs was founded in 2007 with the goal of creating responsible, enjoyable, and personalized vaporizer experiences. As an award-winning consumer technology brand in 2018, PAX products continue to represent the gold standard in product quality as we aim to move the space beyond stereotypes. Most of all, they want to be good stewards for a product and movement that enhances many people‚Äôs lives. Their loose leaf and extract vaporizer products are made with high quality materials and offer empowering experiences for those looking for a premium and discreet product. Their focus on design and innovation means we have best-in-class software and hardware, and provide tools so that you can personalize each and every experience.  ",
+        "website": "https:\/\/www.pax.com\/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.317797191655387,
+          47.614127715263081
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 157,
+        "name": null,
+        "type": null,
+        "description": null,
+        "website": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.319309580197995,
+          47.614599251293349
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 158,
+        "name": "Community Skate Session",
+        "description": "Join us for a community skate session brought to you by Skate Like A Girl‚ including a custom-build halfpipe, live drone footage, music, prizes, and more!",
+        "type": null,
+        "website": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.319871690193168,
+          47.615905765010908
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 108,
+        "name": "Health 1st Chiropractic ",
+        "type": "Sponsor",
+        "description": null,
+        "website": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.317880483979479,
+          47.614010667562653
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 142,
+        "name": "NEKO",
+        "type": null,
+        "description": null,
+        "website": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.317838884691056,
+          47.614010667562653
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 103,
+        "name": "Broadstone Saxton ",
+        "type": "Sponsor",
+        "description": null,
+        "website": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.317797238450808,
+          47.614010737524872
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 21,
+        "name": "The Vera Project",
+        "type": "Nonprofit ",
+        "description": null,
+        "website": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.318239102405144,
+          47.614231366833693
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 144,
+        "name": "TBD",
+        "type": null,
+        "description": null,
+        "website": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.319420031943778,
+          47.615065054899794
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 145,
+        "name": "TBD",
+        "type": null,
+        "description": null,
+        "website": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.31941972234452,
+          47.615009955963963
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 146,
+        "name": "TBD",
+        "type": null,
+        "description": null,
+        "website": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.319419276614411,
+          47.614967220037073
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 32,
+        "name": "Caffe Vita",
+        "type": "Restaurant \/ Bar",
+        "description": "Caffe Vita has been roasting coffee in Seattle since 1995 as an independent & locally-owned company. From their beginnings at the base of Seattle‚Äôs Queen Anne neighborhood, they now operate 13 cafes throughout Seattle, Portland, New York, and Los Angeles. Caffe Vita coffee is always fresh, imported directly from the farm, and roasted on-site in Seattle, Brooklyn, and Portland.",
+        "website": "caffevita.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.31905089473338,
+          47.613969891720231
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 48,
+        "name": "Quinn's",
+        "type": "Restaurant \/ Bar",
+        "description": "At Quinn‚Äôs Pub they take traditions of the classic public house and raise them to new levels. They are community driven, quality focused, and a continual experiment in what it means to be a pub. Their food is always evolving, their bar carefully curated, and their space open to all.",
+        "website": "quinnspubseattle.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.319229792618373,
+          47.613975170464478
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 68,
+        "name": "Everyday Music",
+        "type": "Retail",
+        "description": "Everyday Music is an independently-owned and operated company with three locations in Oregon and two in Washington. Started in 1995, the owners have a combined 35 years of music store experience - that's a lot of records! Despite the mega-chains and the e-tailers, EM has, due to a lot of hard work and a lot of very good people, continued to thrive. EM has inventory in all genres of music: rock and pop, rap and hip-hop, jazz and blues, folk and country, reggae and world music.",
+        "website": "everydaymusic.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.319310042572582,
+          47.61475023705831
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 147,
+        "name": "Restrooms",
+        "type": null,
+        "description": null,
+        "website": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.318088411075209,
+          47.61430009161262
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 150,
+        "name": "Restrooms",
+        "type": null,
+        "description": null,
+        "website": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.319410498411145,
+          47.613605939116503
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 151,
+        "name": "Restrooms",
+        "type": null,
+        "description": null,
+        "website": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.319427326012857,
+          47.614606248197376
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 43,
+        "name": "Marmite",
+        "type": "Restaurant \/ Bar",
+        "description": "Marmite and its interior bar Spirit in the Bottle are inspired by the best of what‚Äôs fresh, the woodsy nature of our urban space, and a very good sense of humor. They do things the way they like to do them: by hand. As many components of their cuisine and cocktails as possible are seasonal, made in-house, and utilize Bruce‚Äôs stocks and broths which simmer for hours in their namesake 40 gallon marmite (a classic French cooking pot).",
+        "website": "marmiteseattle.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.317942854822263,
+          47.613730832332941
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 64,
+        "name": "BAIT",
+        "type": "Retail",
+        "description": "BAIT is a streetwear and sneaker retail store located in Capitol Hill. The retailer has collaborated with the likes of Reebok, ASICS, Saucony and Onitsuka Tiger, and sells its own in-house apparel line alongside a wide selection of sneakers and streetwear.",
+        "website": "baitme.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.319928913994346,
+          47.613969994139929
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 61,
+        "name": "Via Tribunalli",
+        "type": "Restaurant \/ Bar",
+        "description": "Via Tribunali embodies the essence of what authentic Italian pizza should be: soft, well-cooked, fragrant and enclosed in a high, soft edge of crust. As a member of the Verace Pizza Napoletana Association, Via Tribunali respects the culinary discipline associated with making authentic Neapolitan pizza.",
+        "website": "viatribunali.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.320057927535871,
+          47.613969666459411
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 28,
+        "name": "Big Marios",
+        "type": "Restaurant \/ Bar",
+        "description": "In the winter of 1964, Mario Vellotti emigrated from Naples, Italy to live and work on Mulberry Street in New York City. Mario made his early living tossing pizza and cooking in some of New York's most notorious kitchens; Angelo's, Casa Bella on Mulberry Street and Nanni Al Valletto on 59th Street. Later Mario joined his brother and uncle in the family business, opening their world-famous pizzerias in all five Burroughs, including Sal's on Broome Street, Bensonhurst's J & V and the original Patricia's in the Bronx. Big Marios Pizza is in Seattle now... enjoy!",
+        "website": "bigmariosnewyorkpizza.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.318873047884267,
+          47.613980774604613
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 62,
+        "name": "Wildrose",
+        "type": "Restaurant \/ Bar",
+        "description": "Wildrose is one of the oldest lesbian bars on the West Coast, offering DJs, karaoke & seasonal outdoor seating.",
+        "website": "wildrosebar.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.318393907775118,
+          47.613983787026143
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 65,
+        "name": "Castle",
+        "type": "Retail",
+        "description": "Castle Megastore is the nations leading retailer of essentials for lovers and opened its doors in 1987. Their focus is to create a fun, friendly, shopping experience that is safe and well lit.",
+        "website": "castlemegastore.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.318596766216231,
+          47.613981743630752
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 85,
+        "name": "Totokaelo",
+        "type": "Retail",
+        "description": "Totokaelo is aurveyor of beautifully designed and thoughtfully curated fashion and objects.",
+        "website": "totokaelo.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.319611991349547,
+          47.614778324975241
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 66,
+        "name": "Elliott Bay Book Company",
+        "type": "Retail",
+        "description": "Elliott Bay Book Company is a full service bookstore, home to over 150,000 titles, set on cedar shelves in a multi-level, inviting unique atmosphere. Elliott Bay offers one of the region's best selection of new books, as well as a large collection of bargain editions. They present an unparalleled schedule of author readings and events throughout the year.",
+        "website": "elliotbaybook.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.319609716741283,
+          47.61460507523833
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 42,
+        "name": "Lost Lake",
+        "type": "Restaurant \/ Bar",
+        "description": "Lost Lake Caf√© & Lounge is Seattle's favorite 24-hour diner and bar with a mid-century modern feel. Lost Lake's large menu of traditional American comfort food includes options for any time of the day-breakfast, brunch, lunch, dinner, or even late night drinks-with vegetarian & vegan dishes, as well.",
+        "website": "lostlakecafe.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.319597595831411,
+          47.61442084245423
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 34,
+        "name": "Capitol Lounge",
+        "type": "Restaurant \/ Bar",
+        "description": "Capitol Lounge is a newly opened bar that offers chill vibes and tasty drinks.",
+        "website": "capitolloungeseattle.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.319928677016279,
+          47.614207717995946
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 39,
+        "name": "Ikina Sushi",
+        "type": "Restaurant \/ Bar",
+        "description": "Ikina Sushi is a popular Japanese spot nestled in Capitol Hill offering sushi, sashimi, noodles, and a full cocktail bar.",
+        "website": "https:\/\/www.facebook.com\/Ikina-Sushi"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.319817200815706,
+          47.614210152008866
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 57,
+        "name": "The Comet Tavern",
+        "type": "Restaurant \/ Bar",
+        "description": "The Comet Tavern is a rough-and-ready bar serving Capitol Hill since 1948 with local rock bands, beer & pinball, plus a long daily happy hour.",
+        "website": "thecomettavern.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.319669459431267,
+          47.614210435280519
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 30,
+        "name": "Bok a Bok",
+        "type": "Restaurant \/ Bar",
+        "description": "Bok a Bok fried chicken is air-dried, hand-dipped and double-fried to order. This process isn‚Äôt fast but it makes for super juicy chicken with an unforgettable crunch. It‚Äôs fresh, never frozen, antibiotic- and hormone-free chicken. It‚Äôs hand-made biscuits and sides made from scratch, using fresh, responsibly sourced ingredients that we prepare with care and integrity.",
+        "website": "bokabokchicken.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.319604056160543,
+          47.613855072016655
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 153,
+        "name": "Stage outside Neumos",
+        "type": null,
+        "description": null,
+        "website": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.319569720589854,
+          47.613893576140363
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 154,
+        "name": "Tickets and Customer Service",
+        "type": null,
+        "description": null,
+        "website": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.317379112814578,
+          47.614152449335343
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 156,
+        "name": "First Aid",
+        "type": null,
+        "description": null,
+        "website": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.319434792331279,
+          47.614656420233466
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 78,
+        "name": "Ollie Quinn",
+        "type": "Retail",
+        "description": "Ollie Quinn is an independent eyewear brand offering the highest quality frames at one affordable price. Visit their boutique just off Broadway on East Pike to check out their glasses and sunglasses!",
+        "website": "oqspecs.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.320150348760009,
+          47.61419667256741
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 82,
+        "name": "Ritual",
+        "type": "Retail",
+        "description": "Ritual offers apparel and giftware with an edge - and a purpose. They focus on vendors both local and international, fashion that is both avant-garde and mindful, and an aesthetic that feels otherworldly, yet still emblematic of the Pacific Northwest. Their 'Seattle of the future' is a nexus of fashion, community, conscience, and art.",
+        "website": "buyritual.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.320035939748678,
+          47.614192854730263
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 157,
+        "name": null,
+        "type": null,
+        "description": null,
+        "website": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.319309580197995,
+          47.614599251293349
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 46,
+        "name": "Poquito's",
+        "type": "Restaurant \/ Bar",
+        "description": "At Poquitos they strive to present delicious Mexican cuisine prepared with ingredients that are the best of both worlds - outstanding local sourcing for their meats and produce; unique and direct sourcing for items essential to honoring the culinary traditions of Mexico.",
+        "website": "vivapoquitos.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.319304264196234,
+          47.614285567781913
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 38,
+        "name": "Havana",
+        "type": "Restaurant \/ Bar",
+        "description": "Havana Social Club is a beautiful booth-lined cocktails spot with seriously sweet DJs to get you on the dance floor and the kind of slightly mysterious location that keeps the wrong kind of dudes away. This place is selling elegance and you are buying. The ceiling is painted gold, so you know this club means business.",
+        "website": "havanasocial.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.319299907168983,
+          47.614442754897865
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 79,
+        "name": "Out of the Closet",
+        "type": "Retail",
+        "description": "When you shop at Out of the Closet, you‚Äôre directly helping people living with HIV. 96¬¢ of every dollar collected by their stores directly fund AIDS Healthcare Foundation‚Äôs HIV\/AIDS programs and services in the U.S. and abroad, providing cutting-edge HIV medical care, regardless of a person‚Äôs ability to pay. Decidedly the world‚Äôs most fabulous thrift store, and known to regulars as ‚Äúthe best kept secret in town.\" Stop by their store to shop or donate!",
+        "website": "outofthecloset.org"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.318645323058746,
+          47.61420831691261
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 87,
+        "name": "AHF Pharmacy",
+        "type": "Service",
+        "description": "AHF Pharmacy is a not-for-profit healthcare provider and 96 cents per dollar of their earnings go back into providing services to their patients and the communities they serve.",
+        "website": "ahfpharmacy.org"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.318741140622706,
+          47.614208227333286
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 93,
+        "name": "Lifelong",
+        "type": "Service",
+        "description": "Lifelong is a community health organization based on Capitol Hill, improving the health and well-being of people with life-threatening illnesses. Founded in 1983, the agency was forged in the HIV\/AIDS crisis, providing comprehensive services to people affected by the epidemic. Lifelong has expanded to also provide support to those living with other serious illnesses like cancer, diabetes and kidney and heart disease. Their food and nutrition program, Chicken Soup Brigade, is unique in the Northwest region as the only clinically focused, diagnosis specific, meal and grocery operation. By keeping people healthy, providing prevention education and managing care, Lifelong plays a critical role for thousands of vulnerable individuals in our community.",
+        "website": "lifelongthrift.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.318544655363922,
+          47.614208174443263
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 51,
+        "name": "Sams Tavern",
+        "type": "Restaurant \/ Bar",
+        "description": "Sam‚Äôs Tavern started in the 1940‚Äôs, the original birthplace of Red Robin standing at the corner of Furhman and Eastlake in Seattle. Before they served gourmet burgers, offered bottomless fries, and adding the name ‚ÄúRed Robin‚Äù, it was just ‚ÄúSam‚Äôs Tavern‚Äù and then ‚ÄúSam‚Äôs Red Robin‚Äù. After dropping the name Sam, the rest is history‚Ä¶.or is it?",
+        "website": "samstavernseattle.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.318280723957415,
+          47.614206110722243
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 6,
+        "name": "CHBP 2019 Photo Showcase",
+        "type": "Free Event",
+        "description": "CHBP has teamed up again with Caffe Vita to showcase some of our local photographers‚Äô greatest shots from CHBP! Come snag a cold brew and check out large-scale photos hung throughout Vita's walls, along with some rad CHBP wall branding. ",
+        "website": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.319053548372707,
+          47.613868589567808
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 25,
+        "name": "Bai Tong Thai Street Cafe",
+        "type": "Restaurant \/ Bar",
+        "description": "Bai Tong Thai Street Cafe expands from one of the most popular Thai restaurants in Washington which was founded by a former Thai Airways flight attendant near the Sea-Tac airport in 1989. With the best Thai experience they have been offering for years, Bai Tong Thai restaurant is the standard for authentic Thai food in the Seattle area.",
+        "website": "baitongthaistreetcafe.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.317107283881128,
+          47.613974221827164
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 35,
+        "name": "Cupcake Royale",
+        "type": "Restaurant \/ Bar",
+        "description": "Cupcake Royale is Seattle's first cupcake bakery and offers delicious made-from-scratch cupcakes with natural, fresh, and local ingredients. Check out their new line of homemade ice cream inspired by their bakery! They craft Stumptown espresso drinks to complement their cupcakes and ice cream.",
+        "website": "cupcakeroyale.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.317513324561517,
+          47.613979309578987
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 90,
+        "name": "F45 Training",
+        "type": "Service",
+        "description": "F45 Training offers dynamic and effective training styles. Not only do they offer unique workouts, they find a way to vary those workouts every day and make them accessible to the masses. F45 has highly-capable, charismatic instructors that lead workouts to motivate people to reach their potential, and offer a structured, systemized and powerful training system.",
+        "website": "f45training.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.318278042924575,
+          47.613520563501289
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 23,
+        "name": "A Pizza Mart",
+        "type": "Restaurant \/ Bar",
+        "description": "When you want quality food, look no further than A Pizza Mart - Capitol Hill. This Seattle favorite is known for their Greek pizza and jalapeno poppers.",
+        "website": "apizzamartcapitolhill.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.318279946209159,
+          47.613749255776369
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 92,
+        "name": "Hothouse Spa",
+        "type": "Service",
+        "description": "Hothouse is warm and inviting and relaxing and underground and small and only for you. Only for you if you are a woman, that is, with a few dollars and a few minutes. There's a big hot tub, and dry and steam saunas, and a place to take a naplet. There's a cold plunge in the form of a shower that dumps frigidness onto your head when you pull a lever. There is no talking, only whispering, and if you break this rule, you will be scolded, which is kind of fun and funny, and then you can return to being quiet, because after all, you came here to get quieter, to get away.",
+        "website": "hothousespa.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.318308028478938,
+          47.613852066547189
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 86,
+        "name": "Zion's Gate",
+        "type": "Retail",
+        "description": "We specialize in good music from every genre. Our shop is located in Seattle, WA at 1100 E. Pike St. In our store you will find Vinyl, CD's, Cassettes, DVDs, Blu-Ray, Pins, Patches and Seattle's BEST selection of band t-shirts and hoodies which you can find online as well in our ebay store. Stop on by and become a gate creeper today! ",
+        "website": "zionsgate.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.317887400362565,
+          47.61420772729597
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 63,
+        "name": "35th North",
+        "type": "Retail",
+        "description": "35th North is a Seattle‚Äôs favorite skateboard shop located on 11th & Pike. ",
+        "website": "35thnorth.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.317913470565983,
+          47.614208343942494
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 12,
+        "name": "Annex Theatre",
+        "type": "Art \/ Music",
+        "description": "Annex is one of Seattle's most beloved (and oldest) small theaters and describes itself as \"a democratic collective of theater artists dedicated to creating bold new work in an environment of improbability, resourcefulness, and risk.\" It began in 1986 on Bainbridge Island, then moved to Seattle in 1988. It has produced over 300 productions in its long history, including hundreds of world premieres, and plays by locally and nationally recognized writers such as Chris Jeffries, Paul Mullin, Elizabeth Heffron, Kelleen Conway Blanchard, Bret Fetzer, Keri Healey, Scot Augustson, Heidi Heimarck, Erik Ehn, Naomi Iizuka, Glen Berger, and many, many more.",
+        "website": "annextheatre.org"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.317972928924632,
+          47.614339997808507
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 60,
+        "name": "Vermillion",
+        "type": "Restaurant \/ Bar",
+        "description": "Showcasing dedicated, professional artists, Vermillion offers art, wine, beer, cocktails, and a daily seasonal menu in a unique, comforting setting. Located in the bustling Pike\/Pine corridor and part of a new concept of hybrid gallery spaces, they offer the culture and appeal of an art opening every night without the crushing crowds. The space is split nearly equally to separate the two areas into distinct parts to emphasize the best of both worlds.",
+        "website": "vermillionseattle.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.317976924975127,
+          47.614436791367886
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 27,
+        "name": "Barca",
+        "type": "Restaurant \/ Bar",
+        "description": "Bar√ßa features 29 craft beers on tap and signature handcrafted cocktails, Barca's comfortable and relaxed atmosphere is perfect for a romantic evening or a night out with friends.",
+        "website": "barcaseattlelounge.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.317977447842466,
+          47.614470628803403
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 49,
+        "name": "Rancho Bravo Tacos",
+        "type": "Restaurant \/ Bar",
+        "description": "Most of Rancho Bravo‚Äôs menu is made from scratch, from their salsas to their tamales, from their horchata to their pozole. They appreciate good value as much as you do and that‚Äôs why they make it our goal to offer a quality Mexican food experience at an affordable price!",
+        "website": "ranchobravotacos.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.318991357854415,
+          47.61510608733748
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 45,
+        "name": "Oddfellows Cafe and Bar",
+        "type": "Restaurant \/ Bar",
+        "description": "Oddfellows is an all-day, all-night cafe and bar that serves simple fresh food influenced by peasant French and Italian dishes and served without pretense. Oddfellows is a large welcoming space that has kindly been referred to as \"the Pike\/Pine corridor's living room.\"",
+        "website": "oddfellowscafe.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.319610542336292,
+          47.614997436819714
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 33,
+        "name": "Capitol Coffee Works",
+        "type": "Restaurant \/ Bar",
+        "description": "Capitol Hill Coffee Works is a place to experience and experiment with coffee in its richly diverse forms and varieties. Wine connoisseurs have tasting rooms; beer aficionados have brewery tap rooms; fine dining enthusiasts have five-star restaurants. Their goal is to create a dedicated tasting space for specialty coffee. All of their locations commit unrelentingly to making coffee better and providing resources to help their customers make and explore better coffee.",
+        "website": "seattlecoffeeworks.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.32017965890762,
+          47.613970982059712
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 89,
+        "name": "Emerson Salon",
+        "type": "Service",
+        "description": "Emerson Salon is a community of independent hair designers located in Capitol Hill. Every single hair professional at Emerson runs their own business from chair to chair. From their pricing and specialties, to how they run their schedule and take payment, these highly trained individuals take hair entrepreneurship to the next level! Emerson's stylists have many, many years of experience and truly care about providing clients with quality service. Emerson stylists are intent on making you happy with your hair through style that works!",
+        "website": "emersonsalon.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.320229046636086,
+          47.613969771391716
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 80,
+        "name": "Retail Therapy",
+        "type": "Retail",
+        "description": "Smell good, look good and feel good at Retail Therapy. Featuring unique clothing, jewelry, pins, cards, and more, all while supporting a variety of local artists, Retail Therapy is the perfect place to pick up a gift or something to make yourself feel special. ",
+        "website": "indeedretailtherapy.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.320331413927832,
+          47.613968560723706
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 69,
+        "name": "Frame Central",
+        "type": "Retail",
+        "description": "At Northwest Framing‚Äôs Frame Central, you‚Äôll find their mission is to bring your art to life, and your life to art. Their experienced designers stay in touch with current design and color trends, while adhering to the highest level of standards in the industry. Frame Central takes the mystery out of customer framing by listening to your unique needs, then creating the best possible design customized to your tastes and budget.",
+        "website": "pnwframing.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.320473161886071,
+          47.613970120078719
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 159,
+        "name": " AT&T ",
+        "type": "Sponsor",
+        "description": null,
+        "website": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.31954379,
+          47.61427833
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 160,
+        "name": " State Farm ",
+        "type": "Sponsor",
+        "description": null,
+        "website": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.31954216,
+          47.61424943
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 161,
+        "name": " Athena's Greek ",
+        "type": "Sponsor",
+        "description": null,
+        "website": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.31887014,
+          47.61446968
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 162,
+        "name": " 20 oz. Tea ",
+        "type": "Sponsor",
+        "description": null,
+        "website": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.31904363,
+          47.61444179
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 163,
+        "name": " Mike's Shave Ice ",
+        "type": "Sponsor",
+        "description": null,
+        "website": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.31904302,
+          47.61441006
+        ]
+      }
+    }
+  ]
 }
