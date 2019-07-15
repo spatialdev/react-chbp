@@ -19,4 +19,4 @@ deploy:
       skip_cleanup: true
       region: $AWS_DEFAULT_REGION
       on:
-        branch: travis
+        branch: development
