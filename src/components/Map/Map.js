@@ -197,7 +197,7 @@ class Map extends Component {
         "sponsors-nonprofit",
         "stages",
         "bars-retail-service",
-        "beer-garden"
+        "beer-garden-lounge"
       ]
     });
 

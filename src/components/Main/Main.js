@@ -104,7 +104,7 @@ class Main extends Component {
               <div className={classes.flex}>
                 {/* <img alt="Reset application" onClick={()=>{this.resetView()}} className={classes.navLogo} src={imgNavLogo} /> */}
               </div>
-              <Button onClick={()=>{toggleRightDrawer(true)}} className="vendorButton">Vendor List</Button>
+              <Button onClick={()=>{toggleRightDrawer(true)}} className="vendorButton">Event List</Button>
             </Toolbar>
           </AppBar>
           <LeftDrawer/>
