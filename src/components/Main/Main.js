@@ -13,7 +13,7 @@ import { toggleLeftDrawer, toggleRightDrawer, toggleBottomDrawer } from '../../r
 import LeftDrawer from '../LeftDrawer/LeftDrawer';
 import RightDrawer from '../RightDrawer/RightDrawer';
 import { drawerWidth } from '../../redux/constants';
-import './Main.css'
+import './Main.scss'
 // import imgNavLogo from '../../images/logo-header.svg'
 
 const styles = theme => ({
@@ -91,7 +91,7 @@ class Main extends Component {
     return (
       <div className={classes.root}>
         <div>
-          <AppBar className={classes.toolbar}>
+          <AppBar className={classes.toolbar + " toolbar"}>
             <Toolbar disableGutters={true}>
               <Hidden mdUp>
               <IconButton
@@ -104,7 +104,7 @@ class Main extends Component {
               <div className={classes.flex}>
                 {/* <img alt="Reset application" onClick={()=>{this.resetView()}} className={classes.navLogo} src={imgNavLogo} /> */}
               </div>
-              <Button  onClick={()=>{toggleRightDrawer(true)}} className="vendorButton">Vendor List</Button>
+              <Button onClick={()=>{toggleRightDrawer(true)}} className="vendorButton">Vendor List</Button>
             </Toolbar>
           </AppBar>
           <LeftDrawer/>

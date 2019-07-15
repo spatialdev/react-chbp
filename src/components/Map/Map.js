@@ -4,7 +4,7 @@ import {withStyles} from "@material-ui/core/styles";
 import withWidth from "@material-ui/core/withWidth/index";
 import mapboxgl from "mapbox-gl";
 import "mapbox-gl/dist/mapbox-gl.css";
-import "./Map.css";
+import "./Map.scss";
 import {config} from '../../config';
 import {
   findMyLocation,
@@ -54,11 +54,13 @@ class Map extends Component {
   });
 
   componentDidMount() {
+
     const map = new mapboxgl.Map({
       container: this.mapContainer,
-      style: "mapbox://styles/mapbox/streets-v11",
-      center: config.map.centroid,
-      zoom: 17
+      style: config.map.style,
+      center: config.map.center,
+      zoom: config.map.zoom,
+      bearing: config.map.bearing
     });
 
     map.addControl(this.geoLocate);
@@ -101,20 +103,20 @@ class Map extends Component {
     // Record feature selection on google analytics
     selectMapItem(data.name);
 
-    map.setFilter("vendor pins highlight", [
-      "all",
-      ["!=", "type", ""],
-      ["!=", "type", ""],
-      ["!=", "type", ""],
-      ["!=", "type", ""],
-      ["!=", "name", ""],
-      ["!=", "name", ""],
-      ["!=", "name", ""],
-      ["==", "id", data.id],
-      ["!=", "show_icon", true]
-    ]);
+    // map.setFilter("vendor pins highlight", [
+    //   "all",
+    //   ["!=", "type", ""],
+    //   ["!=", "type", ""],
+    //   ["!=", "type", ""],
+    //   ["!=", "type", ""],
+    //   ["!=", "name", ""],
+    //   ["!=", "name", ""],
+    //   ["!=", "name", ""],
+    //   ["==", "id", data.id],
+    //   ["!=", "show_icon", true]
+    // ]);
 
-    map.setLayoutProperty("vendor pins highlight", "visibility", "visible");
+    // map.setLayoutProperty("vendor pins highlight", "visibility", "visible");
   }
 
   /**
@@ -190,7 +192,13 @@ class Map extends Component {
     // Fetch Map feature from specified layer list.
     // TODO grab this layer list from a configuration
     let features = map.queryRenderedFeatures(e.point, {
-      layers: []
+      layers: [
+        "free-events",
+        "sponsors-nonprofit",
+        "stages",
+        "bars-retail-service",
+        "beer-garden"
+      ]
     });
 
     if (features.length > 0) {
