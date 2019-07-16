@@ -69,7 +69,6 @@ const styles = theme => ({
 class Main extends Component {
 
   componentDidUpdate() {
-    console.log(`updated state: ${this.props}`)
   }
 
   resetView () {

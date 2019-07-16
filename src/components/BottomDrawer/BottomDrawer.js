@@ -174,10 +174,9 @@ class BottomSheet extends Component {
   getWebsite(data) {
 
     if (typeof data !== "undefined") {
-      let website = typeof data.website !== "undefined" && data.website.length > 0 ?
+      let website = typeof data.website !== "undefined" && data.website !== null && data.website.length > 0 ?
         (<a className="category" target="_blank" rel="noopener noreferrer"
             href={`https:/${parse(data.website).pathname}`}>https:/{parse(data.website).pathname}</a>) : null;
-      console.log(parse(data.website))
       return website;
     } else {
       return null;

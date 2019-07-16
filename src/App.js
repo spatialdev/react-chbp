@@ -31,7 +31,6 @@ class App extends Component {
 
   handleMenuData = (itemId) => {
     this.setState({clickedMenuItem: itemId}, () => {
-      console.log(this.state);
     });
   };
 
