@@ -233,7 +233,7 @@
       "properties": {
         "id": 31,
         "name": "Cafe Pettirosso",
-        "type": "Restaurant \/ Bar",
+        "type": "Stage",
         "description": "Cafe Pettirosso has had many forms since Robin Wright started it as a coffee cart. Yuki and Miki Sodos, sisters and co-owners of Bang Bang Cafe reopened Cafe Pettirosso in 2011. No stranger to the community surrounding the cafe, Yuki had managed Cafe Pettirosso off and on for the previous 10 years and was thrilled when Robin suggested she take over Pettirosso with her sister. While the business has changed in certain ways, the love behind every day at Cafe Pettirosso has only grown.",
         "website": "pettirossoseattle.com",
         "show_label": "",
@@ -277,7 +277,7 @@
       "properties": {
         "id": 62,
         "name": "Wildrose",
-        "type": "Restaurant \/ Bar",
+        "type": "Stage",
         "description": "Wildrose is one of the oldest lesbian bars on the West Coast, offering DJs, karaoke & seasonal outdoor seating.",
         "website": "wildrosebar.com",
         "show_label": "",
