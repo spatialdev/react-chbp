@@ -607,7 +607,12 @@
         "description": "Founded in 1997 to promote social dancing of all kinds, Century Ballroom encourages a diverse community that includes your gender identity and expression, sexual orientation, disability, physical appearance, race, age, and religion.\n\nOur community of instructors, staff, and patrons welcome and encourage any and everyone to come out dancing.\n\nOur philosophy: It is more important to be kind than to be right.",
         "website": "centuryballroom.com"
       },
-      "geometry": null
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3197679, 47.6149886
+        ]
+      }
     },
     {
       "type": "Feature",
@@ -618,7 +623,12 @@
         "description": "Northwest Film Forum incites public dialogue and creative action through collective cinematic experiences. A nonprofit film and arts center located in Seattle, Northwest Film Forum presents hundreds of films, festivals, community events, multidisciplinary performances, and public discussions each year. A comprehensive visual media organization, the Forum offers educational workshops and artist services for film and media makers at all stages of their development. Artist services include access to space, gear, fiscal sponsorship, and an edit lab. Northwest Film Forum is a member-based organization.",
         "website": "nwfilmforum.org"
       },
-      "geometry": null
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.317071, 47.6144138
+        ]
+      }
     },
     {
       "type": "Feature",
@@ -684,7 +694,12 @@
         "description": "Amandine Bakeshop is a micro-bakery and caf√© specializing in regional French and classic English pastries incorporating locally-sourced, seasonal ingredients through classic pastry technique.",
         "website": "amadineseattle.com"
       },
-      "geometry": null
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3179723, 47.613624
+        ]
+      }
     },
     {
       "type": "Feature",
@@ -789,7 +804,12 @@
         "description": "Chef Jun Park, who also owns Wallingford‚Äôs beloved Musashi, has opened another sushi restaurant, this time with a menu featuring lesser-known fish and artistic platings. Gokan has a dark, sleek design, and two tatami rooms surrounded by indoor water fountains.",
         "website": "thegokan.com"
       },
-      "geometry": null
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3196583, 47.6130786
+        ]
+      }
     },
     {
       "type": "Feature",
@@ -943,7 +963,12 @@
         "description": "The Rhino Room is a big and beautiful party bar located inside a restored historic building in the heart of Captiol Hill. We are a high volume nightclub on Friday and Saturdays featuring some of Seattle's finest DJs. We play hip hop, electronic, mash ups, and more. The bar is always flowing with spirits and the dance floor is always packed!",
         "website": "therhinoroom.com"
       },
-      "geometry": null
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3183954, 47.6151395
+        ]
+      }
     },
     {
       "type": "Feature",
@@ -965,7 +990,12 @@
         "description": "SOI is a return to Thailand--a departure from your normal expectations of Thai food in Seattle. Our idea is to return back to what it really like to eat in Thailand, with a focus on the food of the raised plateau of the North Eastern region of Thailand called Issan. We believe that Seattle deserves better Thai food and that folks are tired with the typical Thai food in Seattle.",
         "website": "soicapitolhill.com"
       },
-      "geometry": null
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3192334, 47.6131229
+        ]
+      }
     },
     {
       "type": "Feature",
