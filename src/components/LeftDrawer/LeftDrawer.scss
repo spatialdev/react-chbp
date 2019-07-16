@@ -46,11 +46,16 @@
 
 .map-pin {
     height: 15px;
+    display: inline-block;
+    margin: auto;
 }
 
 .legend-box {
-    padding: 4px;
-    margin: 0 10px 0 0;
+    padding: 4px 4px 4px 0;
+    margin: 0 6px 0 0;
+    width: 20px;
+    display: inline-block;
+    text-align: center;
 }
 
 .list-item-wrapper {
@@ -70,3 +75,30 @@
     text-decoration: none;
 }
 
+.stage {
+    width: 100%;
+    background-color: $red;
+}
+
+.beer-garden {
+    width: 100%;
+    background-color: $gold;
+}
+
+.free-events {
+    border-radius: 15px;
+    width: 15px;
+    background-color: $blue;
+}
+
+.sponsor {
+    border-radius: 15px;
+    width: 15px;
+    background-color: $pink;
+}
+
+.restaurant {
+    border-radius: 15px;
+    width: 15px;
+    background-color: $teal;
+}

@@ -116,25 +116,34 @@ class LeftDrawer extends Component {
         <div className="Legend">
           <div className="legend-title">Map legend:</div>
           <div className="legend-item-wrapper">
+            <span className="legend-box">
+              <span className="map-pin stage"></span>
+            </span>
             <span className="legend-item-text">Stage</span>
           </div>
           <div className="legend-item-wrapper">
-            <span className="legend-item-text">Free Events / Food Court</span>
+            <span className="legend-box">
+              <span className="map-pin beer-garden"></span>
+            </span>
+            <span className="legend-item-text">Beer Garden / Food Court</span>
           </div>
           <div className="legend-item-wrapper">
-            <span className="legend-item-text">Sponsor / Non-profit</span>
+            <span className="legend-box">
+              <span className="map-pin free-events"></span>
+            </span>
+            <span className="legend-item-text">Free Event</span>
           </div>
           <div className="legend-item-wrapper">
-            <span className="legend-item-text">Art/Music</span>
+            <span className="legend-box">
+              <span className="map-pin sponsor"></span>
+            </span>
+            <span className="legend-item-text">Sponsor / Non-profit / Art / Music</span>
           </div>
           <div className="legend-item-wrapper">
-            <span className="legend-item-text">Restaurant & Bars</span>
-          </div>
-          <div className="legend-item-wrapper">
-            <span className="legend-item-text">Retail</span>
-          </div>
-          <div className="legend-item-wrapper">
-            <span className="legend-item-text">Service</span>
+            <span className="legend-box">
+              <span className="map-pin restaurant"></span>
+            </span>
+            <span className="legend-item-text">Restaurant / Bar / Retail / Service</span>
           </div>
         </div>
 
