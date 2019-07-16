@@ -321,7 +321,7 @@
       "properties": {
         "id": 119,
         "name": "The Lounge by AT&T",
-        "type": "Sponsor ",
+        "type": null,
         "description": null,
         "website": null,
         "show_label": "",
@@ -1662,7 +1662,7 @@
       "properties": {
         "id": 119,
         "name": "The Lounge by AT&T",
-        "type": "Sponsor",
+        "type": null,
         "description": null,
         "website": null
       },
@@ -3112,7 +3112,7 @@
       "properties": {
         "id": 159,
         "name": " AT&T ",
-        "type": "Sponsor",
+        "type": null,
         "description": null,
         "website": null
       },
