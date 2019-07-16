@@ -14,6 +14,13 @@ import {
 } from "../../redux/actions";
 import './RightDrawer.scss';
 import turfCenter from "@turf/center";
+import {
+  LAYER_BAR_RETAIL_SERVICE_LABEL,
+  LAYER_BAR_RETAIL_SERVICE_SELECTED,
+  LAYER_BEER_GARDEN_LOUNGE_OUTLINE, LAYER_FREE_EVENTS_LABEL, LAYER_FREE_EVENTS_SELECTED,
+  LAYER_NONPROFIT_LABEL,
+  LAYER_NONPROFIT_SELECTED
+} from "../../redux/constants";
 
 const styles = theme => ({
   tabsRoot: {
@@ -42,27 +49,27 @@ class RightMenu extends Component {
     setTabValue({index: value, name: filters[value]})
   };
 
-  handleItemSelection = (vendor) => {
+  handleItemSelection = (feature) => {
 
     const {map, width} = this.props;
     // Get center of point/polygon
-    const bbox = turfCenter(vendor);
+    const bbox = turfCenter(feature);
 
-    // Highlight vendor pin
-    this.highlightVendorPin(vendor);
+    // Highlight feature pin
+    this.highlightFeatureLayer(feature);
 
-    // Zoom to vendor center
+    // Zoom to feature center
     map.flyTo({
       center: bbox.geometry.coordinates,
       zoom: 20.5
     });
 
     // Set bottom drawer data
-    setBottomDrawerData(vendor.properties);
+    setBottomDrawerData(feature.properties);
     // Open bottom drawer
     toggleBottomDrawer(true);
     // Record action on google analytics
-    selectRightMenuItem(vendor.properties.name);
+    selectRightMenuItem(feature.properties.name);
 
     // If we're in mobile mode, close the left drawer
     if (width === 'xs' || width === 'sm') {
@@ -76,24 +83,67 @@ class RightMenu extends Component {
   componentDidMount() {
   }
 
-  highlightVendorPin(vendor) {
+  highlightFeatureLayer(feature) {
 
     const {map} = this.props;
 
-    map.setFilter('vendor pins highlight',
-      ["all",
-        ["!=", "type", ""],
-        ["!=", "type", ""],
-        ["!=", "type", ""],
-        ["!=", "type", ""],
-        ["!=", "name", ""],
-        ["!=", "name", ""],
-        ["!=", "name", ""],
-        ["==", "id", vendor.properties.id],
-        ["!=", "show_icon", true]
-      ]);
+    // Creates a map from the feature "type" to the highlight layers. For example, "type": "Stage" highlight layer is
+    /// "beer-garden-lounge-outline"
+    let typeHighlightMap = {
+      "Stage": [LAYER_BEER_GARDEN_LOUNGE_OUTLINE],
+      "Sponsor": [LAYER_NONPROFIT_LABEL, LAYER_NONPROFIT_SELECTED],
+      "Free Event": [LAYER_FREE_EVENTS_LABEL, LAYER_FREE_EVENTS_SELECTED],
+      "Art / Music": [LAYER_NONPROFIT_LABEL, LAYER_NONPROFIT_SELECTED],
+      "Restaurant / Bar": [LAYER_BAR_RETAIL_SERVICE_SELECTED, LAYER_BAR_RETAIL_SERVICE_LABEL],
+      "Retail": [LAYER_BAR_RETAIL_SERVICE_SELECTED, LAYER_BAR_RETAIL_SERVICE_LABEL],
+      "Service": [LAYER_BAR_RETAIL_SERVICE_SELECTED, LAYER_BAR_RETAIL_SERVICE_LABEL],
+      "Nonprofit": [LAYER_NONPROFIT_LABEL, LAYER_NONPROFIT_SELECTED]
+    };
 
-    map.setLayoutProperty('vendor pins highlight', 'visibility', 'visible');
+    let highlightLayer =  typeof typeHighlightMap[feature.properties.type.trim()] === "object" ? typeHighlightMap[feature.properties.type.trim()] : null;
+    if (highlightLayer !== null) {
+      console.log("HIGHLIGHT LAYER", highlightLayer)
+      highlightLayer.forEach(layer => {
+        map.setLayoutProperty(layer, "visibility", "visible");
+      })
+    }
+
+    map.setFilter(LAYER_BEER_GARDEN_LOUNGE_OUTLINE, [
+      "all",
+      ["!=", "type", "Restaurant / Bar"],
+      ["==", "id", feature.properties.id]
+    ]);
+
+    map.setFilter(LAYER_BAR_RETAIL_SERVICE_LABEL, [
+      "all",
+      ["==", "id", feature.properties.id]
+    ])
+
+    map.setFilter(LAYER_BAR_RETAIL_SERVICE_SELECTED, [
+      "all",
+      ["==", "id", feature.properties.id]
+    ])
+
+    map.setFilter(LAYER_NONPROFIT_LABEL, [
+      "all",
+      ["==", "id", feature.properties.id]
+    ])
+
+    map.setFilter(LAYER_NONPROFIT_SELECTED, [
+      "all",
+      ["==", "id", feature.properties.id]
+    ])
+
+    map.setFilter(LAYER_FREE_EVENTS_LABEL, [
+      "all",
+      ["==", "id", feature.properties.id]
+    ])
+
+    map.setFilter(LAYER_FREE_EVENTS_SELECTED, [
+      "all",
+      ["==", "id", feature.properties.id]
+    ])
+
   }
 
   render() {

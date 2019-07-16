@@ -108,7 +108,6 @@ class Map extends Component {
     const data = features[0];
     const {map} = this.props;
     const layer = data.layer.id;
-    console.log("SELECTED LAYER", layer);
 
     // Map containing list of highlight layers associated with each layer. For example, the "bars-retail-service" layer
     // has two additional layers rendered on top: "bars-retail-service-selected" and "bars-retail-service-label"
@@ -121,7 +120,6 @@ class Map extends Component {
       [LAYER_FREE_EVENTS]: [LAYER_FREE_EVENTS_LABEL, LAYER_FREE_EVENTS_SELECTED]
     };
     let highlightLayer =  typeof layerHighLightMap[layer] === "object" ? layerHighLightMap[layer] : null;
-    console.log("HIGHLIGHT LAYER", highlightLayer);
     if (highlightLayer !== null) {
       highlightLayer.forEach(layer => {
         map.setLayoutProperty(layer, "visibility", "visible");

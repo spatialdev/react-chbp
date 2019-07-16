@@ -88,7 +88,6 @@ class LeftDrawer extends Component {
   };
 
   componentDidUpdate() {
-    console.log(`updated state: ${this.props}`);
   }
 
   render() {
