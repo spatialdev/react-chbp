@@ -17,7 +17,17 @@ import {
   FIND_MY_LOCATION_ERROR,
   FIND_MY_LOCATION_OUT_OF_BOUNDS,
   FIND_MY_LOCATION_SELECT,
-  FIND_MY_LOCATION_SUCCESS
+  FIND_MY_LOCATION_SUCCESS,
+  LAYER_BAR_RETAIL_SERVICE,
+  LAYER_BAR_RETAIL_SERVICE_LABEL,
+  LAYER_BAR_RETAIL_SERVICE_SELECTED,
+  LAYER_BEER_GARDEN, LAYER_BEER_GARDEN_LOUNGE_LABEL,
+  LAYER_BEER_GARDEN_LOUNGE_OUTLINE,
+  LAYER_FREE_EVENTS,
+  LAYER_FREE_EVENTS_LABEL, LAYER_FREE_EVENTS_SELECTED,
+  LAYER_NONPROFIT,
+  LAYER_NONPROFIT_LABEL, LAYER_NONPROFIT_SELECTED,
+  LAYER_STAGE
 } from "../../redux/constants";
 
 mapboxgl.accessToken = config.map.accessToken;
@@ -95,28 +105,69 @@ class Map extends Component {
 
   // Display feature info in bottom panel
   displayFeatureInfo(e, features) {
-    const data = features[0].properties;
-    // const {map} = this.props;
+    const data = features[0];
+    const {map} = this.props;
+    const layer = data.layer.id;
+    console.log("SELECTED LAYER", layer);
 
-    setBottomDrawerData(data);
+    // Map containing list of highlight layers associated with each layer. For example, the "bars-retail-service" layer
+    // has two additional layers rendered on top: "bars-retail-service-selected" and "bars-retail-service-label"
+    const layerHighLightMap = {
+      [LAYER_STAGE]: [LAYER_BEER_GARDEN_LOUNGE_OUTLINE],
+      [LAYER_BAR_RETAIL_SERVICE]: [LAYER_BAR_RETAIL_SERVICE_SELECTED, LAYER_BAR_RETAIL_SERVICE_LABEL],
+      [LAYER_BEER_GARDEN]: [LAYER_BEER_GARDEN_LOUNGE_OUTLINE],
+      [LAYER_BEER_GARDEN_LOUNGE_LABEL]: [LAYER_BEER_GARDEN_LOUNGE_OUTLINE],
+      [LAYER_NONPROFIT]: [LAYER_NONPROFIT_LABEL, LAYER_NONPROFIT_SELECTED],
+      [LAYER_FREE_EVENTS]: [LAYER_FREE_EVENTS_LABEL, LAYER_FREE_EVENTS_SELECTED]
+    };
+    let highlightLayer =  typeof layerHighLightMap[layer] === "object" ? layerHighLightMap[layer] : null;
+    console.log("HIGHLIGHT LAYER", highlightLayer);
+    if (highlightLayer !== null) {
+      highlightLayer.forEach(layer => {
+        map.setLayoutProperty(layer, "visibility", "visible");
+      })
+    }
+
+    setBottomDrawerData(data.properties);
     toggleBottomDrawer(true);
     // Record feature selection on google analytics
-    selectMapItem(data.name);
+    selectMapItem(data.properties.name);
 
-    // map.setFilter("vendor pins highlight", [
-    //   "all",
-    //   ["!=", "type", ""],
-    //   ["!=", "type", ""],
-    //   ["!=", "type", ""],
-    //   ["!=", "type", ""],
-    //   ["!=", "name", ""],
-    //   ["!=", "name", ""],
-    //   ["!=", "name", ""],
-    //   ["==", "id", data.id],
-    //   ["!=", "show_icon", true]
-    // ]);
+    map.setFilter(LAYER_BEER_GARDEN_LOUNGE_OUTLINE, [
+      "all",
+      ["!=", "type", "Restaurant / Bar"],
+      ["==", "id", data.properties.id]
+    ]);
 
-    // map.setLayoutProperty("vendor pins highlight", "visibility", "visible");
+    map.setFilter(LAYER_BAR_RETAIL_SERVICE_LABEL, [
+      "all",
+      ["==", "id", data.properties.id]
+    ])
+
+    map.setFilter(LAYER_BAR_RETAIL_SERVICE_SELECTED, [
+      "all",
+      ["==", "id", data.properties.id]
+    ])
+
+    map.setFilter(LAYER_NONPROFIT_LABEL, [
+      "all",
+      ["==", "id", data.properties.id]
+    ])
+
+    map.setFilter(LAYER_NONPROFIT_SELECTED, [
+      "all",
+      ["==", "id", data.properties.id]
+    ])
+
+    map.setFilter(LAYER_FREE_EVENTS_LABEL, [
+      "all",
+      ["==", "id", data.properties.id]
+    ])
+
+    map.setFilter(LAYER_FREE_EVENTS_SELECTED, [
+      "all",
+      ["==", "id", data.properties.id]
+    ])
   }
 
   /**
@@ -193,11 +244,19 @@ class Map extends Component {
     // TODO grab this layer list from a configuration
     let features = map.queryRenderedFeatures(e.point, {
       layers: [
-        "free-events",
-        "sponsors-nonprofit",
-        "stages",
-        "bars-retail-service",
-        "beer-garden-lounge"
+        LAYER_FREE_EVENTS,
+        LAYER_FREE_EVENTS_LABEL,
+        LAYER_FREE_EVENTS_SELECTED,
+        LAYER_NONPROFIT,
+        LAYER_NONPROFIT_LABEL,
+        LAYER_NONPROFIT_SELECTED,
+        LAYER_STAGE,
+        LAYER_BAR_RETAIL_SERVICE,
+        LAYER_BAR_RETAIL_SERVICE_LABEL,
+        LAYER_BAR_RETAIL_SERVICE_SELECTED,
+        LAYER_BEER_GARDEN,
+        LAYER_BEER_GARDEN_LOUNGE_OUTLINE,
+        LAYER_BEER_GARDEN_LOUNGE_LABEL
       ]
     });
 
