@@ -30,12 +30,8 @@ const styles = theme => ({
 
 const filters = [
   "All",
-  "Food",
-  "A/C",
-  "Amusement",
-  "Non-Profit",
-  "Police",
-  "Restroom",
+  "Stage",
+  "Free Event",
   "Sponsor"
 ]
 
@@ -131,9 +127,9 @@ class RightMenu extends Component {
             fullWidth
           >
             <Tab classes={{root: classes.tabRoot}} label="All"/>
-            <Tab classes={{root: classes.tabRoot}} label="Food"/>
-            <Tab classes={{root: classes.tabRoot}} label={<span>Arts <br/>& Crafts</span>}/>
-            <Tab classes={{root: classes.tabRoot}} label="Entertainment"/>
+            <Tab classes={{root: classes.tabRoot}} label="Stage"/>
+            <Tab classes={{root: classes.tabRoot}} label="Free Event"/>
+            <Tab classes={{root: classes.tabRoot}} label="Sponsor"/>
           </Tabs>
 
           <List

@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import {connect} from 'react-redux'
+import {connect} from 'react-redux';
 import PropTypes from 'prop-types';
 import {withStyles} from '@material-ui/core/styles';
 import withWidth from '@material-ui/core/withWidth';
@@ -9,29 +9,30 @@ import Divider from '@material-ui/core/Divider';
 import ListItem from '@material-ui/core/ListItem';
 import ListItemText from '@material-ui/core/ListItemText';
 import {
-  toggleLeftDrawer, toggleRightDrawer, setTabValue, selectLeftMenuItem,
-  toggleBottomDrawer, setBottomDrawerData
+  toggleLeftDrawer,
+  selectLeftMenuItem,
+  toggleBottomDrawer,
+  setBottomDrawerData
 } from '../../redux/actions';
 import {drawerWidth} from '../../redux/constants';
-import turfCenter from '@turf/center'
+import turfCenter from '@turf/center';
 import './LeftDrawer.scss';
 import imgFlier from '../../images/chbp-logo.jpg';
 
-
 const styles = theme => ({
   root: {
-    flexGrow: 1,
+    flexGrow: 1
   },
   flex: {
-    flex: 1,
+    flex: 1
   },
   menuButton: {
     marginLeft: 12,
-    marginRight: 20,
+    marginRight: 20
   },
   drawerPaper: {
     width: drawerWidth,
-    height: '100%',
+    height: '100%'
   },
   list: {
     [theme.breakpoints.down('sm')]: {
@@ -64,22 +65,30 @@ class LeftDrawer extends Component {
     if (width === 'xs' || width === 'sm') {
       toggleLeftDrawer(false);
     }
+  };
 
-  }
-
-  filterLeftMenuItems = (data) => {
-    let leftPanelData = [];
+  filterLeftMenuItems = data => {
+    // Left menu items ordered by importance
+    let leftMenuMap = {
+      "Main Stage": [],
+      "Clif Bar Presents: Vera Stage": [],
+      "Beer Garden - Pike": [],
+      "Beer Garden - Vera": [],
+      "The Lounge by AT&T": [],
+      "Food Court": [],
+      "Chophouse Row": []
+    };
     const items = data.features;
-    items.forEach((vendor) => {
-      if (vendor.properties.left_panel) {
-        leftPanelData.push(vendor);
+    items.forEach(vendor => {
+      if (vendor.properties.left_panel === true) {
+        leftMenuMap[vendor.properties.name] = vendor;
       }
     });
-    return leftPanelData;
+    return Object.keys(leftMenuMap).map(key => leftMenuMap[key]);
   };
 
   componentDidUpdate() {
-    console.log(`updated state: ${this.props}`)
+    console.log(`updated state: ${this.props}`);
   }
 
   render() {
@@ -94,18 +103,14 @@ class LeftDrawer extends Component {
         variant={drawerVariant}
         anchor={anchor}
         open={open}
-        onClose={() => {
-          toggleLeftDrawer(false)
-        }}
-        onOpen={() => {
-          toggleLeftDrawer(true)
-        }}
+        onClose={() => toggleLeftDrawer(false)}
+        onOpen={() => toggleLeftDrawer(true)}
         classes={{
           paper: classes.drawerPaper
         }}
       >
         {/* Drawer Flier Image */}
-        <img alt="Official Capitol Hill Block Party Flier" className="Flier" src={imgFlier}/>
+        <img alt='Official Capitol Hill Block Party Flier' className='Flier' src={imgFlier}/>
 
         {/*  Map Legend */}
         <div className="Legend">
@@ -138,29 +143,20 @@ class LeftDrawer extends Component {
         {/*  Must See List */}
         <div className="legend-title sub-section">Don't Miss:</div>
         <List>
-          <ListItem className="list-item-wrapper" button onClick={() => {
-            // Close the right & left menu
-            toggleRightDrawer(true);
-            toggleLeftDrawer(false);
-            setTabValue({index: 1, name: "Food"});
-            selectLeftMenuItem("Food Vendors");
-          }}>
-            <ListItemText disableTypography={true} classes={{root: 'list-item-text'}} primary="Food Vendors"/>
-          </ListItem>
           {menuItems.map((item, index) => {
             return (
               <div key={item.properties.id}>
-                {/* {index === menuItems.length - 1 ? (<Divider/>) : null} */}
                 <ListItem className="list-item-wrapper" button onClick={() => this.handleItemSelection(item)}>
                   <ListItemText disableTypography={true} classes={{root: 'list-item-text'}}
-                                primary={item.properties.name}/>
+                    primary={item.properties.name}/>
                 </ListItem>
-              </div>);
+              </div>
+            );
           })}
           <Divider/>
           {/*  Go to https://www.capitolhillblockparty.com/ */}
           <a className="list-link" href="https://www.capitolhillblockparty.com/" target="_blank"
-             rel="noopener noreferrer">
+            rel="noopener noreferrer">
             <ListItem classes={{root: classes.list}} className="list-item-wrapper" button>
               <ListItemText disableTypography={true} classes={{root: 'list-item-text'}}
                             primary="Capitol Hill Block Party Official Website"/>
@@ -189,4 +185,6 @@ function mapStateToProps(state) {
   };
 }
 
-export default connect(mapStateToProps)(withWidth()(withStyles(styles, {withTheme: true})(LeftDrawer)));
+export default connect(mapStateToProps)(
+  withWidth()(withStyles(styles, {withTheme: true})(LeftDrawer))
+);
