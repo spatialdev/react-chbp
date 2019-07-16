@@ -108,7 +108,6 @@ class Map extends Component {
     const data = features[0];
     const {map} = this.props;
     const layer = data.layer.id;
-
     // Map containing list of highlight layers associated with each layer. For example, the "bars-retail-service" layer
     // has two additional layers rendered on top: "bars-retail-service-selected" and "bars-retail-service-label"
     const layerHighLightMap = {
