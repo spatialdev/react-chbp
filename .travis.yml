@@ -30,4 +30,4 @@ deploy:
       on:
         branch: master
 after_deploy:
-  - aws cloudfront create-invalidation --distribution-id E2HPPO2VE8RZTJ --paths /*
+  - aws cloudfront create-invalidation --distribution-id E3EN0CPKXVNHRS --paths /*
