@@ -86,6 +86,23 @@ if ('function' === typeof importScripts) {
         ],
       })
     );
+
+    // Cache external font files with a cache-first strategy for 1 year.
+    workbox.routing.registerRoute(
+      /^https:\/\/db\.onlinewebfonts\.com/,
+      new workbox.strategies.CacheFirst({
+        cacheName: 'db-onlinewebfonts-webfonts',
+        plugins: [
+          new workbox.cacheableResponse.Plugin({
+            statuses: [0, 200]
+          }),
+          new workbox.expiration.Plugin({
+            maxAgeSeconds: 60 * 60 * 24 * 365,
+            maxEntries: 30
+          }),
+        ],
+      })
+    );
   } else {
     console.log('Workbox could not be loaded. No Offline support');
   }
