@@ -41,10 +41,9 @@ class BottomSheet extends Component {
 
   render() {
 
-    const {classes, bottomDrawer, map} = this.props;
+    const {classes, bottomDrawer} = this.props;
     const {options, data} = bottomDrawer;
     const {open, anchor} = options;
-    let style = this.getBottomSheetTemplate(data);
     let header = this.getHeader(data)
 
     return (
