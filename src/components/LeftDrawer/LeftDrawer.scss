@@ -46,11 +46,13 @@
 
 .map-pin {
     height: 15px;
+    display: inline-block;
+    margin: auto;
 }
 
 .legend-box {
-    padding: 4px;
-    margin: 0 10px 0 0;
+    padding: 4px 4px 4px 0;
+    margin: 0 6px 0 0;
     width: 20px;
     display: inline-block;
     text-align: center;
@@ -74,55 +76,29 @@
 }
 
 .stage {
-    display: inline-block;
-    width: 15px;
-    background-color: $red;
-}
-
-.stage {
-    display: inline-block;
     width: 100%;
-    margin: auto;
-    background-color: $red;
-}
-
-.stage {
-    display: inline-block;
-    width: 100%;
-    margin: auto;
     background-color: $red;
 }
 
 .beer-garden {
-    display: inline-block;
     width: 100%;
-    margin: auto;
     background-color: $gold;
 }
 
 .free-events {
-    display: inline-block;
     border-radius: 15px;
     width: 15px;
-    margin: auto;
     background-color: $blue;
 }
 
 .sponsor {
-    display: inline-block;
     border-radius: 15px;
     width: 15px;
-    margin: auto;
     background-color: $pink;
 }
 
 .restaurant {
-    display: inline-block;
     border-radius: 15px;
     width: 15px;
-    margin: auto;
     background-color: $teal;
 }
-
-
-

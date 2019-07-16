@@ -125,13 +125,13 @@ class LeftDrawer extends Component {
             <span className="legend-box">
               <span className="map-pin beer-garden"></span>
             </span>
-            <span className="legend-item-text">Beer Gardens / Food Court</span>
+            <span className="legend-item-text">Beer Garden / Food Court</span>
           </div>
           <div className="legend-item-wrapper">
             <span className="legend-box">
               <span className="map-pin free-events"></span>
             </span>
-            <span className="legend-item-text">Free Events</span>
+            <span className="legend-item-text">Free Event</span>
           </div>
           <div className="legend-item-wrapper">
             <span className="legend-box">
@@ -143,7 +143,7 @@ class LeftDrawer extends Component {
             <span className="legend-box">
               <span className="map-pin restaurant"></span>
             </span>
-            <span className="legend-item-text">Restaurant & Bars / Retail / Service</span>
+            <span className="legend-item-text">Restaurant / Bar / Retail / Service</span>
           </div>
         </div>
 
