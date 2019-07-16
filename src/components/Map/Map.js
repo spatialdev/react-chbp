@@ -96,7 +96,7 @@ class Map extends Component {
   // Display feature info in bottom panel
   displayFeatureInfo(e, features) {
     const data = features[0].properties;
-    const {map} = this.props;
+    // const {map} = this.props;
 
     setBottomDrawerData(data);
     toggleBottomDrawer(true);
@@ -197,7 +197,7 @@ class Map extends Component {
         "sponsors-nonprofit",
         "stages",
         "bars-retail-service",
-        "beer-garden"
+        "beer-garden-lounge"
       ]
     });
 

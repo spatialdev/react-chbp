@@ -12,7 +12,7 @@
       "type": "Feature",
       "properties": {
         "id": 1,
-        "name": "Main",
+        "name": "Main Stage",
         "type": "Stage",
         "description": null,
         "website": null,
@@ -20,7 +20,7 @@
         "show_icon": "",
         "icon": "",
         "rotate": "",
-        "left_panel": ""
+        "left_panel": true
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -56,7 +56,7 @@
       "type": "Feature",
       "properties": {
         "id": 2,
-        "name": "Clif Bar Presents: Vera",
+        "name": "Clif Bar Presents: Vera Stage",
         "type": "Stage",
         "description": null,
         "website": null,
@@ -64,7 +64,7 @@
         "show_icon": "",
         "icon": "",
         "rotate": "",
-        "left_panel": ""
+        "left_panel": true
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -233,7 +233,7 @@
       "properties": {
         "id": 31,
         "name": "Cafe Pettirosso",
-        "type": "Restaurant \/ Bar",
+        "type": "Stage",
         "description": "Cafe Pettirosso has had many forms since Robin Wright started it as a coffee cart. Yuki and Miki Sodos, sisters and co-owners of Bang Bang Cafe reopened Cafe Pettirosso in 2011. No stranger to the community surrounding the cafe, Yuki had managed Cafe Pettirosso off and on for the previous 10 years and was thrilled when Robin suggested she take over Pettirosso with her sister. While the business has changed in certain ways, the love behind every day at Cafe Pettirosso has only grown.",
         "website": "pettirossoseattle.com",
         "show_label": "",
@@ -277,7 +277,7 @@
       "properties": {
         "id": 62,
         "name": "Wildrose",
-        "type": "Restaurant \/ Bar",
+        "type": "Stage",
         "description": "Wildrose is one of the oldest lesbian bars on the West Coast, offering DJs, karaoke & seasonal outdoor seating.",
         "website": "wildrosebar.com",
         "show_label": "",
@@ -320,7 +320,7 @@
       "type": "Feature",
       "properties": {
         "id": 119,
-        "name": "The Lounge by AT&T ",
+        "name": "The Lounge by AT&T",
         "type": "Sponsor ",
         "description": null,
         "website": null,
@@ -328,7 +328,7 @@
         "show_icon": "",
         "icon": "",
         "rotate": "",
-        "left_panel": ""
+        "left_panel": true
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -364,7 +364,7 @@
       "type": "Feature",
       "properties": {
         "id": 152,
-        "name": "Beer Garden",
+        "name": "Beer Garden - Pike",
         "type": "",
         "description": null,
         "website": null,
@@ -372,7 +372,7 @@
         "show_icon": "",
         "icon": "",
         "rotate": "",
-        "left_panel": ""
+        "left_panel": true
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -424,7 +424,7 @@
       "type": "Feature",
       "properties": {
         "id": 153,
-        "name": "Beer Garden",
+        "name": "Beer Garden - Vera",
         "type": "",
         "description": null,
         "website": null,
@@ -432,7 +432,7 @@
         "show_icon": "",
         "icon": "",
         "rotate": "",
-        "left_panel": ""
+        "left_panel": true
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -488,7 +488,7 @@
         "show_icon": "",
         "icon": "",
         "rotate": "",
-        "left_panel": ""
+        "left_panel": true
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -1081,17 +1081,6 @@
     {
       "type": "Feature",
       "properties": {
-        "id": 62,
-        "name": "Wildrose",
-        "type": "Restaurant \/ Bar",
-        "description": "Wildrose is one of the oldest lesbian bars on the West Coast, offering DJs, karaoke & seasonal outdoor seating.",
-        "website": "wildrosebar.com"
-      },
-      "geometry": null
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "id": 63,
         "name": "35th North",
         "type": "Retail",
@@ -1672,7 +1661,7 @@
       "type": "Feature",
       "properties": {
         "id": 119,
-        "name": "The Lounge by AT&T ",
+        "name": "The Lounge by AT&T",
         "type": "Sponsor",
         "description": null,
         "website": null
@@ -1735,8 +1724,9 @@
         "id": 8,
         "name": "Chophouse Row",
         "type": "Free Event",
-        "description": "Brand new just last year, the highly popular Chophouse Row Courtyard DJs are back for CHBP 2019! We‚Äôve partnered with Chophouse Row again to bring you live DJ sets in their intimate indoor \/ outdoor courtyard. Free to the public via access from Chophouse‚Äôs entrance on 12th Avenue, and also available to CHBP ticket holders within the festival gates. Taking place each day of the festival, we‚Äôll have live sets from a variety of local DJs. ",
-        "website": null
+        "description": "Brand new just last year, the highly popular Chophouse Row Courtyard DJs are back for CHBP 2019! We’ve partnered with Chophouse Row again to bring you live DJ sets in their intimate indoor / outdoor courtyard. Free to the public via access from Chophouse’s entrance on 12th Avenue, and also available to CHBP ticket holders within the festival gates. Taking place each day of the festival, we’ll have live sets from a variety of local DJs.",
+        "website": null,
+        "left_panel": true
       },
       "geometry": {
         "type": "Point",
@@ -1988,7 +1978,7 @@
       "type": "Feature",
       "properties": {
         "id": 143,
-        "name": "Clif Bar",
+        "name": "Clif Bar Presents: Vera Stage",
         "type": null,
         "description": null,
         "website": null
@@ -2171,7 +2161,7 @@
         "id": 115,
         "name": "PAX",
         "type": "Sponsor",
-        "description": "Our exclusive vaporizer sponsor of CHBP 2019! Check out their lounge in the Vera Beer Garden on 11th & Pike (21+ only).  \n\nPAX Labs was founded in 2007 with the goal of creating responsible, enjoyable, and personalized vaporizer experiences. As an award-winning consumer technology brand in 2018, PAX products continue to represent the gold standard in product quality as we aim to move the space beyond stereotypes. Most of all, they want to be good stewards for a product and movement that enhances many people‚Äôs lives. Their loose leaf and extract vaporizer products are made with high quality materials and offer empowering experiences for those looking for a premium and discreet product. Their focus on design and innovation means we have best-in-class software and hardware, and provide tools so that you can personalize each and every experience.  ",
+        "description": "Our exclusive vaporizer sponsor of CHBP 2019! Check out their lounge in the Vera Beer Garden on 11th & Pike (21+ only). PAX Labs was founded in 2007 with the goal of creating responsible, enjoyable, and personalized vaporizer experiences. As an award-winning consumer technology brand in 2018, PAX products continue to represent the gold standard in product quality as we aim to move the space beyond stereotypes. Most of all, they want to be good stewards for a product and movement that enhances many people’s lives. Their loose leaf and extract vaporizer products are made with high quality materials and offer empowering experiences for those looking for a premium and discreet product. Their focus on design and innovation means we have best-in-class software and hardware, and provide tools so that you can personalize each and every experience.",
         "website": "https:\/\/www.pax.com\/"
       },
       "geometry": {
@@ -2179,23 +2169,6 @@
         "coordinates": [
           -122.317797191655387,
           47.614127715263081
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": 157,
-        "name": null,
-        "type": null,
-        "description": null,
-        "website": null
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.319309580197995,
-          47.614599251293349
         ]
       }
     },
@@ -2740,23 +2713,6 @@
         "coordinates": [
           -122.320035939748678,
           47.614192854730263
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": 157,
-        "name": null,
-        "type": null,
-        "description": null,
-        "website": null
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.319309580197995,
-          47.614599251293349
         ]
       }
     },
