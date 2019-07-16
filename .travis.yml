@@ -20,3 +20,14 @@ deploy:
       region: $AWS_DEFAULT_REGION
       on:
         branch: development
+    - provider: s3
+      access_key_id: $AWS_ACCESS_KEY_ID
+      secret_access_key: $AWS_SECRET_ACCESS_KEY
+      bucket: "maps.capitolhillblockparty.com"
+      local_dir: build
+      skip_cleanup: true
+      region: $AWS_DEFAULT_REGION
+      on:
+        branch: master
+after_deploy:
+  - aws cloudfront create-invalidation --distribution-id E2HPPO2VE8RZTJ --paths /*
