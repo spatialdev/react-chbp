@@ -28,24 +28,28 @@
           [
             [
               [
-                -122.3204781819734,
-                47.614020814613106
+                -122.32047818197,
+                47.61402081461
               ],
               [
-                -122.3204781819734,
-                47.614164828676827
+                -122.32047818197,
+                47.61416482868
               ],
               [
-                -122.320375314785025,
-                47.614164828676827
+                -122.32037531479,
+                47.61416482868
               ],
               [
-                -122.320375314785025,
-                47.614020814613106
+                -122.32037531479,
+                47.61402081461
               ],
               [
-                -122.3204781819734,
-                47.614020814613106
+                -122.32047818197,
+                47.61402081461
+              ],
+              [
+                -122.32047818197,
+                47.61402081461
               ]
             ]
           ]
@@ -72,24 +76,28 @@
           [
             [
               [
-                -122.318232008556592,
-                47.613842524610973
+                -122.31823200856,
+                47.61384252461
               ],
               [
-                -122.318232008556592,
-                47.613897630081723
+                -122.31823200856,
+                47.61389763008
               ],
               [
-                -122.318139914482188,
-                47.613897630081723
+                -122.31813991448,
+                47.61389763008
               ],
               [
-                -122.318139914482188,
-                47.613842524610973
+                -122.31813991448,
+                47.61384252461
               ],
               [
-                -122.318232008556592,
-                47.613842524610973
+                -122.31823200856,
+                47.61384252461
+              ],
+              [
+                -122.31823200856,
+                47.61384252461
               ]
             ]
           ]
@@ -116,24 +124,28 @@
           [
             [
               [
-                -122.319866876811901,
-                47.61388487299309
+                -122.31986687681,
+                47.61388487299
               ],
               [
-                -122.319866876811901,
-                47.613979955279973
+                -122.31986687681,
+                47.61397995528
               ],
               [
-                -122.319589000924296,
-                47.613979955279973
+                -122.31958900092,
+                47.61397995528
               ],
               [
-                -122.319589000924296,
-                47.61388487299309
+                -122.31958900092,
+                47.61388487299
               ],
               [
-                -122.319866876811901,
-                47.61388487299309
+                -122.31986687681,
+                47.61388487299
+              ],
+              [
+                -122.31986687681,
+                47.61388487299
               ]
             ]
           ]
@@ -160,24 +172,28 @@
           [
             [
               [
-                -122.319709559825498,
-                47.61375959096182
+                -122.31970955983,
+                47.61375959096
               ],
               [
-                -122.319709559825498,
-                47.613815409800601
+                -122.31970955983,
+                47.6138154098
               ],
               [
-                -122.319586467720399,
-                47.613815409800601
+                -122.31958646772,
+                47.6138154098
               ],
               [
-                -122.319586467720399,
-                47.61375959096182
+                -122.31958646772,
+                47.61375959096
               ],
               [
-                -122.319709559825498,
-                47.61375959096182
+                -122.31970955983,
+                47.61375959096
+              ],
+              [
+                -122.31970955983,
+                47.61375959096
               ]
             ]
           ]
@@ -191,7 +207,7 @@
         "name": "Cha Cha",
         "type": "Stage",
         "description": "Opening its doors alongside Bimbos Cantina on Cinco de Mayo in 1998,  Cha Cha Lounge is a beachside tiki bar lifted from its tropical locale somewhere south of Acapulco and plopped down in the middle of Seattle.",
-        "website": "chachalounge.com\/seattle",
+        "website": "chachalounge.com/seattle",
         "show_label": "",
         "show_icon": "",
         "icon": "",
@@ -204,24 +220,104 @@
           [
             [
               [
-                -122.318792211923395,
-                47.613843895634126
+                -122.31879221192,
+                47.61384389563
               ],
               [
-                -122.318792211923395,
-                47.613989413298548
+                -122.31879221192,
+                47.6139894133
               ],
               [
-                -122.318685748632134,
-                47.613989413298548
+                -122.31868574863,
+                47.6139894133
               ],
               [
-                -122.318685748632134,
-                47.613843895634126
+                -122.31868574863,
+                47.61384389563
               ],
               [
-                -122.318792211923395,
-                47.613843895634126
+                -122.31879221192,
+                47.61384389563
+              ],
+              [
+                -122.31879221192,
+                47.61384389563
+              ]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "description": "Brand new just last year, the highly popular Chophouse Row Courtyard DJs are back for CHBP 2019! We‚Äôve partnered with Chophouse Row again to bring you live DJ sets in their intimate indoor / outdoor courtyard. Free to the public via access from Chophouse‚Äôs entrance on 12th Avenue, and also available to CHBP ticket holders within the festival gates. Taking place each day of the festival, we‚Äôll have live sets from a variety of local DJs.",
+        "icon": "",
+        "id": 8,
+        "left_panel": true,
+        "name": "Chophouse Row",
+        "rotate": "",
+        "show_icon": "",
+        "show_label": "",
+        "type": "Free Event",
+        "website": null
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                -122.31749351754,
+                47.61356971507
+              ],
+              [
+                -122.31801053824,
+                47.61356696703
+              ],
+              [
+                -122.31801301613,
+                47.6137788277
+              ],
+              [
+                -122.31749789,
+                47.61378156565
+              ],
+              [
+                -122.31749871303,
+                47.61385193467
+              ],
+              [
+                -122.31738217845,
+                47.61385255406
+              ],
+              [
+                -122.31738205198,
+                47.6138417407
+              ],
+              [
+                -122.31740000931,
+                47.61384164526
+              ],
+              [
+                -122.31739806416,
+                47.61367533397
+              ],
+              [
+                -122.31740840493,
+                47.613675279
+              ],
+              [
+                -122.31740741197,
+                47.61359038032
+              ],
+              [
+                -122.31749375386,
+                47.6135899214
+              ],
+              [
+                -122.31749351754,
+                47.61356971507
               ]
             ]
           ]
@@ -248,24 +344,28 @@
           [
             [
               [
-                -122.318016946196821,
-                47.613832141042458
+                -122.3180169462,
+                47.61383214104
               ],
               [
-                -122.318016946196821,
-                47.61392021562073
+                -122.3180169462,
+                47.61392021562
               ],
               [
-                -122.317928871618548,
-                47.61392021562073
+                -122.31792887162,
+                47.61392021562
               ],
               [
-                -122.317928871618548,
-                47.613832141042458
+                -122.31792887162,
+                47.61383214104
               ],
               [
-                -122.318016946196821,
-                47.613832141042458
+                -122.3180169462,
+                47.61383214104
+              ],
+              [
+                -122.3180169462,
+                47.61383214104
               ]
             ]
           ]
@@ -292,24 +392,28 @@
           [
             [
               [
-                -122.318380794778591,
-                47.613845031906514
+                -122.31838079478,
+                47.61384503191
               ],
               [
-                -122.318380794778591,
-                47.613991130208326
+                -122.31838079478,
+                47.61399113021
               ],
               [
-                -122.3182624671242,
-                47.613991130208326
+                -122.31826246712,
+                47.61399113021
               ],
               [
-                -122.3182624671242,
-                47.613845031906514
+                -122.31826246712,
+                47.61384503191
               ],
               [
-                -122.318380794778591,
-                47.613845031906514
+                -122.31838079478,
+                47.61384503191
+              ],
+              [
+                -122.31838079478,
+                47.61384503191
               ]
             ]
           ]
@@ -336,24 +440,28 @@
           [
             [
               [
-                -122.319456257397803,
-                47.614192785666539
+                -122.3194562574,
+                47.61419278567
               ],
               [
-                -122.319456257397803,
-                47.61451773266753
+                -122.3194562574,
+                47.61451773267
               ],
               [
-                -122.319327593411856,
-                47.61451773266753
+                -122.31932759341,
+                47.61451773267
               ],
               [
-                -122.319327593411856,
-                47.614192785666539
+                -122.31932759341,
+                47.61419278567
               ],
               [
-                -122.319456257397803,
-                47.614192785666539
+                -122.3194562574,
+                47.61419278567
+              ],
+              [
+                -122.3194562574,
+                47.61419278567
               ]
             ]
           ]
@@ -380,40 +488,44 @@
           [
             [
               [
-                -122.319617008927892,
-                47.614020740733515
+                -122.31961700893,
+                47.61402074073
               ],
               [
-                -122.319616878569974,
-                47.614109717217687
+                -122.31961687857,
+                47.61410971722
               ],
               [
-                -122.318694930880042,
-                47.614109717217687
+                -122.31869493088,
+                47.61410971722
               ],
               [
-                -122.31869506123796,
-                47.614020740733515
+                -122.31869506124,
+                47.61402074073
               ],
               [
-                -122.319356975639622,
-                47.61402068202792
+                -122.31935697564,
+                47.61402068203
               ],
               [
-                -122.319355571572629,
-                47.613731296100198
+                -122.31935557157,
+                47.6137312961
               ],
               [
-                -122.319542288687884,
-                47.613731940884961
+                -122.31954228869,
+                47.61373194088
               ],
               [
-                -122.31954766142529,
-                47.614020668664111
+                -122.31954766143,
+                47.61402066866
               ],
               [
-                -122.319617008927892,
-                47.614020740733515
+                -122.31961700893,
+                47.61402074073
+              ],
+              [
+                -122.31961700893,
+                47.61402074073
               ]
             ]
           ]
@@ -440,36 +552,40 @@
           [
             [
               [
-                -122.318133433459948,
-                47.614130427841502
+                -122.31813343346,
+                47.61413042784
               ],
               [
-                -122.318134115733884,
-                47.614244420609303
+                -122.31813411573,
+                47.61424442061
               ],
               [
-                -122.318039480193747,
-                47.614243782082561
+                -122.31806489885,
+                47.61424430133
               ],
               [
-                -122.318039485383196,
-                47.614169617199273
+                -122.31806490404,
+                47.61417013645
               ],
               [
-                -122.317859775827074,
-                47.614169642776403
+                -122.31785977583,
+                47.61416964278
               ],
               [
-                -122.317859775827074,
-                47.614080608111379
+                -122.31785977583,
+                47.61408060811
               ],
               [
-                -122.318054485158143,
-                47.614080591064329
+                -122.31805448516,
+                47.61408059106
               ],
               [
-                -122.318133433459948,
-                47.614130427841502
+                -122.31813343346,
+                47.61413042784
+              ],
+              [
+                -122.31813343346,
+                47.61413042784
               ]
             ]
           ]
@@ -496,24 +612,36 @@
           [
             [
               [
-                -122.319088015285942,
-                47.614196108897424
+                -122.31904695829,
+                47.61418737163
               ],
               [
-                -122.319088015285942,
-                47.614341596898768
+                -122.31904903577,
+                47.61445030024
               ],
               [
-                -122.318986826515783,
-                47.614341596898768
+                -122.31901672321,
+                47.61445041626
               ],
               [
-                -122.318986826515783,
-                47.614196108897424
+                -122.31901706313,
+                47.61449343651
               ],
               [
-                -122.319088015285942,
-                47.614196108897424
+                -122.3188225033,
+                47.6144941351
+              ],
+              [
+                -122.31882008589,
+                47.61418818625
+              ],
+              [
+                -122.31904599794,
+                47.61418737508
+              ],
+              [
+                -122.31904695829,
+                47.61418737163
               ]
             ]
           ]
@@ -554,8 +682,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.319878347197104,
-          47.615906097027747
+          -122.3198783471971,
+          47.61590609702775
         ]
       }
     },
@@ -571,7 +699,7 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.319125526368651,
+          -122.31912552636865,
           47.61742854300217
         ]
       }
@@ -581,7 +709,7 @@
       "properties": {
         "id": 11,
         "name": "Crybaby Studios",
-        "type": "Art \/ Music",
+        "type": "Art / Music",
         "description": "Crybaby Studios was established in 1999 and provides Seattle with an important creative space for musicians to develop their craft‚Äîa vital institution keeping the city culturally diverse and making lives better.",
         "website": "crybabystudios.com"
       },
@@ -592,7 +720,7 @@
       "properties": {
         "id": 12,
         "name": "Annex Theatre",
-        "type": "Art \/ Music",
+        "type": "Art / Music",
         "description": "Annex is one of Seattle's most beloved (and oldest) small theaters and describes itself as \"a democratic collective of theater artists dedicated to creating bold new work in an environment of improbability, resourcefulness, and risk.\" It began in 1986 on Bainbridge Island, then moved to Seattle in 1988. It has produced over 300 productions in its long history, including hundreds of world premieres, and plays by locally and nationally recognized writers such as Chris Jeffries, Paul Mullin, Elizabeth Heffron, Kelleen Conway Blanchard, Bret Fetzer, Keri Healey, Scot Augustson, Heidi Heimarck, Erik Ehn, Naomi Iizuka, Glen Berger, and many, many more.",
         "website": "annextheatre.org"
       },
@@ -603,22 +731,34 @@
       "properties": {
         "id": 13,
         "name": "Century Ballroom",
-        "type": "Art \/ Music",
+        "type": "Art / Music",
         "description": "Founded in 1997 to promote social dancing of all kinds, Century Ballroom encourages a diverse community that includes your gender identity and expression, sexual orientation, disability, physical appearance, race, age, and religion.\n\nOur community of instructors, staff, and patrons welcome and encourage any and everyone to come out dancing.\n\nOur philosophy: It is more important to be kind than to be right.",
         "website": "centuryballroom.com"
       },
-      "geometry": null
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3197679,
+          47.6149886
+        ]
+      }
     },
     {
       "type": "Feature",
       "properties": {
         "id": 14,
         "name": "NW Film Forum",
-        "type": "Art \/ Music",
+        "type": "Art / Music",
         "description": "Northwest Film Forum incites public dialogue and creative action through collective cinematic experiences. A nonprofit film and arts center located in Seattle, Northwest Film Forum presents hundreds of films, festivals, community events, multidisciplinary performances, and public discussions each year. A comprehensive visual media organization, the Forum offers educational workshops and artist services for film and media makers at all stages of their development. Artist services include access to space, gear, fiscal sponsorship, and an edit lab. Northwest Film Forum is a member-based organization.",
         "website": "nwfilmforum.org"
       },
-      "geometry": null
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.317071,
+          47.6144138
+        ]
+      }
     },
     {
       "type": "Feature",
@@ -680,18 +820,41 @@
       "properties": {
         "id": 24,
         "name": "Amandine Bakeshop",
-        "type": "Restaurant \/ Bar",
+        "type": "Restaurant / Bar",
         "description": "Amandine Bakeshop is a micro-bakery and caf√© specializing in regional French and classic English pastries incorporating locally-sourced, seasonal ingredients through classic pastry technique.",
         "website": "amadineseattle.com"
       },
-      "geometry": null
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3179723,
+          47.613624
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 26,
+        "name": "Bar Ferdinand",
+        "type": "Restaurant / Bar",
+        "description": "Bar Ferdinand‚Äôs focus is on their wines, sourced with care from family owned, small production bodegas from all over the wine (and sake, and beer) producing world.",
+        "website": "barferdinandseattle.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3176348,
+          47.6137435
+        ]
+      }
     },
     {
       "type": "Feature",
       "properties": {
         "id": 27,
         "name": "Barca",
-        "type": "Restaurant \/ Bar",
+        "type": "Restaurant / Bar",
         "description": "Bar√ßa features 29 craft beers on tap and signature handcrafted cocktails, Barca's comfortable and relaxed atmosphere is perfect for a romantic evening or a night out with friends.",
         "website": "barcaseattlelounge.com"
       },
@@ -702,7 +865,7 @@
       "properties": {
         "id": 28,
         "name": "Big Marios",
-        "type": "Restaurant \/ Bar",
+        "type": "Restaurant / Bar",
         "description": "In the winter of 1964, Mario Vellotti emigrated from Naples, Italy to live and work on Mulberry Street in New York City. Mario made his early living tossing pizza and cooking in some of New York's most notorious kitchens; Angelo's, Casa Bella on Mulberry Street and Nanni Al Valletto on 59th Street. Later Mario joined his brother and uncle in the family business, opening their world-famous pizzerias in all five Burroughs, including Sal's on Broome Street, Bensonhurst's J & V and the original Patricia's in the Bronx. Big Marios Pizza is in Seattle now... enjoy!",
         "website": "bigmariosnewyorkpizza.com"
       },
@@ -713,8 +876,8 @@
       "properties": {
         "id": 29,
         "name": "Bimbos Cantina",
-        "type": "Restaurant \/ Bar",
-        "description": "Bimbos Cantina rolled its first burrito in 1995. It can be said that Bimbo's Cantina has had a huge part in turning this portion of the Pike\/Pine Corridor into ground zero for Seattle nightlife. Bimbos Cantina, with its mammoth blinking red arrow over the sidewalk, sits at street level on East Pike. The Mexican wrestler and black velvet painting motif is predominant throughout.",
+        "type": "Restaurant / Bar",
+        "description": "Bimbos Cantina rolled its first burrito in 1995. It can be said that Bimbo's Cantina has had a huge part in turning this portion of the Pike/Pine Corridor into ground zero for Seattle nightlife. Bimbos Cantina, with its mammoth blinking red arrow over the sidewalk, sits at street level on East Pike. The Mexican wrestler and black velvet painting motif is predominant throughout.",
         "website": "bimboscantina.com"
       },
       "geometry": {
@@ -730,7 +893,7 @@
       "properties": {
         "id": 30,
         "name": "Bok a Bok",
-        "type": "Restaurant \/ Bar",
+        "type": "Restaurant / Bar",
         "description": "Bok a Bok fried chicken is air-dried, hand-dipped and double-fried to order. This process isn‚Äôt fast but it makes for super juicy chicken with an unforgettable crunch. It‚Äôs fresh, never frozen, antibiotic- and hormone-free chicken. It‚Äôs hand-made biscuits and sides made from scratch, using fresh, responsibly sourced ingredients that we prepare with care and integrity.",
         "website": "bokabokchicken.com"
       },
@@ -741,7 +904,7 @@
       "properties": {
         "id": 32,
         "name": "Caffe Vita",
-        "type": "Restaurant \/ Bar",
+        "type": "Restaurant / Bar",
         "description": "Caffe Vita has been roasting coffee in Seattle since 1995 as an independent & locally-owned company. From their beginnings at the base of Seattle‚Äôs Queen Anne neighborhood, they now operate 13 cafes throughout Seattle, Portland, New York, and Los Angeles. Caffe Vita coffee is always fresh, imported directly from the farm, and roasted on-site in Seattle, Brooklyn, and Portland.",
         "website": "caffevita.com"
       },
@@ -752,7 +915,7 @@
       "properties": {
         "id": 33,
         "name": "Capitol Coffee Works",
-        "type": "Restaurant \/ Bar",
+        "type": "Restaurant / Bar",
         "description": "Capitol Hill Coffee Works is a place to experience and experiment with coffee in its richly diverse forms and varieties. Wine connoisseurs have tasting rooms; beer aficionados have brewery tap rooms; fine dining enthusiasts have five-star restaurants. Their goal is to create a dedicated tasting space for specialty coffee. All of their locations commit unrelentingly to making coffee better and providing resources to help their customers make and explore better coffee.",
         "website": "seattlecoffeeworks.com"
       },
@@ -763,7 +926,7 @@
       "properties": {
         "id": 34,
         "name": "Capitol Lounge",
-        "type": "Restaurant \/ Bar",
+        "type": "Restaurant / Bar",
         "description": "Capitol Lounge is a newly opened bar that offers chill vibes and tasty drinks.",
         "website": "capitolloungeseattle.com"
       },
@@ -774,7 +937,7 @@
       "properties": {
         "id": 35,
         "name": "Cupcake Royale",
-        "type": "Restaurant \/ Bar",
+        "type": "Restaurant / Bar",
         "description": "Cupcake Royale is Seattle's first cupcake bakery and offers delicious made-from-scratch cupcakes with natural, fresh, and local ingredients. Check out their new line of homemade ice cream inspired by their bakery! They craft Stumptown espresso drinks to complement their cupcakes and ice cream.",
         "website": "cupcakeroyale.com"
       },
@@ -785,18 +948,24 @@
       "properties": {
         "id": 36,
         "name": "Gokan",
-        "type": "Restaurant \/ Bar",
+        "type": "Restaurant / Bar",
         "description": "Chef Jun Park, who also owns Wallingford‚Äôs beloved Musashi, has opened another sushi restaurant, this time with a menu featuring lesser-known fish and artistic platings. Gokan has a dark, sleek design, and two tatami rooms surrounded by indoor water fountains.",
         "website": "thegokan.com"
       },
-      "geometry": null
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3196583,
+          47.6130786
+        ]
+      }
     },
     {
       "type": "Feature",
       "properties": {
         "id": 37,
         "name": "Grims",
-        "type": "Restaurant \/ Bar",
+        "type": "Restaurant / Bar",
         "description": "Grim‚Äôs is Capitol Hill‚Äôs premier location for both a quiet dinner and a lively night out. Featuring a full menu in the main bar and an intimate lounge, as well as a spacious dance club with top notch DJs above, Grim‚Äôs has it all. Their bar features a rotating tap and seasonal craft cocktails to accompany the Northwest-inspired atmosphere",
         "website": "grimseattle.com"
       },
@@ -807,7 +976,7 @@
       "properties": {
         "id": 38,
         "name": "Havana",
-        "type": "Restaurant \/ Bar",
+        "type": "Restaurant / Bar",
         "description": "Havana Social Club is a beautiful booth-lined cocktails spot with seriously sweet DJs to get you on the dance floor and the kind of slightly mysterious location that keeps the wrong kind of dudes away. This place is selling elegance and you are buying. The ceiling is painted gold, so you know this club means business.",
         "website": "havanasocial.com"
       },
@@ -818,9 +987,9 @@
       "properties": {
         "id": 39,
         "name": "Ikina Sushi",
-        "type": "Restaurant \/ Bar",
+        "type": "Restaurant / Bar",
         "description": "Ikina Sushi is a popular Japanese spot nestled in Capitol Hill offering sushi, sashimi, noodles, and a full cocktail bar.",
-        "website": "https:\/\/www.facebook.com\/Ikina-Sushi"
+        "website": "https://www.facebook.com/Ikina-Sushi"
       },
       "geometry": null
     },
@@ -829,7 +998,7 @@
       "properties": {
         "id": 40,
         "name": "La Spiga",
-        "type": "Restaurant \/ Bar",
+        "type": "Restaurant / Bar",
         "description": "La Spiga's menu pays homage to Italy's Emilia-Romagna region. Chef Sabrina creates tasty, seasonal dishes that reflect the authenticity of the food while using the finest Italian ingredients and what is freshest from local sources.",
         "website": "laspiga.com"
       },
@@ -840,9 +1009,9 @@
       "properties": {
         "id": 41,
         "name": "Little Oddfellows",
-        "type": "Restaurant \/ Bar",
+        "type": "Restaurant / Bar",
         "description": "Little Oddfellows, a sister cafe to Odd Fellows, opened in August of 2015 and is located inside of Elliott Bay Book Company.  We open every day at 10am. We serve coffee from Caffe Vita, baked goods and desserts, grain salads and sandwiches, and beer and wine.",
-        "website": "http:\/\/www.oddfellowscafe.com\/"
+        "website": "http://www.oddfellowscafe.com/"
       },
       "geometry": null
     },
@@ -851,7 +1020,7 @@
       "properties": {
         "id": 42,
         "name": "Lost Lake",
-        "type": "Restaurant \/ Bar",
+        "type": "Restaurant / Bar",
         "description": "Lost Lake Caf√© & Lounge is Seattle's favorite 24-hour diner and bar with a mid-century modern feel. Lost Lake's large menu of traditional American comfort food includes options for any time of the day-breakfast, brunch, lunch, dinner, or even late night drinks-with vegetarian & vegan dishes, as well.",
         "website": "lostlakecafe.com"
       },
@@ -862,7 +1031,7 @@
       "properties": {
         "id": 43,
         "name": "Marmite",
-        "type": "Restaurant \/ Bar",
+        "type": "Restaurant / Bar",
         "description": "Marmite and its interior bar Spirit in the Bottle are inspired by the best of what‚Äôs fresh, the woodsy nature of our urban space, and a very good sense of humor. They do things the way they like to do them: by hand. As many components of their cuisine and cocktails as possible are seasonal, made in-house, and utilize Bruce‚Äôs stocks and broths which simmer for hours in their namesake 40 gallon marmite (a classic French cooking pot).",
         "website": "marmiteseattle.com"
       },
@@ -873,7 +1042,7 @@
       "properties": {
         "id": 44,
         "name": "Molly Moons",
-        "type": "Restaurant \/ Bar",
+        "type": "Restaurant / Bar",
         "description": "At Molly Moon‚Äôs, they couple milk and cream from hormone-free dairy cows at family-owned Edaleen Dairy Farm with local, seasonal, and, as much as possible, organic fruits and spices to make combinations that are both familiar and surprising. Everything they can get from local farmers, they do, including sugar from Idaho, lavender from Sequim, honey from the foothills of the Olympics, and more than 90% of all their ingredients.",
         "website": "mollymoon.com"
       },
@@ -884,8 +1053,8 @@
       "properties": {
         "id": 45,
         "name": "Oddfellows Caf√© and Bar",
-        "type": "Restaurant \/ Bar",
-        "description": "Oddfellows is an all-day, all-night cafe and bar that serves simple fresh food influenced by peasant French and Italian dishes and served without pretense. Oddfellows is a large welcoming space that has kindly been referred to as \"the Pike\/Pine corridor's living room.\"",
+        "type": "Restaurant / Bar",
+        "description": "Oddfellows is an all-day, all-night cafe and bar that serves simple fresh food influenced by peasant French and Italian dishes and served without pretense. Oddfellows is a large welcoming space that has kindly been referred to as \"the Pike/Pine corridor's living room.\"",
         "website": "oddfellowscafe.com"
       },
       "geometry": null
@@ -895,7 +1064,7 @@
       "properties": {
         "id": 46,
         "name": "Poquito's",
-        "type": "Restaurant \/ Bar",
+        "type": "Restaurant / Bar",
         "description": "At Poquitos they strive to present delicious Mexican cuisine prepared with ingredients that are the best of both worlds - outstanding local sourcing for their meats and produce; unique and direct sourcing for items essential to honoring the culinary traditions of Mexico.",
         "website": "vivapoquitos.com"
       },
@@ -906,8 +1075,8 @@
       "properties": {
         "id": 47,
         "name": "Queer Bar",
-        "type": "Restaurant \/ Bar",
-        "description": "Queer\/Bar is a queer crew providing a space for the queer community that is safe, fun, and inclusive!",
+        "type": "Restaurant / Bar",
+        "description": "Queer/Bar is a queer crew providing a space for the queer community that is safe, fun, and inclusive!",
         "website": "thequeerbar.com"
       },
       "geometry": null
@@ -917,7 +1086,7 @@
       "properties": {
         "id": 48,
         "name": "Quinn's",
-        "type": "Restaurant \/ Bar",
+        "type": "Restaurant / Bar",
         "description": "At Quinn‚Äôs Pub they take traditions of the classic public house and raise them to new levels. They are community driven, quality focused, and a continual experiment in what it means to be a pub. Their food is always evolving, their bar carefully curated, and their space open to all.",
         "website": "quinnspubseattle.com"
       },
@@ -928,7 +1097,7 @@
       "properties": {
         "id": 49,
         "name": "Rancho Bravo Tacos",
-        "type": "Restaurant \/ Bar",
+        "type": "Restaurant / Bar",
         "description": "Most of Rancho Bravo‚Äôs menu is made from scratch, from their salsas to their tamales, from their horchata to their pozole. They appreciate good value as much as you do and that‚Äôs why they make it our goal to offer a quality Mexican food experience at an affordable price!",
         "website": "ranchobravotacos.com"
       },
@@ -939,18 +1108,24 @@
       "properties": {
         "id": 50,
         "name": "Rhino Room",
-        "type": "Restaurant \/ Bar",
+        "type": "Restaurant / Bar",
         "description": "The Rhino Room is a big and beautiful party bar located inside a restored historic building in the heart of Captiol Hill. We are a high volume nightclub on Friday and Saturdays featuring some of Seattle's finest DJs. We play hip hop, electronic, mash ups, and more. The bar is always flowing with spirits and the dance floor is always packed!",
         "website": "therhinoroom.com"
       },
-      "geometry": null
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3183954,
+          47.6151395
+        ]
+      }
     },
     {
       "type": "Feature",
       "properties": {
         "id": 51,
         "name": "Sams Tavern",
-        "type": "Restaurant \/ Bar",
+        "type": "Restaurant / Bar",
         "description": "Sam‚Äôs Tavern started in the 1940‚Äôs, the original birthplace of Red Robin standing at the corner of Furhman and Eastlake in Seattle. Before they served gourmet burgers, offered bottomless fries, and adding the name ‚ÄúRed Robin‚Äù, it was just ‚ÄúSam‚Äôs Tavern‚Äù and then ‚ÄúSam‚Äôs Red Robin‚Äù. After dropping the name Sam, the rest is history‚Ä¶.or is it?",
         "website": "samstavernseattle.com"
       },
@@ -961,18 +1136,24 @@
       "properties": {
         "id": 52,
         "name": "SOI",
-        "type": "Restaurant \/ Bar",
+        "type": "Restaurant / Bar",
         "description": "SOI is a return to Thailand--a departure from your normal expectations of Thai food in Seattle. Our idea is to return back to what it really like to eat in Thailand, with a focus on the food of the raised plateau of the North Eastern region of Thailand called Issan. We believe that Seattle deserves better Thai food and that folks are tired with the typical Thai food in Seattle.",
         "website": "soicapitolhill.com"
       },
-      "geometry": null
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3192334,
+          47.6131229
+        ]
+      }
     },
     {
       "type": "Feature",
       "properties": {
         "id": 53,
         "name": "Sole Repair",
-        "type": "Restaurant \/ Bar",
+        "type": "Restaurant / Bar",
         "description": "Sole Repair is a private event space in the heart of Capitol Hill. Perfect for weddings, birthdays, dance parties and so much more.",
         "website": "solerepairshop.com"
       },
@@ -983,7 +1164,7 @@
       "properties": {
         "id": 54,
         "name": "STOUT",
-        "type": "Restaurant \/ Bar",
+        "type": "Restaurant / Bar",
         "description": "STOUT is a casual pub designed for beer enthusiasts who appreciate ‚Äúcraft everything,‚Äù from beer to cocktails to well-prepared food. STOUT‚Äôs alluring atmosphere blends classic and modern elements, bringing old world ambiance to one of the new world‚Äôs most exciting neighborhoods.",
         "website": "stoutpubs.com"
       },
@@ -994,7 +1175,7 @@
       "properties": {
         "id": 55,
         "name": "Sweet Iron",
-        "type": "Restaurant \/ Bar",
+        "type": "Restaurant / Bar",
         "description": "Sweet Iron opened its first shop in 2009 in downtown Seattle and continues to grow in exciting partnerships and expansions. This past summer, Sweet Iron set up shop at Safeco Field for the Mariners‚Äô games and also combined forces with Ezell‚Äôs chicken during Sounders and Seahawks games to make the classic chicken and waffles. Their Capitol Hill location offers freshly squeezed juices, beer and wine, and later hours.",
         "website": "sweetironwaffles.com"
       },
@@ -1005,7 +1186,7 @@
       "properties": {
         "id": 56,
         "name": "The Cloud Room",
-        "type": "Restaurant \/ Bar",
+        "type": "Restaurant / Bar",
         "description": "The Cloud Room is women-owned and operated, with a diverse co-working community committed to growing and participating in a range of industries, expertise and functions. In addition to fostering member businesses and entrepreneurs, we are proud to offer a curated event series with local thought leaders, an exceptional bar program and community wellness partnerships.",
         "website": "cloudroomseattle.com"
       },
@@ -1016,7 +1197,7 @@
       "properties": {
         "id": 57,
         "name": "The Comet Tavern",
-        "type": "Restaurant \/ Bar",
+        "type": "Restaurant / Bar",
         "description": "The Comet Tavern is a rough-and-ready bar serving Capitol Hill since 1948 with local rock bands, beer & pinball, plus a long daily happy hour.",
         "website": "thecomettavern.com"
       },
@@ -1027,7 +1208,7 @@
       "properties": {
         "id": 58,
         "name": "The Runaway",
-        "type": "Restaurant \/ Bar",
+        "type": "Restaurant / Bar",
         "description": "The Runaway is a friendly neighborhood bar attached to the live-music showrooms Neumos and Barboza, serving the full Bok a Bok fried chicken menu.",
         "website": "therunawayseattle.com"
       },
@@ -1035,7 +1216,7 @@
         "type": "Point",
         "coordinates": [
           -122.31959481,
-          47.61373390
+          47.6137339
         ]
       }
     },
@@ -1044,15 +1225,15 @@
       "properties": {
         "id": 59,
         "name": "Unicorn",
-        "type": "Restaurant \/ Bar",
+        "type": "Restaurant / Bar",
         "description": "Unicorn & Narwhal are two carnival themed bars. Each packs its own vibe into one location offering whimsical food & drink options. Also featuring an arcade, claw machine, & photo booth. Weekly events include Mimosas Cabaret, Gayme Night, live shows, karaoke, trivia and more.",
         "website": "unicornseattle.com"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.317232367953707,
-          47.614220623177907
+          -122.31723236795371,
+          47.61422062317791
         ]
       }
     },
@@ -1061,8 +1242,8 @@
       "properties": {
         "id": 60,
         "name": "Vermillion",
-        "type": "Restaurant \/ Bar",
-        "description": "Showcasing dedicated, professional artists, Vermillion offers art, wine, beer, cocktails, and a daily seasonal menu in a unique, comforting setting. Located in the bustling Pike\/Pine corridor and part of a new concept of hybrid gallery spaces, they offer the culture and appeal of an art opening every night without the crushing crowds. The space is split nearly equally to separate the two areas into distinct parts to emphasize the best of both worlds.",
+        "type": "Restaurant / Bar",
+        "description": "Showcasing dedicated, professional artists, Vermillion offers art, wine, beer, cocktails, and a daily seasonal menu in a unique, comforting setting. Located in the bustling Pike/Pine corridor and part of a new concept of hybrid gallery spaces, they offer the culture and appeal of an art opening every night without the crushing crowds. The space is split nearly equally to separate the two areas into distinct parts to emphasize the best of both worlds.",
         "website": "vermillionseattle.com"
       },
       "geometry": null
@@ -1072,7 +1253,7 @@
       "properties": {
         "id": 61,
         "name": "Via Tribunalli",
-        "type": "Restaurant \/ Bar",
+        "type": "Restaurant / Bar",
         "description": "Via Tribunali embodies the essence of what authentic Italian pizza should be: soft, well-cooked, fragrant and enclosed in a high, soft edge of crust. As a member of the Verace Pizza Napoletana Association, Via Tribunali respects the culinary discipline associated with making authentic Neapolitan pizza.",
         "website": "viatribunali.com"
       },
@@ -1228,7 +1409,7 @@
         "name": "No Parking on Pike",
         "type": "Retail",
         "description": "No Parking on Pike is a purveyor of fine oddities and fabulous vintage treasures, featuring vintage jewelry, taxidermy, cowboy boots, vintage Playboy & Penthouse magazines, tiki, fedoras, art and more!",
-        "website": "facebook.com\/NoParkingOnPike"
+        "website": "facebook.com/NoParkingOnPike"
       },
       "geometry": null
     },
@@ -1249,7 +1430,7 @@
         "id": 79,
         "name": "Out of the Closet",
         "type": "Retail",
-        "description": "When you shop at Out of the Closet, you‚Äôre directly helping people living with HIV. 96¬¢ of every dollar collected by their stores directly fund AIDS Healthcare Foundation‚Äôs HIV\/AIDS programs and services in the U.S. and abroad, providing cutting-edge HIV medical care, regardless of a person‚Äôs ability to pay. Decidedly the world‚Äôs most fabulous thrift store, and known to regulars as ‚Äúthe best kept secret in town.\" Stop by their store to shop or donate!",
+        "description": "When you shop at Out of the Closet, you‚Äôre directly helping people living with HIV. 96¬¢ of every dollar collected by their stores directly fund AIDS Healthcare Foundation‚Äôs HIV/AIDS programs and services in the U.S. and abroad, providing cutting-edge HIV medical care, regardless of a person‚Äôs ability to pay. Decidedly the world‚Äôs most fabulous thrift store, and known to regulars as ‚Äúthe best kept secret in town.\" Stop by their store to shop or donate!",
         "website": "outofthecloset.org"
       },
       "geometry": null
@@ -1409,7 +1590,7 @@
         "id": 93,
         "name": "Lifelong",
         "type": "Service",
-        "description": "Lifelong is a community health organization based on Capitol Hill, improving the health and well-being of people with life-threatening illnesses. Founded in 1983, the agency was forged in the HIV\/AIDS crisis, providing comprehensive services to people affected by the epidemic. Lifelong has expanded to also provide support to those living with other serious illnesses like cancer, diabetes and kidney and heart disease. Their food and nutrition program, Chicken Soup Brigade, is unique in the Northwest region as the only clinically focused, diagnosis specific, meal and grocery operation. By keeping people healthy, providing prevention education and managing care, Lifelong plays a critical role for thousands of vulnerable individuals in our community.",
+        "description": "Lifelong is a community health organization based on Capitol Hill, improving the health and well-being of people with life-threatening illnesses. Founded in 1983, the agency was forged in the HIV/AIDS crisis, providing comprehensive services to people affected by the epidemic. Lifelong has expanded to also provide support to those living with other serious illnesses like cancer, diabetes and kidney and heart disease. Their food and nutrition program, Chicken Soup Brigade, is unique in the Northwest region as the only clinically focused, diagnosis specific, meal and grocery operation. By keeping people healthy, providing prevention education and managing care, Lifelong plays a critical role for thousands of vulnerable individuals in our community.",
         "website": "lifelongthrift.com"
       },
       "geometry": null
@@ -1453,7 +1634,7 @@
         "id": 97,
         "name": "Seattle Puppyworks",
         "type": "Service",
-        "description": "Seattle Puppyworks specializes in puppy development, socialization and skill building. Driven by their commitment to the human\/canine relationship, each of their certified trainers and instructors utilizes only the most cutting-edge training and behavior modification techniques approved by the American Humane Association. They have a fierce appreciation for their canine and  human students, and their methods are relevant, effective, & sound.",
+        "description": "Seattle Puppyworks specializes in puppy development, socialization and skill building. Driven by their commitment to the human/canine relationship, each of their certified trainers and instructors utilizes only the most cutting-edge training and behavior modification techniques approved by the American Humane Association. They have a fierce appreciation for their canine and  human students, and their methods are relevant, effective, & sound.",
         "website": "seattlepuppyworks.com"
       },
       "geometry": null
@@ -1591,8 +1772,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.318335680037023,
-          47.614181162607011
+          -122.31833568003702,
+          47.61418116260701
         ]
       }
     },
@@ -1653,7 +1834,7 @@
         "name": "PAX",
         "type": "Sponsor",
         "description": "Our exclusive vaporizer sponsor of CHBP 2019! Check out their lounge in the Vera Beer Garden on 11th & Pike (21+ only).  \n\nPAX Labs was founded in 2007 with the goal of creating responsible, enjoyable, and personalized vaporizer experiences. As an award-winning consumer technology brand in 2018, PAX products continue to represent the gold standard in product quality as we aim to move the space beyond stereotypes. Most of all, they want to be good stewards for a product and movement that enhances many people‚Äôs lives. Their loose leaf and extract vaporizer products are made with high quality materials and offer empowering experiences for those looking for a premium and discreet product. Their focus on design and innovation means we have best-in-class software and hardware, and provide tools so that you can personalize each and every experience.  ",
-        "website": "https:\/\/www.pax.com\/"
+        "website": "https://www.pax.com/"
       },
       "geometry": null
     },
@@ -1713,26 +1894,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.318328217514932,
+          -122.31832821751493,
           47.614083779260355
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": 8,
-        "name": "Chophouse Row",
-        "type": "Free Event",
-        "description": "Brand new just last year, the highly popular Chophouse Row Courtyard DJs are back for CHBP 2019! We’ve partnered with Chophouse Row again to bring you live DJ sets in their intimate indoor / outdoor courtyard. Free to the public via access from Chophouse’s entrance on 12th Avenue, and also available to CHBP ticket holders within the festival gates. Taking place each day of the festival, we’ll have live sets from a variety of local DJs.",
-        "website": null,
-        "left_panel": true
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.31748934,
-          47.61375294
         ]
       }
     },
@@ -1748,8 +1911,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.318519723816692,
-          47.614054806975339
+          -122.31851972381669,
+          47.61405480697534
         ]
       }
     },
@@ -1765,7 +1928,7 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.318519800583019,
+          -122.31851980058302,
           47.61409653162044
         ]
       }
@@ -1782,7 +1945,7 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.318412178867277,
+          -122.31841217886728,
           47.61409717661563
         ]
       }
@@ -1799,8 +1962,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.318412014524839,
-          47.614069609095637
+          -122.31841201452484,
+          47.61406960909564
         ]
       }
     },
@@ -1816,7 +1979,7 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.318370337847057,
+          -122.31837033784706,
           47.61409722829314
         ]
       }
@@ -1833,7 +1996,7 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.318328217514932,
+          -122.31832821751493,
           47.614083779260355
         ]
       }
@@ -1850,8 +2013,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.318411268673842,
-          47.614042130139133
+          -122.31841126867384,
+          47.61404213013913
         ]
       }
     },
@@ -1867,8 +2030,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.318603908014524,
-          47.614068339116223
+          -122.31860390801452,
+          47.61406833911622
         ]
       }
     },
@@ -1884,8 +2047,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.318378442670948,
-          47.614181106179551
+          -122.31837844267095,
+          47.61418110617955
         ]
       }
     },
@@ -1901,8 +2064,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.318420537088244,
-          47.614181278546511
+          -122.31842053708824,
+          47.61418127854651
         ]
       }
     },
@@ -1911,15 +2074,15 @@
       "properties": {
         "id": 44,
         "name": "Molly Moons",
-        "type": "Restaurant \/ Bar",
+        "type": "Restaurant / Bar",
         "description": "At Molly Moon‚Äôs, they couple milk and cream from hormone-free dairy cows at family-owned Edaleen Dairy Farm with local, seasonal, and, as much as possible, organic fruits and spices to make combinations that are both familiar and surprising. Everything they can get from local farmers, they do, including sugar from Idaho, lavender from Sequim, honey from the foothills of the Olympics, and more than 90% of all their ingredients.",
         "website": "mollymoon.com"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.318451983363872,
-          47.614174546859473
+          -122.31845198336387,
+          47.61417454685947
         ]
       }
     },
@@ -1935,8 +2098,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.318473469720445,
-          47.614174531351473
+          -122.31847346972044,
+          47.61417453135147
         ]
       }
     },
@@ -1952,8 +2115,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.318370136878954,
-          47.614069638007052
+          -122.31837013687895,
+          47.61406963800705
         ]
       }
     },
@@ -1969,7 +2132,7 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.318850696072261,
+          -122.31885069607226,
           47.614180528084475
         ]
       }
@@ -1986,7 +2149,7 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.319452723695932,
+          -122.31945272369593,
           47.615104754112274
         ]
       }
@@ -2004,7 +2167,7 @@
         "type": "Point",
         "coordinates": [
           -122.31877812942939,
-          47.614172928507791
+          47.61417292850779
         ]
       }
     },
@@ -2021,7 +2184,7 @@
         "type": "Point",
         "coordinates": [
           -122.31883566651149,
-          47.614234063345428
+          47.61423406334543
         ]
       }
     },
@@ -2037,7 +2200,7 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.318834966081539,
+          -122.31883496608154,
           47.614316017876845
         ]
       }
@@ -2054,8 +2217,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.318838477924501,
-          47.614390447415197
+          -122.3188384779245,
+          47.6143904474152
         ]
       }
     },
@@ -2071,7 +2234,7 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.318839622148928,
+          -122.31883962214893,
           47.6144395561032
         ]
       }
@@ -2088,8 +2251,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.318983132024414,
-          47.614471083499573
+          -122.31898313202441,
+          47.61447108349957
         ]
       }
     },
@@ -2105,8 +2268,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.319013298243604,
-          47.614360676865061
+          -122.3190132982436,
+          47.61436067686506
         ]
       }
     },
@@ -2122,7 +2285,7 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.319544143418341,
+          -122.31954414341834,
           47.614334117560546
         ]
       }
@@ -2150,7 +2313,7 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.319543799977339,
+          -122.31954379997734,
           47.61422315194929
         ]
       }
@@ -2162,13 +2325,13 @@
         "name": "PAX",
         "type": "Sponsor",
         "description": "Our exclusive vaporizer sponsor of CHBP 2019! Check out their lounge in the Vera Beer Garden on 11th & Pike (21+ only). PAX Labs was founded in 2007 with the goal of creating responsible, enjoyable, and personalized vaporizer experiences. As an award-winning consumer technology brand in 2018, PAX products continue to represent the gold standard in product quality as we aim to move the space beyond stereotypes. Most of all, they want to be good stewards for a product and movement that enhances many people’s lives. Their loose leaf and extract vaporizer products are made with high quality materials and offer empowering experiences for those looking for a premium and discreet product. Their focus on design and innovation means we have best-in-class software and hardware, and provide tools so that you can personalize each and every experience.",
-        "website": "https:\/\/www.pax.com\/"
+        "website": "https://www.pax.com/"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.317797191655387,
-          47.614127715263081
+          -122.31779719165539,
+          47.61412771526308
         ]
       }
     },
@@ -2184,8 +2347,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.319871690193168,
-          47.615905765010908
+          -122.31987169019317,
+          47.61590576501091
         ]
       }
     },
@@ -2201,8 +2364,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.317880483979479,
-          47.614010667562653
+          -122.31788048397948,
+          47.61401066756265
         ]
       }
     },
@@ -2218,8 +2381,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.317838884691056,
-          47.614010667562653
+          -122.31783888469106,
+          47.61401066756265
         ]
       }
     },
@@ -2235,8 +2398,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.317797238450808,
-          47.614010737524872
+          -122.31779723845081,
+          47.61401073752487
         ]
       }
     },
@@ -2252,8 +2415,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.318239102405144,
-          47.614231366833693
+          -122.31823910240514,
+          47.61423136683369
         ]
       }
     },
@@ -2269,7 +2432,7 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.319420031943778,
+          -122.31942003194378,
           47.615065054899794
         ]
       }
@@ -2287,7 +2450,7 @@
         "type": "Point",
         "coordinates": [
           -122.31941972234452,
-          47.615009955963963
+          47.61500995596396
         ]
       }
     },
@@ -2303,8 +2466,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.319419276614411,
-          47.614967220037073
+          -122.31941927661441,
+          47.61496722003707
         ]
       }
     },
@@ -2313,7 +2476,7 @@
       "properties": {
         "id": 32,
         "name": "Caffe Vita",
-        "type": "Restaurant \/ Bar",
+        "type": "Restaurant / Bar",
         "description": "Caffe Vita has been roasting coffee in Seattle since 1995 as an independent & locally-owned company. From their beginnings at the base of Seattle‚Äôs Queen Anne neighborhood, they now operate 13 cafes throughout Seattle, Portland, New York, and Los Angeles. Caffe Vita coffee is always fresh, imported directly from the farm, and roasted on-site in Seattle, Brooklyn, and Portland.",
         "website": "caffevita.com"
       },
@@ -2321,7 +2484,7 @@
         "type": "Point",
         "coordinates": [
           -122.31905089473338,
-          47.613969891720231
+          47.61396989172023
         ]
       }
     },
@@ -2330,15 +2493,15 @@
       "properties": {
         "id": 48,
         "name": "Quinn's",
-        "type": "Restaurant \/ Bar",
+        "type": "Restaurant / Bar",
         "description": "At Quinn‚Äôs Pub they take traditions of the classic public house and raise them to new levels. They are community driven, quality focused, and a continual experiment in what it means to be a pub. Their food is always evolving, their bar carefully curated, and their space open to all.",
         "website": "quinnspubseattle.com"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.319229792618373,
-          47.613975170464478
+          -122.31922979261837,
+          47.61397517046448
         ]
       }
     },
@@ -2354,7 +2517,7 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.319310042572582,
+          -122.31931004257258,
           47.61475023705831
         ]
       }
@@ -2371,7 +2534,7 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.318088411075209,
+          -122.31808841107521,
           47.61430009161262
         ]
       }
@@ -2388,8 +2551,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.319410498411145,
-          47.613605939116503
+          -122.31941049841114,
+          47.6136059391165
         ]
       }
     },
@@ -2405,7 +2568,7 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.319427326012857,
+          -122.31942732601286,
           47.614606248197376
         ]
       }
@@ -2415,15 +2578,15 @@
       "properties": {
         "id": 43,
         "name": "Marmite",
-        "type": "Restaurant \/ Bar",
+        "type": "Restaurant / Bar",
         "description": "Marmite and its interior bar Spirit in the Bottle are inspired by the best of what‚Äôs fresh, the woodsy nature of our urban space, and a very good sense of humor. They do things the way they like to do them: by hand. As many components of their cuisine and cocktails as possible are seasonal, made in-house, and utilize Bruce‚Äôs stocks and broths which simmer for hours in their namesake 40 gallon marmite (a classic French cooking pot).",
         "website": "marmiteseattle.com"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.317942854822263,
-          47.613730832332941
+          -122.31794285482226,
+          47.61373083233294
         ]
       }
     },
@@ -2439,8 +2602,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.319928913994346,
-          47.613969994139929
+          -122.31992891399435,
+          47.61396999413993
         ]
       }
     },
@@ -2449,15 +2612,15 @@
       "properties": {
         "id": 61,
         "name": "Via Tribunalli",
-        "type": "Restaurant \/ Bar",
+        "type": "Restaurant / Bar",
         "description": "Via Tribunali embodies the essence of what authentic Italian pizza should be: soft, well-cooked, fragrant and enclosed in a high, soft edge of crust. As a member of the Verace Pizza Napoletana Association, Via Tribunali respects the culinary discipline associated with making authentic Neapolitan pizza.",
         "website": "viatribunali.com"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.320057927535871,
-          47.613969666459411
+          -122.32005792753587,
+          47.61396966645941
         ]
       }
     },
@@ -2466,15 +2629,15 @@
       "properties": {
         "id": 28,
         "name": "Big Marios",
-        "type": "Restaurant \/ Bar",
+        "type": "Restaurant / Bar",
         "description": "In the winter of 1964, Mario Vellotti emigrated from Naples, Italy to live and work on Mulberry Street in New York City. Mario made his early living tossing pizza and cooking in some of New York's most notorious kitchens; Angelo's, Casa Bella on Mulberry Street and Nanni Al Valletto on 59th Street. Later Mario joined his brother and uncle in the family business, opening their world-famous pizzerias in all five Burroughs, including Sal's on Broome Street, Bensonhurst's J & V and the original Patricia's in the Bronx. Big Marios Pizza is in Seattle now... enjoy!",
         "website": "bigmariosnewyorkpizza.com"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.318873047884267,
-          47.613980774604613
+          -122.31887304788427,
+          47.61398077460461
         ]
       }
     },
@@ -2483,15 +2646,15 @@
       "properties": {
         "id": 62,
         "name": "Wildrose",
-        "type": "Restaurant \/ Bar",
+        "type": "Restaurant / Bar",
         "description": "Wildrose is one of the oldest lesbian bars on the West Coast, offering DJs, karaoke & seasonal outdoor seating.",
         "website": "wildrosebar.com"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.318393907775118,
-          47.613983787026143
+          -122.31839390777512,
+          47.61398378702614
         ]
       }
     },
@@ -2507,8 +2670,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.318596766216231,
-          47.613981743630752
+          -122.31859676621623,
+          47.61398174363075
         ]
       }
     },
@@ -2524,8 +2687,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.319611991349547,
-          47.614778324975241
+          -122.31961199134955,
+          47.61477832497524
         ]
       }
     },
@@ -2541,7 +2704,7 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.319609716741283,
+          -122.31960971674128,
           47.61460507523833
         ]
       }
@@ -2551,14 +2714,14 @@
       "properties": {
         "id": 42,
         "name": "Lost Lake",
-        "type": "Restaurant \/ Bar",
+        "type": "Restaurant / Bar",
         "description": "Lost Lake Caf√© & Lounge is Seattle's favorite 24-hour diner and bar with a mid-century modern feel. Lost Lake's large menu of traditional American comfort food includes options for any time of the day-breakfast, brunch, lunch, dinner, or even late night drinks-with vegetarian & vegan dishes, as well.",
         "website": "lostlakecafe.com"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.319597595831411,
+          -122.31959759583141,
           47.61442084245423
         ]
       }
@@ -2568,14 +2731,14 @@
       "properties": {
         "id": 34,
         "name": "Capitol Lounge",
-        "type": "Restaurant \/ Bar",
+        "type": "Restaurant / Bar",
         "description": "Capitol Lounge is a newly opened bar that offers chill vibes and tasty drinks.",
         "website": "capitolloungeseattle.com"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.319928677016279,
+          -122.31992867701628,
           47.614207717995946
         ]
       }
@@ -2585,14 +2748,14 @@
       "properties": {
         "id": 39,
         "name": "Ikina Sushi",
-        "type": "Restaurant \/ Bar",
+        "type": "Restaurant / Bar",
         "description": "Ikina Sushi is a popular Japanese spot nestled in Capitol Hill offering sushi, sashimi, noodles, and a full cocktail bar.",
-        "website": "https:\/\/www.facebook.com\/Ikina-Sushi"
+        "website": "https://www.facebook.com/Ikina-Sushi"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.319817200815706,
+          -122.3198172008157,
           47.614210152008866
         ]
       }
@@ -2602,15 +2765,15 @@
       "properties": {
         "id": 57,
         "name": "The Comet Tavern",
-        "type": "Restaurant \/ Bar",
+        "type": "Restaurant / Bar",
         "description": "The Comet Tavern is a rough-and-ready bar serving Capitol Hill since 1948 with local rock bands, beer & pinball, plus a long daily happy hour.",
         "website": "thecomettavern.com"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.319669459431267,
-          47.614210435280519
+          -122.31966945943127,
+          47.61421043528052
         ]
       }
     },
@@ -2619,14 +2782,14 @@
       "properties": {
         "id": 30,
         "name": "Bok a Bok",
-        "type": "Restaurant \/ Bar",
+        "type": "Restaurant / Bar",
         "description": "Bok a Bok fried chicken is air-dried, hand-dipped and double-fried to order. This process isn‚Äôt fast but it makes for super juicy chicken with an unforgettable crunch. It‚Äôs fresh, never frozen, antibiotic- and hormone-free chicken. It‚Äôs hand-made biscuits and sides made from scratch, using fresh, responsibly sourced ingredients that we prepare with care and integrity.",
         "website": "bokabokchicken.com"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.319604056160543,
+          -122.31960405616054,
           47.613855072016655
         ]
       }
@@ -2643,8 +2806,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.319569720589854,
-          47.613893576140363
+          -122.31956972058985,
+          47.61389357614036
         ]
       }
     },
@@ -2660,8 +2823,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.317379112814578,
-          47.614152449335343
+          -122.31737911281458,
+          47.61415244933534
         ]
       }
     },
@@ -2677,7 +2840,7 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.319434792331279,
+          -122.31943479233128,
           47.614656420233466
         ]
       }
@@ -2694,7 +2857,7 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.320150348760009,
+          -122.32015034876001,
           47.61419667256741
         ]
       }
@@ -2711,8 +2874,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.320035939748678,
-          47.614192854730263
+          -122.32003593974868,
+          47.61419285473026
         ]
       }
     },
@@ -2721,15 +2884,15 @@
       "properties": {
         "id": 46,
         "name": "Poquito's",
-        "type": "Restaurant \/ Bar",
+        "type": "Restaurant / Bar",
         "description": "At Poquitos they strive to present delicious Mexican cuisine prepared with ingredients that are the best of both worlds - outstanding local sourcing for their meats and produce; unique and direct sourcing for items essential to honoring the culinary traditions of Mexico.",
         "website": "vivapoquitos.com"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.319304264196234,
-          47.614285567781913
+          -122.31930426419623,
+          47.61428556778191
         ]
       }
     },
@@ -2738,14 +2901,14 @@
       "properties": {
         "id": 38,
         "name": "Havana",
-        "type": "Restaurant \/ Bar",
+        "type": "Restaurant / Bar",
         "description": "Havana Social Club is a beautiful booth-lined cocktails spot with seriously sweet DJs to get you on the dance floor and the kind of slightly mysterious location that keeps the wrong kind of dudes away. This place is selling elegance and you are buying. The ceiling is painted gold, so you know this club means business.",
         "website": "havanasocial.com"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.319299907168983,
+          -122.31929990716898,
           47.614442754897865
         ]
       }
@@ -2756,13 +2919,13 @@
         "id": 79,
         "name": "Out of the Closet",
         "type": "Retail",
-        "description": "When you shop at Out of the Closet, you‚Äôre directly helping people living with HIV. 96¬¢ of every dollar collected by their stores directly fund AIDS Healthcare Foundation‚Äôs HIV\/AIDS programs and services in the U.S. and abroad, providing cutting-edge HIV medical care, regardless of a person‚Äôs ability to pay. Decidedly the world‚Äôs most fabulous thrift store, and known to regulars as ‚Äúthe best kept secret in town.\" Stop by their store to shop or donate!",
+        "description": "When you shop at Out of the Closet, you‚Äôre directly helping people living with HIV. 96¬¢ of every dollar collected by their stores directly fund AIDS Healthcare Foundation‚Äôs HIV/AIDS programs and services in the U.S. and abroad, providing cutting-edge HIV medical care, regardless of a person‚Äôs ability to pay. Decidedly the world‚Äôs most fabulous thrift store, and known to regulars as ‚Äúthe best kept secret in town.\" Stop by their store to shop or donate!",
         "website": "outofthecloset.org"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.318645323058746,
+          -122.31864532305875,
           47.61420831691261
         ]
       }
@@ -2779,7 +2942,7 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.318741140622706,
+          -122.3187411406227,
           47.614208227333286
         ]
       }
@@ -2790,14 +2953,14 @@
         "id": 93,
         "name": "Lifelong",
         "type": "Service",
-        "description": "Lifelong is a community health organization based on Capitol Hill, improving the health and well-being of people with life-threatening illnesses. Founded in 1983, the agency was forged in the HIV\/AIDS crisis, providing comprehensive services to people affected by the epidemic. Lifelong has expanded to also provide support to those living with other serious illnesses like cancer, diabetes and kidney and heart disease. Their food and nutrition program, Chicken Soup Brigade, is unique in the Northwest region as the only clinically focused, diagnosis specific, meal and grocery operation. By keeping people healthy, providing prevention education and managing care, Lifelong plays a critical role for thousands of vulnerable individuals in our community.",
+        "description": "Lifelong is a community health organization based on Capitol Hill, improving the health and well-being of people with life-threatening illnesses. Founded in 1983, the agency was forged in the HIV/AIDS crisis, providing comprehensive services to people affected by the epidemic. Lifelong has expanded to also provide support to those living with other serious illnesses like cancer, diabetes and kidney and heart disease. Their food and nutrition program, Chicken Soup Brigade, is unique in the Northwest region as the only clinically focused, diagnosis specific, meal and grocery operation. By keeping people healthy, providing prevention education and managing care, Lifelong plays a critical role for thousands of vulnerable individuals in our community.",
         "website": "lifelongthrift.com"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.318544655363922,
-          47.614208174443263
+          -122.31854465536392,
+          47.61420817444326
         ]
       }
     },
@@ -2806,15 +2969,15 @@
       "properties": {
         "id": 51,
         "name": "Sams Tavern",
-        "type": "Restaurant \/ Bar",
+        "type": "Restaurant / Bar",
         "description": "Sam‚Äôs Tavern started in the 1940‚Äôs, the original birthplace of Red Robin standing at the corner of Furhman and Eastlake in Seattle. Before they served gourmet burgers, offered bottomless fries, and adding the name ‚ÄúRed Robin‚Äù, it was just ‚ÄúSam‚Äôs Tavern‚Äù and then ‚ÄúSam‚Äôs Red Robin‚Äù. After dropping the name Sam, the rest is history‚Ä¶.or is it?",
         "website": "samstavernseattle.com"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.318280723957415,
-          47.614206110722243
+          -122.31828072395741,
+          47.61420611072224
         ]
       }
     },
@@ -2830,8 +2993,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.319053548372707,
-          47.613868589567808
+          -122.31905354837271,
+          47.61386858956781
         ]
       }
     },
@@ -2840,15 +3003,15 @@
       "properties": {
         "id": 25,
         "name": "Bai Tong Thai Street Cafe",
-        "type": "Restaurant \/ Bar",
+        "type": "Restaurant / Bar",
         "description": "Bai Tong Thai Street Cafe expands from one of the most popular Thai restaurants in Washington which was founded by a former Thai Airways flight attendant near the Sea-Tac airport in 1989. With the best Thai experience they have been offering for years, Bai Tong Thai restaurant is the standard for authentic Thai food in the Seattle area.",
         "website": "baitongthaistreetcafe.com"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.317107283881128,
-          47.613974221827164
+          -122.31710728388113,
+          47.61397422182716
         ]
       }
     },
@@ -2857,15 +3020,15 @@
       "properties": {
         "id": 35,
         "name": "Cupcake Royale",
-        "type": "Restaurant \/ Bar",
+        "type": "Restaurant / Bar",
         "description": "Cupcake Royale is Seattle's first cupcake bakery and offers delicious made-from-scratch cupcakes with natural, fresh, and local ingredients. Check out their new line of homemade ice cream inspired by their bakery! They craft Stumptown espresso drinks to complement their cupcakes and ice cream.",
         "website": "cupcakeroyale.com"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.317513324561517,
-          47.613979309578987
+          -122.31751332456152,
+          47.61397930957899
         ]
       }
     },
@@ -2881,8 +3044,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.318278042924575,
-          47.613520563501289
+          -122.31827804292458,
+          47.61352056350129
         ]
       }
     },
@@ -2891,15 +3054,15 @@
       "properties": {
         "id": 23,
         "name": "A Pizza Mart",
-        "type": "Restaurant \/ Bar",
+        "type": "Restaurant / Bar",
         "description": "When you want quality food, look no further than A Pizza Mart - Capitol Hill. This Seattle favorite is known for their Greek pizza and jalapeno poppers.",
         "website": "apizzamartcapitolhill.com"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.318279946209159,
-          47.613749255776369
+          -122.31827994620916,
+          47.61374925577637
         ]
       }
     },
@@ -2915,8 +3078,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.318308028478938,
-          47.613852066547189
+          -122.31830802847894,
+          47.61385206654719
         ]
       }
     },
@@ -2932,7 +3095,7 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.317887400362565,
+          -122.31788740036257,
           47.61420772729597
         ]
       }
@@ -2949,7 +3112,7 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.317913470565983,
+          -122.31791347056598,
           47.614208343942494
         ]
       }
@@ -2959,15 +3122,15 @@
       "properties": {
         "id": 12,
         "name": "Annex Theatre",
-        "type": "Art \/ Music",
+        "type": "Art / Music",
         "description": "Annex is one of Seattle's most beloved (and oldest) small theaters and describes itself as \"a democratic collective of theater artists dedicated to creating bold new work in an environment of improbability, resourcefulness, and risk.\" It began in 1986 on Bainbridge Island, then moved to Seattle in 1988. It has produced over 300 productions in its long history, including hundreds of world premieres, and plays by locally and nationally recognized writers such as Chris Jeffries, Paul Mullin, Elizabeth Heffron, Kelleen Conway Blanchard, Bret Fetzer, Keri Healey, Scot Augustson, Heidi Heimarck, Erik Ehn, Naomi Iizuka, Glen Berger, and many, many more.",
         "website": "annextheatre.org"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.317972928924632,
-          47.614339997808507
+          -122.31797292892463,
+          47.61433999780851
         ]
       }
     },
@@ -2976,14 +3139,14 @@
       "properties": {
         "id": 60,
         "name": "Vermillion",
-        "type": "Restaurant \/ Bar",
-        "description": "Showcasing dedicated, professional artists, Vermillion offers art, wine, beer, cocktails, and a daily seasonal menu in a unique, comforting setting. Located in the bustling Pike\/Pine corridor and part of a new concept of hybrid gallery spaces, they offer the culture and appeal of an art opening every night without the crushing crowds. The space is split nearly equally to separate the two areas into distinct parts to emphasize the best of both worlds.",
+        "type": "Restaurant / Bar",
+        "description": "Showcasing dedicated, professional artists, Vermillion offers art, wine, beer, cocktails, and a daily seasonal menu in a unique, comforting setting. Located in the bustling Pike/Pine corridor and part of a new concept of hybrid gallery spaces, they offer the culture and appeal of an art opening every night without the crushing crowds. The space is split nearly equally to separate the two areas into distinct parts to emphasize the best of both worlds.",
         "website": "vermillionseattle.com"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.317976924975127,
+          -122.31797692497513,
           47.614436791367886
         ]
       }
@@ -2993,15 +3156,15 @@
       "properties": {
         "id": 27,
         "name": "Barca",
-        "type": "Restaurant \/ Bar",
+        "type": "Restaurant / Bar",
         "description": "Bar√ßa features 29 craft beers on tap and signature handcrafted cocktails, Barca's comfortable and relaxed atmosphere is perfect for a romantic evening or a night out with friends.",
         "website": "barcaseattlelounge.com"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.317977447842466,
-          47.614470628803403
+          -122.31797744784247,
+          47.6144706288034
         ]
       }
     },
@@ -3010,14 +3173,14 @@
       "properties": {
         "id": 49,
         "name": "Rancho Bravo Tacos",
-        "type": "Restaurant \/ Bar",
+        "type": "Restaurant / Bar",
         "description": "Most of Rancho Bravo‚Äôs menu is made from scratch, from their salsas to their tamales, from their horchata to their pozole. They appreciate good value as much as you do and that‚Äôs why they make it our goal to offer a quality Mexican food experience at an affordable price!",
         "website": "ranchobravotacos.com"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.318991357854415,
+          -122.31899135785442,
           47.61510608733748
         ]
       }
@@ -3027,15 +3190,15 @@
       "properties": {
         "id": 45,
         "name": "Oddfellows Cafe and Bar",
-        "type": "Restaurant \/ Bar",
-        "description": "Oddfellows is an all-day, all-night cafe and bar that serves simple fresh food influenced by peasant French and Italian dishes and served without pretense. Oddfellows is a large welcoming space that has kindly been referred to as \"the Pike\/Pine corridor's living room.\"",
+        "type": "Restaurant / Bar",
+        "description": "Oddfellows is an all-day, all-night cafe and bar that serves simple fresh food influenced by peasant French and Italian dishes and served without pretense. Oddfellows is a large welcoming space that has kindly been referred to as \"the Pike/Pine corridor's living room.\"",
         "website": "oddfellowscafe.com"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.319610542336292,
-          47.614997436819714
+          -122.31961054233629,
+          47.61499743681971
         ]
       }
     },
@@ -3044,7 +3207,7 @@
       "properties": {
         "id": 33,
         "name": "Capitol Coffee Works",
-        "type": "Restaurant \/ Bar",
+        "type": "Restaurant / Bar",
         "description": "Capitol Hill Coffee Works is a place to experience and experiment with coffee in its richly diverse forms and varieties. Wine connoisseurs have tasting rooms; beer aficionados have brewery tap rooms; fine dining enthusiasts have five-star restaurants. Their goal is to create a dedicated tasting space for specialty coffee. All of their locations commit unrelentingly to making coffee better and providing resources to help their customers make and explore better coffee.",
         "website": "seattlecoffeeworks.com"
       },
@@ -3052,7 +3215,7 @@
         "type": "Point",
         "coordinates": [
           -122.32017965890762,
-          47.613970982059712
+          47.61397098205971
         ]
       }
     },
@@ -3068,7 +3231,7 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.320229046636086,
+          -122.32022904663609,
           47.613969771391716
         ]
       }
@@ -3085,7 +3248,7 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.320331413927832,
+          -122.32033141392783,
           47.613968560723706
         ]
       }
@@ -3102,8 +3265,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.320473161886071,
-          47.613970120078719
+          -122.32047316188607,
+          47.61397012007872
         ]
       }
     },
