@@ -63,6 +63,11 @@ class Map extends Component {
     trackUserLocation: true
   });
 
+  bearingControl = new mapboxgl.NavigationControl({
+    showCompass: true,
+    showZoom: false
+  });
+
   componentDidMount() {
 
     const map = new mapboxgl.Map({
@@ -74,6 +79,7 @@ class Map extends Component {
     });
 
     map.addControl(this.geoLocate);
+    map.addControl(this.bearingControl);
 
     // Replace GeolocateControl's _updateCamera function
     // see: https://github.com/mapbox/mapbox-gl-js/issues/6789
