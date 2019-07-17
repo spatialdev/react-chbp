@@ -140,6 +140,12 @@ class LeftDrawer extends Component {
           </div>
           <div className="legend-item-wrapper">
             <span className="legend-box">
+              <span className="map-pin art-music"></span>
+            </span>
+            <span className="legend-item-text">Art / Music</span>
+          </div>
+          <div className="legend-item-wrapper">
+            <span className="legend-box">
               <span className="map-pin restaurant"></span>
             </span>
             <span className="legend-item-text">Restaurant / Bar / Retail / Service</span>
