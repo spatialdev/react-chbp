@@ -12,6 +12,7 @@ import MenuIcon from '@material-ui/icons/Menu';
 import { toggleLeftDrawer, toggleRightDrawer, toggleBottomDrawer } from '../../redux/actions';
 import LeftDrawer from '../LeftDrawer/LeftDrawer';
 import RightDrawer from '../RightDrawer/RightDrawer';
+import Ticker from '../Ticker/Ticker';
 import { drawerWidth } from '../../redux/constants';
 import './Main.scss'
 // import imgNavLogo from '../../images/logo-header.svg'
@@ -108,6 +109,7 @@ class Main extends Component {
           </AppBar>
           <LeftDrawer/>
           <RightDrawer/>
+          <Ticker/>
         </div>
       </div>
     );
