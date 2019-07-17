@@ -654,7 +654,7 @@
         "id": 9,
         "name": "Battle on the Block",
         "type": "Free Event",
-        "description": "Saturday, July 20 at 11am to 6pm\n\nJoin us for the second annual Battle On The Block skate competition at the Cal Anderson Courts, brought to you by 35th North, Bixton, Converse Cons, and Red Bull. More details coming soon.\n\nSunday, July 21 at 11am to 6pm\n\nAlso join us for a community skate session brought to you by Skate Like A Girl‚Ä¶ custom-build halfpipe, live drone footage, music, prizes, and more! More details coming soon.",
+        "description": "Saturday, July 20 at 11am to 6pm\n\nJoin us for the second annual Battle On The Block skate competition at the Cal Anderson Courts, brought to you by 35th North, Bixton, Converse Cons, and Red Bull. More details coming soon.\n\nSunday, July 21 at 11am to 6pm\n\nAlso join us for a community skate session brought to you by Skate Like A Girl… custom-build halfpipe, live drone footage, music, prizes, and more! More details coming soon.",
         "website": null
       },
       "geometry": {
@@ -739,7 +739,7 @@
         "id": 26,
         "name": "Bar Ferdinand",
         "type": "Restaurant / Bar",
-        "description": "Bar Ferdinand‚Äôs focus is on their wines, sourced with care from family owned, small production bodegas from all over the wine (and sake, and beer) producing world.",
+        "description": "Bar Ferdinand’s focus is on their wines, sourced with care from family owned, small production bodegas from all over the wine (and sake, and beer) producing world.",
         "website": "barferdinandseattle.com"
       },
       "geometry": {
@@ -773,7 +773,7 @@
         "id": 36,
         "name": "Gokan",
         "type": "Restaurant / Bar",
-        "description": "Chef Jun Park, who also owns Wallingford‚Äôs beloved Musashi, has opened another sushi restaurant, this time with a menu featuring lesser-known fish and artistic platings. Gokan has a dark, sleek design, and two tatami rooms surrounded by indoor water fountains.",
+        "description": "Chef Jun Park, who also owns Wallingford’s beloved Musashi, has opened another sushi restaurant, this time with a menu featuring lesser-known fish and artistic platings. Gokan has a dark, sleek design, and two tatami rooms surrounded by indoor water fountains.",
         "website": "thegokan.com"
       },
       "geometry": {
@@ -1079,7 +1079,7 @@
         "id": 44,
         "name": "Molly Moons",
         "type": "Restaurant / Bar",
-        "description": "At Molly Moon‚Äôs, they couple milk and cream from hormone-free dairy cows at family-owned Edaleen Dairy Farm with local, seasonal, and, as much as possible, organic fruits and spices to make combinations that are both familiar and surprising. Everything they can get from local farmers, they do, including sugar from Idaho, lavender from Sequim, honey from the foothills of the Olympics, and more than 90% of all their ingredients.",
+        "description": "At Molly Moon’s, they couple milk and cream from hormone-free dairy cows at family-owned Edaleen Dairy Farm with local, seasonal, and, as much as possible, organic fruits and spices to make combinations that are both familiar and surprising. Everything they can get from local farmers, they do, including sugar from Idaho, lavender from Sequim, honey from the foothills of the Olympics, and more than 90% of all their ingredients.",
         "website": "mollymoon.com"
       },
       "geometry": {
@@ -1138,23 +1138,6 @@
         "coordinates": [
           -122.31885069607226,
           47.614180528084475
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": 143,
-        "name": "Clif Bar Presents: Vera Stage",
-        "type": null,
-        "description": null,
-        "website": null
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.31945272369593,
-          47.615104754112274
         ]
       }
     },
@@ -1453,7 +1436,7 @@
         "id": 32,
         "name": "Caffe Vita",
         "type": "Restaurant / Bar",
-        "description": "Caffe Vita has been roasting coffee in Seattle since 1995 as an independent & locally-owned company. From their beginnings at the base of Seattle‚Äôs Queen Anne neighborhood, they now operate 13 cafes throughout Seattle, Portland, New York, and Los Angeles. Caffe Vita coffee is always fresh, imported directly from the farm, and roasted on-site in Seattle, Brooklyn, and Portland.",
+        "description": "Caffe Vita has been roasting coffee in Seattle since 1995 as an independent & locally-owned company. From their beginnings at the base of Seattle’s Queen Anne neighborhood, they now operate 13 cafes throughout Seattle, Portland, New York, and Los Angeles. Caffe Vita coffee is always fresh, imported directly from the farm, and roasted on-site in Seattle, Brooklyn, and Portland.",
         "website": "caffevita.com"
       },
       "geometry": {
@@ -1470,7 +1453,7 @@
         "id": 48,
         "name": "Quinn's",
         "type": "Restaurant / Bar",
-        "description": "At Quinn‚Äôs Pub they take traditions of the classic public house and raise them to new levels. They are community driven, quality focused, and a continual experiment in what it means to be a pub. Their food is always evolving, their bar carefully curated, and their space open to all.",
+        "description": "At Quinn’s Pub they take traditions of the classic public house and raise them to new levels. They are community driven, quality focused, and a continual experiment in what it means to be a pub. Their food is always evolving, their bar carefully curated, and their space open to all.",
         "website": "quinnspubseattle.com"
       },
       "geometry": {
@@ -1555,7 +1538,7 @@
         "id": 43,
         "name": "Marmite",
         "type": "Restaurant / Bar",
-        "description": "Marmite and its interior bar Spirit in the Bottle are inspired by the best of what‚Äôs fresh, the woodsy nature of our urban space, and a very good sense of humor. They do things the way they like to do them: by hand. As many components of their cuisine and cocktails as possible are seasonal, made in-house, and utilize Bruce‚Äôs stocks and broths which simmer for hours in their namesake 40 gallon marmite (a classic French cooking pot).",
+        "description": "Marmite and its interior bar Spirit in the Bottle are inspired by the best of what’s fresh, the woodsy nature of our urban space, and a very good sense of humor. They do things the way they like to do them: by hand. As many components of their cuisine and cocktails as possible are seasonal, made in-house, and utilize Bruce’s stocks and broths which simmer for hours in their namesake 40 gallon marmite (a classic French cooking pot).",
         "website": "marmiteseattle.com"
       },
       "geometry": {
@@ -1691,7 +1674,7 @@
         "id": 42,
         "name": "Lost Lake",
         "type": "Restaurant / Bar",
-        "description": "Lost Lake Caf√© & Lounge is Seattle's favorite 24-hour diner and bar with a mid-century modern feel. Lost Lake's large menu of traditional American comfort food includes options for any time of the day-breakfast, brunch, lunch, dinner, or even late night drinks-with vegetarian & vegan dishes, as well.",
+        "description": "Lost Lake Café & Lounge is Seattle's favorite 24-hour diner and bar with a mid-century modern feel. Lost Lake's large menu of traditional American comfort food includes options for any time of the day-breakfast, brunch, lunch, dinner, or even late night drinks-with vegetarian & vegan dishes, as well.",
         "website": "lostlakecafe.com"
       },
       "geometry": {
@@ -1759,7 +1742,7 @@
         "id": 30,
         "name": "Bok a Bok",
         "type": "Restaurant / Bar",
-        "description": "Bok a Bok fried chicken is air-dried, hand-dipped and double-fried to order. This process isn‚Äôt fast but it makes for super juicy chicken with an unforgettable crunch. It‚Äôs fresh, never frozen, antibiotic- and hormone-free chicken. It‚Äôs hand-made biscuits and sides made from scratch, using fresh, responsibly sourced ingredients that we prepare with care and integrity.",
+        "description": "Bok a Bok fried chicken is air-dried, hand-dipped and double-fried to order. This process isn’t fast but it makes for super juicy chicken with an unforgettable crunch. It’s fresh, never frozen, antibiotic- and hormone-free chicken. It’s hand-made biscuits and sides made from scratch, using fresh, responsibly sourced ingredients that we prepare with care and integrity.",
         "website": "bokabokchicken.com"
       },
       "geometry": {
@@ -1895,7 +1878,7 @@
         "id": 79,
         "name": "Out of the Closet",
         "type": "Retail",
-        "description": "When you shop at Out of the Closet, you‚Äôre directly helping people living with HIV. 96¬¢ of every dollar collected by their stores directly fund AIDS Healthcare Foundation‚Äôs HIV/AIDS programs and services in the U.S. and abroad, providing cutting-edge HIV medical care, regardless of a person‚Äôs ability to pay. Decidedly the world‚Äôs most fabulous thrift store, and known to regulars as ‚Äúthe best kept secret in town.\" Stop by their store to shop or donate!",
+        "description": "When you shop at Out of the Closet, you’re directly helping people living with HIV. 96¢ of every dollar collected by their stores directly fund AIDS Healthcare Foundation’s HIV/AIDS programs and services in the U.S. and abroad, providing cutting-edge HIV medical care, regardless of a person’s ability to pay. Decidedly the world’s most fabulous thrift store, and known to regulars as “the best kept secret in town.\" Stop by their store to shop or donate!",
         "website": "outofthecloset.org"
       },
       "geometry": {
@@ -1946,7 +1929,7 @@
         "id": 51,
         "name": "Sams Tavern",
         "type": "Restaurant / Bar",
-        "description": "Sam‚Äôs Tavern started in the 1940‚Äôs, the original birthplace of Red Robin standing at the corner of Furhman and Eastlake in Seattle. Before they served gourmet burgers, offered bottomless fries, and adding the name ‚ÄúRed Robin‚Äù, it was just ‚ÄúSam‚Äôs Tavern‚Äù and then ‚ÄúSam‚Äôs Red Robin‚Äù. After dropping the name Sam, the rest is history‚Ä¶.or is it?",
+        "description": "Sam’s Tavern started in the 1940’s, the original birthplace of Red Robin standing at the corner of Furhman and Eastlake in Seattle. Before they served gourmet burgers, offered bottomless fries, and adding the name “Red Robin”, it was just “Sam’s Tavern” and then “Sam’s Red Robin”. After dropping the name Sam, the rest is history….or is it?",
         "website": "samstavernseattle.com"
       },
       "geometry": {
@@ -2082,7 +2065,7 @@
         "id": 63,
         "name": "35th North",
         "type": "Retail",
-        "description": "35th North is a Seattle‚Äôs favorite skateboard shop located on 11th & Pike. ",
+        "description": "35th North is a Seattle’s favorite skateboard shop located on 11th & Pike.",
         "website": "35thnorth.com"
       },
       "geometry": {
@@ -2150,7 +2133,7 @@
         "id": 49,
         "name": "Rancho Bravo Tacos",
         "type": "Restaurant / Bar",
-        "description": "Most of Rancho Bravo‚Äôs menu is made from scratch, from their salsas to their tamales, from their horchata to their pozole. They appreciate good value as much as you do and that‚Äôs why they make it our goal to offer a quality Mexican food experience at an affordable price!",
+        "description": "Most of Rancho Bravo’s menu is made from scratch, from their salsas to their tamales, from their horchata to their pozole. They appreciate good value as much as you do and that’s why they make it our goal to offer a quality Mexican food experience at an affordable price!",
         "website": "ranchobravotacos.com"
       },
       "geometry": {
@@ -2235,7 +2218,7 @@
         "id": 69,
         "name": "Frame Central",
         "type": "Retail",
-        "description": "At Northwest Framing‚Äôs Frame Central, you‚Äôll find their mission is to bring your art to life, and your life to art. Their experienced designers stay in touch with current design and color trends, while adhering to the highest level of standards in the industry. Frame Central takes the mystery out of customer framing by listening to your unique needs, then creating the best possible design customized to your tastes and budget.",
+        "description": "At Northwest Framing’s Frame Central, you’ll find their mission is to bring your art to life, and your life to art. Their experienced designers stay in touch with current design and color trends, while adhering to the highest level of standards in the industry. Frame Central takes the mystery out of customer framing by listening to your unique needs, then creating the best possible design customized to your tastes and budget.",
         "website": "pnwframing.com"
       },
       "geometry": {
