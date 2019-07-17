@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 import PropTypes from 'prop-types';
 import {withStyles} from '@material-ui/core/styles';
 import {Close} from '@material-ui/icons';
+import html from 'html-react-parser';
 
 import SwipeableDrawer from '@material-ui/core/SwipeableDrawer';
 import {connect} from "react-redux";
@@ -90,10 +91,8 @@ class BottomSheet extends Component {
               {website}
               <div className="custom-content-wrapper">
 
-                {/*Need to show the following*/}
-                {/*description,id,name,type,website*/}
-
-                {data.description}
+                {typeof data.description !== 'undefined' && data.description !== null ?
+                  html(data.description.replace(/(?:\r\n|\r|\n)/g, '<br>')) : ''}
 
               </div>
             </div>
