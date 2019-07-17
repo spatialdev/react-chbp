@@ -178,7 +178,7 @@ class RightMenu extends Component {
             classes={{root: classes.tabsRoot}}
             textColor="primary"
             variant="scrollable"
-            scrollButtons="auto"
+            scrollButtons="on"
           >
             <Tab classes={{root: classes.tabRoot}} label="All"/>
             <Tab classes={{root: classes.tabRoot}} label="Stage"/>
