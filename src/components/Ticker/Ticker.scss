@@ -1,0 +1,93 @@
+@import '../../variables';
+
+$duration: 25s;
+
+@-webkit-keyframes ticker {
+  0% {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    visibility: visible;
+  }
+
+  100% {
+    -webkit-transform: translate3d(-100%, 0, 0);
+    transform: translate3d(-100%, 0, 0);
+  }
+}
+
+@keyframes ticker {
+  0% {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    visibility: visible;
+  }
+
+  100% {
+    -webkit-transform: translate3d(-100%, 0, 0);
+    transform: translate3d(-100%, 0, 0);
+  }
+}
+
+.nowPlaying {
+  display: inline-block;
+  width: 108px;
+  height: 2.5rem;
+  font-size: 15px;
+  color: white;
+  z-index: 1001;
+  background-color: $gold;
+  padding: 0 0.25rem 0 .5rem;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  line-height: 2.5rem;
+}
+
+.tickerWrap {
+  background-color: $pink !important;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  overflow: hidden;
+  height: 2.5rem;
+  background-color: rgba(#000, 0.9); 
+  padding-left: 100%;
+  box-sizing: content-box;
+  z-index: 1000;
+
+  .ticker {
+
+    display: inline-block;
+    height: 2.5rem;
+    line-height: 2.5rem;  
+    white-space: nowrap;
+    padding-right: 100%;
+    box-sizing: content-box;
+    z-index: 1;
+
+    -webkit-animation-iteration-count: infinite; 
+            animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+            animation-timing-function: linear;
+   -webkit-animation-name: ticker;
+           animation-name: ticker;
+    -webkit-animation-duration: $duration;
+            animation-duration: $duration;
+
+    &Item {
+      display: inline-block;
+      padding: 0 2rem;
+      font-size: 1.5rem;
+      color: $blue;
+      font-style: italic;
+    }
+
+  }
+
+}
+
+@media (min-width: 960px) {
+  .nowPlaying {
+      left: 280px;
+  }
+}
