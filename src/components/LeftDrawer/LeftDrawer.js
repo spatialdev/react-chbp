@@ -136,7 +136,7 @@ class LeftDrawer extends Component {
             <span className="legend-box">
               <span className="map-pin sponsor"></span>
             </span>
-            <span className="legend-item-text">Sponsor / Non-profit / Art / Music</span>
+            <span className="legend-item-text">Sponsor / Non-profit</span>
           </div>
           <div className="legend-item-wrapper">
             <span className="legend-box">
