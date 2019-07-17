@@ -40,7 +40,7 @@ class Ticker extends Component {
   render() {
     return(
       <Box component="div" display={this.state.nowPlaying.length > 0 ? "block" : "none"}>
-        <div className="nowPlaying">NOW PLAYING:</div>
+        <div className="nowPlaying">NOW PLAYING</div>
         <div className="tickerWrap">
           <div className="ticker">
             {
