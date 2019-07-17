@@ -15,6 +15,7 @@ import {
 import './RightDrawer.scss';
 import turfCenter from "@turf/center";
 import {
+  drawerWidth,
   LAYER_BAR_RETAIL_SERVICE_LABEL,
   LAYER_BAR_RETAIL_SERVICE_SELECTED,
   LAYER_BEER_GARDEN_LOUNGE_OUTLINE, LAYER_FREE_EVENTS_LABEL, LAYER_FREE_EVENTS_SELECTED,
@@ -31,7 +32,8 @@ const styles = theme => ({
     minWidth: 72
   },
   drawerPaper: {
-    height: '100%'
+    height: '100%',
+    width: drawerWidth
   }
 });
 
@@ -39,7 +41,8 @@ const filters = [
   "All",
   "Stage",
   "Free Event",
-  "Sponsor"
+  "Sponsor",
+  "Art / Music"
 ]
 
 class RightMenu extends Component {
@@ -92,7 +95,7 @@ class RightMenu extends Component {
     let typeHighlightMap = {
       "Stage": [LAYER_BEER_GARDEN_LOUNGE_OUTLINE],
       "Sponsor": [LAYER_NONPROFIT_LABEL, LAYER_NONPROFIT_SELECTED],
-      "Free Event": [LAYER_FREE_EVENTS_LABEL, LAYER_FREE_EVENTS_SELECTED],
+      "Free Event": [LAYER_FREE_EVENTS_LABEL, LAYER_FREE_EVENTS_SELECTED, LAYER_BEER_GARDEN_LOUNGE_OUTLINE],
       "Art / Music": [LAYER_NONPROFIT_LABEL, LAYER_NONPROFIT_SELECTED],
       "Restaurant / Bar": [LAYER_BAR_RETAIL_SERVICE_SELECTED, LAYER_BAR_RETAIL_SERVICE_LABEL],
       "Retail": [LAYER_BAR_RETAIL_SERVICE_SELECTED, LAYER_BAR_RETAIL_SERVICE_LABEL],
@@ -174,12 +177,14 @@ class RightMenu extends Component {
             indicatorColor="primary"
             classes={{root: classes.tabsRoot}}
             textColor="primary"
-            fullWidth
+            variant="scrollable"
+            scrollButtons="on"
           >
             <Tab classes={{root: classes.tabRoot}} label="All"/>
             <Tab classes={{root: classes.tabRoot}} label="Stage"/>
             <Tab classes={{root: classes.tabRoot}} label="Free Event"/>
             <Tab classes={{root: classes.tabRoot}} label="Sponsor"/>
+            <Tab classes={{root: classes.tabRoot}} label="Art / Music"/>
           </Tabs>
 
           <List

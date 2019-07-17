@@ -21,6 +21,7 @@ const SET_TAB_VALUE = 'SET_TAB_VALUE';
 const LAYER_FREE_EVENTS = "free-events";
 const LAYER_FREE_EVENTS_LABEL = "free-events-label";
 const LAYER_FREE_EVENTS_SELECTED = "free-events-selected";
+const LAYER_FREE_EVENTS_POLYGON = "free-events-polygon";
 const LAYER_NONPROFIT = "sponsors-nonprofit";
 const LAYER_NONPROFIT_LABEL = "sponsors-nonprofit-label";
 const LAYER_NONPROFIT_SELECTED = "sponsors-nonprofit-selected";
@@ -59,6 +60,7 @@ export {
   LAYER_FREE_EVENTS,
   LAYER_FREE_EVENTS_LABEL,
   LAYER_FREE_EVENTS_SELECTED,
+  LAYER_FREE_EVENTS_POLYGON,
   LAYER_NONPROFIT,
   LAYER_NONPROFIT_LABEL,
   LAYER_NONPROFIT_SELECTED,
