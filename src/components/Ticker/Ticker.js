@@ -1,5 +1,4 @@
 import React, {Component} from 'react';
-import PropTypes from 'prop-types';
 import './Ticker.scss';
 import schedule from '../../data/schedule_2019';
 import Moment from 'moment';
