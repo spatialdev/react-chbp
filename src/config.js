@@ -6,14 +6,14 @@
 
 const config = {
   "ga": {
-    "id": "UA-XXXXXXXX-X",
+    "id": "UA-143944765-1",
     "event": {
       "vendor": {
-        "CATEGORY": "Vendor",
+        "CATEGORY": "Event",
         "action": {
           "MAP_CLICK": "Map Click Select",
-          "RIGHT_PANEL_VENDOR_SELECT": "Vendor List Select (Right Panel)",
-          "LEFT_PANEL_VENDOR_SELECT": "Featured Vendor Select (Left Panel)"
+          "RIGHT_PANEL_VENDOR_SELECT": "Feature List Select (Right Panel)",
+          "LEFT_PANEL_VENDOR_SELECT": "Featured Event Select (Left Panel)"
         }
       },
       "geoLocate": {
