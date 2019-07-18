@@ -425,7 +425,7 @@
       "properties": {
         "id": 119,
         "name": "The Lounge by AT&T",
-        "type": null,
+        "type": "",
         "description": null,
         "website": null,
         "show_label": "",
@@ -597,7 +597,7 @@
       "properties": {
         "id": 155,
         "name": "Food Court",
-        "type": null,
+        "type": "",
         "description": null,
         "website": null,
         "show_label": "",
