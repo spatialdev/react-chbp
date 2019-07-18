@@ -1,5 +1,7 @@
+@import '../../variables';
+
 .vendorButton {
-    background-color: #3d90b6 !important;
+    background-color: $blue !important;
     text-transform: none !important;
     color: #fff !important;
     font-weight: bold !important;
@@ -18,4 +20,8 @@
     .vendorButton {
         height: 56px;
     }
+}
+
+.toolbar {
+    background-color: $pink !important;
 }

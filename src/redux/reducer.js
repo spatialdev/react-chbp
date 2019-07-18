@@ -2,9 +2,7 @@ import {
   SET_POLYGON_DATA, SET_BOTTOM_DRAWER_DATA, TOGGLE_RIGHT_DRAWER, TOGGLE_LEFT_DRAWER, TOGGLE_BOTTOM_DRAWER,
   SET_TAB_VALUE, SET_MAP
 } from './constants'
-import polygonData from '../data/2019/chbp-polygons-2019.json';
-
-console.log(polygonData);
+import polygonData from '../data/chbp_data_2019.json';
 
 // Sort feature collection by vendor name
 const sortFeatures = (a, b) => {
@@ -15,7 +13,7 @@ const sortFeatures = (a, b) => {
 const initialState = {
   polygonData: {
     ...polygonData,
-    features: polygonData.features.sort(sortFeatures)
+    features: polygonData.features.filter(feature=>feature.geometry !== null).sort(sortFeatures)
   },
   leftDrawerOptions: {
     anchor: 'left',

@@ -7,7 +7,7 @@ import BottomSheet from './components/BottomDrawer/BottomDrawer'
 import Main from './components/Main/Main';
 import {config} from './config';
 
-import './App.css';
+import './App.scss';
 
 class App extends Component {
   state = {
@@ -21,17 +21,13 @@ class App extends Component {
     const {ga} = config;
     ReactGA.initialize(ga.id, {
       debug: process.env.NODE_ENV === 'development',
-      titleCase: false,
-      gaOptions: {
-        name: 'dev2018'
-      }
+      titleCase: false
     });
     ReactGA.pageview(window.location.pathname + window.location.search);
   }
 
   handleMenuData = (itemId) => {
     this.setState({clickedMenuItem: itemId}, () => {
-      console.log(this.state);
     });
   };
 

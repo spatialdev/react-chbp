@@ -1,12 +1,24 @@
 import React, {Component} from 'react';
 import PropTypes from 'prop-types';
 import {withStyles} from '@material-ui/core/styles';
-import Icon from '@material-ui/core/Icon';
+import {Close, OpenInNewSharp} from '@material-ui/icons';
+import html from 'html-react-parser';
 
 import SwipeableDrawer from '@material-ui/core/SwipeableDrawer';
 import {connect} from "react-redux";
 import {toggleBottomDrawer} from '../../redux/actions';
-import './BottomDrawer.css';
+import './BottomDrawer.scss';
+import {
+  LAYER_BAR_RETAIL_SERVICE_LABEL,
+  LAYER_BAR_RETAIL_SERVICE_SELECTED,
+  LAYER_BEER_GARDEN_LOUNGE_OUTLINE,
+  LAYER_FREE_EVENTS_LABEL,
+  LAYER_FREE_EVENTS_SELECTED,
+  LAYER_NONPROFIT_LABEL,
+  LAYER_NONPROFIT_SELECTED
+} from "../../redux/constants";
+
+let parse = require('url-parse');
 
 
 const styles = theme => ({
@@ -41,45 +53,47 @@ class BottomSheet extends Component {
 
   render() {
 
-    const {classes, bottomDrawer, map} = this.props;
+    const {classes, bottomDrawer} = this.props;
     const {options, data} = bottomDrawer;
     const {open, anchor} = options;
-    let style = this.getBottomSheetTemplate(data);
-    let header = this.getHeader(data)
+    let header = this.getHeader(data);
+    let website = this.getWebsite(data);
 
     return (
       <div>
-        <SwipeableDrawer classes={{paperAnchorBottom: classes.paperAnchorBottom, modal: classes.modal}}
-                         anchor={anchor}
-                         open={open}
-                         onClose={() => {
-                           toggleBottomDrawer(false);
-                           // Clear highlight filter
-                           map.setFilter('vendor pins highlight',
-                             ["all",
-                               ["==", "id", 0],
-                             ]);
-                         }}
-                         onOpen={() => {
-                           toggleBottomDrawer(true)
-                         }}
-                         disableBackdropTransition={true}
-                         disableSwipeToOpen={true}
+        <SwipeableDrawer
+          classes={{paperAnchorBottom: classes.paperAnchorBottom, modal: classes.modal}}
+          anchor={anchor}
+          open={open}
+          onClose={() => {
+            toggleBottomDrawer(false);
+            this.clearAllHighlightFilters();
+          }}
+          onOpen={() =>toggleBottomDrawer(true)}
+          disableBackdropTransition={true}
+          disableSwipeToOpen={true}
         >
           <div className="wrapperText">
             {header}
-
-            <Icon onClick={() => {
-              toggleBottomDrawer(false)
-            }} className={classes.icon}>
+            <Close
+              className={classes.icon}
+              onClick={() => {
+                this.clearAllHighlightFilters();
+                toggleBottomDrawer(false);
+              }}
+            >
               close
-            </Icon>
+            </Close>
 
             <div className="content-wrapper">
               <div className="title">{data.name}</div>
               <div className="category">{data.type}</div>
+              {website}
               <div className="custom-content-wrapper">
-                {style}
+
+                {typeof data.description !== 'undefined' && data.description !== null ?
+                  html(data.description.replace(/(?:\r\n|\r|\n)/g, '<br>')) : ''}
+
               </div>
             </div>
           </div>
@@ -88,11 +102,42 @@ class BottomSheet extends Component {
     );
   }
 
-  getBottomSheetTemplate = (item) => {
+  clearMapFilter = (filterName) => {
 
-    if (item.hasOwnProperty("id")) {
+    const {map} = this.props;
+    map.setFilter(filterName,
+      ["all",
+        ["==", "id", 0],
+      ]);
+  }
+
+  hideMapLayer = (layerName) => {
+
+    const {map} = this.props;
+    const visibility = map.getLayoutProperty(layerName, 'visibility');
+
+    if (visibility === 'visible') {
+      map.setLayoutProperty(layerName, 'visibility', 'none');
     }
 
+  }
+
+  clearAllHighlightFilters = () => {
+    this.clearMapFilter(LAYER_BAR_RETAIL_SERVICE_SELECTED);
+    this.clearMapFilter(LAYER_BAR_RETAIL_SERVICE_LABEL);
+    this.clearMapFilter(LAYER_BEER_GARDEN_LOUNGE_OUTLINE);
+    this.clearMapFilter(LAYER_NONPROFIT_LABEL);
+    this.clearMapFilter(LAYER_NONPROFIT_SELECTED);
+    this.clearMapFilter(LAYER_FREE_EVENTS_LABEL);
+    this.clearMapFilter(LAYER_FREE_EVENTS_SELECTED);
+
+    this.hideMapLayer(LAYER_BAR_RETAIL_SERVICE_SELECTED);
+    this.hideMapLayer(LAYER_BAR_RETAIL_SERVICE_LABEL)
+    this.hideMapLayer(LAYER_BEER_GARDEN_LOUNGE_OUTLINE)
+    this.hideMapLayer(LAYER_NONPROFIT_LABEL)
+    this.hideMapLayer(LAYER_NONPROFIT_SELECTED)
+    this.hideMapLayer(LAYER_FREE_EVENTS_LABEL)
+    this.hideMapLayer(LAYER_FREE_EVENTS_SELECTED)
   }
 
   getHeader(data) {
@@ -120,6 +165,19 @@ class BottomSheet extends Component {
           </div>
         </div>)
       // Show nothing
+    } else {
+      return null;
+    }
+  }
+
+  getWebsite(data) {
+
+    if (typeof data !== "undefined") {
+      let website = typeof data.website !== "undefined" && data.website !== null && data.website.length > 0 ?
+        (<a className="category" target="_blank" rel="noopener noreferrer"
+            href={`https:/${parse(data.website).pathname}`}>https:/{parse(data.website).pathname}
+              <OpenInNewSharp className="link-icon">open_in_new</OpenInNewSharp></a>) : null;
+      return website;
     } else {
       return null;
     }
