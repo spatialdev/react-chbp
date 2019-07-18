@@ -14,8 +14,8 @@ import LeftDrawer from '../LeftDrawer/LeftDrawer';
 import RightDrawer from '../RightDrawer/RightDrawer';
 import Ticker from '../Ticker/Ticker';
 import { drawerWidth } from '../../redux/constants';
+import {config} from "../../config";
 import './Main.scss'
-// import imgNavLogo from '../../images/logo-header.svg'
 
 const styles = theme => ({
   toolbar: {
@@ -62,8 +62,9 @@ const styles = theme => ({
     }),
   },
   navLogo: {
-    height: '40px',
-    cursor: 'pointer'
+    cursor: 'pointer',
+    fontFamily: 'Gobold Bold Italic',
+    color: '#fff'
   }
 });
 
@@ -80,8 +81,8 @@ class Main extends Component {
     toggleBottomDrawer(false);
 
     map.flyTo({
-      center: [-122.38473415374757, 47.668667600018416],
-      zoom: 18
+      center: config.map.center,
+      zoom: config.map.zoom
     })
   }
 
@@ -102,7 +103,7 @@ class Main extends Component {
               </IconButton>
               </Hidden>
               <div className={classes.flex}>
-                {/* <img alt="Reset application" onClick={()=>{this.resetView()}} className={classes.navLogo} src={imgNavLogo} /> */}
+                <div className={classes.navLogo}><span onClick={()=>{this.resetView()}}>CHBP | Map</span></div>
               </div>
               <Button onClick={()=>{toggleRightDrawer(true)}} className="vendorButton">Event List</Button>
             </Toolbar>

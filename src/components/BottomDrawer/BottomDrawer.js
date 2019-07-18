@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import PropTypes from 'prop-types';
 import {withStyles} from '@material-ui/core/styles';
-import {Close} from '@material-ui/icons';
+import {Close, OpenInNewSharp} from '@material-ui/icons';
 import html from 'html-react-parser';
 
 import SwipeableDrawer from '@material-ui/core/SwipeableDrawer';
@@ -175,7 +175,8 @@ class BottomSheet extends Component {
     if (typeof data !== "undefined") {
       let website = typeof data.website !== "undefined" && data.website !== null && data.website.length > 0 ?
         (<a className="category" target="_blank" rel="noopener noreferrer"
-            href={`https:/${parse(data.website).pathname}`}>https:/{parse(data.website).pathname}</a>) : null;
+            href={`https:/${parse(data.website).pathname}`}>https:/{parse(data.website).pathname}
+              <OpenInNewSharp className="link-icon">open_in_new</OpenInNewSharp></a>) : null;
       return website;
     } else {
       return null;
