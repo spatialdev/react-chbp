@@ -8,6 +8,7 @@ import List from '@material-ui/core/List';
 import Divider from '@material-ui/core/Divider';
 import ListItem from '@material-ui/core/ListItem';
 import ListItemText from '@material-ui/core/ListItemText';
+import {OpenInNewSharp} from '@material-ui/icons';
 import {
   toggleLeftDrawer,
   selectLeftMenuItem,
@@ -174,6 +175,7 @@ class LeftDrawer extends Component {
             <ListItem classes={{root: classes.list}} className="list-item-wrapper" button>
               <ListItemText disableTypography={true} classes={{root: 'list-item-text'}}
                             primary="Capitol Hill Block Party Official Website"/>
+                              <OpenInNewSharp className="link-icon">open_in_new</OpenInNewSharp>
             </ListItem>
           </a>
         </List>

@@ -70,12 +70,13 @@ class Map extends Component {
 
   componentDidMount() {
 
+    const {width} = this.props;
     const map = new mapboxgl.Map({
       container: this.mapContainer,
       style: config.map.style,
       center: config.map.center,
-      zoom: config.map.zoom,
-      bearing: config.map.bearing
+      zoom: width === 'xs' || width === 'sm' ? config.map.zoom.mobile : config.map.zoom.desktop,
+      bearing: width === 'xs' || width === 'sm' ? config.map.bearing.mobile : config.map.bearing.desktop
     });
 
     map.addControl(this.geoLocate);

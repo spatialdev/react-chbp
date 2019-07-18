@@ -36,8 +36,14 @@ const config = {
     "style": "mapbox://styles/spatialdev/cjxyccxk90prc1cpyq11zt62g",
     "center": [-122.319, 47.614],
     "bounds": [[-122.32140396058543, 47.612702531671545], [-122.3144109050901, 47.61535256842217]],
-    "zoom": 16.75,
-    "bearing": 270
+    "zoom": {
+      "mobile": 16.75,
+      "desktop": 17.65
+    },
+    "bearing": {
+      "mobile": 270,
+      "desktop": 0
+    }
   }
 };
 
