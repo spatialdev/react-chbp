@@ -6,8 +6,8 @@ import polygonData from '../data/chbp_data_2019.json';
 
 // Sort feature collection by vendor name
 const sortFeatures = (a, b) => {
-  if (a.properties.name > b.properties.name) return 1;
-  if (a.properties.name < b.properties.name) return -1;
+  if (a.properties.name.trim() > b.properties.name.trim()) return 1;
+  if (a.properties.name.trim() < b.properties.name.trim()) return -1;
 }
 
 const initialState = {
