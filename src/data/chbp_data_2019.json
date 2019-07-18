@@ -1368,7 +1368,7 @@
       "properties": {
         "id": 124,
         "name": "Capitol Hill Block Party Merch",
-        "type": null,
+        "type": "Retail",
         "description": null,
         "website": null
       },
@@ -2592,7 +2592,7 @@
       "properties": {
         "id": 159,
         "name": "AT&T",
-        "type": null,
+        "type": "Sponsor",
         "description": null,
         "website": null
       },
