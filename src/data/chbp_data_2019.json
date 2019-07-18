@@ -648,13 +648,48 @@
         ]
       }
     },
+            {
+      "type": "Feature",
+      "properties": {
+        "id": 164,
+        "name": " Cal Anderson Park ",
+        "type": null,
+        "description": null,
+        "website": null
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                -122.320026,
+                47.6186967
+              ],
+              [
+                -122.3183143,
+                47.6187042
+              ],
+              [
+                -122.3182824,
+                47.6153934
+              ],
+              [
+                -122.3199941,
+                47.6153859
+              ]
+            ]
+          ]
+        ]
+      }
+    },
     {
       "type": "Feature",
       "properties": {
         "id": 9,
         "name": "Battle on the Block",
         "type": "Free Event",
-        "description": "Saturday, July 20 at 11am to 6pm\n\nJoin us for the second annual Battle On The Block skate competition at the Cal Anderson Courts, brought to you by 35th North, Bixton, Converse Cons, and Red Bull. More details coming soon.\n\nSunday, July 21 at 11am to 6pm\n\nAlso join us for a community skate session brought to you by Skate Like A Girl… custom-build halfpipe, live drone footage, music, prizes, and more! More details coming soon.",
+        "description": "Saturday, July 20 at 11am to 6pm: Join us for the second annual Battle On The Block skate competition at the Cal Anderson Courts, brought to you by 35th North, Bixton, Converse Cons, and Red Bull. More details coming soon. Sunday, July 21 at 11am to 6pm: Also join us for a community skate session brought to you by Skate Like A Girl… custom-build halfpipe, live drone footage, music, prizes, and more! More details coming soon.",
         "website": null
       },
       "geometry": {
@@ -671,7 +706,7 @@
         "id": 10,
         "name": "Yoga in the Park (Cal Anderson)",
         "type": "Free Event",
-        "description": "Join Sweatbox & CHBP for a FREE outdoor yoga class at Cal Anderson Park! Kick off your final day of #CHBP2019 with a smooth intentional flow! Join yoga teacher Reva for an exciting class set to invigorating & groovy beats from dj michael be. This is the perfect way to start your day and get into your body before heading in for the full experience of Capitol Hill Block Party!!\n\nFirst 20 people to RSVP and show up will receive a 5-punch card to Sweatbox! Just bring your mat and a bottle of water.\n\nLed by RYT Reva and dj michael be.",
+        "description": "Join Sweatbox & CHBP for a FREE outdoor yoga class at Cal Anderson Park! Kick off your final day of #CHBP2019 with a smooth intentional flow! Join yoga teacher Reva for an exciting class set to invigorating & groovy beats from dj michael be. This is the perfect way to start your day and get into your body before heading in for the full experience of Capitol Hill Block Party!! First 20 people to RSVP and show up will receive a 5-punch card to Sweatbox! Just bring your mat and a bottle of water. Led by RYT Reva and dj michael be.",
         "website": null
       },
       "geometry": {
@@ -685,10 +720,27 @@
     {
       "type": "Feature",
       "properties": {
+        "id": 11,
+        "name": "Crybaby Studios",
+        "type": "Art / Music",
+        "description": "Crybaby Studios was established in 1999 and provides Seattle with an important creative space for musicians to develop their craft‚Äîa vital institution keeping the city culturally diverse and making lives better.",
+        "website": "crybabystudios.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.31798782334823,
+          47.61467140405635
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "id": 13,
         "name": "Century Ballroom",
         "type": "Art / Music",
-        "description": "Founded in 1997 to promote social dancing of all kinds, Century Ballroom encourages a diverse community that includes your gender identity and expression, sexual orientation, disability, physical appearance, race, age, and religion.\n\nOur community of instructors, staff, and patrons welcome and encourage any and everyone to come out dancing.\n\nOur philosophy: It is more important to be kind than to be right.",
+        "description": "Founded in 1997 to promote social dancing of all kinds, Century Ballroom encourages a diverse community that includes your gender identity and expression, sexual orientation, disability, physical appearance, race, age, and religion. Our community of instructors, staff, and patrons welcome and encourage any and everyone to come out dancing. Our philosophy: It is more important to be kind than to be right.",
         "website": "centuryballroom.com"
       },
       "geometry": {
@@ -784,6 +836,40 @@
         ]
       }
     },
+        {
+      "type": "Feature",
+      "properties": {
+        "id": 40,
+        "name": "La Spiga",
+        "type": "Restaurant / Bar",
+        "description": "La Spiga's menu pays homage to Italy's Emilia-Romagna region. Chef Sabrina creates tasty, seasonal dishes that reflect the authenticity of the food while using the finest Italian ingredients and what is freshest from local sources.",
+        "website": "laspiga.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3171044,
+          47.6138154
+        ]
+      }
+    },
+        {
+      "type": "Feature",
+      "properties": {
+        "id": 47,
+        "name": "Queer Bar",
+        "type": "Restaurant / Bar",
+        "description": "Queer/Bar is a queer crew providing a space for the queer community that is safe, fun, and inclusive!",
+        "website": "thequeerbar.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3179814510923,
+          47.614724899999985
+        ]
+      }
+    },
     {
       "type": "Feature",
       "properties": {
@@ -815,6 +901,74 @@
         "coordinates": [
           -122.3192334,
           47.6131229
+        ]
+      }
+    },
+        {
+      "type": "Feature",
+      "properties": {
+        "id": 53,
+        "name": "Sole Repair",
+        "type": "Restaurant / Bar",
+        "description": "Sole Repair is a private event space in the heart of Capitol Hill. Perfect for weddings, birthdays, dance parties and so much more.",
+        "website": "solerepairshop.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.31927418921774,
+          47.613878999999976
+        ]
+      }
+    },
+        {
+      "type": "Feature",
+      "properties": {
+        "id": 54,
+        "name": "STOUT",
+        "type": "Restaurant / Bar",
+        "description": "STOUT is a casual pub designed for beer enthusiasts who appreciate 'craft everything,' from beer to cocktails to well-prepared food. STOUT's alluring atmosphere blends classic and modern elements, bringing old world ambiance to one of the new world's most exciting neighborhoods.",
+        "website": "stoutpubs.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3179574,
+          47.6150192
+        ]
+      }
+    },
+        {
+      "type": "Feature",
+      "properties": {
+        "id": 55,
+        "name": "Sweet Iron",
+        "type": "Restaurant / Bar",
+        "description": "Sweet Iron opened its first shop in 2009 in downtown Seattle and continues to grow in exciting partnerships and expansions. This past summer, Sweet Iron set up shop at Safeco Field for the Mariners' games and also combined forces with Ezell's chicken during Sounders and Seahawks games to make the classic chicken and waffles. Their Capitol Hill location offers freshly squeezed juices, beer and wine, and later hours.",
+        "website": "sweetironwaffles.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3192083,
+          47.6133604
+        ]
+      }
+    },
+        {
+      "type": "Feature",
+      "properties": {
+        "id": 56,
+        "name": "The Cloud Room",
+        "type": "Restaurant / Bar",
+        "description": "The Cloud Room is women-owned and operated, with a diverse co-working community committed to growing and participating in a range of industries, expertise and functions. In addition to fostering member businesses and entrepreneurs, we are proud to offer a curated event series with local thought leaders, an exceptional bar program and community wellness partnerships.",
+        "website": "cloudroomseattle.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.31772902558957,
+         47.61362048585469
         ]
       }
     },
@@ -852,6 +1006,142 @@
         ]
       }
     },
+        {
+      "type": "Feature",
+      "properties": {
+        "id": 67,
+        "name": "ESTATE",
+        "type": "Retail",
+        "description": "Established in 2015 in Seattle, WA, ESTATE was created to address the ever changing need for the Pacific Northwest.  With the market moving at an unbelievable pace in both Technology and Fashion, we are motivated to keep you up to date in the latest trends while steering you into what's next through innovative merchandising, vendor collaborations, unique in-store events and above all, excellent customer service.",
+        "website": "@shopestate "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.31928001869332,
+          47.61358262219816
+        ]
+      }
+    },
+        {
+      "type": "Feature",
+      "properties": {
+        "id": 70,
+        "name": "Ghost Gallery",
+        "type": "Retail",
+        "description": "Ghost Gallery was established in 2006 by independent curator Laurie Kearney, who relocated from Virginia to Seattle in 2005. Focusing on local and regional artists & designers, the gallery's hybrid model provides an ever-evolving, welcoming space where artists and collectors, new and established, can connect. Entering its 9th year as a brick and mortar venue, Ghost Gallery showcases a curated selection of visual art, handmade jewelry, tarot, apothecary and bottled wines.",
+        "website": "ghostgalleryshop.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.31764,
+          47.6139831
+        ]
+      }
+    },
+        {
+      "type": "Feature",
+      "properties": {
+        "id": 71,
+        "name": "Goethe Pop-Up",
+        "type": "Retail",
+        "description": "Located in Capitol Hill's iconic Chophouse Row building, the Goethe Pop Up Seattle is here to celebrate the Year of German-American Friendship with you. From October 2018 through November 2019 they will host and support a variety of cultural events such as art exhibits, film screenings, lectures, and panel discussions to promote cultural exchange.",
+        "website": "goethe.de"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.31776755306596,
+          47.61362048585469
+        ]
+      }
+    },
+        {
+      "type": "Feature",
+      "properties": {
+        "id": 72,
+        "name": "HONED By Claire Kinder",
+        "type": "Retail",
+        "description": "HONED by Claire Kinder is a cultivation & curation project by fine jewelry designer, Claire Kinder Barrett. She wanted to create a space where she could bring together the work of friends and inspiring designers from across the continent, as well as opening a dialog with local Seattle designers.",
+        "website": "clairekinder.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.31786055488894,
+         47.6137449321907
+        ]
+      }
+    },
+        {
+      "type": "Feature",
+      "properties": {
+        "id": 73,
+        "name": "Horizon Books",
+        "type": "Retail",
+        "description": "Horizon Books, started in 1971, remains one of Seattle's last used bookstores, and is kept alive by an active community of bibliophiles, dedicated to sifting through the thousands of boxes hidden away, and to opening it as a much needed community space for art walks, drawing groups, and the odd podcaster or two.",
+        "website": "seattlehorizonbooks.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3196111,
+          47.6136769
+        ]
+      }
+    },
+        {
+      "type": "Feature",
+      "properties": {
+        "id": 75,
+        "name": "Le Labo",
+        "type": "Retail",
+        "description": "Le Labo offers fine fragrances in personalized perfumes, candles, shampoo, lotion and more.",
+        "website": "lelabofragrances.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3196491,
+         47.6150927
+        ]
+      }
+    },
+        {
+      "type": "Feature",
+      "properties": {
+        "id": 76,
+        "name": "Moo-Young",
+        "type": "Retail",
+        "description": "Moo-Young is a Seattle-based maker currently obsessing with all things leather and shibori.",
+        "website": "shopmoo-young.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3178056973507,
+         47.6137449321907
+        ]
+      }
+    },
+        {
+      "type": "Feature",
+      "properties": {
+        "id": 77,
+        "name": "No Parking on Pike",
+        "type": "Retail",
+        "description": "No Parking on Pike is a purveyor of fine oddities and fabulous vintage treasures, featuring vintage jewelry, taxidermy, cowboy boots, vintage Playboy & Penthouse magazines, tiki, fedoras, art and more!",
+        "website": "facebook.com/NoParkingOnPike"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3177763,
+         47.6142607
+        ]
+      }
+    },
     {
       "type": "Feature",
       "properties": {
@@ -866,6 +1156,176 @@
         "coordinates": [
           -122.31797514,
           47.61398067
+        ]
+      }
+    },
+        {
+      "type": "Feature",
+      "properties": {
+        "id": 83,
+        "name": "Rove",
+        "type": "Retail",
+        "description": "ROVE offers a curated selection of unique vintage for the fashion friend with a rock 'n roll soul. Specializing in 1950-1990s vintage, their 'rock n' rare' vintage finds can be explored in their shop or on their online store.",
+        "website": "roveseattle.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3182497,
+         47.6144157
+        ]
+      }
+    },
+        {
+      "type": "Feature",
+      "properties": {
+        "id": 84,
+        "name": "Sway and Cake",
+        "type": "Retail",
+        "description": "Sway and Cake is located in the heart of Capitol Hill in the historic Chophouse Row building. The shop is a personal and modern approach to the traditional retail experience. With style and quality in mind, they feature fun, fresh edits and a mix of new emerging designers and classic quality brands. Sway and Cake has a curated and lively approach to selecting all of their fashion, gift, and lifestyle products.",
+        "website": "swayandcake.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.31729339872778,
+         47.613808157476406
+        ]
+      }
+    },
+        {
+      "type": "Feature",
+      "properties": {
+        "id": 88,
+        "name": "Cake Skincare",
+        "type": "Service",
+        "description": "Cake Skincare believes beauty should be sweet, not tasking or challenging, and never a chore. At Cake, their goal is to provide a skincare experience elevated to an entirely new level of service. Visit their location in Chophouse Row for a custom tailored opportunity to relax and indulge, while benefiting from clinical results.",
+        "website": "cakeskincare.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.31738209168782,
+         47.61370308866118
+        ]
+      }
+    },
+        {
+      "type": "Feature",
+      "properties": {
+        "id": 91,
+        "name": "Good Weather",
+        "type": "Service",
+        "description": "Good Weather is a cafe and shop located in Seattle's Capitol Hill neighborhood. It's owned and run by a few urban cyclists with hundreds of thousands of miles in the saddle and countless hours in restaurants and cafes. For bicycles, they cover the gamut of retail and service options from flats to fully custom builds and retrofits. For food, they make delicious sandwiches, salads, and snacks as well as weekend brunch and nightly beer and wine.",
+        "website": "goodweatherinseattle.com"
+      },
+       "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.31738599279217,
+         47.61374316468126
+        ]
+      }
+    },
+        {
+      "type": "Feature",
+      "properties": {
+        "id": 94,
+        "name": "Mode Fitness",
+        "type": "Service",
+        "description": "Welcome to a locally owned gym that is a lot more health and a lot less 'club'. We're a place to blow off steam after work, a place to meet your friends for a dance class, a place to challenge yourself, or heal your soul‚Ä¶We're here to help you find your Mode of Fitness and reach your goals in a way that works for you. Mode Gym has earned a reputation for combining state-of-the-art equipment, approachable trainers, and a clean and welcoming space. It's the type of gym we always wanted to work out at ourselves. Our trainers will help you create the perfect workout utilizing our equipment from Technogym¬Æ. Check out Mode Gym and find a healthier version of yourself.",
+        "website": "modeoffitness.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3192505,
+         47.6143227
+        ]
+      }
+    },
+        {
+      "type": "Feature",
+      "properties": {
+        "id": 95,
+        "name": "Rain City Fit",
+        "type": "Service",
+        "description": "Rain City Fit is a strength & conditioning facility serving the Capitol Hill neighborhood of Seattle.",
+        "website": "raincityfit.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.31798665584893,
+         47.61470052403852
+        ]
+      }
+    },
+        {
+      "type": "Feature",
+      "properties": {
+        "id": 96,
+        "name": "SalonDEWI",
+        "type": "Service",
+        "description": "About Travis: I am the Waxing Diva, otherwise known as Travis Powell, and my specialty is the Brazilian wax. What is a Brazilian wax, you ask? It is a bikini wax where all the hair (yes, darling, that hair in the 'hidden' pubic areas, lip and bum) is removed.  About Eri: She is the lead esthetician at SalonDEWI since 2004, is a familiar and friendly face at the spa. She is known as quick and efficient when it comes to waxing, but always aspires to help her clients look and feel beautiful. ",
+        "website": "salondewi.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3179741,
+         47.6143087
+        ]
+      }
+    },
+        {
+      "type": "Feature",
+      "properties": {
+        "id": 97,
+        "name": "Seattle Puppyworks",
+        "type": "Service",
+        "description": "Seattle Puppyworks specializes in puppy development, socialization and skill building. Driven by their commitment to the human/canine relationship, each of their certified trainers and instructors utilizes only the most cutting-edge training and behavior modification techniques approved by the American Humane Association. They have a fierce appreciation for their canine and  human students, and their methods are relevant, effective, & sound.",
+        "website": "seattlepuppyworks.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3196399,
+         47.613592
+        ]
+      }
+    },
+        {
+      "type": "Feature",
+      "properties": {
+        "id": 98,
+        "name": "Supergenius Tattoo",
+        "type": "Service",
+        "description": "Supergenius Tattoo hosts custom tattoo artists spanning the globe to bring you a constant variety of tattooing. Ageless ideas, limitless research, and priceless tattoos!",
+        "website": "seattle-tattoos.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3196344,
+         47.6136175
+        ]
+      }
+    },
+        {
+      "type": "Feature",
+      "properties": {
+        "id": 100,
+        "name": "The Scotch Pine",
+        "type": "Service",
+        "description": "The Scotch Pine barbershop is romantic. It swoons for close shaves with hot lather and blushes for both old school and modern cuts. Much more than a place to get your hair cut, The Scotch Pine manifests a classic vibe. It's like that feeling when the first song comes on or when the cold can is cracked open or when the cloth is pulled from your chest to reveal a newly expressed you. The stylists at The Scotch Pine bring an artistic touch within the rustic warm walls of the wooden, industrial Northwest room. Offering you a place to feel at home, relaxed and lovingly refreshed.",
+        "website": "thescotchpine.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3174514152922,
+         47.61379447722125
         ]
       }
     },
