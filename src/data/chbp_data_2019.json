@@ -1414,6 +1414,23 @@
         ]
       }
     },
+        {
+      "type": "Feature",
+      "properties": {
+        "id": 120,
+        "name": " The Sweatbox Yoga ",
+        "type": "Sponsor",
+        "description": "The SweatBox Yoga's mission: improve your physical, mental and spiritual health. The SweatBox offers a supportive environment for Yogis of all practice levels. Above all else, they value health, wellness, and community. As such, their class offerings support physical, emotional and spiritual growth for all students. Their committed instructors teach with open-minds and open-hearts.",
+        "website": "sweatboxyoga.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.31964144052453,
+          47.6136112124218
+        ]
+      }
+    },
     {
       "type": "Feature",
       "properties": {
