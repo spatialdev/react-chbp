@@ -126,16 +126,16 @@ class BottomSheet extends Component {
     this.clearMapFilter(LAYER_BAR_RETAIL_SERVICE_SELECTED);
     this.clearMapFilter(LAYER_BAR_RETAIL_SERVICE_LABEL);
     this.clearMapFilter(LAYER_BEER_GARDEN_LOUNGE_OUTLINE);
-    this.clearMapFilter(LAYER_NONPROFIT_LABEL);
-    this.clearMapFilter(LAYER_NONPROFIT_SELECTED);
+    // this.clearMapFilter(LAYER_NONPROFIT_LABEL);
+    // this.clearMapFilter(LAYER_NONPROFIT_SELECTED);
     this.clearMapFilter(LAYER_FREE_EVENTS_LABEL);
     this.clearMapFilter(LAYER_FREE_EVENTS_SELECTED);
 
     this.hideMapLayer(LAYER_BAR_RETAIL_SERVICE_SELECTED);
     this.hideMapLayer(LAYER_BAR_RETAIL_SERVICE_LABEL)
     this.hideMapLayer(LAYER_BEER_GARDEN_LOUNGE_OUTLINE)
-    this.hideMapLayer(LAYER_NONPROFIT_LABEL)
-    this.hideMapLayer(LAYER_NONPROFIT_SELECTED)
+    // this.hideMapLayer(LAYER_NONPROFIT_LABEL)
+    // this.hideMapLayer(LAYER_NONPROFIT_SELECTED)
     this.hideMapLayer(LAYER_FREE_EVENTS_LABEL)
     this.hideMapLayer(LAYER_FREE_EVENTS_SELECTED)
   }

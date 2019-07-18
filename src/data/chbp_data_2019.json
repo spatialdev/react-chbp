@@ -1267,7 +1267,7 @@
         "id": 96,
         "name": "SalonDEWI",
         "type": "Service",
-        "description": "About Travis: I am the Waxing Diva, otherwise known as Travis Powell, and my specialty is the Brazilian wax. What is a Brazilian wax, you ask? It is a bikini wax where all the hair (yes, darling, that hair in the 'hidden' pubic areas, lip and bum) is removed.  About Eri: She is the lead esthetician at SalonDEWI since 2004, is a familiar and friendly face at the spa. She is known as quick and efficient when it comes to waxing, but always aspires to help her clients look and feel beautiful. ",
+        "description": "About Travis: I am the Waxing Diva, otherwise known as Travis Powell, and my specialty is the Brazilian wax. What is a Brazilian wax, you ask? It is a bikini wax where all the hair (yes, darling, that hair in the 'hidden' pubic areas, lip and bum) is removed.  About Eri: She is the lead esthetician at SalonDEWI since 2004, is a familiar and friendly face at the spa. She is known as quick and efficient when it comes to waxing, but always aspires to help her clients look and feel beautiful.",
         "website": "salondewi.com"
       },
       "geometry": {
@@ -1333,7 +1333,7 @@
       "type": "Feature",
       "properties": {
         "id": 109,
-        "name": "LOGE ",
+        "name": "LOGE",
         "type": "Sponsor",
         "description": null,
         "website": null
@@ -1350,7 +1350,7 @@
       "type": "Feature",
       "properties": {
         "id": 113,
-        "name": "Otterbox ",
+        "name": "Otterbox",
         "type": "Sponsor",
         "description": null,
         "website": null
@@ -1384,7 +1384,7 @@
       "type": "Feature",
       "properties": {
         "id": 110,
-        "name": "Lyft ",
+        "name": "Lyft",
         "type": "Sponsor",
         "description": null,
         "website": null
@@ -1401,7 +1401,7 @@
       "type": "Feature",
       "properties": {
         "id": 117,
-        "name": "REBBL ",
+        "name": "REBBL",
         "type": "Sponsor",
         "description": null,
         "website": null
@@ -1418,7 +1418,7 @@
       "type": "Feature",
       "properties": {
         "id": 120,
-        "name": " The Sweatbox Yoga ",
+        "name": "The Sweatbox Yoga",
         "type": "Sponsor",
         "description": "The SweatBox Yoga's mission: improve your physical, mental and spiritual health. The SweatBox offers a supportive environment for Yogis of all practice levels. Above all else, they value health, wellness, and community. As such, their class offerings support physical, emotional and spiritual growth for all students. Their committed instructors teach with open-minds and open-hearts.",
         "website": "sweatboxyoga.com"
@@ -1435,8 +1435,8 @@
       "type": "Feature",
       "properties": {
         "id": 22,
-        "name": "The Washington Bus ",
-        "type": "Nonprofit ",
+        "name": "The Washington Bus",
+        "type": "Nonprofit",
         "description": null,
         "website": null
       },
@@ -1453,7 +1453,7 @@
       "properties": {
         "id": 16,
         "name": "Jubilee Women's Center",
-        "type": "Nonprofit ",
+        "type": "Nonprofit",
         "description": null,
         "website": null
       },
@@ -1470,7 +1470,7 @@
       "properties": {
         "id": 17,
         "name": "KEXP",
-        "type": "Nonprofit ",
+        "type": "Nonprofit",
         "description": null,
         "website": null
       },
@@ -1503,7 +1503,7 @@
       "type": "Feature",
       "properties": {
         "id": 101,
-        "name": "Brew Dr Kombucha ",
+        "name": "Brew Dr Kombucha",
         "type": "Sponsor",
         "description": null,
         "website": null
@@ -1537,8 +1537,8 @@
       "type": "Feature",
       "properties": {
         "id": 19,
-        "name": "Sensory Access ",
-        "type": "Nonprofit ",
+        "name": "Sensory Access",
+        "type": "Nonprofit",
         "description": null,
         "website": null
       },
@@ -1571,7 +1571,7 @@
       "type": "Feature",
       "properties": {
         "id": 104,
-        "name": "Caffe Vita ",
+        "name": "Caffe Vita",
         "type": "Sponsor",
         "description": null,
         "website": null
@@ -1724,7 +1724,7 @@
       "type": "Feature",
       "properties": {
         "id": 108,
-        "name": "Health 1st Chiropractic ",
+        "name": "Health 1st Chiropractic",
         "type": "Sponsor",
         "description": null,
         "website": null
@@ -1758,7 +1758,7 @@
       "type": "Feature",
       "properties": {
         "id": 103,
-        "name": "Broadstone Saxton ",
+        "name": "Broadstone Saxton",
         "type": "Sponsor",
         "description": null,
         "website": null
@@ -1776,7 +1776,7 @@
       "properties": {
         "id": 21,
         "name": "The Vera Project",
-        "type": "Nonprofit ",
+        "type": "Nonprofit",
         "description": null,
         "website": null
       },
@@ -2406,7 +2406,7 @@
         "id": 86,
         "name": "Zion's Gate",
         "type": "Retail",
-        "description": "We specialize in good music from every genre. Our shop is located in Seattle, WA at 1100 E. Pike St. In our store you will find Vinyl, CD's, Cassettes, DVDs, Blu-Ray, Pins, Patches and Seattle's BEST selection of band t-shirts and hoodies which you can find online as well in our ebay store. Stop on by and become a gate creeper today! ",
+        "description": "We specialize in good music from every genre. Our shop is located in Seattle, WA at 1100 E. Pike St. In our store you will find Vinyl, CD's, Cassettes, DVDs, Blu-Ray, Pins, Patches and Seattle's BEST selection of band t-shirts and hoodies which you can find online as well in our ebay store. Stop on by and become a gate creeper today!",
         "website": "zionsgate.com"
       },
       "geometry": {
@@ -2559,7 +2559,7 @@
         "id": 80,
         "name": "Retail Therapy",
         "type": "Retail",
-        "description": "Smell good, look good and feel good at Retail Therapy. Featuring unique clothing, jewelry, pins, cards, and more, all while supporting a variety of local artists, Retail Therapy is the perfect place to pick up a gift or something to make yourself feel special. ",
+        "description": "Smell good, look good and feel good at Retail Therapy. Featuring unique clothing, jewelry, pins, cards, and more, all while supporting a variety of local artists, Retail Therapy is the perfect place to pick up a gift or something to make yourself feel special.",
         "website": "indeedretailtherapy.com"
       },
       "geometry": {
@@ -2591,7 +2591,7 @@
       "type": "Feature",
       "properties": {
         "id": 159,
-        "name": " AT&T ",
+        "name": "AT&T",
         "type": null,
         "description": null,
         "website": null
@@ -2608,7 +2608,7 @@
       "type": "Feature",
       "properties": {
         "id": 160,
-        "name": " State Farm ",
+        "name": "State Farm",
         "type": "Sponsor",
         "description": null,
         "website": null
@@ -2625,7 +2625,7 @@
       "type": "Feature",
       "properties": {
         "id": 161,
-        "name": " Athena's Greek ",
+        "name": "Athena's Greek",
         "type": "Sponsor",
         "description": null,
         "website": null
@@ -2642,7 +2642,7 @@
       "type": "Feature",
       "properties": {
         "id": 162,
-        "name": " 20 oz. Tea ",
+        "name": "20 oz. Tea",
         "type": "Sponsor",
         "description": null,
         "website": null
@@ -2659,7 +2659,7 @@
       "type": "Feature",
       "properties": {
         "id": 163,
-        "name": " Mike's Shave Ice ",
+        "name": "Mike's Shave Ice",
         "type": "Sponsor",
         "description": null,
         "website": null
