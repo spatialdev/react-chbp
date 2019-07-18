@@ -597,7 +597,7 @@
       "properties": {
         "id": 155,
         "name": "Food Court",
-        "type": null,
+        "type": "",
         "description": null,
         "website": null,
         "show_label": "",
