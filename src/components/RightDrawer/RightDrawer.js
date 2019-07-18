@@ -193,11 +193,13 @@ class RightMenu extends Component {
             onClick={() => toggleRightDrawer(false)}
             onKeyDown={() => toggleRightDrawer(false)}
           >
-            {activeItems.map((item) => {
-              return (
-                <ListItem onClick={() => this.handleItemSelection(item)} button key={item.properties.id}>
-                  <ListItemText primary={item.properties.name}/>
-                </ListItem>
+            {activeItems
+              .filter(item => item.properties.hasOwnProperty("type") && item.properties.type !== null)
+              .map((item) => {
+                return (
+                  <ListItem onClick={() => this.handleItemSelection(item)} button key={item.properties.id}>
+                    <ListItemText primary={item.properties.name}/>
+                  </ListItem>
               );
             })}
           </List>
