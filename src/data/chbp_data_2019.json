@@ -113,9 +113,9 @@
         "description": "Check out an amazing lineup including headliners Phantogram, Lizzo and RL Grimes. Watch the ticker at the bottom of the map to see who’s playing now!",
         "website": "capitolhillblockparty.com/schedule",
         "show_label": "",
+        "rotate": "",
         "show_icon": "",
         "icon": "",
-        "rotate": "",
         "left_panel": ""
       },
       "geometry": {
@@ -598,7 +598,7 @@
         "id": 155,
         "name": "Food Court",
         "type": "",
-        "description": null,
+        "description": "Sushi Dog\nThai U Up\nMix Poke\nBar Mel\nAthena's Greek\nDumpling Tzar\n20 oz. Tea\nMike's Shave Ice\nPoquitos",
         "website": null,
         "show_label": "",
         "show_icon": "",
@@ -723,7 +723,7 @@
         "id": 11,
         "name": "Crybaby Studios",
         "type": "Art / Music",
-        "description": "Crybaby Studios was established in 1999 and provides Seattle with an important creative space for musicians to develop their craft‚Äîa vital institution keeping the city culturally diverse and making lives better.",
+        "description": "Crybaby Studios was established in 1999 and provides Seattle with an important creative space for musicians to develop their craft‚ a vital institution keeping the city culturally diverse and making lives better.",
         "website": "crybabystudios.com"
       },
       "geometry": {
@@ -1233,7 +1233,7 @@
         "id": 94,
         "name": "Mode Fitness",
         "type": "Service",
-        "description": "Welcome to a locally owned gym that is a lot more health and a lot less 'club'. We're a place to blow off steam after work, a place to meet your friends for a dance class, a place to challenge yourself, or heal your soul‚Ä¶We're here to help you find your Mode of Fitness and reach your goals in a way that works for you. Mode Gym has earned a reputation for combining state-of-the-art equipment, approachable trainers, and a clean and welcoming space. It's the type of gym we always wanted to work out at ourselves. Our trainers will help you create the perfect workout utilizing our equipment from Technogym¬Æ. Check out Mode Gym and find a healthier version of yourself.",
+        "description": "Welcome to a locally owned gym that is a lot more health and a lot less 'club'. We're a place to blow off steam after work, a place to meet your friends for a dance class, a place to challenge yourself, or heal your soul; We're here to help you find your Mode of Fitness and reach your goals in a way that works for you. Mode Gym has earned a reputation for combining state-of-the-art equipment, approachable trainers, and a clean and welcoming space. It's the type of gym we always wanted to work out at ourselves. Our trainers will help you create the perfect workout utilizing our equipment from Technogym. Check out Mode Gym and find a healthier version of yourself.",
         "website": "modeoffitness.com"
       },
       "geometry": {
@@ -1290,8 +1290,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.3196399,
-          47.613592
+          -122.31960570183506,
+          47.613582959249094
         ]
       }
     },
@@ -1307,8 +1307,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.3196344,
-          47.6136175
+          -122.31960355459633,
+          47.61361659592542
         ]
       }
     },
@@ -1426,8 +1426,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.31964144052453,
-          47.6136112124218
+          -122.3196050312828,
+          47.613597876487226
         ]
       }
     },
@@ -1553,23 +1553,6 @@
     {
       "type": "Feature",
       "properties": {
-        "id": 129,
-        "name": "Sushi Dog",
-        "type": null,
-        "description": null,
-        "website": null
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.31885069607226,
-          47.614180528084475
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "id": 104,
         "name": "Caffe Vita",
         "type": "Sponsor",
@@ -1598,74 +1581,6 @@
         "coordinates": [
           -122.31883496608154,
           47.614316017876845
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": 132,
-        "name": "Mix Poke",
-        "type": null,
-        "description": null,
-        "website": null
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.3188384779245,
-          47.6143904474152
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": 133,
-        "name": "Bar Mel",
-        "type": null,
-        "description": null,
-        "website": null
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.31883962214893,
-          47.6144395561032
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": 135,
-        "name": "Dumpling Tzar",
-        "type": null,
-        "description": null,
-        "website": null
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.31898313202441,
-          47.61447108349957
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": 138,
-        "name": "Poquitos",
-        "type": "Sponsor",
-        "description": null,
-        "website": null
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.3190132982436,
-          47.61436067686506
         ]
       }
     },
@@ -2474,7 +2389,7 @@
         "id": 27,
         "name": "Barca",
         "type": "Restaurant / Bar",
-        "description": "Bar√ßa features 29 craft beers on tap and signature handcrafted cocktails, Barca's comfortable and relaxed atmosphere is perfect for a romantic evening or a night out with friends.",
+        "description": "Barca features 29 craft beers on tap and signature handcrafted cocktails, Barca's comfortable and relaxed atmosphere is perfect for a romantic evening or a night out with friends.",
         "website": "barcaseattlelounge.com"
       },
       "geometry": {
@@ -2618,57 +2533,6 @@
         "coordinates": [
           -122.31954216,
           47.61424943
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": 161,
-        "name": "Athena's Greek",
-        "type": "Sponsor",
-        "description": null,
-        "website": null
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.31887014,
-          47.61446968
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": 162,
-        "name": "20 oz. Tea",
-        "type": "Sponsor",
-        "description": null,
-        "website": null
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.31904363,
-          47.61444179
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": 163,
-        "name": "Mike's Shave Ice",
-        "type": "Sponsor",
-        "description": null,
-        "website": null
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.31904302,
-          47.61441006
         ]
       }
     }
