@@ -1,8 +1,8 @@
 const schedule = [{
   "stage": "Main Stage",
   "artist": "CROOKED COLOURS",
-  "start_time": "2019-07-17 11:00",
-  "end_time": "2019-07-17 16:30"
+  "start_time": "2019-07-19 16:00",
+  "end_time": "2019-07-19 16:30"
 },
 {
   "stage": "Main Stage",
