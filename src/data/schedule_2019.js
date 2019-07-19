@@ -115,8 +115,8 @@ const schedule = [{
 {
   "stage": "Vera Stage",
   "artist": "SECRET SUPERPOWER",
-  "start_time": "2019-07-17 11:00",
-  "end_time": "2019-07-17 16:30"
+  "start_time": "2019-07-19 16:00",
+  "end_time": "2019-07-19 16:30"
 },
 {
   "stage": "Vera Stage",
@@ -265,7 +265,7 @@ const schedule = [{
 {
   "stage": "Neumos Stage",
   "artist": "RED RIBBON",
-  "start_time": "2019-07-17 11:00",
+  "start_time": "2019-07-19 19:00",
   "end_time": "2019-07-19 19:45"
 },
 {
@@ -391,7 +391,7 @@ const schedule = [{
 {
   "stage": "Barboza Stage",
   "artist": "DECENT AT BEST",
-  "start_time": "2019-07-17 11:30",
+  "start_time": "2019-07-19 16:30",
   "end_time": "2019-07-19 17:00"
 },
 {
@@ -541,7 +541,7 @@ const schedule = [{
 {
   "stage": "Cha Cha Stage",
   "artist": "WIMPS",
-  "start_time": "2019-07-17 11:45",
+  "start_time": "2019-07-19 20:45",
   "end_time": "2019-07-19 21:15"
 },
 {
