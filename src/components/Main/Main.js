@@ -63,7 +63,7 @@ const styles = theme => ({
   },
   navLogo: {
     cursor: 'pointer',
-    fontFamily: 'Gobold Bold Italic',
+    fontFamily: 'Gobold Bold Italic, Open Sans, sans-serif;',
     color: '#fff'
   }
 });
