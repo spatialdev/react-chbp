@@ -81,14 +81,12 @@ class Map extends Component {
     map.addControl(this.bearingControl);
 
     // Fired on each Geolocation API position update which returned as success.
-	  this.geoLocate.on('geolocate', this.handleGeolocationSuccess);
+    this.geoLocate.on('geolocate', this.handleGeolocationSuccess);
 
     // Catch GeolocateControl errors
     this.geoLocate.on("error", this.handleGeolocationError);
 
-    map.on("load", () => {
-      this.geoLocate.trigger();
-    });
+    map.on("load", () => {});
 
     map.on("click", e => {
       this.handleMapClick(e);
