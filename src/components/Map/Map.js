@@ -189,10 +189,10 @@ class Map extends Component {
     // "Long,Lat"
     let formattedLocation = [location.lng, location.lat].join(",");
 
-	  findMyLocation({
-		  type: FIND_MY_LOCATION_SUCCESS,
-		  payload: formattedLocation
-	  });
+    findMyLocation({
+      type: FIND_MY_LOCATION_SUCCESS,
+      payload: formattedLocation
+    });
   };
 
   /**
