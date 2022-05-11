@@ -15,8 +15,6 @@ import {
 } from "../../redux/actions";
 import {
   FIND_MY_LOCATION_ERROR,
-  FIND_MY_LOCATION_OUT_OF_BOUNDS,
-  FIND_MY_LOCATION_SELECT,
   FIND_MY_LOCATION_SUCCESS,
   LAYER_BAR_RETAIL_SERVICE,
   LAYER_BAR_RETAIL_SERVICE_LABEL,
@@ -82,15 +80,13 @@ class Map extends Component {
     map.addControl(this.geoLocate);
     map.addControl(this.bearingControl);
 
-    // Replace GeolocateControl's _updateCamera function
-    // see: https://github.com/mapbox/mapbox-gl-js/issues/6789
-    // this.geoLocate._updateCamera = this.handleGeolocation;
+    // Fired on each Geolocation API position update which returned as success.
+    this.geoLocate.on('geolocate', this.handleGeolocationSuccess);
 
     // Catch GeolocateControl errors
     this.geoLocate.on("error", this.handleGeolocationError);
 
-    map.on("load", () => {
-    });
+    map.on("load", () => {});
 
     map.on("click", e => {
       this.handleMapClick(e);
@@ -180,42 +176,21 @@ class Map extends Component {
    * // TODO Don't track user location if out of bounds. Consider going back to custom implementation
    * @param position
    */
-  handleGeolocation = position => {
+  handleGeolocationSuccess = position => {
+
     // get geolocation
     const location = new mapboxgl.LngLat(
       position.coords.longitude,
       position.coords.latitude
     );
-    const bounds = this.map.getMaxBounds();
+
     // "Long,Lat"
     let formattedLocation = [location.lng, location.lat].join(",");
-    // Report "select" action to google analytics
-    findMyLocation({type: FIND_MY_LOCATION_SELECT, payload: null});
 
-    if (bounds) {
-      // if geolocation is within maxBounds
-      if (
-        location.lng >= bounds.getWest() &&
-        location.lng <= bounds.getEast() &&
-        location.lat >= bounds.getSouth() &&
-        location.lat <= bounds.getNorth()
-      ) {
-        // Report "success" action to google analytics
-        findMyLocation({
-          type: FIND_MY_LOCATION_SUCCESS,
-          payload: formattedLocation
-        });
-        // Zoom into user's location
-        this.map.fitBounds(location.toBounds(position.coords.accuracy));
-      } else {
-        // Report "out of bounds" action to google analytics
-        findMyLocation({
-          type: FIND_MY_LOCATION_OUT_OF_BOUNDS,
-          payload: formattedLocation
-        });
-        // TODO display a helpful message about being outside of bounds
-      }
-    }
+    findMyLocation({
+      type: FIND_MY_LOCATION_SUCCESS,
+      payload: formattedLocation
+    });
   };
 
   /**

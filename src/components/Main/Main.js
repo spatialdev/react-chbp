@@ -63,7 +63,7 @@ const styles = theme => ({
   },
   navLogo: {
     cursor: 'pointer',
-    fontFamily: 'Gobold Bold Italic',
+    fontFamily: 'Gobold Bold Italic, Open Sans, sans-serif;',
     color: '#fff'
   }
 });
@@ -74,7 +74,7 @@ class Main extends Component {
   }
 
   resetView () {
-    const { map } = this.props;
+    const { map, width } = this.props;
 
     toggleLeftDrawer(false);
     toggleRightDrawer(false);
@@ -82,7 +82,7 @@ class Main extends Component {
 
     map.flyTo({
       center: config.map.center,
-      zoom: config.map.zoom
+      zoom:  width === 'xs' || width === 'sm' ? config.map.zoom.mobile : config.map.zoom.desktop
     })
   }
 

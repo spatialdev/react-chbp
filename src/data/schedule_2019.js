@@ -427,7 +427,7 @@ const schedule = [{
 {
   "stage": "Barboza Stage",
   "artist": "DOUBLE SUNRISE CLUB",
-  "start_time": "2019-07-19 02:00",
+  "start_time": "2019-07-19 20:30",
   "end_time": "2019-07-20 02:30"
 },
 {
