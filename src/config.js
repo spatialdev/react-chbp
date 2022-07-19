@@ -33,7 +33,7 @@ const config = {
   },
   "map": {
     "accessToken": "pk.eyJ1Ijoic3BhdGlhbGRldiIsImEiOiJjanh0bHczc2Qwdnd0M25udGQzZm9tcTBzIn0.MnBju8Y2wP6N6nFm4nNu7A",
-    "style": "mapbox://styles/spatialdev/cjxyccxk90prc1cpyq11zt62g",
+    "style": "mapbox://styles/spatialdev/cl46gjmla000114pdhwjgb73d",
     "center": [-122.319, 47.614],
     "bounds": [[-122.32140396058543, 47.612702531671545], [-122.3144109050901, 47.61535256842217]],
     "zoom": {

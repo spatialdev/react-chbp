@@ -18,7 +18,7 @@ import {
 import {drawerWidth} from '../../redux/constants';
 import turfCenter from '@turf/center';
 import './LeftDrawer.scss';
-import imgFlier from '../../images/chbp-logo.jpg';
+import imgFlier from '../../images/chbp_doodle_logo_3.png';
 
 const styles = theme => ({
   root: {
