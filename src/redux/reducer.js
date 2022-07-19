@@ -2,7 +2,7 @@ import {
   SET_POLYGON_DATA, SET_BOTTOM_DRAWER_DATA, TOGGLE_RIGHT_DRAWER, TOGGLE_LEFT_DRAWER, TOGGLE_BOTTOM_DRAWER,
   SET_TAB_VALUE, SET_MAP
 } from './constants'
-import polygonData from '../data/chbp_data_2019.json';
+import polygonData from '../data/chbp_data_2022.json';
 
 // Sort feature collection by vendor name
 const sortFeatures = (a, b) => {

@@ -72,11 +72,9 @@ class LeftDrawer extends Component {
     // Left menu items ordered by importance
     let leftMenuMap = {
       "Main Stage": [],
-      "Clif Bar Presents: Vera Stage": [],
-      "Beer Garden - Pike": [],
-      "Beer Garden - Vera": [],
-      "The Lounge by AT&T": [],
-      "Food Court": [],
+      "Vera Stage": [],
+      "Beer Garden 1": [],
+      "Beer Garden 2": [],
       "Chophouse Row": []
     };
     const items = data.features;
