@@ -1,12 +1,5 @@
 {
   "type": "FeatureCollection",
-  "name": "CHBPLocations_V11_Centroids",
-  "crs": {
-    "type": "name",
-    "properties": {
-      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
-    }
-  },
   "features": [
     {
       "type": "Feature",
@@ -30,7 +23,7 @@
       "type": "Feature",
       "properties": {
         "id": 0.5,
-        "name": "JuneShine Beer Garden",
+        "name": "Juneshine VIP Beer Garden",
         "type": "",
         "description": "",
         "website": "",
@@ -294,6 +287,78 @@
           -122.3191542,
           47.61704505
         ]
+      }
+    },
+{
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.31943395,
+          47.61477087
+        ]
+      },
+      "properties": {
+        "id": 108,
+        "name": "North Entrance Gate",
+        "type": "Entrance/Box Office",
+        "description": "",
+        "website": "",
+        "left_panel": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.31761391,
+          47.61411838
+        ]
+      },
+      "properties": {
+        "id": 109,
+        "name": "East Entrance Gate",
+        "type": "Entrance/Box Office",
+        "description": "",
+        "website": "",
+        "left_panel": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.31765652,
+          47.61416982
+        ]
+      },
+      "properties": {
+        "id": 110,
+        "name": "Box Office",
+        "type": "Entrance/Box Office",
+        "description": "",
+        "website": "",
+        "left_panel": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.31740775,
+          47.61416494
+        ]
+      },
+      "properties": {
+        "id": 111,
+        "name": "VIP Box Office Tent",
+        "type": "Entrance/Box Office",
+        "description": "",
+        "website": "",
+        "left_panel": ""
       }
     }
   ]
