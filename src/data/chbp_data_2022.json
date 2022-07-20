@@ -98,7 +98,7 @@
       },
       "properties": {
         "id": 0.5,
-        "name": "JuneShine Beer Garden",
+        "name": "Juneshine VIP Beer Garden",
         "type": "",
         "description": "",
         "website": "",
@@ -717,8 +717,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.3197679,
-          47.6149886
+          -122.31965001,
+          47.61501795
         ]
       },
       "properties": {
@@ -1023,8 +1023,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.3199576,
-          47.6147526
+          -122.3196482,
+          47.61490442
         ]
       },
       "properties": {
@@ -1581,8 +1581,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.3185843,
-          47.6143525
+          -122.31866771,
+          47.61421664
         ]
       },
       "properties": {
@@ -2012,7 +2012,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": []
+        "coordinates": [
+          -122.3184902,
+          47.61408438
+        ]
       },
       "properties": {
         "id": 86,
@@ -2096,7 +2099,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": []
+        "coordinates": [
+          -122.31841414,
+          47.61408598
+        ]
       },
       "properties": {
         "id": 91,
@@ -2356,6 +2362,204 @@
         "type": "Food Vendor",
         "description": "Your favorite neighborhood sandwich shop!",
         "website": "http://www.slabsandwich.com/",
+        "left_panel": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.31943395,
+          47.61477087
+        ]
+      },
+      "properties": {
+        "id": 108,
+        "name": "North Entrance Gate",
+        "type": "Entrance/Box Office",
+        "description": "",
+        "website": "",
+        "left_panel": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.31761391,
+          47.61411838
+        ]
+      },
+      "properties": {
+        "id": 109,
+        "name": "East Entrance Gate",
+        "type": "Entrance/Box Office",
+        "description": "",
+        "website": "",
+        "left_panel": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.31765652,
+          47.61416982
+        ]
+      },
+      "properties": {
+        "id": 110,
+        "name": "Box Office",
+        "type": "Entrance/Box Office",
+        "description": "",
+        "website": "",
+        "left_panel": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.31740775,
+          47.61416494
+        ]
+      },
+      "properties": {
+        "id": 111,
+        "name": "VIP Box Office Tent",
+        "type": "Entrance/Box Office",
+        "description": "",
+        "website": "",
+        "left_panel": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.31793945,
+          47.61401841
+        ]
+      },
+      "properties": {
+        "id": 112,
+        "name": "Vida Mate",
+        "type": "Sponsor",
+        "description": "",
+        "website": "",
+        "left_panel": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.31789641,
+          47.61401795
+        ]
+      },
+      "properties": {
+        "id": 113,
+        "name": "This Must Be The Place",
+        "type": "Sponsor",
+        "description": "",
+        "website": "",
+        "left_panel": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.31830758,
+          47.61403511
+        ]
+      },
+      "properties": {
+        "id": 114,
+        "name": "Subkultures",
+        "type": "Sponsor",
+        "description": "",
+        "website": "",
+        "left_panel": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.31833906,
+          47.61417877
+        ]
+      },
+      "properties": {
+        "id": 115,
+        "name": "Merch Tent",
+        "type": "Retail",
+        "description": "",
+        "website": "",
+        "left_panel": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.31958851,
+          47.61433996
+        ]
+      },
+      "properties": {
+        "id": 116,
+        "name": "Xfinity Water Station",
+        "type": "Sponsor",
+        "description": "",
+        "website": "",
+        "left_panel": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.31884556,
+          47.61431219
+        ]
+      },
+      "properties": {
+        "id": 117,
+        "name": "Kettlecorn & Lemons",
+        "type": "Food Vendor",
+        "description": "",
+        "website": "",
+        "left_panel": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.31827204,
+          47.61403631
+        ]
+      },
+      "properties": {
+        "id": 118,
+        "name": "Vera Project",
+        "type": "Sponsor",
+        "description": "",
+        "website": "",
         "left_panel": ""
       }
     }

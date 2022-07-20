@@ -73,7 +73,7 @@ class LeftDrawer extends Component {
     let leftMenuMap = {
       "Main Stage": [],
       "Vera Stage": [],
-      "JuneShine Beer Garden": [],
+      "Juneshine VIP Beer Garden": [],
       "Jameson Beer Garden": [],
       "Chophouse Row": []
     };
@@ -139,9 +139,9 @@ class LeftDrawer extends Component {
           </div>
           <div className="legend-item-wrapper">
             <span className="legend-box">
-              <span className="map-pin art-music"></span>
+              <span className="map-pin entrance-box-office"></span>
             </span>
-            <span className="legend-item-text">Art / Music</span>
+            <span className="legend-item-text">Entrances / Box Offices</span>
           </div>
           <div className="legend-item-wrapper">
             <span className="legend-box">
