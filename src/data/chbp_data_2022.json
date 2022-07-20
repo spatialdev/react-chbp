@@ -48,7 +48,7 @@
       },
       "properties": {
         "id": 0,
-        "name": "Beer Garden 1",
+        "name": "Juneshine VIP Beer Garden",
         "type": "",
         "description": "",
         "website": "",
@@ -98,7 +98,7 @@
       },
       "properties": {
         "id": 0.5,
-        "name": "Beer Garden 2",
+        "name": "Jameson Beer Garden",
         "type": "",
         "description": "",
         "website": "",
@@ -150,6 +150,44 @@
         "coordinates": [
           [
             [
+              -122.31840870072,
+              47.61400203264
+            ],
+            [
+              -122.31828096416,
+              47.61400177483
+            ],
+            [
+              -122.31828154213,
+              47.61387164141
+            ],
+            [
+              -122.31840927869,
+              47.61387189922
+            ],
+            [
+              -122.31840870072,
+              47.61400203264
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1.5,
+        "name": "Wildrose Stage",
+        "type": "Stage",
+        "description": "",
+        "website": "",
+        "left_panel": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
               -122.31824673354,
               47.61387781934
             ],
@@ -175,6 +213,44 @@
       "properties": {
         "id": 2,
         "name": "Vera Stage",
+        "type": "Stage",
+        "description": "",
+        "website": "",
+        "left_panel": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.31959603556,
+              47.61378026844
+            ],
+            [
+              -122.31959667262,
+              47.61372014415
+            ],
+            [
+              -122.31974758647,
+              47.61372087083
+            ],
+            [
+              -122.31974694941,
+              47.61378099512
+            ],
+            [
+              -122.31959603556,
+              47.61378026844
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": 2.5,
+        "name": "The Runaway Stage",
         "type": "Stage",
         "description": "",
         "website": "",
@@ -226,24 +302,24 @@
         "coordinates": [
           [
             [
-              -122.31958881259,
-              47.61379576505
+              -122.31959417701,
+              47.61385543374
             ],
             [
-              -122.31958944965,
-              47.61373564078
+              -122.31959481407,
+              47.61379530953
             ],
             [
-              -122.3197403635,
-              47.61373636746
+              -122.31974572792,
+              47.61379603621
             ],
             [
-              -122.31973972644,
-              47.61379649173
+              -122.31974509086,
+              47.61385616041
             ],
             [
-              -122.31958881259,
-              47.61379576505
+              -122.31959417701,
+              47.61385543374
             ]
           ]
         ]
@@ -251,6 +327,44 @@
       "properties": {
         "id": 4,
         "name": "Barboza",
+        "type": "Stage",
+        "description": "",
+        "website": "",
+        "left_panel": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.31959603556,
+              47.61378026844
+            ],
+            [
+              -122.31959667262,
+              47.61372014415
+            ],
+            [
+              -122.31974758647,
+              47.61372087083
+            ],
+            [
+              -122.31974694941,
+              47.61378099512
+            ],
+            [
+              -122.31959603556,
+              47.61378026844
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": 4.5,
+        "name": "The Runaway Stage",
         "type": "Stage",
         "description": "",
         "website": "",
@@ -331,6 +445,44 @@
         "description": "Café Racer embraces that spirit of DIY invention, passion, and rebellion. They celebrate the musicians who imagine and create that sounds that define a generation.",
         "website": "caferacermusic.com",
         "left_panel": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.31932361077,
+              47.61391136189
+            ],
+            [
+              -122.3193226905,
+              47.61384125918
+            ],
+            [
+              -122.31916556249,
+              47.61384219656
+            ],
+            [
+              -122.31916648276,
+              47.61391229926
+            ],
+            [
+              -122.31932361077,
+              47.61391136189
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": 6.5,
+        "name": "Sole Repair VIP Lounge",
+        "type": "Stage",
+        "description": "",
+        "website": "",
+        "left_panel": true
       }
     },
     {
@@ -435,14 +587,91 @@
     {
       "type": "Feature",
       "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.3193284896,
+              47.61427040952
+            ],
+            [
+              -122.3193284896,
+              47.6143481589
+            ],
+            [
+              -122.31918365031,
+              47.6143481589
+            ],
+            [
+              -122.31918365031,
+              47.61427040952
+            ],
+            [
+              -122.3193284896,
+              47.61427040952
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": 9.5,
+        "name": "Havana Stage",
+        "type": "Stage",
+        "description": "",
+        "website": "",
+        "left_panel": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
         "type": "Point",
-        "coordinates": []
+        "coordinates": [
+          -122.3198783471971,
+          47.61590609702775
+        ]
       },
       "properties": {
         "id": 10,
         "name": "Battle on the Block",
         "type": "Free Event",
         "description": "Saturday, July 23rd\nJoin us for the third annual Battle On The Block skate competition at the Cal Anderson Courts! Brought to you by 35th North and Converse\n\nSunday, July 24th\nAlso join us for a community skate session brought to you by Skate Like A Girl… custom-build halfpipe, live drone footage, music, prizes, and more! More details coming soon.",
+        "website": "",
+        "left_panel": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                -122.320026,
+                47.6186967
+              ],
+              [
+                -122.3183143,
+                47.6187042
+              ],
+              [
+                -122.3182824,
+                47.6153934
+              ],
+              [
+                -122.3199941,
+                47.6153859
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": 10.5,
+        "name": "Cal Anderson Park",
+        "type": "Free Event",
+        "description": "",
         "website": "",
         "left_panel": ""
       }
@@ -541,7 +770,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": []
+        "coordinates": [
+          -122.31712094,
+          47.6139742
+        ]
       },
       "properties": {
         "id": 17,
@@ -682,7 +914,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": []
+        "coordinates": [
+          -122.31980104,
+          47.61420327
+        ]
       },
       "properties": {
         "id": 25,
@@ -1147,7 +1382,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": []
+        "coordinates": [
+          -122.31752196,
+          47.61364256
+        ]
       },
       "properties": {
         "id": 51,
@@ -1432,7 +1670,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": []
+        "coordinates": [
+          -122.31793029,
+          47.61422593
+        ]
       },
       "properties": {
         "id": 67,
@@ -1519,7 +1760,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": []
+        "coordinates": [
+          -122.31736863,
+          47.61367913
+        ]
       },
       "properties": {
         "id": 72,
@@ -1552,7 +1796,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": []
+        "coordinates": [
+          -122.31830423,
+          47.61358097
+        ]
       },
       "properties": {
         "id": 74,
@@ -1639,7 +1886,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": []
+        "coordinates": [
+          -122.31798085,
+          47.61427676
+        ]
       },
       "properties": {
         "id": 79,
@@ -1690,7 +1940,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": []
+        "coordinates": [
+          -122.31762657,
+          47.61365102
+        ]
       },
       "properties": {
         "id": 82,
@@ -1705,7 +1958,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": []
+        "coordinates": [
+          -122.31738825,
+          47.61364341
+        ]
       },
       "properties": {
         "id": 83,
@@ -1720,7 +1976,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": []
+        "coordinates": [
+          -122.31736626,
+          47.61380301
+        ]
       },
       "properties": {
         "id": 84,
@@ -1768,7 +2027,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": []
+        "coordinates": [
+          -122.31835105,
+          47.61403484
+        ]
       },
       "properties": {
         "id": 87,
@@ -1783,7 +2045,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": []
+        "coordinates": [
+          -122.31958858,
+          47.61429546
+        ]
       },
       "properties": {
         "id": 88,
@@ -1798,7 +2063,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": []
+        "coordinates": [
+          -122.31941036,
+          47.61510148
+        ]
       },
       "properties": {
         "id": 89,
@@ -1843,7 +2111,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": []
+        "coordinates": [
+          -122.31843047,
+          47.614178
+        ]
       },
       "properties": {
         "id": 92,
@@ -1858,7 +2129,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": []
+        "coordinates": [
+          -122.31958583,
+          47.61423617
+        ]
       },
       "properties": {
         "id": 93,
@@ -1873,7 +2147,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": []
+        "coordinates": [
+          -122.31902002,
+          47.61436681
+        ]
       },
       "properties": {
         "id": 94,
@@ -1888,7 +2165,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": []
+        "coordinates": [
+          -122.31884454,
+          47.61441217
+        ]
       },
       "properties": {
         "id": 95,
@@ -1903,7 +2183,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": []
+        "coordinates": [
+          -122.31887861,
+          47.61447821
+        ]
       },
       "properties": {
         "id": 96,
@@ -1918,7 +2201,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": []
+        "coordinates": [
+          -122.31884539,
+          47.61434958
+        ]
       },
       "properties": {
         "id": 97,
@@ -1933,7 +2219,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": []
+        "coordinates": [
+          -122.31907028,
+          47.61444548
+        ]
       },
       "properties": {
         "id": 100,
@@ -1948,7 +2237,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": []
+        "coordinates": [
+          -122.3190081,
+          47.61447534
+        ]
       },
       "properties": {
         "id": 101,
@@ -1963,7 +2255,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": []
+        "coordinates": [
+          -122.31906943,
+          47.61441562
+        ]
       },
       "properties": {
         "id": 102,
@@ -1978,7 +2273,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": []
+        "coordinates": [
+          -122.31940441,
+          47.61502805
+        ]
       },
       "properties": {
         "id": 103,
@@ -1993,7 +2291,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": []
+        "coordinates": [
+          -122.31884454,
+          47.61429101
+        ]
       },
       "properties": {
         "id": 104,
@@ -2008,7 +2309,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": []
+        "coordinates": [
+          -122.3188471,
+          47.61426402
+        ]
       },
       "properties": {
         "id": 105,
@@ -2023,7 +2327,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": []
+        "coordinates": [
+          -122.31957969,
+          47.61396646
+        ]
       },
       "properties": {
         "id": 106,
@@ -2038,7 +2345,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": []
+        "coordinates": [
+          -122.31884369,
+          47.6142353
+        ]
       },
       "properties": {
         "id": 107,

@@ -1068,3 +1068,5 @@ const schedule = [
       "artist": "Brandon Mayotte"
   }
 ]
+
+export default schedule
