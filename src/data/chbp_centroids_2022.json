@@ -12,7 +12,7 @@
       "type": "Feature",
       "properties": {
         "id": 0,
-        "name": "Juneshine VIP Beer Garden",
+        "name": "Jameson Beer Garden",
         "type": "",
         "description": "",
         "website": "",
@@ -30,7 +30,7 @@
       "type": "Feature",
       "properties": {
         "id": 0.5,
-        "name": "Jameson Beer Garden",
+        "name": "JuneShine Beer Garden",
         "type": "",
         "description": "",
         "website": "",
@@ -174,7 +174,7 @@
       "type": "Feature",
       "properties": {
         "id": 5,
-        "name": "Vermillion",
+        "name": "Vermillion Stage",
         "type": "Stage",
         "description": "Showcasing dedicated, professional artists, Vermillion offers art, wine, beer, cocktails, and a daily seasonal menu in a unique, comforting setting. Located in the bustling Pike/Pine corridor and part of a new concept of hybrid gallery spaces, they offer the culture and appeal of an art opening every night without the crushing crowds. The space is split nearly equally to separate the two areas into distinct parts to emphasize the best of both worlds.",
         "website": "vermillionseattle.com",
@@ -192,7 +192,7 @@
       "type": "Feature",
       "properties": {
         "id": 6,
-        "name": "Cafe Racer",
+        "name": "Cafe Racer Stage",
         "type": "Stage",
         "description": "Café Racer embraces that spirit of DIY invention, passion, and rebellion. They celebrate the musicians who imagine and create that sounds that define a generation.",
         "website": "caferacermusic.com",
@@ -210,7 +210,7 @@
       "type": "Feature",
       "properties": {
         "id": 6.5,
-        "name": "Sole Repair VIP Lounge",
+        "name": "JuneShine VIP Lounge at Sole Repair",
         "type": "Stage",
         "description": "",
         "website": "",
@@ -228,7 +228,7 @@
       "type": "Feature",
       "properties": {
         "id": 7,
-        "name": "Cha Cha",
+        "name": "Cha Cha Stage",
         "type": "Stage",
         "description": "Opening its doors alongside Bimbos Cantina on Cinco de Mayo in 1998, Cha Cha Lounge is a beachside tiki bar lifted from its tropical locale somewhere south of Acapulco and plopped down in the middle of Seattle.",
         "website": "chachalounge.com/seattle",
