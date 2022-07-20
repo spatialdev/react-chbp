@@ -1,0 +1,300 @@
+{
+  "type": "FeatureCollection",
+  "name": "CHBPLocations_V11_Centroids",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 0,
+        "name": "Juneshine VIP Beer Garden",
+        "type": "",
+        "description": "",
+        "website": "",
+        "left_panel": "true"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.31923362203392,
+          47.614003398316065
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 0.5,
+        "name": "Jameson Beer Garden",
+        "type": "",
+        "description": "",
+        "website": "",
+        "left_panel": "true"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.31799713651694,
+          47.614181935710434
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 1,
+        "name": "Main Stage",
+        "type": "Stage",
+        "description": "",
+        "website": "",
+        "left_panel": "true"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.320408513285,
+          47.614092909200004
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 1.5,
+        "name": "Wildrose Stage",
+        "type": "Stage",
+        "description": "",
+        "website": "",
+        "left_panel": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.31834512142501,
+          47.613936837025
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 2,
+        "name": "Vera Stage",
+        "type": "Stage",
+        "description": "",
+        "website": "",
+        "left_panel": "true"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.31820059576502,
+          47.613849558825
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 2.5,
+        "name": "The Runaway Stage",
+        "type": "Stage",
+        "description": "",
+        "website": "",
+        "left_panel": "true"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.319671811015,
+          47.613750569635
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 3,
+        "name": "Neumos",
+        "type": "Stage",
+        "description": "",
+        "website": "",
+        "left_panel": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.31973190248752,
+          47.61392994827466
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 4,
+        "name": "Barboza",
+        "type": "Stage",
+        "description": "",
+        "website": "",
+        "left_panel": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.31966995246293,
+          47.613825734972494
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 4.5,
+        "name": "The Runaway Stage",
+        "type": "Stage",
+        "description": "",
+        "website": "",
+        "left_panel": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.319671811015,
+          47.613750569635
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 5,
+        "name": "Vermillion",
+        "type": "Stage",
+        "description": "Showcasing dedicated, professional artists, Vermillion offers art, wine, beer, cocktails, and a daily seasonal menu in a unique, comforting setting. Located in the bustling Pike/Pine corridor and part of a new concept of hybrid gallery spaces, they offer the culture and appeal of an art opening every night without the crushing crowds. The space is split nearly equally to separate the two areas into distinct parts to emphasize the best of both worlds.",
+        "website": "vermillionseattle.com",
+        "left_panel": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.31789123116,
+          47.614396464535005
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 6,
+        "name": "Cafe Racer",
+        "type": "Stage",
+        "description": "Café Racer embraces that spirit of DIY invention, passion, and rebellion. They celebrate the musicians who imagine and create that sounds that define a generation.",
+        "website": "caferacermusic.com",
+        "left_panel": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.31789227744,
+          47.61448251281
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 6.5,
+        "name": "Sole Repair VIP Lounge",
+        "type": "Stage",
+        "description": "",
+        "website": "",
+        "left_panel": "true"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.31924458663187,
+          47.61387677922248
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 7,
+        "name": "Cha Cha",
+        "type": "Stage",
+        "description": "Opening its doors alongside Bimbos Cantina on Cinco de Mayo in 1998, Cha Cha Lounge is a beachside tiki bar lifted from its tropical locale somewhere south of Acapulco and plopped down in the middle of Seattle.",
+        "website": "chachalounge.com/seattle",
+        "left_panel": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.31874853004501,
+          47.613923368805
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 9,
+        "name": "Chophouse Row",
+        "type": "Free Event",
+        "description": "Brand new just last year, the highly popular Chophouse Row Courtyard DJs are back for CHBP 2022! We've partnered with Chophouse Row again to bring you live DJ sets in their intimate indoor / outdoor courtyard. Free to the public via access from Chophouse's entrance on 12th Avenue, and also available to CHBP ticket holders within the festival gates. Taking place each day of the festival, we'll have live sets from a variety of local DJs.",
+        "website": "",
+        "left_panel": "true"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3176320575951,
+          47.61366686702245
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 9.5,
+        "name": "Havana Stage",
+        "type": "Stage",
+        "description": "",
+        "website": "",
+        "left_panel": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.31925606995499,
+          47.614309284209995
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 10.5,
+        "name": "Cal Anderson Park",
+        "type": "Free Event",
+        "description": "",
+        "website": "",
+        "left_panel": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3191542,
+          47.61704505
+        ]
+      }
+    }
+  ]
+}
