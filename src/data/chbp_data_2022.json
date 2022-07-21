@@ -671,7 +671,7 @@
         "id": 10.5,
         "name": "Cal Anderson Park",
         "type": "Free Event",
-        "description": "",
+        "description": "Saturday, July 23rd\nJoin us for the third annual Battle On The Block skate competition at the Cal Anderson Courts! Brought to you by 35th North and Converse\n\nSunday, July 24th\nAlso join us for a community skate session brought to you by Skate Like A Girl… custom-build halfpipe, live drone footage, music, prizes, and more! More details coming soon.",
         "website": "",
         "left_panel": ""
       }
@@ -1455,8 +1455,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.3197884,
-          47.6139482
+          -122.31990846,
+          47.61395483
         ]
       },
       "properties": {
@@ -1923,8 +1923,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.3185189,
-          47.6139718
+          -122.31960928,
+          47.61364054
         ]
       },
       "properties": {
@@ -2368,10 +2368,30 @@
     {
       "type": "Feature",
       "geometry": {
-        "type": "Point",
+        "type": "Polygon",
         "coordinates": [
-          -122.31943395,
-          47.61477087
+          [
+            [
+              -122.31948261531292,
+              47.61474307171213
+            ],
+            [
+              -122.31948261531292,
+              47.614822917374504
+            ],
+            [
+              -122.31938359934368,
+              47.614822917374504
+            ],
+            [
+              -122.31938359934368,
+              47.61474307171213
+            ],
+            [
+              -122.31948261531292,
+              47.61474307171213
+            ]
+          ]
         ]
       },
       "properties": {
@@ -2386,10 +2406,30 @@
     {
       "type": "Feature",
       "geometry": {
-        "type": "Point",
+        "type": "Polygon",
         "coordinates": [
-          -122.31761391,
-          47.61411838
+          [
+            [
+              -122.31765387528125,
+              47.61409091307303
+            ],
+            [
+              -122.31765387528125,
+              47.61414624394601
+            ],
+            [
+              -122.31752830400718,
+              47.61414624394601
+            ],
+            [
+              -122.31752830400718,
+              47.61409091307303
+            ],
+            [
+              -122.31765387528125,
+              47.61409091307303
+            ]
+          ]
         ]
       },
       "properties": {
@@ -2494,10 +2534,30 @@
     {
       "type": "Feature",
       "geometry": {
-        "type": "Point",
+        "type": "Polygon",
         "coordinates": [
-          -122.31833906,
-          47.61417877
+          [
+            [
+              -122.3184068523482,
+              47.61417170848999
+            ],
+            [
+              -122.3184068523482,
+              47.61419180347955
+            ],
+            [
+              -122.31826250976302,
+              47.61419180347955
+            ],
+            [
+              -122.31826250976302,
+              47.61417170848999
+            ],
+            [
+              -122.3184068523482,
+              47.61417170848999
+            ]
+          ]
         ]
       },
       "properties": {

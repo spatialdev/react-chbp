@@ -14,8 +14,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.31923362203392,
-          47.614003398316065
+          -122.31915257,
+          47.61407145
         ]
       }
     },
@@ -32,8 +32,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.31799713651694,
-          47.614181935710434
+          -122.31796943,
+          47.61414609
         ]
       }
     },
@@ -277,7 +277,7 @@
         "id": 10.5,
         "name": "Cal Anderson Park",
         "type": "Free Event",
-        "description": "",
+        "description": "Saturday, July 23rd\nJoin us for the third annual Battle On The Block skate competition at the Cal Anderson Courts! Brought to you by 35th North and Converse\n\nSunday, July 24th\nAlso join us for a community skate session brought to you by Skate Like A Girl… custom-build halfpipe, live drone footage, music, prizes, and more! More details coming soon.",
         "website": "",
         "left_panel": ""
       },
@@ -289,15 +289,8 @@
         ]
       }
     },
-{
+    {
       "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.31943395,
-          47.61477087
-        ]
-      },
       "properties": {
         "id": 108,
         "name": "North Entrance Gate",
@@ -305,17 +298,17 @@
         "description": "",
         "website": "",
         "left_panel": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3194331073283,
+          47.61478299454332
+        ]
       }
     },
     {
       "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.31761391,
-          47.61411838
-        ]
-      },
       "properties": {
         "id": 109,
         "name": "East Entrance Gate",
@@ -323,42 +316,31 @@
         "description": "",
         "website": "",
         "left_panel": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.31759108964422,
+          47.61411857850951
+        ]
       }
     },
     {
       "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.31765652,
-          47.61416982
-        ]
-      },
       "properties": {
-        "id": 110,
-        "name": "Box Office",
-        "type": "Entrance/Box Office",
+        "id": 115,
+        "name": "Merch Tent",
+        "type": "Retail",
         "description": "",
         "website": "",
         "left_panel": ""
-      }
-    },
-    {
-      "type": "Feature",
+      },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.31740775,
-          47.61416494
+          -122.3183346810556,
+          47.614181755984774
         ]
-      },
-      "properties": {
-        "id": 111,
-        "name": "VIP Box Office Tent",
-        "type": "Entrance/Box Office",
-        "description": "",
-        "website": "",
-        "left_panel": ""
       }
     }
   ]
