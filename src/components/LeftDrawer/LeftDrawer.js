@@ -18,7 +18,7 @@ import {
 import {drawerWidth} from '../../redux/constants';
 import turfCenter from '@turf/center';
 import './LeftDrawer.scss';
-import imgFlier from '../../images/chbp-logo.jpg';
+import imgFlier from '../../images/chbp_doodle_logo_3.png';
 
 const styles = theme => ({
   root: {
@@ -72,11 +72,9 @@ class LeftDrawer extends Component {
     // Left menu items ordered by importance
     let leftMenuMap = {
       "Main Stage": [],
-      "Clif Bar Presents: Vera Stage": [],
-      "Beer Garden - Pike": [],
-      "Beer Garden - Vera": [],
-      "The Lounge by AT&T": [],
-      "Food Court": [],
+      "Vera Stage": [],
+      "Juneshine VIP Beer Garden": [],
+      "Jameson Beer Garden": [],
       "Chophouse Row": []
     };
     const items = data.features;
@@ -141,9 +139,9 @@ class LeftDrawer extends Component {
           </div>
           <div className="legend-item-wrapper">
             <span className="legend-box">
-              <span className="map-pin art-music"></span>
+              <span className="map-pin entrance-box-office"></span>
             </span>
-            <span className="legend-item-text">Art / Music</span>
+            <span className="legend-item-text">Entrances / Box Offices</span>
           </div>
           <div className="legend-item-wrapper">
             <span className="legend-box">

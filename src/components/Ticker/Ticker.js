@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import './Ticker.scss';
-import schedule from '../../data/schedule_2019';
+import schedule from '../../data/schedule_2022';
 import Moment from 'moment';
 import 'moment-timezone';
 import {extendMoment} from 'moment-range';

@@ -2,7 +2,7 @@
 
 https://map.capitolhillblockparty.com
 
-The official interactive web application for Capitol Hill's annual Block Party! This interactive will help you nagivate around Seattle's premier showcase of the Pacific Northwest's best local talent.
+The official interactive web application for Capitol Hill's annual Block Party! This interactive map will help you nagivate Seattle's premier showcase of the Pacific Northwest's best local talent.
 
 ## Development
 
