@@ -73,6 +73,7 @@ class LeftDrawer extends Component {
     let leftMenuMap = {
       "Main Stage": [],
       "Vera Stage": [],
+      "Schilling Lounge": [],
       "Juneshine VIP Beer Garden": [],
       "Jameson Beer Garden": [],
       "Chophouse Row": []
