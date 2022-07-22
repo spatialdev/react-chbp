@@ -998,37 +998,37 @@ const schedule = [
   {
       "start_time": "2022-07-22 16:00",
       "end_time": "2022-07-22 18:00",
-      "stage": "Havana",
+      "stage": "Schilling Lounge",
       "artist": "JusMoni"
   },
   {
       "start_time": "2022-07-22 18:00",
       "end_time": "2022-07-22 20:00",
-      "stage": "Havana",
+      "stage": "Schilling Lounge",
       "artist": "Scott Kuliecke"
   },
   {
       "start_time": "2022-07-23 16:00",
       "end_time": "2022-07-23 18:00",
-      "stage": "Havana",
+      "stage": "Schilling Lounge",
       "artist": "Biblioteka"
   },
   {
       "start_time": "2022-07-23 18:00",
       "end_time": "2022-07-23 20:00",
-      "stage": "Havana",
+      "stage": "Schilling Lounge",
       "artist": "Samurai Del"
   },
   {
       "start_time": "2022-07-24 16:00",
       "end_time": "2022-07-24 18:00",
-      "stage": "Havana",
+      "stage": "Schilling Lounge",
       "artist": "La Fonda"
   },
   {
       "start_time": "2022-07-24 18:00",
       "end_time": "2022-07-24 20:00",
-      "stage": "Havana",
+      "stage": "Schilling Lounge",
       "artist": "Spirit Award"
   },
   {

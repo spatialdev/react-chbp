@@ -615,11 +615,11 @@
       },
       "properties": {
         "id": 9.5,
-        "name": "Havana Stage",
+        "name": "Schilling Lounge",
         "type": "Stage",
-        "description": "",
+        "description": "Refreshments by Schilling Hard Cider, Beats by DJ's daily, good by vintage fashion popups, and fragrances by 86 West.",
         "website": "",
-        "left_panel": ""
+        "left_panel": true
       }
     },
     {
@@ -924,7 +924,7 @@
         "name": "Casablanca Express",
         "type": "Restaurant / Bar",
         "description": "",
-        "website": "https://hawkdogs.business.site/",
+        "website": "hawkdogs.business.site/",
         "left_panel": ""
       }
     },
@@ -1032,7 +1032,7 @@
         "name": "Little Oddfellows",
         "type": "Restaurant / Bar",
         "description": "Little Oddfellows, a sister cafe to Odd Fellows, opened in August of 2015 and is located inside of Elliott Bay Book Company. We open every day at 10am. We serve coffee from Caffe Vita, baked goods and desserts, grain salads and sandwiches, and beer and wine.",
-        "website": "http://www.oddfellowscafe.com/",
+        "website": "oddfellowscafe.com/",
         "left_panel": ""
       }
     },
@@ -1392,7 +1392,7 @@
         "name": "Light Sleeper",
         "type": "Restaurant / Bar",
         "description": "Light Sleeper is a Capitol Hill-based natural wine bar that serves accessible high concept. terroir bar.",
-        "website": "https://www.lightsleeperseattle.com/",
+        "website": "lightsleeperseattle.com/",
         "left_panel": ""
       }
     },
@@ -1410,7 +1410,7 @@
         "name": "Sweet Alchemy",
         "type": "Restaurant / Bar",
         "description": "It all started when UW Art graduate Lois Ko set sail for realizing her life-long passion of making the best possible ice cream the Pacific Northwest had to offer. In early 2016, armed with an education from Penn State's Food Science Course and her rebellious creativity, she opened Sweet Alchemy Ice Creamery in the heart of U-District, Seattle. She continues to pride herself on using ingredients from meticulously selected local farms to deliver the best natural taste through many creative flavors.\n \n\n Sweet Alchemy ice creamery is a WSDA certified creamery, dedicated to producing small batch, organic, and locally sourced ice cream. We craft our Sweet Cream base daily from organic ingredients, most of which are sourced within 100 miles of our storefront. Freshness is of the upmost importance to us, which is why we especially love the dairy from Fresh Breeze Organics, a family owned farm in Lynden, WA. The time from when the milk leaves Fresh Breeze's grass-fed dairy pastures until reaching your cone is on average only one week. This commitment does not stop with our ice cream base -  our sauces, toppings, flavor mix-ins, and waffle cones are also made from scratch in our small shop with ingredients we are proud to serve to our community.",
-        "website": "http://sweetalchemyicecreamery.com/",
+        "website": "sweetalchemyicecreamery.com/",
         "left_panel": ""
       }
     },
@@ -1428,7 +1428,7 @@
         "name": "Meetea Cafe",
         "type": "Restaurant / Bar",
         "description": "Meetea Cafe uses all the natural ingredients and to bring you a fresh healthy Milk Tea Lifestyle!",
-        "website": "https://meeteacafe.com/",
+        "website": "meeteacafe.com/",
         "left_panel": ""
       }
     },
@@ -1482,7 +1482,7 @@
         "name": "Big Little News",
         "type": "Retail",
         "description": "A little shop with a big selection of magazines, beer, wine, champagne, and sundries.",
-        "website": "https://www.biglittlenews.com/",
+        "website": "biglittlenews.com/",
         "left_panel": ""
       }
     },
@@ -1698,7 +1698,7 @@
         "name": "Wide Eyed Wines",
         "type": "Retail",
         "description": "Our mission is to bring great wine to great people. What that looks like to us is sourcing the best bottles from grower/producers around the world who care about what they do at every level - from organic & biodynamic vineyard practices to natural vinification in the wineries, all with an eye to producing the best possible expression of a grape and its terroir. Getting that wine into the glasses of our customers then becomes a relationship based experience where we want to get to know who it is that enjoys these great bottles.",
-        "website": "https://wideeyedwines.com/password",
+        "website": "wideeyedwines.com/password",
         "left_panel": ""
       }
     },
@@ -1716,7 +1716,7 @@
         "name": "Bootyland Kids",
         "type": "Retail",
         "description": "We have been a mama run business since 1996. A beacon for creative, hip fashion for families. First shop in Seattle to carry organic and hemp baby clothes. Now we have extended our selection to Toddlers, Kids, Tweens, and Adults. Bootyland holds a place in the community with a dedication to providing space and products created in a variety of sustainable ways. Including Organics, Bamboo, Hemp, Fair Trade, Locally Made, Reconstructed, & Responsibly Sourced Woods. We are a shop, and in the most urban neighborhood this also means being a reflection and meeting place for the like minded. And, as always, Breastfeeding Friendly.",
-        "website": "https://bootylandkids.com/",
+        "website": "bootylandkids.com/",
         "left_panel": ""
       }
     },
@@ -1950,7 +1950,7 @@
         "name": "Goethe Pop-up",
         "type": "Service",
         "description": "Located in Capitol Hill's iconic Chophouse Row building, the Goethe Pop Up Seattle is a temporary branch of the Goethe-Institut, the cultural institute of the Federal Republic of Germany. Throughout 2022, we will be hosting and supporting an international program of exhibitions, films, lectures, performances, public discussions, and more. \n \n\n Our goal is to present German culture in Seattle and help shape a current understanding of Germany today. Our program offers an opportunity to engage with themes and questions relevant to contemporary German culture and society. We organize a broad range of events and support projects in the fields of film and new media, arts, theater and dance, music, literature, architecture, and more. The events take place in our space and at partner venues around Seattle. We collaborate with local artists, organizations, universities, and schools with an interest in Germany and its language and culture.",
-        "website": "https://www.goethe.de/ins/us/en/sta/gps.html",
+        "website": "goethe.de/ins/us/en/sta/gps.html",
         "left_panel": ""
       }
     },
@@ -1968,7 +1968,7 @@
         "name": "Little Dog Garden",
         "type": "Service",
         "description": "At the Little Dog Garden, we know that small dogs are not small in personality! We seek to create a fun environment that provides space for small breed dogs to be themselves to the fullest. Our team is committed to having quality relationships with all of our clients that enriches their dogs' lives as best we can by providing them with the patience, structure and love they deserve.\n \n\n When a dog attends Little Dog Garden on a weekly basis, they are given the opportunity to create a social community, participate in a variety of enrichment activities, and build their confidence in an environment outside their home. The Little Dog Garden's indoor facilities have enough space for our pack to spread their legs, lots of structures for the pups to climb and explore, as well as cozy corners with blankets to curl up on for an afternoon nap. It's the perfect place for a pup to call their home-away-from-home!",
-        "website": "https://www.littledoggarden.com/",
+        "website": "littledoggarden.com/",
         "left_panel": ""
       }
     },
@@ -1986,7 +1986,7 @@
         "name": "Yvey",
         "type": "Service",
         "description": "Great hair begins by carefully listening to your needs, discovering the right fit for your personality and understanding what you want to achieve. Your hair is a reflection of your personality and it is our job to bring this out in your visit. We consider our service successful when your inner beauty shines through and your confidence increases. This is our promise.",
-        "website": "https://www.yvey.com/",
+        "website": "yvey.com/",
         "left_panel": ""
       }
     },
@@ -2004,7 +2004,7 @@
         "name": "Cloud Studios",
         "type": "Service",
         "description": "Band rehearsal spaces and Podcast studio available to rent",
-        "website": "https://www.cloudstudiosseattle.com/",
+        "website": "cloudstudiosseattle.com/",
         "left_panel": ""
       }
     },
@@ -2022,7 +2022,7 @@
         "name": "Coca Cola",
         "type": "Sponsor",
         "description": "Our vision is to craft the brands and choice of drinks that people love, to refresh them in body & spirit. And done in ways that create a more sustainable business and better shared future that makes a difference in people's lives, communities and our planet.\n",
-        "website": "https://www.coca-cola.com/",
+        "website": "coca-cola.com/",
         "left_panel": ""
       }
     },
@@ -2040,7 +2040,7 @@
         "name": "Drip Hydration",
         "type": "Sponsor",
         "description": "Drip Hydration is a mobile IV therapy company that brings IV treatments directly to you, wherever you are. We now offer at-home Covid-19 testing for individuals and families, as well as onsite testing for businesses and corporations. All treatments are administered by registered nurses.\n\n",
-        "website": "https://driphydration.com/coverage-areas/seattle/?gclid=CjwKCAjwp7eUBhBeEiwAZbHwkfyI2FBBsMMzwrjwOvMQAJ7cVOzsShe9sNe2Vy1elSnq0n6JMcS3SRoCM70QAvD_BwE",
+        "website": "driphydration.com/coverage-areas/seattle/?gclid=CjwKCAjwp7eUBhBeEiwAZbHwkfyI2FBBsMMzwrjwOvMQAJ7cVOzsShe9sNe2Vy1elSnq0n6JMcS3SRoCM70QAvD_BwE",
         "left_panel": ""
       }
     },
@@ -2091,7 +2091,7 @@
         "name": "Red Bull",
         "type": "Sponsor",
         "description": "Inspired by functional drinks from East Asia, Dietrich Mateschitz founded Red Bull in the mid-1980s. He developed not only a new product but also a unique marketing concept and launched Red Bull Energy Drink in Austria on April 1, 1987. A completely new product category was born - energy drinks.",
-        "website": "https://www.redbull.com/us-en/",
+        "website": "redbull.com/us-en/",
         "left_panel": ""
       }
     },
@@ -2109,7 +2109,7 @@
         "name": "Smartwater",
         "type": "Sponsor",
         "description": "with its debut in 1996, smartwater disrupted the bottled water status quo by reimagining hydration from the inside out, combining vapor-distilled water with added electrolytes for a pure, crisp taste, all in an iconic package. since then, smartwater has continued to challenge norms and stay ahead of the curve. In 2019, smartwater alkaline and smartwater antioxidant were introduced to meet the growing desire for hydration options throughout the day.",
-        "website": "https://www.drinksmartwater.com/",
+        "website": "drinksmartwater.com/",
         "left_panel": ""
       }
     },
@@ -2145,7 +2145,7 @@
         "name": "Waterloo",
         "type": "Sponsor",
         "description": "We're the sparkling water that goes all in on living life at full flavor. With authentic flavors and lively carbonation, we are full-flavor artistry and purified sparkling water. Water Down Nothing with Waterloo. A refreshing change from the usual - that's how we sip different.",
-        "website": "https://www.drinkwaterloo.com/",
+        "website": "drinkwaterloo.com/",
         "left_panel": ""
       }
     },
@@ -2163,7 +2163,7 @@
         "name": "Ellenos",
         "type": "Food Vendor",
         "description": "Ellenos Real Greek Yogurt is the yummy, fresh and pure outcome of a really yogurt-obsessed family. It's our delicious family tradition, and we thought it was time to share.",
-        "website": "https://ellenos.com/",
+        "website": "ellenos.com/",
         "left_panel": ""
       }
     },
@@ -2181,7 +2181,7 @@
         "name": "Sam's Poke to the Max",
         "type": "Food Vendor",
         "description": "Award winning chef, author, and proclaimed, “God Father of Poke” Chef Sam Choy offers a true taste of Hawai'i! All of our menu dishes represent the various fusions that makes Hawai'i's food so ONO! Don't be fooled by the name, because we serve more than just fresh poke. Stop in for Spam Musubi, Loco Moco, our famous Garlic Chicken, and much more. Whether your grabbing a plate at one of our food trucks, dining at our restaurant, or having us cater your event; escape with us and enjoy local style plate lunch, with a little Aloha in every bite.",
-        "website": "https://www.samchoyspoke.com/",
+        "website": "samchoyspoke.com/",
         "left_panel": ""
       }
     },
@@ -2199,7 +2199,7 @@
         "name": "Thai-U-Up",
         "type": "Food Vendor",
         "description": "My wife and I have been working in many different restaurants since 2005. We finally started our own food truck in 2013. The food came from our working experiences in many different restaurants in Seattle. We would like to say our gratuity to our friends and family who have helped us building the trailer and the recipe. We build this trailer by sparing our paychecks. It took us quite a long time to get enough income to build this trailer. We love this trailer as much as we love to serve our best foods to our customers.",
-        "website": "https://thaiuup.com/",
+        "website": "thaiuup.com/",
         "left_panel": ""
       }
     },
@@ -2217,7 +2217,7 @@
         "name": "Sugar + Spoon",
         "type": "Food Vendor",
         "description": "Sugar + Spoon™ is Seattle's first safe to eat cookie dough. You can finally enjoy your favorite treat the way you've always wanted to!",
-        "website": "https://sugarspoondough.com/",
+        "website": "sugarspoondough.com/",
         "left_panel": ""
       }
     },
@@ -2235,7 +2235,7 @@
         "name": "Molly Moon's",
         "type": "Food Vendor",
         "description": "Ice cream makes people happy. It's the simple truth that led Molly Moon Neitzel to open up her first scoop shop in 2008. Once a feisty kid with a big sweet tooth and even bigger plans to change the world, Molly Moon's Homemade Ice Cream is the product of Molly's desire to create a vibrant, welcoming community gathering place for Seattlites.\n\nMolly's philosophy is that the shared love of ice cream brings people together for the common goal of pure happiness - and that's a pretty big deal. As a lover of music, devotee of sustainability, and tireless advocate for worker's rights, delicious ice cream isn't the only thing she aims to serve.\n\nNow a mom herself, Molly believes the childhood joy of ice cream has no age limit, and aims to spread happiness by serving flavors with locally-sourced ingredients  nand building a locally-fueled community.",
-        "website": "https://www.mollymoon.com/",
+        "website": "mollymoon.com/",
         "left_panel": ""
       }
     },
@@ -2253,7 +2253,7 @@
         "name": "Monster Dogs",
         "type": "Food Vendor",
         "description": "Monster Dogs serves up the best \"Seattle style\" hot dogs on the streets, featuring a signature topping of cream cheese and grilled onions. As the largest hot dog stand business in Washington, we offer three locations to manage your late night munchies, as well as a full catering division to bring these mouthwatering puppies to public and private events, festivals, and fundraisers.​\n\nYes, sometimes we get puzzled looks… especially from out-of-towners: \"Cream cheese on a hot dog?\" But that's how we get regular customers… after just one bite.",
-        "website": "https://www.monsterdogsseattle.com/about.html",
+        "website": "monsterdogsseattle.com/about.html",
         "left_panel": ""
       }
     },
@@ -2271,7 +2271,7 @@
         "name": "Norms",
         "type": "Food Vendor",
         "description": "Dog-friendly neighborhood pub with an American menu & events such as trivia nights.",
-        "website": "https://www.normseatery.com/",
+        "website": "normseatery.com/",
         "left_panel": ""
       }
     },
@@ -2289,7 +2289,7 @@
         "name": "Overcast Coffee",
         "type": "Food Vendor",
         "description": "We believe in creating a sustainable business with our local business around Seattle. We source our coffee and ingredients from small, local businesses in Seattle and also donate to Recovery Cafe to support their mission of anchoring members of the community who are going through difficult times. Our dedication to quality and friendly service will have you coming back to enjoy our space time and time again.",
-        "website": "https://overcastcoffeecompany.com/",
+        "website": "overcastcoffeecompany.com/",
         "left_panel": ""
       }
     },
@@ -2307,7 +2307,7 @@
         "name": "Puffle Up",
         "type": "Food Vendor",
         "description": "At Puffle Up, it's all about Hong Kong-style egg waffles. The Seattle, WA-based pop up are experts on the bubbly treat, and their ice creamy desserts have become a part of every selfie stick-adorned influencer's bucket list. With everything from rolled ice cream and Nutella to fresh strawberries and and Pocky Sticks, Puffle Up is going to make sure that your dessert is just as bright and cheery-looking as it is delicious. Everybody's phones will be out grabbing a pic for the 'Gram at Puffle Up, so do if you've got to influencers to satisfy - or anybody who loves bubble waffles - , why wait? Book Puffle Up to cater your next event.",
-        "website": "https://roaminghunger.com/puffle-up/",
+        "website": "roaminghunger.com/puffle-up/",
         "left_panel": ""
       }
     },
@@ -2325,7 +2325,7 @@
         "name": "Six Figure Catering",
         "type": "Food Vendor",
         "description": "Quality doesn't have to cost 6 figures! Six Figure Catering is here to provide an upscale experience for all your catering needs. We work closely with all of our clients to ensure a top notch experience for you and your guests.",
-        "website": "https://www.sixfigurecatering.com/",
+        "website": "sixfigurecatering.com/",
         "left_panel": ""
       }
     },
@@ -2343,7 +2343,7 @@
         "name": "Hawk Dogs",
         "type": "Food Vendor",
         "description": "Cooking up hotdogs for over 12 years!",
-        "website": "https://hawkdogs.business.site/",
+        "website": "hawkdogs.business.site/",
         "left_panel": ""
       }
     },
@@ -2361,7 +2361,7 @@
         "name": "Slab Sandwiches",
         "type": "Food Vendor",
         "description": "Your favorite neighborhood sandwich shop!",
-        "website": "http://www.slabsandwich.com/",
+        "website": "slabsandwich.com/",
         "left_panel": ""
       }
     },
