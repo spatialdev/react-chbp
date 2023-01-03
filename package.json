@@ -20,7 +20,7 @@
     "react-dom": "^16.4.0",
     "react-ga": "^2.5.3",
     "react-redux": "^7.1.0",
-    "react-scripts": "^3.0.1",
+    "react-scripts": "^5.0.1",
     "react-window-size": "^1.2.0",
     "redux": "^4.0.0",
     "url-parse": "^1.4.7"
