@@ -9,7 +9,7 @@
     "@turf/center": "^6.0.1",
     "classnames": "^2.2.6",
     "html-react-parser": "^0.9.1",
-    "mapbox-gl": "^1.0.0",
+    "mapbox-gl": "^1.13.3",
     "moment": "^2.24.0",
     "moment-range": "^4.0.2",
     "moment-timezone": "^0.5.26",
